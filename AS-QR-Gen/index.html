@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alchemy Stars QR Generator</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/jsqr/dist/jsQR.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/qrcode/build/qrcode.min.js"></script>
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="tabs">
+        <div style="text-align: center;">
+            <button class="tablinks" onclick="openTab(event, 'QR')">QR</button>
+            <button class="tablinks" onclick="openTab(event, 'Units')">Units</button>
+            <button class="tablinks" onclick="openTab(event, 'Skins')">Skins</button>
+            <button class="tablinks" onclick="openTab(event, 'ID')">ID</button>
+            <button class="tablinks" onclick="openTab(event, 'Username')">Name</button>
+            <button class="tablinks" onclick="openTab(event, 'PlainText')">Text</button>
+        </div>
+    </div>
+
+    <div id="QR" class="tabcontent">
+        <div style="text-align: center;">
+            <span class="import-button" onclick="document.getElementById('qrInput').click()">Import QR</span>
+            <input type="file" id="qrInput" accept="image/png" onchange="importQR()" style="display: none;">
+            <span class="import-button" onclick="downloadQR()">Download QR</span>
+            <img id="qrImage" src="" alt="QR Code" style="display: none;">
+        </div>
+    </div>
+
+    <div id="Units" class="tabcontent">
+        <div class="checkbox-group" id="checkboxesTab1"></div>
+    </div>
+
+    <div id="Skins" class="tabcontent">
+        <div class="checkbox-group" id="checkboxesTab2"></div>
+    </div>
+
+    <div id="ID" class="tabcontent">
+        <input type="text" id="idInput" value="42069" style="text-align: center;" onchange="updateText()">
+    </div>
+
+    <div id="Username" class="tabcontent">
+        <input type="text" id="usernameInput" value="Navigator" style="text-align: center;" onchange="updateText()">
+    </div>
+
+    <div id="PlainText" class="tabcontent">
+        <div style="text-align: center;">
+           <span class="import-button" onclick="copyToClipboard()">Copy to Clipboard</span>
+           <textarea id="output" readonly></textarea>
+        </div>
+    </div>
+</body>
+</html>
