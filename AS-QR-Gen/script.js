@@ -160,7 +160,9 @@ function updateUIFromQR(data) {
         updateCheckboxesFromArray(skins, 'checkboxesTab2');
     }
 
+    const id = parts[2];
     const username = decodeURIComponent(JSON.parse('"' + parts[3] + '"'));
+    document.getElementById('idInput').value = id;
     document.getElementById('usernameInput').value = username;
     updateText();
     alert('QR import successful!');
