@@ -29,6 +29,7 @@ body {
     display: inline-block;
     width: 80%;
     margin: auto;
+	margin-bottom: 10px;
 }
 
 .tablinks.active, .tablinks:hover {
