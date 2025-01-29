@@ -166,10 +166,12 @@ async function displayChatButtons(petId, cfg) {
 }
 
 // Display chat text and manage buttons
+// Display chat text and manage buttons
 async function displayChatText(firstWord, cfg, petId) {
     const chatButtonsContainer = document.getElementById('chatButtons');
     const chatTextContainer = document.getElementById('chatText');
     const talkData = await loadJson('info/cfg_quest_talk.json');
+    const characterIds = await loadCharacterIds('info/character_ids.txt');
 
     chatButtonsContainer.innerHTML = '';
 
@@ -199,6 +201,21 @@ async function displayChatText(firstWord, cfg, petId) {
             const currentAlignment = talkEntry?.IsMainActorWord === 1 ? 'right' : 'left';
             p.style.textAlign = currentAlignment;
 
+            // Check if ChatWord contains 'voice'
+            if (talkEntry && talkEntry.ChatWord.includes('voice')) {
+                const [_, unitId, voiceId] = talkEntry.ChatWord.match(/str_voice_(\d+)_(\d+)/);
+                const unitName = characterIds[unitId];
+                const audioPath = `voices/${unitName}/${voiceId}.wav`;
+
+                const speakerIcon = document.createElement('i');
+                speakerIcon.className = 'fas fa-volume-up'; // Use Font Awesome speaker icon
+                speakerIcon.style.cursor = 'pointer';
+                speakerIcon.onclick = () => playAudio(audioPath);
+
+                p.prepend(speakerIcon, document.createTextNode('\u00A0\u00A0\u00A0')); // Adds 3 non-breaking spaces
+
+            }
+
             // Add a faint line if the alignment changes
             if (lastAlignment !== null && lastAlignment !== currentAlignment) {
                 const hr = document.createElement('hr');
@@ -214,6 +231,26 @@ async function displayChatText(firstWord, cfg, petId) {
         }
     }
 }
+
+// Function to load character IDs from a text file
+async function loadCharacterIds(filePath) {
+    const response = await fetch(filePath);
+    const text = await response.text();
+    const lines = text.split('\n');
+    const characterIds = {};
+    lines.forEach(line => {
+        const [id, name] = line.split(' ');
+        characterIds[id] = name;
+    });
+    return characterIds;
+}
+
+// Function to play audio
+function playAudio(audioPath) {
+    const audio = new Audio(audioPath);
+    audio.play();
+}
+
 
 
 

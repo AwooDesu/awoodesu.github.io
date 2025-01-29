@@ -1,0 +1,215 @@
+1300511 Sork & Bekk
+1300221 Chainsaw Rick
+1300491 Seleucid
+1600041 Kuma & Pengy
+1500361 Hydrad
+1600231 Connolly
+1600141 Schwartz
+1200501 Korgon
+1400411 Ms. Blanc
+1400401 Joanie Boom
+1600011 Nikinis
+1600381 Gronru
+1400481 Dayna
+1600061 Carleen
+1400441 Vivian
+1600051 Mia
+1400171 Rabbie
+1500121 Nemesis
+1600251 Charon
+1500131 Noah
+1600101 Louise
+1300521 Dove
+1400351 Eho
+1400321 Angel
+1400081 Tiny One
+1300461 Keating
+1300471 Zoya
+1500091 Faust
+1600191 Victoria
+1600281 Raphael
+1600291 Gabriel
+1500181 Regina
+1600261 Uriel
+1600021 Hiiro
+1600111 Sharona
+1500211 Jola
+1500331 Vice
+1300531 Jomu
+1400071 Clover
+1500761 Kleken
+1400161 Kafka
+1500781 Robyn
+1300581 Amy
+1500421 Barton
+1600771 Shaya Bethlehem
+1400731 Patty & Patsy
+1400611 Chandra Sekar
+1300741 White Dwarf
+1400541 Nadine
+1400811 Brock
+1600601 Jona
+1500881 Maggie
+1500841 Istvan
+1400791 Michenny
+1600891 Irridon
+1400911 Chloe
+1400861 Uriah
+1500701 Leona
+1400851 Jane
+1600641 Wrath
+1500921 Pact
+1300821 Ophina
+1400831 Lilliam
+1300801 Unimet
+1400571 Philyshy
+1400451 Nails
+1300591 Pepi
+1400681 Wendy
+1500901 Barbara
+1500751 Odi
+1600271 Michael
+1300941 Leah
+1500991 Areia
+1601031 Eicy
+1500981 Cuscuta
+1600961 Sariel
+1500871 Beverly
+1600931 Migard
+1500971 Corax
+1500241 Benny and Curo
+1400951 Lester
+1400621 Sylva
+1401021 Tessa
+1501001 Sikare Dantes
+1401011 Ansia
+1500561 Constantine
+1601051 Eve
+1501041 Dawn
+1600301 Sinsa
+1500711 Taki
+1701101 Freya
+1701091 Cynthia
+1701071 Adras
+1701081 Friegson
+1400671 Alice
+1501141 Genevieve
+1601161 Fleur
+1601121 Smokey
+1501131 Bonacie
+1601111 Beryl
+1401271 Pasolo
+1601171 Gram
+1601191 Revy
+1601221 Allura
+1601211 Paloma
+1300651 Tweety
+1601151 Naroxel
+1500551 Pittman
+1601261 Bethel
+1601291 Luke
+1500151 Hachi & Gin
+1601231 Cordy
+1601201 Hedy Bryte
+1601311 Novio
+1501321 Lola
+1601331 Tohru
+1601341 Kanna
+1501351 Elma
+1501361 Lucoa
+1401371 Fafnir
+1601381 Siobhan
+1501391 Erica
+1601401 Florine
+1601411 Ruby
+1501421 Rouge
+1601431 Rinne
+1501441 Kayano
+1601451 Amemori
+1601461 Yao
+1501471 Momo&Anzu
+1201631 Tourdog
+1601481 Azure
+1501491 Roy
+1601501 Lenore
+1601511 Giles
+1501521 May
+1601531 Reinhardt
+1601541 Vice： Keen Sight
+1601551 Barton： Deft Blades
+1601561 Nina Andersen
+1501571 Sanae
+1601581 JOKER
+1601591 QUEEN
+1501601 FOX
+1501611 VIOLET
+1501621 MONA
+1601641 Carleen： Smoldering Soul
+1501651 Ciel
+1601661 Fia
+1601671 Jeno
+1501681 Rainbow
+1501301 Judge
+1501711 Casta
+1601701 Pollux
+1401691 Sadie
+1601721 Lilica
+1601731 Minos
+1601751 Axelia
+1501761 Beretta
+1601771 Goldie
+1601781 Vic
+1501801 Brandy
+1601811 Zhong Xu
+1601821 Mu Yuebai
+1501831 Liqing
+1601841 Jeriah
+1501851 Kya
+1601861 Tina
+1501871 Li Tianxian
+1601891 Leyn
+1601881 Dantang
+1501901 Matthieu
+1601911 Hati
+1501931 Kristen
+1601921 Leo
+1601991 Yingel
+1502001 Anatoli
+1602011 Mia： Lustrous Soul
+1602021 Schwartz： Almighty Clamor
+1502031 Jakine
+1602041 Joshua
+1502051 Blanc： Pura Cordis
+1602061 Lorelei
+1602071 Cena
+1502081 Bopper
+1602091 Wrath： Proud Fervor
+1502101 Joselyne Ortrand
+1602121 Antony
+1602111 Zarya
+1502131 No 33
+1602141 Rebecca
+1502151 Isa
+1602161 Xuan Ji
+1101061 Sheol
+1602181 Sheol
+1602191 Istvan： Scarred Pith
+1502201 Vergil
+1602211 Algol
+1602231 Chen'ni
+1502241 Luo Song
+1202261 Prince Lilypad
+1602251 Tiare
+1602271 Rachel
+1502281 Zeta
+1602291 Batia
+1602301 Victoria： Elegy
+1602311 Wilhelm
+1502321 Nails： Sacred Rite
+1602331 Ryza
+1602341 Klaudia
+1502351 Patricia
+1702361 Achilles
+1602371 Maya
+1602381 Mithra
+1602411 Pepita
