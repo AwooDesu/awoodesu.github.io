@@ -1,0 +1,66 @@
+body {
+    background-color: #1d1f21; /* Dark background */
+    color: #c5c8c6; /* Light text */
+    font-family: Arial, sans-serif;
+}
+
+.button {
+    width: 128px;
+    height: 128px;
+    margin: 3px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 20px;
+    border: 1px solid #373b41;
+    cursor: pointer;
+    background-color: #282a2e;
+    color: #c5c8c6;
+    overflow: hidden;
+}
+
+.chat-button {
+    width: 400px;
+    height: 200px;
+    margin: 4px;
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 20px;
+    border: 1px solid #373b41;
+    cursor: pointer;
+    background-color: #282a2e;
+    color: #c5c8c6;
+    word-wrap: break-word;
+}
+
+#chatText {
+    max-width: 500px;
+    margin-left: 20px;
+    margin-right: auto;
+}
+
+.pet-image {
+    max-width: 80%;
+    max-height: 80%;
+    object-fit: contain;
+}
+
+/* Updated search bar styling */
+.search-bar {
+    width: 200px;
+    padding: 8px;
+    margin-left: 3px; /* Moves it 2px to the right */
+    border: 1px solid #373b41;
+    background-color: #282a2e;
+    color: #c5c8c6;
+    font-size: 16px;
+    border-radius: 4px;
+    outline: none;
+}
+
+.search-bar::placeholder {
+    color: #969896;
+}
