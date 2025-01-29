@@ -64,3 +64,52 @@ body {
 .search-bar::placeholder {
     color: #969896;
 }
+
+.lang-button {
+    position: absolute;
+    top: 10px;
+    right: 21px; /* Adjusted to push the button a few pixels to the left */
+    background-color: #282a2e;
+    color: #c5c8c6;
+    border: 1px solid #373b41;
+    padding: 8px 12px; /* Same padding as the search bar */
+    cursor: pointer;
+    font-size: 14px;
+    height: 36px; /* Assuming the search bar height is 36px including padding */
+}
+
+.faint-line {
+    border: none;
+    border-top: 1px solid #373b41; /* Faint line color */
+    margin: 10px 0; /* Space around the line */
+    opacity: 0.5; /* Make the line faint */
+}
+
+.lang-picker {
+    position: absolute;
+    top: 50px;
+    right: 10px;
+    background-color: #282a2e;
+    border: 1px solid #373b41;
+    padding: 5px;
+    display: none;
+}
+
+.lang-picker.visible {
+    display: block;
+}
+
+.lang-picker button {
+    display: block;
+    width: 100%;
+    padding: 5px;
+    text-align: center;
+    background: none;
+    border: none;
+    color: #c5c8c6;
+    cursor: pointer;
+}
+
+.lang-picker button:hover {
+    background-color: #373b41;
+}
