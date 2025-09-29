@@ -185,3 +185,18 @@ function updateCheckboxesFromTF(values, containerId) {
         }
     });
 }
+
+function randomizeUnits() {
+    const unitCheckboxes = document.getElementById('checkboxesTab1').querySelectorAll("input[type='checkbox']");
+    unitCheckboxes.forEach((checkbox) => {
+        const label = checkbox.parentElement.textContent;
+        // Always leave UNKNOWN units unchecked
+        if (label.includes("UNKNOWN")) {
+            checkbox.checked = false;
+        } else {
+            // Randomly check or uncheck the box
+            checkbox.checked = Math.random() < 0.5;
+        }
+    });
+    updateText();
+}
