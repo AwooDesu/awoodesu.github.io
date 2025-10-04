@@ -283,12 +283,14 @@ function toggleQRStyle() {
     
     // Update button appearance
     const buttons = document.querySelectorAll('.edit-toggle-button');
-    const ftButton = Array.from(buttons).find(btn => btn.textContent === 'Use T/F QR');
+    const ftButton = Array.from(buttons).find(btn => btn.textContent.includes('T/F'));
     
-    if (useFTStyle) {
-        ftButton.classList.add('active-style');
-    } else {
-        ftButton.classList.remove('active-style');
+    if (ftButton) {
+        if (useFTStyle) {
+            ftButton.classList.add('active-style');
+        } else {
+            ftButton.classList.remove('active-style');
+        }
     }
     
     // Regenerate the text with the new style
