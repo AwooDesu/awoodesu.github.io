@@ -17,6 +17,9 @@ function openTab(evt, tabName) {
     evt.currentTarget.className += " active";
 }
 
+// Global variable to track QR style (default or FT)
+let useFTStyle = false;
+
 function updateText() {
     let unitOutput = [];
     let skinOutput = [];
@@ -25,19 +28,29 @@ function updateText() {
     const idValue = document.getElementById('idInput').value;
     const username = document.getElementById('usernameInput').value;
 
-    unitCheckboxes.forEach((checkbox) => {
-        if (checkbox.checked) {
-            unitOutput.push(checkbox.value);
-        }
-    });
-
-    skinCheckboxes.forEach((checkbox) => {
-        if (checkbox.checked) {
-            skinOutput.push(checkbox.value);
-        }
-    });
-
-    document.getElementById("output").value = unitOutput.join(',') + '|' + skinOutput.join(',') + '|' + idValue + '|' + username;
+    if (useFTStyle) {
+        // FT Style: Each checkbox becomes T or F
+        unitCheckboxes.forEach((checkbox) => {
+            unitOutput.push(checkbox.checked ? 'T' : 'F');
+        });
+        skinCheckboxes.forEach((checkbox) => {
+            skinOutput.push(checkbox.checked ? 'T' : 'F');
+        });
+        document.getElementById("output").value = unitOutput.join('') + '|' + skinOutput.join('') + '|' + idValue + '|' + username;
+    } else {
+        // Default Style: Only include checked checkbox values
+        unitCheckboxes.forEach((checkbox) => {
+            if (checkbox.checked) {
+                unitOutput.push(checkbox.value);
+            }
+        });
+        skinCheckboxes.forEach((checkbox) => {
+            if (checkbox.checked) {
+                skinOutput.push(checkbox.value);
+            }
+        });
+        document.getElementById("output").value = unitOutput.join(',') + '|' + skinOutput.join(',') + '|' + idValue + '|' + username;
+    }
 }
 
 function loadCheckboxes() {
@@ -263,4 +276,21 @@ function showErrorModal() {
 function hideErrorModal() {
     const modal = document.getElementById('errorModal');
     modal.style.display = 'none';
+}
+
+function toggleQRStyle() {
+    useFTStyle = !useFTStyle;
+    
+    // Update button appearance
+    const buttons = document.querySelectorAll('.edit-toggle-button');
+    const ftButton = Array.from(buttons).find(btn => btn.textContent === 'Use T/F QR');
+    
+    if (useFTStyle) {
+        ftButton.classList.add('active-style');
+    } else {
+        ftButton.classList.remove('active-style');
+    }
+    
+    // Regenerate the text with the new style
+    updateText();
 }

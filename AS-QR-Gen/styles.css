@@ -122,13 +122,20 @@ textarea {
     transform: scale(0.98);
 }
 
+.button-group {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-top: 10px;
+    flex-wrap: wrap;
+}
+
 .edit-toggle-button {
     background-color: #282a2e;
     color: white;
     border: 1px solid #373b41;
     cursor: pointer;
     padding: 10px 20px;
-    margin-top: 10px;
     transition: 0.3s;
     border-radius: 4px;
     font-size: 14px;
@@ -136,6 +143,11 @@ textarea {
 
 .edit-toggle-button:hover {
     background-color: #5c6bc0;
+}
+
+.edit-toggle-button.active-style {
+    background-color: #5c6bc0;
+    border-color: #7986cb;
 }
 
 /* Modal styles */
