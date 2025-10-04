@@ -53,6 +53,28 @@
         <div style="text-align: center;">
            <span class="import-button" onclick="copyToClipboard()">Copy to Clipboard</span>
            <textarea id="output" readonly></textarea>
+           <button class="edit-toggle-button" onclick="showEditWarning()">Enable text editing</button>
+        </div>
+    </div>
+
+    <!-- Warning Modal -->
+    <div id="editWarningModal" class="modal">
+        <div class="modal-content">
+            <p>Warning!<br>Only use this if you know what you're doing.<br>Will disable tabs other than QR and Text until next refresh.</p>
+            <div class="modal-buttons">
+                <button class="modal-button confirm" onclick="enableTextEditing()">Confirm</button>
+                <button class="modal-button cancel" onclick="hideEditWarning()">Cancel</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Error Modal -->
+    <div id="errorModal" class="modal">
+        <div class="modal-content">
+            <p>Error<br>QR failed to generate<br>QR text is too long</p>
+            <div class="modal-buttons">
+                <button class="modal-button cancel" onclick="hideErrorModal()">OK</button>
+            </div>
         </div>
     </div>
 </body>

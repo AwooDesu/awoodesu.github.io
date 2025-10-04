@@ -1,4 +1,9 @@
 function openTab(evt, tabName) {
+    // Check if the tab is disabled
+    if (evt.currentTarget.classList.contains('disabled')) {
+        return;
+    }
+    
     var i, tabcontent, tablinks;
     tabcontent = document.getElementsByClassName("tabcontent");
     for (i = 0; i < tabcontent.length; i++) {
@@ -113,6 +118,17 @@ function importQR() {
 
 function downloadQR() {
     const inputText = document.getElementById('output').value;
+    
+    // Check if text is too long for QR code
+    // QR Version 40 with error correction L can handle approximately 2953 bytes
+    const maxBytes = 2953;
+    const textBytes = new Blob([inputText]).size;
+    
+    if (textBytes > maxBytes) {
+        showErrorModal();
+        return;
+    }
+    
     const qrOptions = {
         scale: 1, // Set scale to 1 to make each dot 1 pixel in size
         version: 40, // Use the highest version for maximum data capacity
@@ -121,6 +137,7 @@ function downloadQR() {
     QRCode.toDataURL(inputText, qrOptions, function (error, url) {
         if (error) {
             console.error('Error generating QR code:', error);
+            showErrorModal();
             return;
         }
         const qrImage = document.getElementById('qrImage');
@@ -199,4 +216,51 @@ function randomizeUnits() {
         }
     });
     updateText();
+}
+
+function showEditWarning() {
+    const modal = document.getElementById('editWarningModal');
+    modal.style.display = 'flex';
+}
+
+function hideEditWarning() {
+    const modal = document.getElementById('editWarningModal');
+    modal.style.display = 'none';
+}
+
+function enableTextEditing() {
+    // Remove readonly from textarea
+    const textarea = document.getElementById('output');
+    textarea.removeAttribute('readonly');
+    
+    // Disable tabs other than QR and Text
+    const tablinks = document.getElementsByClassName('tablinks');
+    for (let i = 0; i < tablinks.length; i++) {
+        const tabButton = tablinks[i];
+        const tabText = tabButton.textContent;
+        
+        // Only keep QR and Text tabs enabled
+        if (tabText !== 'QR' && tabText !== 'Text') {
+            tabButton.classList.add('disabled');
+        }
+    }
+    
+    // Hide the modal
+    hideEditWarning();
+    
+    // Switch to the Text tab
+    const textTab = Array.from(tablinks).find(tab => tab.textContent === 'Text');
+    if (textTab && !textTab.classList.contains('active')) {
+        textTab.click();
+    }
+}
+
+function showErrorModal() {
+    const modal = document.getElementById('errorModal');
+    modal.style.display = 'flex';
+}
+
+function hideErrorModal() {
+    const modal = document.getElementById('errorModal');
+    modal.style.display = 'none';
 }
