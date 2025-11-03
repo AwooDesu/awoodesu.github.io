@@ -2820,19 +2820,19 @@
         "es": "Xuan Ji"
       }
     },
-    "char_1101061": {
-      "qr_id": "200",
-      "internal_id": "1101061",
-      "names": {
-        "us": "Sheol",
-        "tw": "Sheol",
-        "th": "Sheol",
-        "pt": "Sheol",
-        "kr": "Sheol",
-        "jp": "Sheol",
-        "idn": "Sheol",
-        "es": "Sheol"
-      }
+	"char_1101061": {
+	  "qr_id": "200",
+	  "internal_id": "1101061",
+	  "names": {
+		"us": "Sheol",
+		"tw": "希欧",
+		"th": "ชีโอล",
+		"pt": "Sheol",
+		"kr": "시올",
+		"jp": "シオル",
+		"idn": "Sheol",
+		"es": "Sheol"
+	  }
     },
     "char_1602191": {
       "qr_id": "201",
