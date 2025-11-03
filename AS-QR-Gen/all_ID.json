@@ -1,0 +1,3132 @@
+{
+  "languages": {
+    "us": {
+      "code": "en",
+      "fullName": "English"
+    },
+    "tw": {
+      "code": "zh-TW",
+      "fullName": "繁體中文"
+    },
+    "th": {
+      "code": "th",
+      "fullName": "ไทย"
+    },
+    "pt": {
+      "code": "pt",
+      "fullName": "Português"
+    },
+    "kr": {
+      "code": "ko",
+      "fullName": "한국어"
+    },
+    "jp": {
+      "code": "ja",
+      "fullName": "日本語"
+    },
+    "idn": {
+      "code": "id",
+      "fullName": "Bahasa Indonesia"
+    },
+    "es": {
+      "code": "es",
+      "fullName": "Español"
+    }
+  },
+  "characters": {
+    "char_1200501": {
+      "qr_id": "1",
+      "internal_id": "1200501",
+      "names": {
+        "us": "Korgon",
+        "tw": "恐爾貢",
+        "th": "คอร์กอน",
+        "pt": "Korgon",
+        "kr": "코르곤",
+        "jp": "コルゴン",
+        "idn": "Korgon",
+        "es": "Korgon"
+      }
+    },
+    "char_1201631": {
+      "qr_id": "2",
+      "internal_id": "1201631",
+      "names": {
+        "us": "Tourdog",
+        "tw": "巡迴犬",
+        "th": "Tourdog",
+        "pt": "Tourdog",
+        "kr": "투어독",
+        "jp": "ツアードッグ",
+        "idn": "Tourdog",
+        "es": "Tourdog"
+      }
+    },
+    "char_1202261": {
+      "qr_id": "3",
+      "internal_id": "1202261",
+      "names": {
+        "us": "Prince Lilypad",
+        "tw": "白蛙王子",
+        "th": "เจ้าชายลิลิแพด",
+        "pt": "Príncipe Lilypad",
+        "kr": "흰개구리 왕자",
+        "jp": "カエル王子",
+        "idn": "Pangeran Teratai",
+        "es": "Príncipe Lilypad"
+      }
+    },
+    "char_1300221": {
+      "qr_id": "4",
+      "internal_id": "1300221",
+      "names": {
+        "us": "Chainsaw Rick",
+        "tw": "鋸里克",
+        "th": "ริค เลื่อยไฟฟ้า",
+        "pt": "Chainsaw Rick",
+        "kr": "톱날 리크",
+        "jp": "キュリク",
+        "idn": "Chainsaw Rick",
+        "es": "Chainsaw Rick"
+      }
+    },
+    "char_1300461": {
+      "qr_id": "5",
+      "internal_id": "1300461",
+      "names": {
+        "us": "Keating",
+        "tw": "基汀",
+        "th": "คีตติง",
+        "pt": "Keating",
+        "kr": "키팅",
+        "jp": "キーティン",
+        "idn": "Keating",
+        "es": "Keating"
+      }
+    },
+    "char_1300471": {
+      "qr_id": "6",
+      "internal_id": "1300471",
+      "names": {
+        "us": "Zoya",
+        "tw": "卓婭",
+        "th": "โซยา",
+        "pt": "Zoya",
+        "kr": "조르아",
+        "jp": "ゾーヤ",
+        "idn": "Zoya",
+        "es": "Zoya"
+      }
+    },
+    "char_1300491": {
+      "qr_id": "7",
+      "internal_id": "1300491",
+      "names": {
+        "us": "Seleucid",
+        "tw": "塞留古",
+        "th": "เซลูซิด",
+        "pt": "Seleucid",
+        "kr": "세르고",
+        "jp": "セレウコス",
+        "idn": "Seleucid",
+        "es": "Seleucid"
+      }
+    },
+    "char_1300511": {
+      "qr_id": "8",
+      "internal_id": "1300511",
+      "names": {
+        "us": "Sork & Bekk",
+        "tw": "索克&貝可",
+        "th": "ซอร์คกับเบคค์",
+        "pt": "Sork & Bekk",
+        "kr": "소크&베크",
+        "jp": "ソク&ベク",
+        "idn": "Sork & Bekk",
+        "es": "Sork & Bekk"
+      }
+    },
+    "char_1300521": {
+      "qr_id": "9",
+      "internal_id": "1300521",
+      "names": {
+        "us": "Dove",
+        "tw": "多孚",
+        "th": "โดฟ",
+        "pt": "Dove",
+        "kr": "도브",
+        "jp": "ドーヴ",
+        "idn": "Dove",
+        "es": "Dove"
+      }
+    },
+    "char_1300531": {
+      "qr_id": "10",
+      "internal_id": "1300531",
+      "names": {
+        "us": "Jomu",
+        "tw": "狡木",
+        "th": "โจมู",
+        "pt": "Jomu",
+        "kr": "조무",
+        "jp": "ジョム",
+        "idn": "Jomu",
+        "es": "Jomu"
+      }
+    },
+    "char_1300581": {
+      "qr_id": "11",
+      "internal_id": "1300581",
+      "names": {
+        "us": "Amy",
+        "tw": "艾米",
+        "th": "เอมี่",
+        "pt": "Amy",
+        "kr": "에이미",
+        "jp": "エイミー",
+        "idn": "Amy",
+        "es": "Amy"
+      }
+    },
+    "char_1300591": {
+      "qr_id": "12",
+      "internal_id": "1300591",
+      "names": {
+        "us": "Pepi",
+        "tw": "匹皮",
+        "th": "เปปี",
+        "pt": "Pepi",
+        "kr": "페피",
+        "jp": "ピープ",
+        "idn": "Pepi",
+        "es": "Pepi"
+      }
+    },
+    "char_1300651": {
+      "qr_id": "13",
+      "internal_id": "1300651",
+      "names": {
+        "us": "Tweety",
+        "tw": "塔塔",
+        "th": "ทวีตตี้",
+        "pt": "Tweety",
+        "kr": "트위티",
+        "jp": "タタ",
+        "idn": "Tweety",
+        "es": "Tweety"
+      }
+    },
+    "char_1300741": {
+      "qr_id": "14",
+      "internal_id": "1300741",
+      "names": {
+        "us": "White Dwarf",
+        "tw": "白矮星",
+        "th": "ไวท์ดวาร์ฟ",
+        "pt": "White Dwarf",
+        "kr": "나노스",
+        "jp": "ナーノス",
+        "idn": "White Dwarf",
+        "es": "White Dwarf"
+      }
+    },
+    "char_1300801": {
+      "qr_id": "15",
+      "internal_id": "1300801",
+      "names": {
+        "us": "Unimet",
+        "tw": "尤尼梅特",
+        "th": "ยูนิเมต",
+        "pt": "Unimet",
+        "kr": "유니메트",
+        "jp": "ユニメート",
+        "idn": "Unimet",
+        "es": "Unimet"
+      }
+    },
+    "char_1300821": {
+      "qr_id": "16",
+      "internal_id": "1300821",
+      "names": {
+        "us": "Ophina",
+        "tw": "奧斐娜",
+        "th": "โอฟินา",
+        "pt": "Ophina",
+        "kr": "오피나",
+        "jp": "オフィラ",
+        "idn": "Ophina",
+        "es": "Ophina"
+      }
+    },
+    "char_1300941": {
+      "qr_id": "17",
+      "internal_id": "1300941",
+      "names": {
+        "us": "Leah",
+        "tw": "莉亞",
+        "th": "ลีอาห์",
+        "pt": "Leah",
+        "kr": "리아",
+        "jp": "リア",
+        "idn": "Leah",
+        "es": "Leah"
+      }
+    },
+    "char_1400071": {
+      "qr_id": "18",
+      "internal_id": "1400071",
+      "names": {
+        "us": "Clover",
+        "tw": "四葉草",
+        "th": "โคลเวอร์",
+        "pt": "Clover",
+        "kr": "클로버",
+        "jp": "クローバー",
+        "idn": "Clover",
+        "es": "Clover"
+      }
+    },
+    "char_1400081": {
+      "qr_id": "19",
+      "internal_id": "1400081",
+      "names": {
+        "us": "Tiny One",
+        "tw": "小不點",
+        "th": "เจ้าจิ๋ว",
+        "pt": "Tiny One",
+        "kr": "타이니",
+        "jp": "タイニー",
+        "idn": "Tiny One",
+        "es": "Tiny One"
+      }
+    },
+    "char_1400161": {
+      "qr_id": "20",
+      "internal_id": "1400161",
+      "names": {
+        "us": "Kafka",
+        "tw": "卡夫卡",
+        "th": "คาฟกา",
+        "pt": "Kafka",
+        "kr": "카프카",
+        "jp": "カフカ",
+        "idn": "Kafka",
+        "es": "Kafka"
+      }
+    },
+    "char_1400171": {
+      "qr_id": "21",
+      "internal_id": "1400171",
+      "names": {
+        "us": "Rabbie",
+        "tw": "菈比",
+        "th": "แรบบี้",
+        "pt": "Rabbie",
+        "kr": "라비",
+        "jp": "ラビ",
+        "idn": "Rabbie",
+        "es": "Rabbie"
+      }
+    },
+    "char_1400321": {
+      "qr_id": "22",
+      "internal_id": "1400321",
+      "names": {
+        "us": "Angel",
+        "tw": "安潔兒",
+        "th": "แองเจิล",
+        "pt": "Angel",
+        "kr": "안젤",
+        "jp": "エンジェル",
+        "idn": "Angel",
+        "es": "Ángel"
+      }
+    },
+    "char_1400351": {
+      "qr_id": "23",
+      "internal_id": "1400351",
+      "names": {
+        "us": "Eho",
+        "tw": "阿褐",
+        "th": "เอโฮะ",
+        "pt": "Eho",
+        "kr": "에호",
+        "jp": "カラス",
+        "idn": "Eho",
+        "es": "Eho"
+      }
+    },
+    "char_1400401": {
+      "qr_id": "24",
+      "internal_id": "1400401",
+      "names": {
+        "us": "Joanie Boom",
+        "tw": "比比比約恩",
+        "th": "โจแอนนี บูม",
+        "pt": "Joanie Boom",
+        "kr": "봄버 존",
+        "jp": "ボンバー",
+        "idn": "Joanie Boom",
+        "es": "Joanie Boom"
+      }
+    },
+    "char_1400411": {
+      "qr_id": "25",
+      "internal_id": "1400411",
+      "names": {
+        "us": "Ms. Blanc",
+        "tw": "Miss.白蘭",
+        "th": "มิสบลังค์",
+        "pt": "Srta. Blanc",
+        "kr": "Ms. 블랑",
+        "jp": "Ms.ブラン",
+        "idn": "Ms. Blanc",
+        "es": "Srta. Blanc"
+      }
+    },
+    "char_1400441": {
+      "qr_id": "26",
+      "internal_id": "1400441",
+      "names": {
+        "us": "Vivian",
+        "tw": "薇薇安",
+        "th": "วิเวียน",
+        "pt": "Vivian",
+        "kr": "비비안",
+        "jp": "ビビアン",
+        "idn": "Vivian",
+        "es": "Vivian"
+      }
+    },
+    "char_1400451": {
+      "qr_id": "27",
+      "internal_id": "1400451",
+      "names": {
+        "us": "Nails",
+        "tw": "聖釘",
+        "th": "เนลส์",
+        "pt": "Nails",
+        "kr": "나일즈",
+        "jp": "ネイルス",
+        "idn": "Nails",
+        "es": "Nails"
+      }
+    },
+    "char_1400481": {
+      "qr_id": "28",
+      "internal_id": "1400481",
+      "names": {
+        "us": "Dayna",
+        "tw": "烈雀",
+        "th": "เดย์นา",
+        "pt": "Dayna",
+        "kr": "디나",
+        "jp": "ダイナ",
+        "idn": "Dayna",
+        "es": "Dayna"
+      }
+    },
+    "char_1400541": {
+      "qr_id": "29",
+      "internal_id": "1400541",
+      "names": {
+        "us": "Nadine",
+        "tw": "娜汀",
+        "th": "นาดีน",
+        "pt": "Nadine",
+        "kr": "나딘",
+        "jp": "ナディーン",
+        "idn": "Nadine",
+        "es": "Nadine"
+      }
+    },
+    "char_1400571": {
+      "qr_id": "30",
+      "internal_id": "1400571",
+      "names": {
+        "us": "Philyshy",
+        "tw": "菲莉詩",
+        "th": "ฟิลิชี",
+        "pt": "Philyshy",
+        "kr": "필리시",
+        "jp": "フィリス",
+        "idn": "Philyshy",
+        "es": "Philyshy"
+      }
+    },
+    "char_1400611": {
+      "qr_id": "31",
+      "internal_id": "1400611",
+      "names": {
+        "us": "Chandra",
+        "tw": "錢德菈",
+        "th": "แชนดรา",
+        "pt": "Chandra",
+        "kr": "찬드라",
+        "jp": "チャンドラ",
+        "idn": "Chandra",
+        "es": "Chandra"
+      }
+    },
+    "char_1400621": {
+      "qr_id": "32",
+      "internal_id": "1400621",
+      "names": {
+        "us": "Sylva",
+        "tw": "西爾瓦",
+        "th": "ซิลวา",
+        "pt": "Sylva",
+        "kr": "실바",
+        "jp": "シルヴァ",
+        "idn": "Sylva",
+        "es": "Sylva"
+      }
+    },
+    "char_1400671": {
+      "qr_id": "33",
+      "internal_id": "1400671",
+      "names": {
+        "us": "Alice",
+        "tw": "愛麗絲",
+        "th": "อลิซ",
+        "pt": "Alice",
+        "kr": "앨리스",
+        "jp": "アリス",
+        "idn": "Alice",
+        "es": "Alice"
+      }
+    },
+    "char_1400681": {
+      "qr_id": "34",
+      "internal_id": "1400681",
+      "names": {
+        "us": "Wendy",
+        "tw": "溫蒂",
+        "th": "เวนดี้",
+        "pt": "Wendy",
+        "kr": "웬디",
+        "jp": "ウェンディ",
+        "idn": "Wendy",
+        "es": "Wendy"
+      }
+    },
+    "char_1400731": {
+      "qr_id": "35",
+      "internal_id": "1400731",
+      "names": {
+        "us": "Patty & Patsy",
+        "tw": "帕蒂&帕西",
+        "th": "แพตตี้กับแพตซี่",
+        "pt": "Patty & Patsy",
+        "kr": "파티&파시",
+        "jp": "パテ＆パシ",
+        "idn": "Patty & Patsy",
+        "es": "Patty & Patsy"
+      }
+    },
+    "char_1400791": {
+      "qr_id": "36",
+      "internal_id": "1400791",
+      "names": {
+        "us": "Michenny",
+        "tw": "米潔妮",
+        "th": "มิเชนนี",
+        "pt": "Michenny",
+        "kr": "미제니",
+        "jp": "ミジェンニ",
+        "idn": "Michenny",
+        "es": "Michenny"
+      }
+    },
+    "char_1400811": {
+      "qr_id": "37",
+      "internal_id": "1400811",
+      "names": {
+        "us": "Brock",
+        "tw": "黑潮",
+        "th": "บร็อค",
+        "pt": "Brock",
+        "kr": "렉커",
+        "jp": "ヘール",
+        "idn": "Brock",
+        "es": "Brock"
+      }
+    },
+    "char_1400831": {
+      "qr_id": "38",
+      "internal_id": "1400831",
+      "names": {
+        "us": "Lilliam",
+        "tw": "莉莉姆",
+        "th": "ลิลเลียม",
+        "pt": "Lilliam",
+        "kr": "리리암",
+        "jp": "リリム",
+        "idn": "Lilliam",
+        "es": "Lilliam"
+      }
+    },
+    "char_1400851": {
+      "qr_id": "39",
+      "internal_id": "1400851",
+      "names": {
+        "us": "Jane",
+        "tw": "珍",
+        "th": "เจน",
+        "pt": "Jane",
+        "kr": "제인",
+        "jp": "ジェーン",
+        "idn": "Jane",
+        "es": "Jane"
+      }
+    },
+    "char_1400861": {
+      "qr_id": "40",
+      "internal_id": "1400861",
+      "names": {
+        "us": "Uriah",
+        "tw": "尤萊雅",
+        "th": "ยูริอาห์",
+        "pt": "Uriah",
+        "kr": "우라이아",
+        "jp": "ユーライア",
+        "idn": "Uriah",
+        "es": "Uriah"
+      }
+    },
+    "char_1400911": {
+      "qr_id": "41",
+      "internal_id": "1400911",
+      "names": {
+        "us": "Chloe",
+        "tw": "克蘿伊",
+        "th": "โคลอี้",
+        "pt": "Chloe",
+        "kr": "크로이",
+        "jp": "クロエ",
+        "idn": "Chloe",
+        "es": "Chloe"
+      }
+    },
+    "char_1400951": {
+      "qr_id": "42",
+      "internal_id": "1400951",
+      "names": {
+        "us": "Lester",
+        "tw": "萊斯特",
+        "th": "เลสเตอร์",
+        "pt": "Lester",
+        "kr": "레스터",
+        "jp": "レスター",
+        "idn": "Lester",
+        "es": "Lester"
+      }
+    },
+    "char_1401011": {
+      "qr_id": "43",
+      "internal_id": "1401011",
+      "names": {
+        "us": "Ansia",
+        "tw": "安希雅",
+        "th": "แอนเซีย",
+        "pt": "Ansia",
+        "kr": "안시아",
+        "jp": "アンシア",
+        "idn": "Ansia",
+        "es": "Ansia"
+      }
+    },
+    "char_1401021": {
+      "qr_id": "44",
+      "internal_id": "1401021",
+      "names": {
+        "us": "Tessa",
+        "tw": "泰莎",
+        "th": "เทสซา",
+        "pt": "Tessa",
+        "kr": "테사",
+        "jp": "テッサ",
+        "idn": "Tessa",
+        "es": "Tessa"
+      }
+    },
+    "char_1401271": {
+      "qr_id": "45",
+      "internal_id": "1401271",
+      "names": {
+        "us": "Pasolo",
+        "tw": "帕索洛",
+        "th": "พาโซโล่",
+        "pt": "Pasolo",
+        "kr": "파솔로",
+        "jp": "パソロ",
+        "idn": "Pasolo",
+        "es": "Pasolo"
+      }
+    },
+    "char_1401371": {
+      "qr_id": "46",
+      "internal_id": "1401371",
+      "names": {
+        "us": "Fafnir",
+        "tw": "法夫納",
+        "th": "ฟาฟนีร์",
+        "pt": "Fafnir",
+        "kr": "파프닐",
+        "jp": "ファフニール",
+        "idn": "Fafnir",
+        "es": "Fafnir"
+      }
+    },
+    "char_1401691": {
+      "qr_id": "47",
+      "internal_id": "1401691",
+      "names": {
+        "us": "Sadie",
+        "tw": "塞提",
+        "th": "ซาดี",
+        "pt": "Sadie",
+        "kr": "새디",
+        "jp": "サディ",
+        "idn": "Sadie",
+        "es": "Sadie"
+      }
+    },
+    "char_1500091": {
+      "qr_id": "48",
+      "internal_id": "1500091",
+      "names": {
+        "us": "Faust",
+        "tw": "浮士德",
+        "th": "เฟาสต์",
+        "pt": "Faust",
+        "kr": "파우스트",
+        "jp": "ファウスト",
+        "idn": "Faust",
+        "es": "Faust"
+      }
+    },
+    "char_1500121": {
+      "qr_id": "49",
+      "internal_id": "1500121",
+      "names": {
+        "us": "Nemesis",
+        "tw": "涅墨西斯",
+        "th": "เนเมซิส",
+        "pt": "Nemesis",
+        "kr": "네메시스",
+        "jp": "ナミシス",
+        "idn": "Nemesis",
+        "es": "Nemesis"
+      }
+    },
+    "char_1500131": {
+      "qr_id": "50",
+      "internal_id": "1500131",
+      "names": {
+        "us": "Noah",
+        "tw": "諾爾",
+        "th": "โนอาห์",
+        "pt": "Noah",
+        "kr": "노아",
+        "jp": "ノーア",
+        "idn": "Noah",
+        "es": "Noah"
+      }
+    },
+    "char_1500151": {
+      "qr_id": "51",
+      "internal_id": "1500151",
+      "names": {
+        "us": "Hachi & Gin",
+        "tw": "蜂&銀城",
+        "th": "ฮาชิ & กิน",
+        "pt": "Hachi e Gin",
+        "kr": "호넷&실버",
+        "jp": "ハチ&ギン",
+        "idn": "Hachi & Gin",
+        "es": "Hachi & Gin"
+      }
+    },
+    "char_1500181": {
+      "qr_id": "52",
+      "internal_id": "1500181",
+      "names": {
+        "us": "Regina",
+        "tw": "蕾吉娜",
+        "th": "เรจินา",
+        "pt": "Regina",
+        "kr": "레지나",
+        "jp": "レジーナ",
+        "idn": "Regina",
+        "es": "Regina"
+      }
+    },
+    "unknown_53": {
+      "qr_id": "53",
+      "internal_id": "",
+      "names": {
+        "us": "UNKNOWN",
+        "tw": "UNKNOWN",
+        "th": "UNKNOWN",
+        "pt": "UNKNOWN",
+        "kr": "UNKNOWN",
+        "jp": "UNKNOWN",
+        "idn": "UNKNOWN",
+        "es": "UNKNOWN"
+      }
+    },
+    "char_1500211": {
+      "qr_id": "54",
+      "internal_id": "1500211",
+      "names": {
+        "us": "Jola",
+        "tw": "尤拉",
+        "th": "โจลา",
+        "pt": "Jola",
+        "kr": "유라",
+        "jp": "ジョラ",
+        "idn": "Jola",
+        "es": "Jola"
+      }
+    },
+    "char_1500241": {
+      "qr_id": "55",
+      "internal_id": "1500241",
+      "names": {
+        "us": "Benny and Curo",
+        "tw": "紅與黑",
+        "th": "เบนนี่กับคุโระ",
+        "pt": "Benny e Kuro",
+        "kr": "베니&쿠로",
+        "jp": "ベニ&クロ",
+        "idn": "Benny dan Curo",
+        "es": "Benny y Kuro"
+      }
+    },
+    "unknown_56": {
+      "qr_id": "56",
+      "internal_id": "",
+      "names": {
+        "us": "UNKNOWN",
+        "tw": "UNKNOWN",
+        "th": "UNKNOWN",
+        "pt": "UNKNOWN",
+        "kr": "UNKNOWN",
+        "jp": "UNKNOWN",
+        "idn": "UNKNOWN",
+        "es": "UNKNOWN"
+      }
+    },
+    "char_1500331": {
+      "qr_id": "57",
+      "internal_id": "1500331",
+      "names": {
+        "us": "Vice",
+        "tw": "薇絲",
+        "th": "ไวซ์",
+        "pt": "Vice",
+        "kr": "바이스",
+        "jp": "バイス",
+        "idn": "Vice",
+        "es": "Vice"
+      }
+    },
+    "unknown_58": {
+      "qr_id": "58",
+      "internal_id": "",
+      "names": {
+        "us": "UNKNOWN",
+        "tw": "UNKNOWN",
+        "th": "UNKNOWN",
+        "pt": "UNKNOWN",
+        "kr": "UNKNOWN",
+        "jp": "UNKNOWN",
+        "idn": "UNKNOWN",
+        "es": "UNKNOWN"
+      }
+    },
+    "char_1500361": {
+      "qr_id": "59",
+      "internal_id": "1500361",
+      "names": {
+        "us": "Hydrad",
+        "tw": "修拉德",
+        "th": "ไฮแดรด",
+        "pt": "Hydrad",
+        "kr": "휴라드",
+        "jp": "ヒドライ",
+        "idn": "Hydrad",
+        "es": "Hydrad"
+      }
+    },
+    "char_1500421": {
+      "qr_id": "60",
+      "internal_id": "1500421",
+      "names": {
+        "us": "Barton",
+        "tw": "巴頓",
+        "th": "บาร์ตัน",
+        "pt": "Barton",
+        "kr": "바튼",
+        "jp": "バートン",
+        "idn": "Barton",
+        "es": "Barton"
+      }
+    },
+    "char_1500551": {
+      "qr_id": "61",
+      "internal_id": "1500551",
+      "names": {
+        "us": "Pittman",
+        "tw": "彼亞塔曼",
+        "th": "พิตต์แมน",
+        "pt": "Pittman",
+        "kr": "피트만",
+        "jp": "ピアタマン",
+        "idn": "Pittman",
+        "es": "Pittman"
+      }
+    },
+    "char_1500561": {
+      "qr_id": "62",
+      "internal_id": "1500561",
+      "names": {
+        "us": "Constantine",
+        "tw": "康斯坦丁",
+        "th": "คอนสแตนติน",
+        "pt": "Constantine",
+        "kr": "콘스탄틴",
+        "jp": "コンスタン",
+        "idn": "Constantine",
+        "es": "Constantine"
+      }
+    },
+    "char_1500701": {
+      "qr_id": "63",
+      "internal_id": "1500701",
+      "names": {
+        "us": "Leona",
+        "tw": "莉奧娜",
+        "th": "ลีโอนา",
+        "pt": "Leona",
+        "kr": "레오나",
+        "jp": "リオナ",
+        "idn": "Leona",
+        "es": "Leona"
+      }
+    },
+    "char_1500711": {
+      "qr_id": "64",
+      "internal_id": "1500711",
+      "names": {
+        "us": "Taki",
+        "tw": "瀧",
+        "th": "ทาคิ",
+        "pt": "Taki",
+        "kr": "타키",
+        "jp": "タキ",
+        "idn": "Taki",
+        "es": "Taki"
+      }
+    },
+    "char_1500751": {
+      "qr_id": "65",
+      "internal_id": "1500751",
+      "names": {
+        "us": "Odi",
+        "tw": "歐緹",
+        "th": "โอดี",
+        "pt": "Odi",
+        "kr": "오디",
+        "jp": "オティ",
+        "idn": "Odi",
+        "es": "Odi"
+      }
+    },
+    "char_1500761": {
+      "qr_id": "66",
+      "internal_id": "1500761",
+      "names": {
+        "us": "Kleken",
+        "tw": "克萊肯",
+        "th": "เคลเคน",
+        "pt": "Kleken",
+        "kr": "클레이튼",
+        "jp": "クレーケン",
+        "idn": "Kleken",
+        "es": "Kleken"
+      }
+    },
+    "char_1500781": {
+      "qr_id": "67",
+      "internal_id": "1500781",
+      "names": {
+        "us": "Robyn",
+        "tw": "知更",
+        "th": "โรบิน",
+        "pt": "Robyn",
+        "kr": "로빈",
+        "jp": "ロビン",
+        "idn": "Robyn",
+        "es": "Robyn"
+      }
+    },
+    "char_1500841": {
+      "qr_id": "68",
+      "internal_id": "1500841",
+      "names": {
+        "us": "Istvan",
+        "tw": "伊斯塔萬",
+        "th": "อีสต์วาน",
+        "pt": "Istvan",
+        "kr": "이스타반",
+        "jp": "イスタバン",
+        "idn": "Istvan",
+        "es": "Istvan"
+      }
+    },
+    "char_1500871": {
+      "qr_id": "69",
+      "internal_id": "1500871",
+      "names": {
+        "us": "Beverly",
+        "tw": "貝芙麗",
+        "th": "เบเวอร์ลี",
+        "pt": "Beverly",
+        "kr": "베벌리",
+        "jp": "バーバリー",
+        "idn": "Beverly",
+        "es": "Beverly"
+      }
+    },
+    "char_1500881": {
+      "qr_id": "70",
+      "internal_id": "1500881",
+      "names": {
+        "us": "Maggie",
+        "tw": "瑪姬",
+        "th": "แม็กกี้",
+        "pt": "Maggie",
+        "kr": "마지",
+        "jp": "マギー",
+        "idn": "Maggie",
+        "es": "Maggie"
+      }
+    },
+    "char_1500901": {
+      "qr_id": "71",
+      "internal_id": "1500901",
+      "names": {
+        "us": "Barbara",
+        "tw": "芭芭拉",
+        "th": "บาร์บาร่า",
+        "pt": "Barbara",
+        "kr": "바바라",
+        "jp": "バーバラ",
+        "idn": "Barbara",
+        "es": "Barbara"
+      }
+    },
+    "char_1500921": {
+      "qr_id": "72",
+      "internal_id": "1500921",
+      "names": {
+        "us": "Pact",
+        "tw": "契法",
+        "th": "แพกต์",
+        "pt": "Pact",
+        "kr": "펙트",
+        "jp": "セファー",
+        "idn": "Pact",
+        "es": "Pact"
+      }
+    },
+    "char_1500971": {
+      "qr_id": "73",
+      "internal_id": "1500971",
+      "names": {
+        "us": "Corax",
+        "tw": "渡",
+        "th": "โคแร็กซ์",
+        "pt": "Corax",
+        "kr": "와타리",
+        "jp": "ワタリ",
+        "idn": "Corax",
+        "es": "Corax"
+      }
+    },
+    "char_1500981": {
+      "qr_id": "74",
+      "internal_id": "1500981",
+      "names": {
+        "us": "Cuscuta",
+        "tw": "庫絲庫塔",
+        "th": "คุสคูตา",
+        "pt": "Cuscuta",
+        "kr": "쿠스쿠타",
+        "jp": "クスッタ",
+        "idn": "Cuscuta",
+        "es": "Cuscuta"
+      }
+    },
+    "char_1500991": {
+      "qr_id": "75",
+      "internal_id": "1500991",
+      "names": {
+        "us": "Areia",
+        "tw": "艾蕾雅",
+        "th": "อาเรีย",
+        "pt": "Areia",
+        "kr": "아이리나",
+        "jp": "アイリーナ",
+        "idn": "Areia",
+        "es": "Areia"
+      }
+    },
+    "char_1501001": {
+      "qr_id": "76",
+      "internal_id": "1501001",
+      "names": {
+        "us": "Sikare",
+        "tw": "希卡蕾",
+        "th": "ซิคาเร",
+        "pt": "Sikare",
+        "kr": "스칼렛",
+        "jp": "スカーレイ",
+        "idn": "Sikare",
+        "es": "Sikare"
+      }
+    },
+    "char_1501041": {
+      "qr_id": "77",
+      "internal_id": "1501041",
+      "names": {
+        "us": "Dawn",
+        "tw": "多恩",
+        "th": "ดอว์น",
+        "pt": "Dawn",
+        "kr": "도엔",
+        "jp": "ドーン",
+        "idn": "Dawn",
+        "es": "Dawn"
+      }
+    },
+    "char_1501131": {
+      "qr_id": "78",
+      "internal_id": "1501131",
+      "names": {
+        "us": "Bonacie",
+        "tw": "波娜瑟",
+        "th": "โบนาชี",
+        "pt": "Bonacie",
+        "kr": "보나시외",
+        "jp": "ボナーズ",
+        "idn": "Bonacie",
+        "es": "Bonacie"
+      }
+    },
+    "char_1501141": {
+      "qr_id": "79",
+      "internal_id": "1501141",
+      "names": {
+        "us": "Genevieve",
+        "tw": "吉納維芙",
+        "th": "เจเนวีฟ",
+        "pt": "Genevieve",
+        "kr": "제네비브",
+        "jp": "ジュヌヴィエーヴ",
+        "idn": "Genevieve",
+        "es": "Genevieve"
+      }
+    },
+    "char_1501301": {
+      "qr_id": "80",
+      "internal_id": "1501301",
+      "names": {
+        "us": "Judge Jr.",
+        "tw": "初階法官",
+        "th": "ผู้พิพากษาจูเนียร์",
+        "pt": "Judge Jr.",
+        "kr": "하급 재판관",
+        "jp": "下級裁判官",
+        "idn": "Judge Jr.",
+        "es": "Judge Jr."
+      }
+    },
+    "char_1501321": {
+      "qr_id": "81",
+      "internal_id": "1501321",
+      "names": {
+        "us": "Lola",
+        "tw": "愛洛拉",
+        "th": "โลล่า",
+        "pt": "Lola",
+        "kr": "로라",
+        "jp": "ローラ",
+        "idn": "Lola",
+        "es": "Lola"
+      }
+    },
+    "char_1501351": {
+      "qr_id": "82",
+      "internal_id": "1501351",
+      "names": {
+        "us": "Elma",
+        "tw": "艾爾瑪",
+        "th": "เอลมา",
+        "pt": "Elma",
+        "kr": "엘마",
+        "jp": "エルマ",
+        "idn": "Elma",
+        "es": "Elma"
+      }
+    },
+    "char_1501361": {
+      "qr_id": "83",
+      "internal_id": "1501361",
+      "names": {
+        "us": "Lucoa",
+        "tw": "露可亞",
+        "th": "ลูโคอา",
+        "pt": "Lucoa",
+        "kr": "루코아",
+        "jp": "ルコア",
+        "idn": "Lucoa",
+        "es": "Lucoa"
+      }
+    },
+    "char_1501391": {
+      "qr_id": "84",
+      "internal_id": "1501391",
+      "names": {
+        "us": "Erica",
+        "tw": "艾莉法",
+        "th": "เอริก้า",
+        "pt": "Erica",
+        "kr": "에리카",
+        "jp": "エリカ",
+        "idn": "Erica",
+        "es": "Erica"
+      }
+    },
+    "char_1501421": {
+      "qr_id": "85",
+      "internal_id": "1501421",
+      "names": {
+        "us": "Rouge",
+        "tw": "花芸",
+        "th": "รูจ",
+        "pt": "Rouge",
+        "kr": "루즈",
+        "jp": "ルージュ",
+        "idn": "Rouge",
+        "es": "Rouge"
+      }
+    },
+    "char_1501441": {
+      "qr_id": "86",
+      "internal_id": "1501441",
+      "names": {
+        "us": "Kayano",
+        "tw": "柏乃",
+        "th": "คายาโนะ",
+        "pt": "Kayano",
+        "kr": "카야노",
+        "jp": "カヤノ",
+        "idn": "Kayano",
+        "es": "Kayano"
+      }
+    },
+    "char_1501471": {
+      "qr_id": "87",
+      "internal_id": "1501471",
+      "names": {
+        "us": "Momo & Anzu",
+        "tw": "阿桃&阿杏",
+        "th": "โมโมะ และ อันสึ",
+        "pt": "Momo & Anzu",
+        "kr": "모모 & 안즈",
+        "jp": "モモ＆アンズ",
+        "idn": "Momo & Anzu",
+        "es": "Momo & Anzu"
+      }
+    },
+    "char_1501491": {
+      "qr_id": "88",
+      "internal_id": "1501491",
+      "names": {
+        "us": "Roy",
+        "tw": "羅伊",
+        "th": "รอย",
+        "pt": "Roy",
+        "kr": "로이",
+        "jp": "ロイ",
+        "idn": "Roy",
+        "es": "Roy"
+      }
+    },
+    "char_1501521": {
+      "qr_id": "89",
+      "internal_id": "1501521",
+      "names": {
+        "us": "May",
+        "tw": "梅",
+        "th": "เมย์",
+        "pt": "May",
+        "kr": "메이",
+        "jp": "メイ",
+        "idn": "May",
+        "es": "May"
+      }
+    },
+    "char_1501571": {
+      "qr_id": "90",
+      "internal_id": "1501571",
+      "names": {
+        "us": "Sanae",
+        "tw": "早苗",
+        "th": "ซานาเอะ",
+        "pt": "Sanae",
+        "kr": "사나에",
+        "jp": "サナエ",
+        "idn": "Sanae",
+        "es": "Sanae"
+      }
+    },
+    "char_1501601": {
+      "qr_id": "91",
+      "internal_id": "1501601",
+      "names": {
+        "us": "FOX",
+        "tw": "FOX",
+        "th": "ฟ็อกซ์",
+        "pt": "FOX",
+        "kr": "폭스",
+        "jp": "フォックス",
+        "idn": "FOX",
+        "es": "FOX"
+      }
+    },
+    "char_1501611": {
+      "qr_id": "92",
+      "internal_id": "1501611",
+      "names": {
+        "us": "VIOLET",
+        "tw": "VIOLET",
+        "th": "ไวโอเล็ต",
+        "pt": "VIOLET",
+        "kr": "바이올렛",
+        "jp": "ヴァイオレット",
+        "idn": "VIOLET",
+        "es": "VIOLET"
+      }
+    },
+    "char_1501621": {
+      "qr_id": "93",
+      "internal_id": "1501621",
+      "names": {
+        "us": "MONA",
+        "tw": "MONA",
+        "th": "โมน่า",
+        "pt": "MONA",
+        "kr": "모나",
+        "jp": "モナ",
+        "idn": "MONA",
+        "es": "MONA"
+      }
+    },
+    "char_1501651": {
+      "qr_id": "94",
+      "internal_id": "1501651",
+      "names": {
+        "us": "Ciel",
+        "tw": "琪爾",
+        "th": "เซียล",
+        "pt": "Ciel",
+        "kr": "시엘",
+        "jp": "シエル",
+        "idn": "Ciel",
+        "es": "Ciel"
+      }
+    },
+    "char_1501681": {
+      "qr_id": "95",
+      "internal_id": "1501681",
+      "names": {
+        "us": "Rainbow",
+        "tw": "虹霞",
+        "th": "เรนโบว์",
+        "pt": "Rainbow",
+        "kr": "레인보우",
+        "jp": "レインボー",
+        "idn": "Rainbow",
+        "es": "Rainbow"
+      }
+    },
+    "char_1501711": {
+      "qr_id": "96",
+      "internal_id": "1501711",
+      "names": {
+        "us": "Casta",
+        "tw": "卡斯特",
+        "th": "คาสต้า",
+        "pt": "Casta",
+        "kr": "카스타",
+        "jp": "キャスタ",
+        "idn": "Casta",
+        "es": "Casta"
+      }
+    },
+    "char_1501761": {
+      "qr_id": "97",
+      "internal_id": "1501761",
+      "names": {
+        "us": "Beretta",
+        "tw": "貝爾塔",
+        "th": "เบเร็ตตา",
+        "pt": "Beretta",
+        "kr": "베르타",
+        "jp": "ベルタ",
+        "idn": "Beretta",
+        "es": "Beretta"
+      }
+    },
+    "char_1501801": {
+      "qr_id": "98",
+      "internal_id": "1501801",
+      "names": {
+        "us": "Brandy",
+        "tw": "珀蘭蒂",
+        "th": "บรั่นดี",
+        "pt": "Brandy",
+        "kr": "브랜디",
+        "jp": "ブランディ",
+        "idn": "Brandy",
+        "es": "Brandy"
+      }
+    },
+    "char_1501831": {
+      "qr_id": "99",
+      "internal_id": "1501831",
+      "names": {
+        "us": "Liqing",
+        "tw": "厘青",
+        "th": "ลี่ชิง",
+        "pt": "Liqing",
+        "kr": "리청",
+        "jp": "リンセイ",
+        "idn": "Liqing",
+        "es": "Liqing"
+      }
+    },
+    "char_1501851": {
+      "qr_id": "100",
+      "internal_id": "1501851",
+      "names": {
+        "us": "Kya",
+        "tw": "凱雅",
+        "th": "คยา",
+        "pt": "Kya",
+        "kr": "키아",
+        "jp": "キア",
+        "idn": "Kya",
+        "es": "Kya"
+      }
+    },
+    "char_1501871": {
+      "qr_id": "101",
+      "internal_id": "1501871",
+      "names": {
+        "us": "Li Tianxian",
+        "tw": "李天閑",
+        "th": "หลี่ เทียนเซียน",
+        "pt": "Li Tianxian",
+        "kr": "이천간",
+        "jp": "テンカン",
+        "idn": "Li Tianxian",
+        "es": "Li Tian Xian"
+      }
+    },
+    "char_1501901": {
+      "qr_id": "102",
+      "internal_id": "1501901",
+      "names": {
+        "us": "Matthieu",
+        "tw": "馬太",
+        "th": "แมทธิว",
+        "pt": "Matthieu",
+        "kr": "마티외",
+        "jp": "マシュー",
+        "idn": "Matthieu",
+        "es": "Matthieu"
+      }
+    },
+    "char_1501931": {
+      "qr_id": "103",
+      "internal_id": "1501931",
+      "names": {
+        "us": "Kristen",
+        "tw": "克莉絲汀",
+        "th": "คริสเตน",
+        "pt": "Kristen",
+        "kr": "크리스틴",
+        "jp": "クリステン",
+        "idn": "Kristen",
+        "es": "Kristen"
+      }
+    },
+    "char_1502001": {
+      "qr_id": "104",
+      "internal_id": "1502001",
+      "names": {
+        "us": "Anatoli",
+        "tw": "阿納托利",
+        "th": "แอนาโทลี",
+        "pt": "Anatoli",
+        "kr": "아나톨리",
+        "jp": "アナトリア",
+        "idn": "Anatoli",
+        "es": "Anatoli"
+      }
+    },
+    "char_1502031": {
+      "qr_id": "105",
+      "internal_id": "1502031",
+      "names": {
+        "us": "Jakine",
+        "tw": "加晴",
+        "th": "Jakine",
+        "pt": "Jakine",
+        "kr": "쟈키니",
+        "jp": "ジャキーニ",
+        "idn": "Jakine",
+        "es": "Jakine"
+      }
+    },
+    "char_1502051": {
+      "qr_id": "106",
+      "internal_id": "1502051",
+      "names": {
+        "us": "Blanc: Pura Cordis",
+        "tw": "白蘭·浣心",
+        "th": "บล็อง: Pura Cordis",
+        "pt": "Blanc: Pura Cordis",
+        "kr": "블랑 더 푸라 코르디스",
+        "jp": "ブラン・洗心",
+        "idn": "Blanc: Pura Cordis",
+        "es": "Blanc: Pura Cordis"
+      }
+    },
+    "char_1502081": {
+      "qr_id": "107",
+      "internal_id": "1502081",
+      "names": {
+        "us": "Bopper",
+        "tw": "叭噗",
+        "th": "บ็อปเปอร์",
+        "pt": "Bopper",
+        "kr": "보프",
+        "jp": "バップ",
+        "idn": "Bopper",
+        "es": "Bopper"
+      }
+    },
+    "char_1502101": {
+      "qr_id": "108",
+      "internal_id": "1502101",
+      "names": {
+        "us": "Joselyne",
+        "tw": "喬瑟琳",
+        "th": "โจเซลิน",
+        "pt": "Joselyne",
+        "kr": "조셀린",
+        "jp": "ジョセリン",
+        "idn": "Joselyne",
+        "es": "joselyne"
+      }
+    },
+    "char_1502131": {
+      "qr_id": "109",
+      "internal_id": "1502131",
+      "names": {
+        "us": "No. 33",
+        "tw": "三十三號",
+        "th": "ไม่ 33",
+        "pt": "No. 33",
+        "kr": "33호",
+        "jp": "33号",
+        "idn": "No. 33",
+        "es": "No. 33"
+      }
+    },
+    "char_1502151": {
+      "qr_id": "110",
+      "internal_id": "1502151",
+      "names": {
+        "us": "Isa",
+        "tw": "伊莎",
+        "th": "อิซา",
+        "pt": "Isa",
+        "kr": "이사",
+        "jp": "イーサ",
+        "idn": "Isa",
+        "es": "Isa"
+      }
+    },
+    "char_1502201": {
+      "qr_id": "111",
+      "internal_id": "1502201",
+      "names": {
+        "us": "Vergil",
+        "tw": "維吉爾",
+        "th": "เวอร์จิล",
+        "pt": "Vergílio",
+        "kr": "버질",
+        "jp": "バージル",
+        "idn": "Vergil",
+        "es": "Virgilio"
+      }
+    },
+    "char_1502241": {
+      "qr_id": "112",
+      "internal_id": "1502241",
+      "names": {
+        "us": "Luo Song",
+        "tw": "羅松",
+        "th": "Luo Song",
+        "pt": "Luo Song",
+        "kr": "나송",
+        "jp": "ラショウ",
+        "idn": "Luo Song",
+        "es": "Luo Song"
+      }
+    },
+    "char_1502281": {
+      "qr_id": "113",
+      "internal_id": "1502281",
+      "names": {
+        "us": "Zeta",
+        "tw": "澤塔",
+        "th": "เซต้า",
+        "pt": "Zeta",
+        "kr": "제타",
+        "jp": "ゼタ",
+        "idn": "Zeta",
+        "es": "Zeta"
+      }
+    },
+    "char_1502321": {
+      "qr_id": "114",
+      "internal_id": "1502321",
+      "names": {
+        "us": "Nails: Sacred Rite",
+        "tw": "聖釘·祭禮",
+        "th": "เนลส์: พิธีศักดิ์สิทธิ์",
+        "pt": "Nails: Rito Sagrado",
+        "kr": "나일즈 더 세이크리드 라이트",
+        "jp": "ネイルス・祭礼",
+        "idn": "Nails: Upacara Suci",
+        "es": "Nails: Rito Sagrado"
+      }
+    },
+    "char_1502351": {
+      "qr_id": "115",
+      "internal_id": "1502351",
+      "names": {
+        "us": "Patricia",
+        "tw": "派翠夏",
+        "th": "พัทริเซีย",
+        "pt": "Patricia",
+        "kr": "파트리샤",
+        "jp": "パトリツィア",
+        "idn": "Patricia",
+        "es": "Patricia"
+      }
+    },
+    "char_1600011": {
+      "qr_id": "116",
+      "internal_id": "1600011",
+      "names": {
+        "us": "Nikinis",
+        "tw": "娜席里絲",
+        "th": "นิคินิส",
+        "pt": "Nikinis",
+        "kr": "나시리스",
+        "jp": "ナシリス",
+        "idn": "Nikinis",
+        "es": "Nikinis"
+      }
+    },
+    "char_1600021": {
+      "qr_id": "117",
+      "internal_id": "1600021",
+      "names": {
+        "us": "Hiiro",
+        "tw": "緋",
+        "th": "ฮิอิโระ",
+        "pt": "Hiiro",
+        "kr": "히이로",
+        "jp": "ヒイロ",
+        "idn": "Hiiro",
+        "es": "Hiiro"
+      }
+    },
+    "unknown_118": {
+      "qr_id": "118",
+      "internal_id": "",
+      "names": {
+        "us": "UNKNOWN",
+        "tw": "UNKNOWN",
+        "th": "UNKNOWN",
+        "pt": "UNKNOWN",
+        "kr": "UNKNOWN",
+        "jp": "UNKNOWN",
+        "idn": "UNKNOWN",
+        "es": "UNKNOWN"
+      }
+    },
+    "char_1600041": {
+      "qr_id": "119",
+      "internal_id": "1600041",
+      "names": {
+        "us": "Kuma & Pengy",
+        "tw": "庫瑪&佩吉",
+        "th": "คุมะกับเพนจี้",
+        "pt": "Kuma & Pengy",
+        "kr": "쿠마&페기",
+        "jp": "クマ&ペギ",
+        "idn": "Kuma & Pengy",
+        "es": "Kuma & Pengy"
+      }
+    },
+    "char_1600051": {
+      "qr_id": "120",
+      "internal_id": "1600051",
+      "names": {
+        "us": "Mia",
+        "tw": "蜜雅",
+        "th": "มีอา",
+        "pt": "Mia",
+        "kr": "미아",
+        "jp": "ミヤ",
+        "idn": "Mia",
+        "es": "Mia"
+      }
+    },
+    "char_1600061": {
+      "qr_id": "121",
+      "internal_id": "1600061",
+      "names": {
+        "us": "Carleen",
+        "tw": "卡蓮",
+        "th": "คาร์ลีน",
+        "pt": "Carleen",
+        "kr": "카렌",
+        "jp": "カレン",
+        "idn": "Carleen",
+        "es": "Carleen"
+      }
+    },
+    "char_1600101": {
+      "qr_id": "122",
+      "internal_id": "1600101",
+      "names": {
+        "us": "Louise",
+        "tw": "露易絲",
+        "th": "ลูอิส",
+        "pt": "Louise",
+        "kr": "루이스",
+        "jp": "ルイス",
+        "idn": "Louise",
+        "es": "Louise"
+      }
+    },
+    "char_1600111": {
+      "qr_id": "123",
+      "internal_id": "1600111",
+      "names": {
+        "us": "Sharona",
+        "tw": "希羅娜",
+        "th": "ชาโรนา",
+        "pt": "Sharona",
+        "kr": "시로나",
+        "jp": "キシローナ",
+        "idn": "Sharona",
+        "es": "Sharona"
+      }
+    },
+    "char_1600141": {
+      "qr_id": "124",
+      "internal_id": "1600141",
+      "names": {
+        "us": "Schwartz",
+        "tw": "舒瓦茲",
+        "th": "ชวาตส์",
+        "pt": "Schwartz",
+        "kr": "솔라드",
+        "jp": "ソルラド",
+        "idn": "Schwartz",
+        "es": "Schwartz"
+      }
+    },
+    "char_1600191": {
+      "qr_id": "125",
+      "internal_id": "1600191",
+      "names": {
+        "us": "Victoria",
+        "tw": "維多利亞",
+        "th": "วิกตอเรีย",
+        "pt": "Victoria",
+        "kr": "빅토리아",
+        "jp": "ビクトリア",
+        "idn": "Victoria",
+        "es": "Victoria"
+      }
+    },
+    "char_1600231": {
+      "qr_id": "126",
+      "internal_id": "1600231",
+      "names": {
+        "us": "Connolly",
+        "tw": "克娜莉",
+        "th": "คอนนอลลี",
+        "pt": "Connolly",
+        "kr": "코놀리",
+        "jp": "クラリン",
+        "idn": "Connolly",
+        "es": "Connolly"
+      }
+    },
+    "char_1600251": {
+      "qr_id": "127",
+      "internal_id": "1600251",
+      "names": {
+        "us": "Charon",
+        "tw": "卡戎",
+        "th": "คารอน",
+        "pt": "Charon",
+        "kr": "카론",
+        "jp": "カロン",
+        "idn": "Charon",
+        "es": "Charon"
+      }
+    },
+    "char_1600261": {
+      "qr_id": "128",
+      "internal_id": "1600261",
+      "names": {
+        "us": "Uriel",
+        "tw": "烏列爾",
+        "th": "อูริเอล",
+        "pt": "Uriel",
+        "kr": "우리엘",
+        "jp": "ウリエル",
+        "idn": "Uriel",
+        "es": "Uriela"
+      }
+    },
+    "char_1600271": {
+      "qr_id": "129",
+      "internal_id": "1600271",
+      "names": {
+        "us": "Michael",
+        "tw": "米迦勒",
+        "th": "มิคาเอล",
+        "pt": "Michele",
+        "kr": "미카엘",
+        "jp": "ミカエル",
+        "idn": "Michael",
+        "es": "Michele"
+      }
+    },
+    "char_1600281": {
+      "qr_id": "130",
+      "internal_id": "1600281",
+      "names": {
+        "us": "Raphael",
+        "tw": "拉斐爾",
+        "th": "ราฟาเอล",
+        "pt": "Raphaela",
+        "kr": "라파엘",
+        "jp": "ラファエル",
+        "idn": "Raphael",
+        "es": "Raphaela"
+      }
+    },
+    "char_1600291": {
+      "qr_id": "131",
+      "internal_id": "1600291",
+      "names": {
+        "us": "Gabriel",
+        "tw": "加百列",
+        "th": "กาบริเอล",
+        "pt": "Gabriela",
+        "kr": "가브리엘",
+        "jp": "ガブリエル",
+        "idn": "Gabriel",
+        "es": "Gabriela"
+      }
+    },
+    "char_1600301": {
+      "qr_id": "132",
+      "internal_id": "1600301",
+      "names": {
+        "us": "Sinsa",
+        "tw": "醒山",
+        "th": "ซินซา",
+        "pt": "Sinsa",
+        "kr": "사메야마",
+        "jp": "サメヤマ",
+        "idn": "Sinsa",
+        "es": "Sinsa"
+      }
+    },
+    "char_1600381": {
+      "qr_id": "133",
+      "internal_id": "1600381",
+      "names": {
+        "us": "Gronru",
+        "tw": "貢露",
+        "th": "กรอนรู",
+        "pt": "Gronru",
+        "kr": "그로누",
+        "jp": "ガルー",
+        "idn": "Gronru",
+        "es": "Gronru"
+      }
+    },
+    "char_1600601": {
+      "qr_id": "134",
+      "internal_id": "1600601",
+      "names": {
+        "us": "Jona",
+        "tw": "約娜",
+        "th": "โจนา",
+        "pt": "Jona",
+        "kr": "요나",
+        "jp": "ジョナ",
+        "idn": "Jona",
+        "es": "Jona"
+      }
+    },
+    "char_1600641": {
+      "qr_id": "135",
+      "internal_id": "1600641",
+      "names": {
+        "us": "Wrath",
+        "tw": "雷霆",
+        "th": "วราธ",
+        "pt": "Wrath",
+        "kr": "레이스",
+        "jp": "ラス",
+        "idn": "Wrath",
+        "es": "Wrath"
+      }
+    },
+    "char_1600771": {
+      "qr_id": "136",
+      "internal_id": "1600771",
+      "names": {
+        "us": "Bethlehem",
+        "tw": "伯利恆",
+        "th": "เบธเลเฮม",
+        "pt": "Bethlehem",
+        "kr": "베들레헴",
+        "jp": "ベツレヘム",
+        "idn": "Bethlehem",
+        "es": "Bethlehem"
+      }
+    },
+    "char_1600891": {
+      "qr_id": "137",
+      "internal_id": "1600891",
+      "names": {
+        "us": "Irridon",
+        "tw": "伊倫汀",
+        "th": "อิริดอน",
+        "pt": "Irridon",
+        "kr": "이리돈",
+        "jp": "イルンティ",
+        "idn": "Irridon",
+        "es": "Irridon"
+      }
+    },
+    "char_1600931": {
+      "qr_id": "138",
+      "internal_id": "1600931",
+      "names": {
+        "us": "Migard",
+        "tw": "彌加德",
+        "th": "มิการ์ด",
+        "pt": "Migard",
+        "kr": "미자드",
+        "jp": "ミジャード",
+        "idn": "Migard",
+        "es": "Migard"
+      }
+    },
+    "char_1600961": {
+      "qr_id": "139",
+      "internal_id": "1600961",
+      "names": {
+        "us": "Sariel",
+        "tw": "沙利葉",
+        "th": "ซาริเอล",
+        "pt": "Sariel",
+        "kr": "샤리",
+        "jp": "シャリー",
+        "idn": "Sariel",
+        "es": "Sariel"
+      }
+    },
+    "char_1601031": {
+      "qr_id": "140",
+      "internal_id": "1601031",
+      "names": {
+        "us": "Eicy",
+        "tw": "艾希",
+        "th": "เอซี่",
+        "pt": "Eicy",
+        "kr": "엘시",
+        "jp": "エルシー",
+        "idn": "Eicy",
+        "es": "Eicy"
+      }
+    },
+    "char_1601051": {
+      "qr_id": "141",
+      "internal_id": "1601051",
+      "names": {
+        "us": "Eve",
+        "tw": "伊芙",
+        "th": "อีฟ",
+        "pt": "Eve",
+        "kr": "이브",
+        "jp": "イブ",
+        "idn": "Eve",
+        "es": "Eve"
+      }
+    },
+    "char_1601111": {
+      "qr_id": "142",
+      "internal_id": "1601111",
+      "names": {
+        "us": "Beryl",
+        "tw": "拜里厄",
+        "th": "เบริล",
+        "pt": "Beryl",
+        "kr": "베릴",
+        "jp": "ベリエ",
+        "idn": "Beryl",
+        "es": "Beryl"
+      }
+    },
+    "char_1601121": {
+      "qr_id": "143",
+      "internal_id": "1601121",
+      "names": {
+        "us": "Smokey",
+        "tw": "斯莫奇",
+        "th": "สโมกกี้",
+        "pt": "Smokey",
+        "kr": "스모키",
+        "jp": "スモーキー",
+        "idn": "Smokey",
+        "es": "Smokey"
+      }
+    },
+    "char_1601151": {
+      "qr_id": "144",
+      "internal_id": "1601151",
+      "names": {
+        "us": "Naroxel",
+        "tw": "納努塞爾",
+        "th": "นาโรเซล",
+        "pt": "Naroxel",
+        "kr": "나로세르",
+        "jp": "ナルセール",
+        "idn": "Naroxel",
+        "es": "Naroxel"
+      }
+    },
+    "char_1601161": {
+      "qr_id": "145",
+      "internal_id": "1601161",
+      "names": {
+        "us": "Fleur",
+        "tw": "弗勞爾",
+        "th": "เฟลอร์",
+        "pt": "Fleur",
+        "kr": "플뢰르",
+        "jp": "フェラール",
+        "idn": "Fleur",
+        "es": "Fleur"
+      }
+    },
+    "char_1601171": {
+      "qr_id": "146",
+      "internal_id": "1601171",
+      "names": {
+        "us": "Gram",
+        "tw": "克",
+        "th": "แกรม",
+        "pt": "Gram",
+        "kr": "그람",
+        "jp": "グラム",
+        "idn": "Gram",
+        "es": "Gram"
+      }
+    },
+    "char_1601191": {
+      "qr_id": "147",
+      "internal_id": "1601191",
+      "names": {
+        "us": "Revy",
+        "tw": "雷文頓",
+        "th": "เรวี่",
+        "pt": "Revy",
+        "kr": "레비",
+        "jp": "レビィ",
+        "idn": "Revy",
+        "es": "Revy"
+      }
+    },
+    "char_1601201": {
+      "qr_id": "148",
+      "internal_id": "1601201",
+      "names": {
+        "us": "Hedy",
+        "tw": "海蒂",
+        "th": "เฮดี้",
+        "pt": "Hedy",
+        "kr": "헤이디",
+        "jp": "ヘイディ",
+        "idn": "Hedy",
+        "es": "Hedy"
+      }
+    },
+    "char_1601211": {
+      "qr_id": "149",
+      "internal_id": "1601211",
+      "names": {
+        "us": "Paloma",
+        "tw": "普律瑪",
+        "th": "พาโลม่า",
+        "pt": "Paloma",
+        "kr": "파로마",
+        "jp": "パロマ",
+        "idn": "Paloma",
+        "es": "Paloma"
+      }
+    },
+    "char_1601221": {
+      "qr_id": "150",
+      "internal_id": "1601221",
+      "names": {
+        "us": "Allura",
+        "tw": "艾爾戈絲",
+        "th": "อัลลัวรา",
+        "pt": "Allura",
+        "kr": "알루라",
+        "jp": "アルーラ",
+        "idn": "Allura",
+        "es": "Allura"
+      }
+    },
+    "char_1601231": {
+      "qr_id": "151",
+      "internal_id": "1601231",
+      "names": {
+        "us": "Cordy",
+        "tw": "柯蒂",
+        "th": "คอร์ดี้",
+        "pt": "Cordy",
+        "kr": "커디",
+        "jp": "カーティ",
+        "idn": "Cordy",
+        "es": "Cordy"
+      }
+    },
+    "char_1601261": {
+      "qr_id": "152",
+      "internal_id": "1601261",
+      "names": {
+        "us": "Bethel",
+        "tw": "貝菲爾",
+        "th": "เบเธล",
+        "pt": "Bethel",
+        "kr": "베델",
+        "jp": "ベセル",
+        "idn": "Bethel",
+        "es": "Bethel"
+      }
+    },
+    "char_1601291": {
+      "qr_id": "153",
+      "internal_id": "1601291",
+      "names": {
+        "us": "Luke",
+        "tw": "路克",
+        "th": "ลุค",
+        "pt": "Luke",
+        "kr": "루크",
+        "jp": "ルーク",
+        "idn": "Luke",
+        "es": "Luke"
+      }
+    },
+    "char_1601311": {
+      "qr_id": "154",
+      "internal_id": "1601311",
+      "names": {
+        "us": "Novio",
+        "tw": "諾維亞",
+        "th": "โนวิโอ",
+        "pt": "Novio",
+        "kr": "노비오",
+        "jp": "ノーヴィオ",
+        "idn": "Novio",
+        "es": "Novio"
+      }
+    },
+    "char_1601331": {
+      "qr_id": "155",
+      "internal_id": "1601331",
+      "names": {
+        "us": "Tohru",
+        "tw": "朵露",
+        "th": "โทรุ",
+        "pt": "Tohru",
+        "kr": "토르",
+        "jp": "トール",
+        "idn": "Tohru",
+        "es": "Tohru"
+      }
+    },
+    "char_1601341": {
+      "qr_id": "156",
+      "internal_id": "1601341",
+      "names": {
+        "us": "Kanna",
+        "tw": "康娜",
+        "th": "คันนะ",
+        "pt": "Kanna",
+        "kr": "칸나",
+        "jp": "カンナ",
+        "idn": "Kanna",
+        "es": "Kanna"
+      }
+    },
+    "char_1601381": {
+      "qr_id": "157",
+      "internal_id": "1601381",
+      "names": {
+        "us": "Siobhan",
+        "tw": "希諾普",
+        "th": "เชอวาน",
+        "pt": "Siobhan",
+        "kr": "시오반",
+        "jp": "シヴォーン",
+        "idn": "Siobhan",
+        "es": "Siobhan"
+      }
+    },
+    "char_1601401": {
+      "qr_id": "158",
+      "internal_id": "1601401",
+      "names": {
+        "us": "Florine",
+        "tw": "芙洛琳",
+        "th": "ฟลอรีน",
+        "pt": "Florine",
+        "kr": "플로리나",
+        "jp": "フロリナ",
+        "idn": "Florine",
+        "es": "Florine"
+      }
+    },
+    "char_1601411": {
+      "qr_id": "159",
+      "internal_id": "1601411",
+      "names": {
+        "us": "Ruby",
+        "tw": "露比",
+        "th": "รูบี้",
+        "pt": "Ruby",
+        "kr": "루비",
+        "jp": "ルビー",
+        "idn": "Ruby",
+        "es": "Ruby"
+      }
+    },
+    "char_1601431": {
+      "qr_id": "160",
+      "internal_id": "1601431",
+      "names": {
+        "us": "Rinne",
+        "tw": "凜音",
+        "th": "รินเนะ",
+        "pt": "Rinne",
+        "kr": "린네",
+        "jp": "リンネ",
+        "idn": "Rinne",
+        "es": "Rinne"
+      }
+    },
+    "char_1601451": {
+      "qr_id": "161",
+      "internal_id": "1601451",
+      "names": {
+        "us": "Amemori",
+        "tw": "雨森",
+        "th": "อาเมะโมริ",
+        "pt": "Amemori",
+        "kr": "아메모리",
+        "jp": "アメモリ",
+        "idn": "Amemori",
+        "es": "Amemori"
+      }
+    },
+    "char_1601461": {
+      "qr_id": "162",
+      "internal_id": "1601461",
+      "names": {
+        "us": "Yao",
+        "tw": "瑤",
+        "th": "เหยา",
+        "pt": "Yao",
+        "kr": "요우",
+        "jp": "ヨウ",
+        "idn": "Yao",
+        "es": "Yao"
+      }
+    },
+    "char_1601481": {
+      "qr_id": "163",
+      "internal_id": "1601481",
+      "names": {
+        "us": "Azure",
+        "tw": "青瞳",
+        "th": "แอเชอร์",
+        "pt": "Azure",
+        "kr": "아주르",
+        "jp": "アズール",
+        "idn": "Azure",
+        "es": "Azure"
+      }
+    },
+    "char_1601501": {
+      "qr_id": "164",
+      "internal_id": "1601501",
+      "names": {
+        "us": "Lenore",
+        "tw": "蓮",
+        "th": "เลนอร์",
+        "pt": "Lenore",
+        "kr": "레노어",
+        "jp": "レノーア",
+        "idn": "Lenore",
+        "es": "Lenore"
+      }
+    },
+    "char_1601511": {
+      "qr_id": "165",
+      "internal_id": "1601511",
+      "names": {
+        "us": "Giles",
+        "tw": "賈爾斯",
+        "th": "ไจลส์",
+        "pt": "Giles",
+        "kr": "길스",
+        "jp": "ギルス",
+        "idn": "Giles",
+        "es": "Giles"
+      }
+    },
+    "char_1601531": {
+      "qr_id": "166",
+      "internal_id": "1601531",
+      "names": {
+        "us": "Reinhardt",
+        "tw": "萊因哈特",
+        "th": "ไรน์ฮาร์ต",
+        "pt": "Reinhardt",
+        "kr": "라인하르트",
+        "jp": "レインハト",
+        "idn": "Reinhardt",
+        "es": "Reinhardt"
+      }
+    },
+    "char_1601541": {
+      "qr_id": "167",
+      "internal_id": "1601541",
+      "names": {
+        "us": "Vice: Keen Sight",
+        "tw": "薇絲·空瞳",
+        "th": "ไวซ์: สายตาเฉียบคม",
+        "pt": "Vice: Keen Sight",
+        "kr": "바이스 더 킨사이트",
+        "jp": "バイス・空の瞳",
+        "idn": "Vice: Keen Sight",
+        "es": "Vice: Keen Sight"
+      }
+    },
+    "char_1601551": {
+      "qr_id": "168",
+      "internal_id": "1601551",
+      "names": {
+        "us": "Barton: Deft Blades",
+        "tw": "巴頓·芒刃",
+        "th": "บาร์ตัน: ดาบสำแดงเดช",
+        "pt": "Barton: Deft Blades",
+        "kr": "바튼 더 데프트 블레이드",
+        "jp": "バートン・鋭刃",
+        "idn": "Barton: Deft Blades",
+        "es": "Barton: Deft Blades"
+      }
+    },
+    "char_1601561": {
+      "qr_id": "169",
+      "internal_id": "1601561",
+      "names": {
+        "us": "Nina",
+        "tw": "妮娜",
+        "th": "นีน่า",
+        "pt": "Nina",
+        "kr": "니나",
+        "jp": "ニナ",
+        "idn": "Nina",
+        "es": "Nina"
+      }
+    },
+    "char_1601581": {
+      "qr_id": "170",
+      "internal_id": "1601581",
+      "names": {
+        "us": "JOKER",
+        "tw": "JOKER",
+        "th": "โจ๊กเกอร์",
+        "pt": "JOKER",
+        "kr": "조커",
+        "jp": "ジョーカー",
+        "idn": "JOKER",
+        "es": "JOKER"
+      }
+    },
+    "char_1601591": {
+      "qr_id": "171",
+      "internal_id": "1601591",
+      "names": {
+        "us": "QUEEN",
+        "tw": "QUEEN",
+        "th": "ควีน",
+        "pt": "QUEEN",
+        "kr": "퀸",
+        "jp": "クイーン",
+        "idn": "QUEEN",
+        "es": "QUEEN"
+      }
+    },
+    "char_1601641": {
+      "qr_id": "172",
+      "internal_id": "1601641",
+      "names": {
+        "us": "Carleen: Smoldering Soul",
+        "tw": "卡蓮·煜魂",
+        "th": "คาร์ลีน: จิตจรัสแสง",
+        "pt": "Carleen: Smoldering Soul",
+        "kr": "카렌 더 스몰더링 소울",
+        "jp": "カレン・照魂",
+        "idn": "Carleen: Smoldering Soul",
+        "es": "Carleen: Smoldering Soul"
+      }
+    },
+    "char_1601661": {
+      "qr_id": "173",
+      "internal_id": "1601661",
+      "names": {
+        "us": "Fia",
+        "tw": "菲雅",
+        "th": "ฟีญ่า",
+        "pt": "Fia",
+        "kr": "피아",
+        "jp": "フィア",
+        "idn": "Fia",
+        "es": "Fia"
+      }
+    },
+    "char_1601671": {
+      "qr_id": "174",
+      "internal_id": "1601671",
+      "names": {
+        "us": "Jeno",
+        "tw": "傑諾",
+        "th": "เจโน่",
+        "pt": "Jeno",
+        "kr": "제노",
+        "jp": "ジェノ",
+        "idn": "Jeno",
+        "es": "Jeno"
+      }
+    },
+    "char_1601701": {
+      "qr_id": "175",
+      "internal_id": "1601701",
+      "names": {
+        "us": "Pollux",
+        "tw": "珀拉珂",
+        "th": "พอลลักซ์",
+        "pt": "Pollux",
+        "kr": "폴룩스",
+        "jp": "ポルクス",
+        "idn": "Pollux",
+        "es": "Pollux"
+      }
+    },
+    "char_1601721": {
+      "qr_id": "176",
+      "internal_id": "1601721",
+      "names": {
+        "us": "Lilica",
+        "tw": "莉莉卡",
+        "th": "ลิลิก้า",
+        "pt": "Lilica",
+        "kr": "리리카",
+        "jp": "リリカ",
+        "idn": "Lilica",
+        "es": "Lilica"
+      }
+    },
+    "char_1601731": {
+      "qr_id": "177",
+      "internal_id": "1601731",
+      "names": {
+        "us": "Minos",
+        "tw": "米洛斯",
+        "th": "มินอส",
+        "pt": "Minos",
+        "kr": "미노스",
+        "jp": "ミノス",
+        "idn": "Minos",
+        "es": "Minos"
+      }
+    },
+    "char_1601751": {
+      "qr_id": "178",
+      "internal_id": "1601751",
+      "names": {
+        "us": "Axelia",
+        "tw": "阿克希亞",
+        "th": "Axelia",
+        "pt": "Axelia",
+        "kr": "악셀리아",
+        "jp": "アクセリア",
+        "idn": "Axelia",
+        "es": "Axelia"
+      }
+    },
+    "char_1601771": {
+      "qr_id": "179",
+      "internal_id": "1601771",
+      "names": {
+        "us": "Goldie",
+        "tw": "歌爾蒂",
+        "th": "โกลดี้",
+        "pt": "Goldie",
+        "kr": "골디",
+        "jp": "ゴルディ",
+        "idn": "Goldie",
+        "es": "Goldie"
+      }
+    },
+    "char_1601781": {
+      "qr_id": "180",
+      "internal_id": "1601781",
+      "names": {
+        "us": "Vic",
+        "tw": "維克",
+        "th": "วิค",
+        "pt": "Vic",
+        "kr": "비크",
+        "jp": "ヴィック",
+        "idn": "Vic",
+        "es": "Vic"
+      }
+    },
+    "char_1601811": {
+      "qr_id": "181",
+      "internal_id": "1601811",
+      "names": {
+        "us": "Zhong Xu",
+        "tw": "仲胥",
+        "th": "จงซู",
+        "pt": "Zhong Xu",
+        "kr": "종서",
+        "jp": "シュウ",
+        "idn": "Zhong Xu",
+        "es": "Zhong Xu"
+      }
+    },
+    "char_1601821": {
+      "qr_id": "182",
+      "internal_id": "1601821",
+      "names": {
+        "us": "Mu Yuebai",
+        "tw": "木月白",
+        "th": "มู่หยูไป่",
+        "pt": "Mu Yuebai",
+        "kr": "목월백",
+        "jp": "ユエ",
+        "idn": "Mu Yuebai",
+        "es": "Mu Yuebai"
+      }
+    },
+    "char_1601841": {
+      "qr_id": "183",
+      "internal_id": "1601841",
+      "names": {
+        "us": "Jeriah",
+        "tw": "耶利亞",
+        "th": "เยริ",
+        "pt": "Jeriah",
+        "kr": "예리아",
+        "jp": "イェリア",
+        "idn": "Jeriah",
+        "es": "Jeriah"
+      }
+    },
+    "char_1601861": {
+      "qr_id": "184",
+      "internal_id": "1601861",
+      "names": {
+        "us": "Tina",
+        "tw": "蒂娜",
+        "th": "ทีน่า",
+        "pt": "Tina",
+        "kr": "티나",
+        "jp": "ティナ",
+        "idn": "Tina",
+        "es": "Tina"
+      }
+    },
+    "char_1601881": {
+      "qr_id": "185",
+      "internal_id": "1601881",
+      "names": {
+        "us": "Dantang",
+        "tw": "丹棠",
+        "th": "ดันตัง",
+        "pt": "Dantang",
+        "kr": "단당",
+        "jp": "タンドウ",
+        "idn": "Dantang",
+        "es": "Dantang"
+      }
+    },
+    "char_1601891": {
+      "qr_id": "186",
+      "internal_id": "1601891",
+      "names": {
+        "us": "Leyn",
+        "tw": "零恩",
+        "th": "เลย์",
+        "pt": "Leyn",
+        "kr": "레인",
+        "jp": "ライン",
+        "idn": "Leyn",
+        "es": "Leyn"
+      }
+    },
+    "char_1601911": {
+      "qr_id": "187",
+      "internal_id": "1601911",
+      "names": {
+        "us": "Hati",
+        "tw": "哈提",
+        "th": "ฮาติ",
+        "pt": "Hati",
+        "kr": "하티",
+        "jp": "ハーティ",
+        "idn": "Hati",
+        "es": "Hati"
+      }
+    },
+    "char_1601921": {
+      "qr_id": "188",
+      "internal_id": "1601921",
+      "names": {
+        "us": "Leo",
+        "tw": "李奧",
+        "th": "สิงห์",
+        "pt": "Leo",
+        "kr": "레오",
+        "jp": "レオ",
+        "idn": "Leo",
+        "es": "Leo"
+      }
+    },
+    "char_1601991": {
+      "qr_id": "189",
+      "internal_id": "1601991",
+      "names": {
+        "us": "Yingel",
+        "tw": "鶯歌",
+        "th": "อิงเกล",
+        "pt": "Yingel",
+        "kr": "잉겔",
+        "jp": "インゲル",
+        "idn": "Yingel",
+        "es": "Yingel"
+      }
+    },
+    "char_1602011": {
+      "qr_id": "190",
+      "internal_id": "1602011",
+      "names": {
+        "us": "Mia: Lustrous Soul",
+        "tw": "蜜雅·滌魂",
+        "th": "มีอา: จิตวิญญาณที่แวววาว",
+        "pt": "Mia: Lustrous Soul",
+        "kr": "미아 더 러스트러스 소울",
+        "jp": "ミヤ・浄魂",
+        "idn": "Mia: Lustrous Soul",
+        "es": "Mia: Lustrous Soul"
+      }
+    },
+    "char_1602021": {
+      "qr_id": "191",
+      "internal_id": "1602021",
+      "names": {
+        "us": "Schwartz: Almighty Clamor",
+        "tw": "舒瓦茲·錚鳴",
+        "th": "Schwartz: เสียงโห่ร้องอันยิ่งใหญ่",
+        "pt": "Schwartz: Almighty Clamor",
+        "kr": "솔라드 디 올마이티 클레머",
+        "jp": "ソルラド・響鳴",
+        "idn": "Schwartz: Almighty Clamor",
+        "es": "Schwartz: Almighty Clamor"
+      }
+    },
+    "char_1602041": {
+      "qr_id": "192",
+      "internal_id": "1602041",
+      "names": {
+        "us": "Joshua",
+        "tw": "約書亞",
+        "th": "โจชัว",
+        "pt": "Joshua",
+        "kr": "조슈아",
+        "jp": "ヨシュア",
+        "idn": "Joshua",
+        "es": "Joshua"
+      }
+    },
+    "char_1602061": {
+      "qr_id": "193",
+      "internal_id": "1602061",
+      "names": {
+        "us": "Lorelei",
+        "tw": "萊蕾",
+        "th": "ลอเรเลย์",
+        "pt": "Lorelei",
+        "kr": "로렐라이",
+        "jp": "ローレライ",
+        "idn": "Lorelei",
+        "es": "Lorelei"
+      }
+    },
+    "char_1602071": {
+      "qr_id": "194",
+      "internal_id": "1602071",
+      "names": {
+        "us": "Cena",
+        "tw": "希南",
+        "th": "ซีน่า",
+        "pt": "Cena",
+        "kr": "세나",
+        "jp": "セナ",
+        "idn": "Cena",
+        "es": "Cena"
+      }
+    },
+    "char_1602091": {
+      "qr_id": "195",
+      "internal_id": "1602091",
+      "names": {
+        "us": "Wrath: Proud Fervor",
+        "tw": "雷霆·傲骨",
+        "th": "วราธ: ความกระตือรือร้นด้วยความภาคภูมิ",
+        "pt": "Wrath: Fervor Orgulhoso",
+        "kr": "레이스 더 프라우드 퍼버",
+        "jp": "ラス・傲骨",
+        "idn": "Wrath: Kebanggaan Bersemangat",
+        "es": "Wrath: Orgullo Fervoroso"
+      }
+    },
+    "char_1602111": {
+      "qr_id": "196",
+      "internal_id": "1602111",
+      "names": {
+        "us": "Zarya",
+        "tw": "札莉雅",
+        "th": "ซาร์ยา",
+        "pt": "Zarya",
+        "kr": "자리야",
+        "jp": "ザーリャ",
+        "idn": "Zarya",
+        "es": "Zarya"
+      }
+    },
+    "char_1602121": {
+      "qr_id": "197",
+      "internal_id": "1602121",
+      "names": {
+        "us": "Antony",
+        "tw": "安頓",
+        "th": "แอนโทนี่",
+        "pt": "Antony",
+        "kr": "안토니",
+        "jp": "アントニー",
+        "idn": "Antony",
+        "es": "Antony"
+      }
+    },
+    "char_1602141": {
+      "qr_id": "198",
+      "internal_id": "1602141",
+      "names": {
+        "us": "Rebecca",
+        "tw": "麗蓓卡",
+        "th": "เรเบคก้า",
+        "pt": "Rebecca",
+        "kr": "레베카",
+        "jp": "レベッカ",
+        "idn": "Rebecca",
+        "es": "Rebecca"
+      }
+    },
+    "char_1602161": {
+      "qr_id": "199",
+      "internal_id": "1602161",
+      "names": {
+        "us": "Xuan Ji",
+        "tw": "璇極",
+        "th": "ซวนจิ",
+        "pt": "Xuan Ji",
+        "kr": "선극",
+        "jp": "センキョク",
+        "idn": "Xuan Ji",
+        "es": "Xuan Ji"
+      }
+    },
+    "char_1101061": {
+      "qr_id": "200",
+      "internal_id": "1101061",
+      "names": {
+        "us": "Sheol",
+        "tw": "Sheol",
+        "th": "Sheol",
+        "pt": "Sheol",
+        "kr": "Sheol",
+        "jp": "Sheol",
+        "idn": "Sheol",
+        "es": "Sheol"
+      }
+    },
+    "char_1602191": {
+      "qr_id": "201",
+      "internal_id": "1602191",
+      "names": {
+        "us": "Istvan: Scarred Pith",
+        "tw": "伊斯塔萬·沓痕",
+        "th": "อีสต์วาน: แกนไม้ที่เป็นแผล",
+        "pt": "Istvan: Medula Cicatrizada",
+        "kr": "이스타반 더 스칼드 피스",
+        "jp": "イスタバン・積痕",
+        "idn": "Istvan: Batang yang Berbekas Luka",
+        "es": "Istvan: Médula Cicatrizada"
+      }
+    },
+    "char_1602211": {
+      "qr_id": "202",
+      "internal_id": "1602211",
+      "names": {
+        "us": "Algol",
+        "tw": "阿爾戈爾",
+        "th": "อัลกอล",
+        "pt": "algol",
+        "kr": "알골",
+        "jp": "アルゴル",
+        "idn": "Algol",
+        "es": "Algol"
+      }
+    },
+    "char_1602231": {
+      "qr_id": "203",
+      "internal_id": "1602231",
+      "names": {
+        "us": "Chen'ni",
+        "tw": "辰霓",
+        "th": "Chen'ni",
+        "pt": "Chen'ni",
+        "kr": "진예",
+        "jp": "シンゲイ",
+        "idn": "Chen'ni",
+        "es": "Chen'ni"
+      }
+    },
+    "char_1602251": {
+      "qr_id": "204",
+      "internal_id": "1602251",
+      "names": {
+        "us": "Tiare",
+        "tw": "提亞拉",
+        "th": "เทียเร่",
+        "pt": "Tiare",
+        "kr": "티아라",
+        "jp": "ティアラ",
+        "idn": "Tiare",
+        "es": "Tiaré"
+      }
+    },
+    "char_1602271": {
+      "qr_id": "205",
+      "internal_id": "1602271",
+      "names": {
+        "us": "Rachel",
+        "tw": "蕾切爾",
+        "th": "ราเชล",
+        "pt": "Rachel",
+        "kr": "레이첼",
+        "jp": "レイチェル",
+        "idn": "Rachel",
+        "es": "Rachel"
+      }
+    },
+    "char_1602291": {
+      "qr_id": "206",
+      "internal_id": "1602291",
+      "names": {
+        "us": "Batia",
+        "tw": "巴緹牙",
+        "th": "บาเทีย",
+        "pt": "Batia",
+        "kr": "바티아",
+        "jp": "バティア",
+        "idn": "Batia",
+        "es": "Batia"
+      }
+    },
+    "char_1602301": {
+      "qr_id": "207",
+      "internal_id": "1602301",
+      "names": {
+        "us": "Victoria: Elegy",
+        "tw": "維多利亞·墓歌",
+        "th": "วิกตอเรีย: สง่างาม",
+        "pt": "Victoria: Elegia",
+        "kr": "빅토리아 디 엘레지",
+        "jp": "ビクトリア・墓歌",
+        "idn": "Victoria: Elegi",
+        "es": "Victoria: Elegía"
+      }
+    },
+    "char_1602311": {
+      "qr_id": "208",
+      "internal_id": "1602311",
+      "names": {
+        "us": "Wilhelm",
+        "tw": "威廉",
+        "th": "วิลเฮล์ม",
+        "pt": "Wilhelm",
+        "kr": "빌헬름",
+        "jp": "ヴィルヘルム",
+        "idn": "Wilhelm",
+        "es": "Wilhelm"
+      }
+    },
+    "char_1602331": {
+      "qr_id": "209",
+      "internal_id": "1602331",
+      "names": {
+        "us": "Ryza",
+        "tw": "萊莎",
+        "th": "Ryza",
+        "pt": "Ryza",
+        "kr": "라이자",
+        "jp": "ライザ",
+        "idn": "Ryza",
+        "es": "Ryza"
+      }
+    },
+    "char_1602341": {
+      "qr_id": "210",
+      "internal_id": "1602341",
+      "names": {
+        "us": "Klaudia",
+        "tw": "科洛蒂婭",
+        "th": "คลอเดีย",
+        "pt": "Klaudia",
+        "kr": "클라우디아",
+        "jp": "クラウディア",
+        "idn": "Klaudia",
+        "es": "Klaudia"
+      }
+    },
+    "char_1602371": {
+      "qr_id": "211",
+      "internal_id": "1602371",
+      "names": {
+        "us": "Maya",
+        "tw": "摩耶",
+        "th": "มายา",
+        "pt": "Maya",
+        "kr": "마야",
+        "jp": "マヤ",
+        "idn": "Maya",
+        "es": "Maya"
+      }
+    },
+    "char_1602381": {
+      "qr_id": "212",
+      "internal_id": "1602381",
+      "names": {
+        "us": "Mithra",
+        "tw": "蜜特拉",
+        "th": "มินอส",
+        "pt": "Mithras",
+        "kr": "미트라",
+        "jp": "ミトラ",
+        "idn": "Mithras",
+        "es": "Mithras"
+      }
+    },
+    "char_1602411": {
+      "qr_id": "213",
+      "internal_id": "1602411",
+      "names": {
+        "us": "Pepita",
+        "tw": "佩皮塔",
+        "th": "เปปิตา",
+        "pt": "Pepita",
+        "kr": "페피타",
+        "jp": "ペピータ",
+        "idn": "Pepita",
+        "es": "Pepita"
+      }
+    },
+    "char_1701071": {
+      "qr_id": "214",
+      "internal_id": "1701071",
+      "names": {
+        "us": "Regal",
+        "tw": "戒衛座",
+        "th": "รีกัล",
+        "pt": "Regal",
+        "kr": "프리토리언",
+        "jp": "禁衛座",
+        "idn": "Regal",
+        "es": "Regal"
+      }
+    },
+    "char_1701081": {
+      "qr_id": "215",
+      "internal_id": "1701081",
+      "names": {
+        "us": "Frostfire",
+        "tw": "焚霜座",
+        "th": "ฟรอสต์ไฟร์",
+        "pt": "Frostfire",
+        "kr": "히에로플람마",
+        "jp": "焚霜座",
+        "idn": "Frostfire",
+        "es": "Frostfire"
+      }
+    },
+    "char_1701091": {
+      "qr_id": "216",
+      "internal_id": "1701091",
+      "names": {
+        "us": "Mythos",
+        "tw": "童謠座",
+        "th": "มิธอส",
+        "pt": "Mythos",
+        "kr": "네니아",
+        "jp": "童謡座",
+        "idn": "Mythos",
+        "es": "Mythos"
+      }
+    },
+    "char_1701101": {
+      "qr_id": "217",
+      "internal_id": "1701101",
+      "names": {
+        "us": "Requiem",
+        "tw": "鎮魂座",
+        "th": "เรเควียม",
+        "pt": "Requiem",
+        "kr": "레퀴엠",
+        "jp": "鎮魂座",
+        "idn": "Requiem",
+        "es": "Requiem"
+      }
+    },
+    "unknown_218": {
+      "qr_id": "218",
+      "internal_id": "",
+      "names": {
+        "us": "UNKNOWN",
+        "tw": "UNKNOWN",
+        "th": "UNKNOWN",
+        "pt": "UNKNOWN",
+        "kr": "UNKNOWN",
+        "jp": "UNKNOWN",
+        "idn": "UNKNOWN",
+        "es": "UNKNOWN"
+      }
+    },
+    "unknown_219": {
+      "qr_id": "219",
+      "internal_id": "",
+      "names": {
+        "us": "UNKNOWN",
+        "tw": "UNKNOWN",
+        "th": "UNKNOWN",
+        "pt": "UNKNOWN",
+        "kr": "UNKNOWN",
+        "jp": "UNKNOWN",
+        "idn": "UNKNOWN",
+        "es": "UNKNOWN"
+      }
+    },
+    "unknown_220": {
+      "qr_id": "220",
+      "internal_id": "",
+      "names": {
+        "us": "UNKNOWN",
+        "tw": "UNKNOWN",
+        "th": "UNKNOWN",
+        "pt": "UNKNOWN",
+        "kr": "UNKNOWN",
+        "jp": "UNKNOWN",
+        "idn": "UNKNOWN",
+        "es": "UNKNOWN"
+      }
+    },
+    "char_1702361": {
+      "qr_id": "221",
+      "internal_id": "1702361",
+      "names": {
+        "us": "Claymore",
+        "tw": "祭劍座",
+        "th": "เคลย์มอร์",
+        "pt": "Claymore",
+        "kr": "그라디우스",
+        "jp": "祭剣座",
+        "idn": "Claymore",
+        "es": "Claymore"
+      }
+    }
+  }
+}

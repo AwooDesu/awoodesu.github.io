@@ -1,0 +1,7149 @@
+{
+  "languages": {
+    "us": {
+      "code": "en",
+      "fullName": "English"
+    },
+    "tw": {
+      "code": "zh-TW",
+      "fullName": "繁體中文"
+    },
+    "th": {
+      "code": "th",
+      "fullName": "ไทย"
+    },
+    "pt": {
+      "code": "pt",
+      "fullName": "Português"
+    },
+    "kr": {
+      "code": "ko",
+      "fullName": "한국어"
+    },
+    "jp": {
+      "code": "ja",
+      "fullName": "日本語"
+    },
+    "idn": {
+      "code": "id",
+      "fullName": "Bahasa Indonesia"
+    },
+    "es": {
+      "code": "es",
+      "fullName": "Español"
+    }
+  },
+  "skins": [
+    {
+      "id": "1",
+      "names": {
+        "us": "Nikinis-1",
+        "tw": "娜席里絲-1",
+        "th": "นิคินิส-1",
+        "pt": "Nikinis-1",
+        "kr": "나시리스-1",
+        "jp": "ナシリス -1",
+        "idn": "Nikinis-1",
+        "es": "Nikinis-1"
+      }
+    },
+    {
+      "id": "2",
+      "names": {
+        "us": "Nikinis-2",
+        "tw": "娜席里絲-2",
+        "th": "นิคินิส-2",
+        "pt": "Nikinis-2",
+        "kr": "나시리스-2",
+        "jp": "ナシリス -2",
+        "idn": "Nikinis-2",
+        "es": "Nikinis-2"
+      }
+    },
+    {
+      "id": "3",
+      "names": {
+        "us": "Nikinis-3",
+        "tw": "娜席里絲-3",
+        "th": "นิคินิส-3",
+        "pt": "Nikinis-3",
+        "kr": "나시리스-3",
+        "jp": "ナシリス -3",
+        "idn": "Nikinis-3",
+        "es": "Nikinis-3"
+      }
+    },
+    {
+      "id": "4",
+      "names": {
+        "us": "Nikinis-4",
+        "tw": "娜席里絲-4",
+        "th": "นิคินิส-4",
+        "pt": "Nikinis-4",
+        "kr": "나시리스-4",
+        "jp": "ナシリス -4",
+        "idn": "Nikinis-4",
+        "es": "Nikinis-4"
+      }
+    },
+    {
+      "id": "5",
+      "names": {
+        "us": "Hiiro-1",
+        "tw": "緋-1",
+        "th": "ฮิอิโระ-1",
+        "pt": "Hiiro-1",
+        "kr": "히이로-1",
+        "jp": "ヒイロ -1",
+        "idn": "Hiiro-1",
+        "es": "Hiiro-1"
+      }
+    },
+    {
+      "id": "6",
+      "names": {
+        "us": "Hiiro-2",
+        "tw": "緋-2",
+        "th": "ฮิอิโระ-2",
+        "pt": "Hiiro-2",
+        "kr": "히이로-2",
+        "jp": "ヒイロ -2",
+        "idn": "Hiiro-2",
+        "es": "Hiiro-2"
+      }
+    },
+    {
+      "id": "7",
+      "names": {
+        "us": "Hiiro-3",
+        "tw": "緋-3",
+        "th": "ฮิอิโระ-3",
+        "pt": "Hiiro-3",
+        "kr": "히이로-3",
+        "jp": "ヒイロ -3",
+        "idn": "Hiiro-3",
+        "es": "Hiiro-3"
+      }
+    },
+    {
+      "id": "8",
+      "names": {
+        "us": "Hiiro-4",
+        "tw": "緋-4",
+        "th": "ฮิอิโระ-4",
+        "pt": "Hiiro-4",
+        "kr": "히이로-4",
+        "jp": "ヒイロ -4",
+        "idn": "Hiiro-4",
+        "es": "Hiiro-4"
+      }
+    },
+    {
+      "id": "9",
+      "names": {
+        "us": "UNKNOWN-1",
+        "tw": "UNKNOWN-1",
+        "th": "UNKNOWN-1",
+        "pt": "UNKNOWN-1",
+        "kr": "UNKNOWN-1",
+        "jp": "UNKNOWN -1",
+        "idn": "UNKNOWN-1",
+        "es": "UNKNOWN-1"
+      }
+    },
+    {
+      "id": "10",
+      "names": {
+        "us": "Kuma & Pengy-1",
+        "tw": "庫瑪&佩吉-1",
+        "th": "คุมะกับเพนจี้-1",
+        "pt": "Kuma & Pengy-1",
+        "kr": "쿠마&페기-1",
+        "jp": "クマ&ペギ -1",
+        "idn": "Kuma & Pengy-1",
+        "es": "Kuma & Pengy-1"
+      }
+    },
+    {
+      "id": "11",
+      "names": {
+        "us": "Kuma & Pengy-2",
+        "tw": "庫瑪&佩吉-2",
+        "th": "คุมะกับเพนจี้-2",
+        "pt": "Kuma & Pengy-2",
+        "kr": "쿠마&페기-2",
+        "jp": "クマ&ペギ -2",
+        "idn": "Kuma & Pengy-2",
+        "es": "Kuma & Pengy-2"
+      }
+    },
+    {
+      "id": "12",
+      "names": {
+        "us": "Kuma & Pengy-3",
+        "tw": "庫瑪&佩吉-3",
+        "th": "คุมะกับเพนจี้-3",
+        "pt": "Kuma & Pengy-3",
+        "kr": "쿠마&페기-3",
+        "jp": "クマ&ペギ -3",
+        "idn": "Kuma & Pengy-3",
+        "es": "Kuma & Pengy-3"
+      }
+    },
+    {
+      "id": "13",
+      "names": {
+        "us": "Mia-1",
+        "tw": "蜜雅-1",
+        "th": "มีอา-1",
+        "pt": "Mia-1",
+        "kr": "미아-1",
+        "jp": "ミヤ -1",
+        "idn": "Mia-1",
+        "es": "Mia-1"
+      }
+    },
+    {
+      "id": "14",
+      "names": {
+        "us": "Mia-2",
+        "tw": "蜜雅-2",
+        "th": "มีอา-2",
+        "pt": "Mia-2",
+        "kr": "미아-2",
+        "jp": "ミヤ -2",
+        "idn": "Mia-2",
+        "es": "Mia-2"
+      }
+    },
+    {
+      "id": "15",
+      "names": {
+        "us": "Carleen-1",
+        "tw": "卡蓮-1",
+        "th": "คาร์ลีน-1",
+        "pt": "Carleen-1",
+        "kr": "카렌-1",
+        "jp": "カレン -1",
+        "idn": "Carleen-1",
+        "es": "Carleen-1"
+      }
+    },
+    {
+      "id": "16",
+      "names": {
+        "us": "Carleen-2",
+        "tw": "卡蓮-2",
+        "th": "คาร์ลีน-2",
+        "pt": "Carleen-2",
+        "kr": "카렌-2",
+        "jp": "カレン -2",
+        "idn": "Carleen-2",
+        "es": "Carleen-2"
+      }
+    },
+    {
+      "id": "17",
+      "names": {
+        "us": "Carleen-3",
+        "tw": "卡蓮-3",
+        "th": "คาร์ลีน-3",
+        "pt": "Carleen-3",
+        "kr": "카렌-3",
+        "jp": "カレン -3",
+        "idn": "Carleen-3",
+        "es": "Carleen-3"
+      }
+    },
+    {
+      "id": "18",
+      "names": {
+        "us": "Carleen-4",
+        "tw": "卡蓮-4",
+        "th": "คาร์ลีน-4",
+        "pt": "Carleen-4",
+        "kr": "카렌-4",
+        "jp": "カレン -4",
+        "idn": "Carleen-4",
+        "es": "Carleen-4"
+      }
+    },
+    {
+      "id": "19",
+      "names": {
+        "us": "Carleen-5",
+        "tw": "卡蓮-5",
+        "th": "คาร์ลีน-5",
+        "pt": "Carleen-5",
+        "kr": "카렌-5",
+        "jp": "カレン -5",
+        "idn": "Carleen-5",
+        "es": "Carleen-5"
+      }
+    },
+    {
+      "id": "20",
+      "names": {
+        "us": "Clover-1",
+        "tw": "四葉草-1",
+        "th": "โคลเวอร์-1",
+        "pt": "Clover-1",
+        "kr": "클로버-1",
+        "jp": "クローバー -1",
+        "idn": "Clover-1",
+        "es": "Clover-1"
+      }
+    },
+    {
+      "id": "21",
+      "names": {
+        "us": "Tiny One-1",
+        "tw": "小不點-1",
+        "th": "เจ้าจิ๋ว-1",
+        "pt": "Tiny One-1",
+        "kr": "타이니-1",
+        "jp": "タイニー -1",
+        "idn": "Tiny One-1",
+        "es": "Tiny One-1"
+      }
+    },
+    {
+      "id": "22",
+      "names": {
+        "us": "Faust-1",
+        "tw": "浮士德-1",
+        "th": "เฟาสต์-1",
+        "pt": "Faust-1",
+        "kr": "파우스트-1",
+        "jp": "ファウスト -1",
+        "idn": "Faust-1",
+        "es": "Faust-1"
+      }
+    },
+    {
+      "id": "23",
+      "names": {
+        "us": "Faust-2",
+        "tw": "浮士德-2",
+        "th": "เฟาสต์-2",
+        "pt": "Faust-2",
+        "kr": "파우스트-2",
+        "jp": "ファウスト -2",
+        "idn": "Faust-2",
+        "es": "Faust-2"
+      }
+    },
+    {
+      "id": "24",
+      "names": {
+        "us": "Faust-3",
+        "tw": "浮士德-3",
+        "th": "เฟาสต์-3",
+        "pt": "Faust-3",
+        "kr": "파우스트-3",
+        "jp": "ファウスト -3",
+        "idn": "Faust-3",
+        "es": "Faust-3"
+      }
+    },
+    {
+      "id": "25",
+      "names": {
+        "us": "Louise-1",
+        "tw": "露易絲-1",
+        "th": "ลูอิส-1",
+        "pt": "Louise-1",
+        "kr": "루이스-1",
+        "jp": "ルイス -1",
+        "idn": "Louise-1",
+        "es": "Louise-1"
+      }
+    },
+    {
+      "id": "26",
+      "names": {
+        "us": "Louise-2",
+        "tw": "露易絲-2",
+        "th": "ลูอิส-2",
+        "pt": "Louise-2",
+        "kr": "루이스-2",
+        "jp": "ルイス -2",
+        "idn": "Louise-2",
+        "es": "Louise-2"
+      }
+    },
+    {
+      "id": "27",
+      "names": {
+        "us": "Louise-3",
+        "tw": "露易絲-3",
+        "th": "ลูอิส-3",
+        "pt": "Louise-3",
+        "kr": "루이스-3",
+        "jp": "ルイス -3",
+        "idn": "Louise-3",
+        "es": "Louise-3"
+      }
+    },
+    {
+      "id": "28",
+      "names": {
+        "us": "Sharona-1",
+        "tw": "希羅娜-1",
+        "th": "ชาโรนา-1",
+        "pt": "Sharona-1",
+        "kr": "시로나-1",
+        "jp": "キシローナ -1",
+        "idn": "Sharona-1",
+        "es": "Sharona-1"
+      }
+    },
+    {
+      "id": "29",
+      "names": {
+        "us": "Sharona-2",
+        "tw": "希羅娜-2",
+        "th": "ชาโรนา-2",
+        "pt": "Sharona-2",
+        "kr": "시로나-2",
+        "jp": "キシローナ -2",
+        "idn": "Sharona-2",
+        "es": "Sharona-2"
+      }
+    },
+    {
+      "id": "30",
+      "names": {
+        "us": "Sharona-3",
+        "tw": "希羅娜-3",
+        "th": "ชาโรนา-3",
+        "pt": "Sharona-3",
+        "kr": "시로나-3",
+        "jp": "キシローナ -3",
+        "idn": "Sharona-3",
+        "es": "Sharona-3"
+      }
+    },
+    {
+      "id": "31",
+      "names": {
+        "us": "Sharona-4",
+        "tw": "希羅娜-4",
+        "th": "ชาโรนา-4",
+        "pt": "Sharona-4",
+        "kr": "시로나-4",
+        "jp": "キシローナ -4",
+        "idn": "Sharona-4",
+        "es": "Sharona-4"
+      }
+    },
+    {
+      "id": "32",
+      "names": {
+        "us": "Nemesis-1",
+        "tw": "涅墨西斯-1",
+        "th": "เนเมซิส-1",
+        "pt": "Nemesis-1",
+        "kr": "네메시스-1",
+        "jp": "ナミシス -1",
+        "idn": "Nemesis-1",
+        "es": "Nemesis-1"
+      }
+    },
+    {
+      "id": "33",
+      "names": {
+        "us": "Nemesis-2",
+        "tw": "涅墨西斯-2",
+        "th": "เนเมซิส-2",
+        "pt": "Nemesis-2",
+        "kr": "네메시스-2",
+        "jp": "ナミシス -2",
+        "idn": "Nemesis-2",
+        "es": "Nemesis-2"
+      }
+    },
+    {
+      "id": "34",
+      "names": {
+        "us": "Nemesis-3",
+        "tw": "涅墨西斯-3",
+        "th": "เนเมซิส-3",
+        "pt": "Nemesis-3",
+        "kr": "네메시스-3",
+        "jp": "ナミシス -3",
+        "idn": "Nemesis-3",
+        "es": "Nemesis-3"
+      }
+    },
+    {
+      "id": "35",
+      "names": {
+        "us": "Noah-1",
+        "tw": "諾爾-1",
+        "th": "โนอาห์-1",
+        "pt": "Noah-1",
+        "kr": "노아-1",
+        "jp": "ノーア -1",
+        "idn": "Noah-1",
+        "es": "Noah-1"
+      }
+    },
+    {
+      "id": "36",
+      "names": {
+        "us": "Noah-2",
+        "tw": "諾爾-2",
+        "th": "โนอาห์-2",
+        "pt": "Noah-2",
+        "kr": "노아-2",
+        "jp": "ノーア -2",
+        "idn": "Noah-2",
+        "es": "Noah-2"
+      }
+    },
+    {
+      "id": "37",
+      "names": {
+        "us": "Schwartz-1",
+        "tw": "舒瓦茲-1",
+        "th": "ชวาตส์-1",
+        "pt": "Schwartz-1",
+        "kr": "솔라드-1",
+        "jp": "ソルラド -1",
+        "idn": "Schwartz-1",
+        "es": "Schwartz-1"
+      }
+    },
+    {
+      "id": "38",
+      "names": {
+        "us": "Schwartz-2",
+        "tw": "舒瓦茲-2",
+        "th": "ชวาตส์-2",
+        "pt": "Schwartz-2",
+        "kr": "솔라드-2",
+        "jp": "ソルラド -2",
+        "idn": "Schwartz-2",
+        "es": "Schwartz-2"
+      }
+    },
+    {
+      "id": "39",
+      "names": {
+        "us": "Hachi & Gin-1",
+        "tw": "蜂&銀城-1",
+        "th": "ฮาชิ & กิน-1",
+        "pt": "Hachi e Gin-1",
+        "kr": "호넷&실버-1",
+        "jp": "ハチ&ギン -1",
+        "idn": "Hachi & Gin-1",
+        "es": "Hachi & Gin-1"
+      }
+    },
+    {
+      "id": "40",
+      "names": {
+        "us": "Hachi & Gin-2",
+        "tw": "蜂&銀城-2",
+        "th": "ฮาชิ & กิน-2",
+        "pt": "Hachi e Gin-2",
+        "kr": "호넷&실버-2",
+        "jp": "ハチ&ギン -2",
+        "idn": "Hachi & Gin-2",
+        "es": "Hachi & Gin-2"
+      }
+    },
+    {
+      "id": "41",
+      "names": {
+        "us": "Kafka-1",
+        "tw": "卡夫卡-1",
+        "th": "คาฟกา-1",
+        "pt": "Kafka-1",
+        "kr": "카프카-1",
+        "jp": "カフカ -1",
+        "idn": "Kafka-1",
+        "es": "Kafka-1"
+      }
+    },
+    {
+      "id": "42",
+      "names": {
+        "us": "Kafka-2",
+        "tw": "卡夫卡-2",
+        "th": "คาฟกา-2",
+        "pt": "Kafka-2",
+        "kr": "카프카-2",
+        "jp": "カフカ -2",
+        "idn": "Kafka-2",
+        "es": "Kafka-2"
+      }
+    },
+    {
+      "id": "43",
+      "names": {
+        "us": "Kafka-3",
+        "tw": "卡夫卡-3",
+        "th": "คาฟกา-3",
+        "pt": "Kafka-3",
+        "kr": "카프카-3",
+        "jp": "カフカ -3",
+        "idn": "Kafka-3",
+        "es": "Kafka-3"
+      }
+    },
+    {
+      "id": "44",
+      "names": {
+        "us": "Rabbie-1",
+        "tw": "菈比-1",
+        "th": "แรบบี้-1",
+        "pt": "Rabbie-1",
+        "kr": "라비-1",
+        "jp": "ラビ -1",
+        "idn": "Rabbie-1",
+        "es": "Rabbie-1"
+      }
+    },
+    {
+      "id": "45",
+      "names": {
+        "us": "Rabbie-2",
+        "tw": "菈比-2",
+        "th": "แรบบี้-2",
+        "pt": "Rabbie-2",
+        "kr": "라비-2",
+        "jp": "ラビ -2",
+        "idn": "Rabbie-2",
+        "es": "Rabbie-2"
+      }
+    },
+    {
+      "id": "46",
+      "names": {
+        "us": "Rabbie-3",
+        "tw": "菈比-3",
+        "th": "แรบบี้-3",
+        "pt": "Rabbie-3",
+        "kr": "라비-3",
+        "jp": "ラビ -3",
+        "idn": "Rabbie-3",
+        "es": "Rabbie-3"
+      }
+    },
+    {
+      "id": "47",
+      "names": {
+        "us": "Regina-1",
+        "tw": "蕾吉娜-1",
+        "th": "เรจินา-1",
+        "pt": "Regina-1",
+        "kr": "레지나-1",
+        "jp": "レジーナ -1",
+        "idn": "Regina-1",
+        "es": "Regina-1"
+      }
+    },
+    {
+      "id": "48",
+      "names": {
+        "us": "Regina-2",
+        "tw": "蕾吉娜-2",
+        "th": "เรจินา-2",
+        "pt": "Regina-2",
+        "kr": "레지나-2",
+        "jp": "レジーナ -2",
+        "idn": "Regina-2",
+        "es": "Regina-2"
+      }
+    },
+    {
+      "id": "49",
+      "names": {
+        "us": "Victoria-1",
+        "tw": "維多利亞-1",
+        "th": "วิกตอเรีย-1",
+        "pt": "Victoria-1",
+        "kr": "빅토리아-1",
+        "jp": "ビクトリア -1",
+        "idn": "Victoria-1",
+        "es": "Victoria-1"
+      }
+    },
+    {
+      "id": "50",
+      "names": {
+        "us": "Victoria-2",
+        "tw": "維多利亞-2",
+        "th": "วิกตอเรีย-2",
+        "pt": "Victoria-2",
+        "kr": "빅토리아-2",
+        "jp": "ビクトリア -2",
+        "idn": "Victoria-2",
+        "es": "Victoria-2"
+      }
+    },
+    {
+      "id": "51",
+      "names": {
+        "us": "Victoria-3",
+        "tw": "維多利亞-3",
+        "th": "วิกตอเรีย-3",
+        "pt": "Victoria-3",
+        "kr": "빅토리아-3",
+        "jp": "ビクトリア -3",
+        "idn": "Victoria-3",
+        "es": "Victoria-3"
+      }
+    },
+    {
+      "id": "52",
+      "names": {
+        "us": "UNKNOWN-1",
+        "tw": "UNKNOWN-1",
+        "th": "UNKNOWN-1",
+        "pt": "UNKNOWN-1",
+        "kr": "UNKNOWN-1",
+        "jp": "UNKNOWN -1",
+        "idn": "UNKNOWN-1",
+        "es": "UNKNOWN-1"
+      }
+    },
+    {
+      "id": "53",
+      "names": {
+        "us": "Jola-1",
+        "tw": "尤拉-1",
+        "th": "โจลา-1",
+        "pt": "Jola-1",
+        "kr": "유라-1",
+        "jp": "ジョラ -1",
+        "idn": "Jola-1",
+        "es": "Jola-1"
+      }
+    },
+    {
+      "id": "54",
+      "names": {
+        "us": "Jola-2",
+        "tw": "尤拉-2",
+        "th": "โจลา-2",
+        "pt": "Jola-2",
+        "kr": "유라-2",
+        "jp": "ジョラ -2",
+        "idn": "Jola-2",
+        "es": "Jola-2"
+      }
+    },
+    {
+      "id": "55",
+      "names": {
+        "us": "Jola-3",
+        "tw": "尤拉-3",
+        "th": "โจลา-3",
+        "pt": "Jola-3",
+        "kr": "유라-3",
+        "jp": "ジョラ -3",
+        "idn": "Jola-3",
+        "es": "Jola-3"
+      }
+    },
+    {
+      "id": "56",
+      "names": {
+        "us": "Chainsaw Rick-1",
+        "tw": "鋸里克-1",
+        "th": "ริค เลื่อยไฟฟ้า-1",
+        "pt": "Chainsaw Rick-1",
+        "kr": "톱날 리크-1",
+        "jp": "キュリク -1",
+        "idn": "Chainsaw Rick-1",
+        "es": "Chainsaw Rick-1"
+      }
+    },
+    {
+      "id": "57",
+      "names": {
+        "us": "Connolly-1",
+        "tw": "克娜莉-1",
+        "th": "คอนนอลลี-1",
+        "pt": "Connolly-1",
+        "kr": "코놀리-1",
+        "jp": "クラリン -1",
+        "idn": "Connolly-1",
+        "es": "Connolly-1"
+      }
+    },
+    {
+      "id": "58",
+      "names": {
+        "us": "Connolly-2",
+        "tw": "克娜莉-2",
+        "th": "คอนนอลลี-2",
+        "pt": "Connolly-2",
+        "kr": "코놀리-2",
+        "jp": "クラリン -2",
+        "idn": "Connolly-2",
+        "es": "Connolly-2"
+      }
+    },
+    {
+      "id": "59",
+      "names": {
+        "us": "Connolly-3",
+        "tw": "克娜莉-3",
+        "th": "คอนนอลลี-3",
+        "pt": "Connolly-3",
+        "kr": "코놀리-3",
+        "jp": "クラリン -3",
+        "idn": "Connolly-3",
+        "es": "Connolly-3"
+      }
+    },
+    {
+      "id": "60",
+      "names": {
+        "us": "Connolly-4",
+        "tw": "克娜莉-4",
+        "th": "คอนนอลลี-4",
+        "pt": "Connolly-4",
+        "kr": "코놀리-4",
+        "jp": "クラリン -4",
+        "idn": "Connolly-4",
+        "es": "Connolly-4"
+      }
+    },
+    {
+      "id": "61",
+      "names": {
+        "us": "Benny and Curo-1",
+        "tw": "紅與黑-1",
+        "th": "เบนนี่กับคุโระ-1",
+        "pt": "Benny e Kuro-1",
+        "kr": "베니&쿠로-1",
+        "jp": "ベニ&クロ -1",
+        "idn": "Benny dan Curo-1",
+        "es": "Benny y Kuro-1"
+      }
+    },
+    {
+      "id": "62",
+      "names": {
+        "us": "Benny and Curo-2",
+        "tw": "紅與黑-2",
+        "th": "เบนนี่กับคุโระ-2",
+        "pt": "Benny e Kuro-2",
+        "kr": "베니&쿠로-2",
+        "jp": "ベニ&クロ -2",
+        "idn": "Benny dan Curo-2",
+        "es": "Benny y Kuro-2"
+      }
+    },
+    {
+      "id": "63",
+      "names": {
+        "us": "Charon-1",
+        "tw": "卡戎-1",
+        "th": "คารอน-1",
+        "pt": "Charon-1",
+        "kr": "카론-1",
+        "jp": "カロン -1",
+        "idn": "Charon-1",
+        "es": "Charon-1"
+      }
+    },
+    {
+      "id": "64",
+      "names": {
+        "us": "Charon-2",
+        "tw": "卡戎-2",
+        "th": "คารอน-2",
+        "pt": "Charon-2",
+        "kr": "카론-2",
+        "jp": "カロン -2",
+        "idn": "Charon-2",
+        "es": "Charon-2"
+      }
+    },
+    {
+      "id": "65",
+      "names": {
+        "us": "Charon-3",
+        "tw": "卡戎-3",
+        "th": "คารอน-3",
+        "pt": "Charon-3",
+        "kr": "카론-3",
+        "jp": "カロン -3",
+        "idn": "Charon-3",
+        "es": "Charon-3"
+      }
+    },
+    {
+      "id": "66",
+      "names": {
+        "us": "Charon-4",
+        "tw": "卡戎-4",
+        "th": "คารอน-4",
+        "pt": "Charon-4",
+        "kr": "카론-4",
+        "jp": "カロン -4",
+        "idn": "Charon-4",
+        "es": "Charon-4"
+      }
+    },
+    {
+      "id": "67",
+      "names": {
+        "us": "Uriel-1",
+        "tw": "烏列爾-1",
+        "th": "อูริเอล-1",
+        "pt": "Uriel-1",
+        "kr": "우리엘-1",
+        "jp": "ウリエル -1",
+        "idn": "Uriel-1",
+        "es": "Uriela-1"
+      }
+    },
+    {
+      "id": "68",
+      "names": {
+        "us": "Uriel-2",
+        "tw": "烏列爾-2",
+        "th": "อูริเอล-2",
+        "pt": "Uriel-2",
+        "kr": "우리엘-2",
+        "jp": "ウリエル -2",
+        "idn": "Uriel-2",
+        "es": "Uriela-2"
+      }
+    },
+    {
+      "id": "69",
+      "names": {
+        "us": "Uriel-3",
+        "tw": "烏列爾-3",
+        "th": "อูริเอล-3",
+        "pt": "Uriel-3",
+        "kr": "우리엘-3",
+        "jp": "ウリエル -3",
+        "idn": "Uriel-3",
+        "es": "Uriela-3"
+      }
+    },
+    {
+      "id": "70",
+      "names": {
+        "us": "Uriel-4",
+        "tw": "烏列爾-4",
+        "th": "อูริเอล-4",
+        "pt": "Uriel-4",
+        "kr": "우리엘-4",
+        "jp": "ウリエル -4",
+        "idn": "Uriel-4",
+        "es": "Uriela-4"
+      }
+    },
+    {
+      "id": "71",
+      "names": {
+        "us": "Michael-1",
+        "tw": "米迦勒-1",
+        "th": "มิคาเอล-1",
+        "pt": "Michele-1",
+        "kr": "미카엘-1",
+        "jp": "ミカエル -1",
+        "idn": "Michael-1",
+        "es": "Michele-1"
+      }
+    },
+    {
+      "id": "72",
+      "names": {
+        "us": "Michael-2",
+        "tw": "米迦勒-2",
+        "th": "มิคาเอล-2",
+        "pt": "Michele-2",
+        "kr": "미카엘-2",
+        "jp": "ミカエル -2",
+        "idn": "Michael-2",
+        "es": "Michele-2"
+      }
+    },
+    {
+      "id": "73",
+      "names": {
+        "us": "Michael-3",
+        "tw": "米迦勒-3",
+        "th": "มิคาเอล-3",
+        "pt": "Michele-3",
+        "kr": "미카엘-3",
+        "jp": "ミカエル -3",
+        "idn": "Michael-3",
+        "es": "Michele-3"
+      }
+    },
+    {
+      "id": "74",
+      "names": {
+        "us": "Raphael-1",
+        "tw": "拉斐爾-1",
+        "th": "ราฟาเอล-1",
+        "pt": "Raphaela-1",
+        "kr": "라파엘-1",
+        "jp": "ラファエル -1",
+        "idn": "Raphael-1",
+        "es": "Raphaela-1"
+      }
+    },
+    {
+      "id": "75",
+      "names": {
+        "us": "Raphael-2",
+        "tw": "拉斐爾-2",
+        "th": "ราฟาเอล-2",
+        "pt": "Raphaela-2",
+        "kr": "라파엘-2",
+        "jp": "ラファエル -2",
+        "idn": "Raphael-2",
+        "es": "Raphaela-2"
+      }
+    },
+    {
+      "id": "76",
+      "names": {
+        "us": "Raphael-3",
+        "tw": "拉斐爾-3",
+        "th": "ราฟาเอล-3",
+        "pt": "Raphaela-3",
+        "kr": "라파엘-3",
+        "jp": "ラファエル -3",
+        "idn": "Raphael-3",
+        "es": "Raphaela-3"
+      }
+    },
+    {
+      "id": "77",
+      "names": {
+        "us": "Gabriel-1",
+        "tw": "加百列-1",
+        "th": "กาบริเอล-1",
+        "pt": "Gabriela-1",
+        "kr": "가브리엘-1",
+        "jp": "ガブリエル -1",
+        "idn": "Gabriel-1",
+        "es": "Gabriela-1"
+      }
+    },
+    {
+      "id": "78",
+      "names": {
+        "us": "Gabriel-2",
+        "tw": "加百列-2",
+        "th": "กาบริเอล-2",
+        "pt": "Gabriela-2",
+        "kr": "가브리엘-2",
+        "jp": "ガブリエル -2",
+        "idn": "Gabriel-2",
+        "es": "Gabriela-2"
+      }
+    },
+    {
+      "id": "79",
+      "names": {
+        "us": "Gabriel-3",
+        "tw": "加百列-3",
+        "th": "กาบริเอล-3",
+        "pt": "Gabriela-3",
+        "kr": "가브리엘-3",
+        "jp": "ガブリエル -3",
+        "idn": "Gabriel-3",
+        "es": "Gabriela-3"
+      }
+    },
+    {
+      "id": "80",
+      "names": {
+        "us": "Sinsa-1",
+        "tw": "醒山-1",
+        "th": "ซินซา-1",
+        "pt": "Sinsa-1",
+        "kr": "사메야마-1",
+        "jp": "サメヤマ -1",
+        "idn": "Sinsa-1",
+        "es": "Sinsa-1"
+      }
+    },
+    {
+      "id": "81",
+      "names": {
+        "us": "Sinsa-2",
+        "tw": "醒山-2",
+        "th": "ซินซา-2",
+        "pt": "Sinsa-2",
+        "kr": "사메야마-2",
+        "jp": "サメヤマ -2",
+        "idn": "Sinsa-2",
+        "es": "Sinsa-2"
+      }
+    },
+    {
+      "id": "82",
+      "names": {
+        "us": "Sinsa-3",
+        "tw": "醒山-3",
+        "th": "ซินซา-3",
+        "pt": "Sinsa-3",
+        "kr": "사메야마-3",
+        "jp": "サメヤマ -3",
+        "idn": "Sinsa-3",
+        "es": "Sinsa-3"
+      }
+    },
+    {
+      "id": "83",
+      "names": {
+        "us": "UNKNOWN-1",
+        "tw": "UNKNOWN-1",
+        "th": "UNKNOWN-1",
+        "pt": "UNKNOWN-1",
+        "kr": "UNKNOWN-1",
+        "jp": "UNKNOWN -1",
+        "idn": "UNKNOWN-1",
+        "es": "UNKNOWN-1"
+      }
+    },
+    {
+      "id": "84",
+      "names": {
+        "us": "UNKNOWN-2",
+        "tw": "UNKNOWN-2",
+        "th": "UNKNOWN-2",
+        "pt": "UNKNOWN-2",
+        "kr": "UNKNOWN-2",
+        "jp": "UNKNOWN -2",
+        "idn": "UNKNOWN-2",
+        "es": "UNKNOWN-2"
+      }
+    },
+    {
+      "id": "85",
+      "names": {
+        "us": "Angel-1",
+        "tw": "安潔兒-1",
+        "th": "แองเจิล-1",
+        "pt": "Angel-1",
+        "kr": "안젤-1",
+        "jp": "エンジェル -1",
+        "idn": "Angel-1",
+        "es": "Ángel-1"
+      }
+    },
+    {
+      "id": "86",
+      "names": {
+        "us": "Vice-1",
+        "tw": "薇絲-1",
+        "th": "ไวซ์-1",
+        "pt": "Vice-1",
+        "kr": "바이스-1",
+        "jp": "バイス -1",
+        "idn": "Vice-1",
+        "es": "Vice-1"
+      }
+    },
+    {
+      "id": "87",
+      "names": {
+        "us": "Vice-2",
+        "tw": "薇絲-2",
+        "th": "ไวซ์-2",
+        "pt": "Vice-2",
+        "kr": "바이스-2",
+        "jp": "バイス -2",
+        "idn": "Vice-2",
+        "es": "Vice-2"
+      }
+    },
+    {
+      "id": "88",
+      "names": {
+        "us": "Vice-3",
+        "tw": "薇絲-3",
+        "th": "ไวซ์-3",
+        "pt": "Vice-3",
+        "kr": "바이스-3",
+        "jp": "バイス -3",
+        "idn": "Vice-3",
+        "es": "Vice-3"
+      }
+    },
+    {
+      "id": "89",
+      "names": {
+        "us": "Vice-4",
+        "tw": "薇絲-4",
+        "th": "ไวซ์-4",
+        "pt": "Vice-4",
+        "kr": "바이스-4",
+        "jp": "バイス -4",
+        "idn": "Vice-4",
+        "es": "Vice-4"
+      }
+    },
+    {
+      "id": "90",
+      "names": {
+        "us": "Vice-5",
+        "tw": "薇絲-5",
+        "th": "ไวซ์-5",
+        "pt": "Vice-5",
+        "kr": "바이스-5",
+        "jp": "バイス -5",
+        "idn": "Vice-5",
+        "es": "Vice-5"
+      }
+    },
+    {
+      "id": "91",
+      "names": {
+        "us": "UNKNOWN-1",
+        "tw": "UNKNOWN-1",
+        "th": "UNKNOWN-1",
+        "pt": "UNKNOWN-1",
+        "kr": "UNKNOWN-1",
+        "jp": "UNKNOWN -1",
+        "idn": "UNKNOWN-1",
+        "es": "UNKNOWN-1"
+      }
+    },
+    {
+      "id": "92",
+      "names": {
+        "us": "UNKNOWN-2",
+        "tw": "UNKNOWN-2",
+        "th": "UNKNOWN-2",
+        "pt": "UNKNOWN-2",
+        "kr": "UNKNOWN-2",
+        "jp": "UNKNOWN -2",
+        "idn": "UNKNOWN-2",
+        "es": "UNKNOWN-2"
+      }
+    },
+    {
+      "id": "93",
+      "names": {
+        "us": "Eho-1",
+        "tw": "阿褐-1",
+        "th": "เอโฮะ-1",
+        "pt": "Eho-1",
+        "kr": "에호-1",
+        "jp": "カラス -1",
+        "idn": "Eho-1",
+        "es": "Eho-1"
+      }
+    },
+    {
+      "id": "94",
+      "names": {
+        "us": "Hydrad-1",
+        "tw": "修拉德-1",
+        "th": "ไฮแดรด-1",
+        "pt": "Hydrad-1",
+        "kr": "휴라드-1",
+        "jp": "ヒドライ -1",
+        "idn": "Hydrad-1",
+        "es": "Hydrad-1"
+      }
+    },
+    {
+      "id": "95",
+      "names": {
+        "us": "Hydrad-2",
+        "tw": "修拉德-2",
+        "th": "ไฮแดรด-2",
+        "pt": "Hydrad-2",
+        "kr": "휴라드-2",
+        "jp": "ヒドライ -2",
+        "idn": "Hydrad-2",
+        "es": "Hydrad-2"
+      }
+    },
+    {
+      "id": "96",
+      "names": {
+        "us": "Hydrad-3",
+        "tw": "修拉德-3",
+        "th": "ไฮแดรด-3",
+        "pt": "Hydrad-3",
+        "kr": "휴라드-3",
+        "jp": "ヒドライ -3",
+        "idn": "Hydrad-3",
+        "es": "Hydrad-3"
+      }
+    },
+    {
+      "id": "97",
+      "names": {
+        "us": "Gronru-1",
+        "tw": "貢露-1",
+        "th": "กรอนรู-1",
+        "pt": "Gronru-1",
+        "kr": "그로누-1",
+        "jp": "ガルー -1",
+        "idn": "Gronru-1",
+        "es": "Gronru-1"
+      }
+    },
+    {
+      "id": "98",
+      "names": {
+        "us": "Gronru-2",
+        "tw": "貢露-2",
+        "th": "กรอนรู-2",
+        "pt": "Gronru-2",
+        "kr": "그로누-2",
+        "jp": "ガルー -2",
+        "idn": "Gronru-2",
+        "es": "Gronru-2"
+      }
+    },
+    {
+      "id": "99",
+      "names": {
+        "us": "Gronru-3",
+        "tw": "貢露-3",
+        "th": "กรอนรู-3",
+        "pt": "Gronru-3",
+        "kr": "그로누-3",
+        "jp": "ガルー -3",
+        "idn": "Gronru-3",
+        "es": "Gronru-3"
+      }
+    },
+    {
+      "id": "100",
+      "names": {
+        "us": "Gronru-4",
+        "tw": "貢露-4",
+        "th": "กรอนรู-4",
+        "pt": "Gronru-4",
+        "kr": "그로누-4",
+        "jp": "ガルー -4",
+        "idn": "Gronru-4",
+        "es": "Gronru-4"
+      }
+    },
+    {
+      "id": "101",
+      "names": {
+        "us": "Joanie Boom-1",
+        "tw": "比比比約恩-1",
+        "th": "โจแอนนี บูม-1",
+        "pt": "Joanie Boom-1",
+        "kr": "봄버 존-1",
+        "jp": "ボンバー -1",
+        "idn": "Joanie Boom-1",
+        "es": "Joanie Boom-1"
+      }
+    },
+    {
+      "id": "102",
+      "names": {
+        "us": "Joanie Boom-2",
+        "tw": "比比比約恩-2",
+        "th": "โจแอนนี บูม-2",
+        "pt": "Joanie Boom-2",
+        "kr": "봄버 존-2",
+        "jp": "ボンバー -2",
+        "idn": "Joanie Boom-2",
+        "es": "Joanie Boom-2"
+      }
+    },
+    {
+      "id": "103",
+      "names": {
+        "us": "Joanie Boom-3",
+        "tw": "比比比約恩-3",
+        "th": "โจแอนนี บูม-3",
+        "pt": "Joanie Boom-3",
+        "kr": "봄버 존-3",
+        "jp": "ボンバー -3",
+        "idn": "Joanie Boom-3",
+        "es": "Joanie Boom-3"
+      }
+    },
+    {
+      "id": "104",
+      "names": {
+        "us": "Ms. Blanc-1",
+        "tw": "Miss.白蘭-1",
+        "th": "มิสบลังค์-1",
+        "pt": "Srta. Blanc-1",
+        "kr": "Ms. 블랑-1",
+        "jp": "Ms.ブラン -1",
+        "idn": "Ms. Blanc-1",
+        "es": "Srta. Blanc-1"
+      }
+    },
+    {
+      "id": "105",
+      "names": {
+        "us": "Ms. Blanc-2",
+        "tw": "Miss.白蘭-2",
+        "th": "มิสบลังค์-2",
+        "pt": "Srta. Blanc-2",
+        "kr": "Ms. 블랑-2",
+        "jp": "Ms.ブラン -2",
+        "idn": "Ms. Blanc-2",
+        "es": "Srta. Blanc-2"
+      }
+    },
+    {
+      "id": "106",
+      "names": {
+        "us": "Ms. Blanc-3",
+        "tw": "Miss.白蘭-3",
+        "th": "มิสบลังค์-3",
+        "pt": "Srta. Blanc-3",
+        "kr": "Ms. 블랑-3",
+        "jp": "Ms.ブラン -3",
+        "idn": "Ms. Blanc-3",
+        "es": "Srta. Blanc-3"
+      }
+    },
+    {
+      "id": "107",
+      "names": {
+        "us": "Barton-1",
+        "tw": "巴頓-1",
+        "th": "บาร์ตัน-1",
+        "pt": "Barton-1",
+        "kr": "바튼-1",
+        "jp": "バートン -1",
+        "idn": "Barton-1",
+        "es": "Barton-1"
+      }
+    },
+    {
+      "id": "108",
+      "names": {
+        "us": "Barton-2",
+        "tw": "巴頓-2",
+        "th": "บาร์ตัน-2",
+        "pt": "Barton-2",
+        "kr": "바튼-2",
+        "jp": "バートン -2",
+        "idn": "Barton-2",
+        "es": "Barton-2"
+      }
+    },
+    {
+      "id": "109",
+      "names": {
+        "us": "Barton-3",
+        "tw": "巴頓-3",
+        "th": "บาร์ตัน-3",
+        "pt": "Barton-3",
+        "kr": "바튼-3",
+        "jp": "バートン -3",
+        "idn": "Barton-3",
+        "es": "Barton-3"
+      }
+    },
+    {
+      "id": "110",
+      "names": {
+        "us": "Barton-4",
+        "tw": "巴頓-4",
+        "th": "บาร์ตัน-4",
+        "pt": "Barton-4",
+        "kr": "바튼-4",
+        "jp": "バートン -4",
+        "idn": "Barton-4",
+        "es": "Barton-4"
+      }
+    },
+    {
+      "id": "111",
+      "names": {
+        "us": "Vivian-1",
+        "tw": "薇薇安-1",
+        "th": "วิเวียน-1",
+        "pt": "Vivian-1",
+        "kr": "비비안-1",
+        "jp": "ビビアン -1",
+        "idn": "Vivian-1",
+        "es": "Vivian-1"
+      }
+    },
+    {
+      "id": "112",
+      "names": {
+        "us": "Vivian-2",
+        "tw": "薇薇安-2",
+        "th": "วิเวียน-2",
+        "pt": "Vivian-2",
+        "kr": "비비안-2",
+        "jp": "ビビアン -2",
+        "idn": "Vivian-2",
+        "es": "Vivian-2"
+      }
+    },
+    {
+      "id": "113",
+      "names": {
+        "us": "Vivian-3",
+        "tw": "薇薇安-3",
+        "th": "วิเวียน-3",
+        "pt": "Vivian-3",
+        "kr": "비비안-3",
+        "jp": "ビビアン -3",
+        "idn": "Vivian-3",
+        "es": "Vivian-3"
+      }
+    },
+    {
+      "id": "114",
+      "names": {
+        "us": "Nails-1",
+        "tw": "聖釘-1",
+        "th": "เนลส์-1",
+        "pt": "Nails-1",
+        "kr": "나일즈-1",
+        "jp": "ネイルス -1",
+        "idn": "Nails-1",
+        "es": "Nails-1"
+      }
+    },
+    {
+      "id": "115",
+      "names": {
+        "us": "Nails-2",
+        "tw": "聖釘-2",
+        "th": "เนลส์-2",
+        "pt": "Nails-2",
+        "kr": "나일즈-2",
+        "jp": "ネイルス -2",
+        "idn": "Nails-2",
+        "es": "Nails-2"
+      }
+    },
+    {
+      "id": "116",
+      "names": {
+        "us": "Nails-3",
+        "tw": "聖釘-3",
+        "th": "เนลส์-3",
+        "pt": "Nails-3",
+        "kr": "나일즈-3",
+        "jp": "ネイルス -3",
+        "idn": "Nails-3",
+        "es": "Nails-3"
+      }
+    },
+    {
+      "id": "117",
+      "names": {
+        "us": "Keating-1",
+        "tw": "基汀-1",
+        "th": "คีตติง-1",
+        "pt": "Keating-1",
+        "kr": "키팅-1",
+        "jp": "キーティン -1",
+        "idn": "Keating-1",
+        "es": "Keating-1"
+      }
+    },
+    {
+      "id": "118",
+      "names": {
+        "us": "Keating-2",
+        "tw": "基汀-2",
+        "th": "คีตติง-2",
+        "pt": "Keating-2",
+        "kr": "키팅-2",
+        "jp": "キーティン -2",
+        "idn": "Keating-2",
+        "es": "Keating-2"
+      }
+    },
+    {
+      "id": "119",
+      "names": {
+        "us": "Keating-3",
+        "tw": "基汀-3",
+        "th": "คีตติง-3",
+        "pt": "Keating-3",
+        "kr": "키팅-3",
+        "jp": "キーティン -3",
+        "idn": "Keating-3",
+        "es": "Keating-3"
+      }
+    },
+    {
+      "id": "120",
+      "names": {
+        "us": "Zoya-1",
+        "tw": "卓婭-1",
+        "th": "โซยา-1",
+        "pt": "Zoya-1",
+        "kr": "조르아-1",
+        "jp": "ゾーヤ -1",
+        "idn": "Zoya-1",
+        "es": "Zoya-1"
+      }
+    },
+    {
+      "id": "121",
+      "names": {
+        "us": "Dayna-1",
+        "tw": "烈雀-1",
+        "th": "เดย์นา-1",
+        "pt": "Dayna-1",
+        "kr": "디나-1",
+        "jp": "ダイナ -1",
+        "idn": "Dayna-1",
+        "es": "Dayna-1"
+      }
+    },
+    {
+      "id": "122",
+      "names": {
+        "us": "Dayna-2",
+        "tw": "烈雀-2",
+        "th": "เดย์นา-2",
+        "pt": "Dayna-2",
+        "kr": "디나-2",
+        "jp": "ダイナ -2",
+        "idn": "Dayna-2",
+        "es": "Dayna-2"
+      }
+    },
+    {
+      "id": "123",
+      "names": {
+        "us": "Dayna-3",
+        "tw": "烈雀-3",
+        "th": "เดย์นา-3",
+        "pt": "Dayna-3",
+        "kr": "디나-3",
+        "jp": "ダイナ -3",
+        "idn": "Dayna-3",
+        "es": "Dayna-3"
+      }
+    },
+    {
+      "id": "124",
+      "names": {
+        "us": "Seleucid-1",
+        "tw": "塞留古-1",
+        "th": "เซลูซิด-1",
+        "pt": "Seleucid-1",
+        "kr": "세르고-1",
+        "jp": "セレウコス -1",
+        "idn": "Seleucid-1",
+        "es": "Seleucid-1"
+      }
+    },
+    {
+      "id": "125",
+      "names": {
+        "us": "Korgon-1",
+        "tw": "恐爾貢-1",
+        "th": "คอร์กอน-1",
+        "pt": "Korgon-1",
+        "kr": "코르곤-1",
+        "jp": "コルゴン -1",
+        "idn": "Korgon-1",
+        "es": "Korgon-1"
+      }
+    },
+    {
+      "id": "126",
+      "names": {
+        "us": "Sork & Bekk-1",
+        "tw": "索克&貝可-1",
+        "th": "ซอร์คกับเบคค์-1",
+        "pt": "Sork & Bekk-1",
+        "kr": "소크&베크-1",
+        "jp": "ソク&ベク -1",
+        "idn": "Sork & Bekk-1",
+        "es": "Sork & Bekk-1"
+      }
+    },
+    {
+      "id": "127",
+      "names": {
+        "us": "Dove-1",
+        "tw": "多孚-1",
+        "th": "โดฟ-1",
+        "pt": "Dove-1",
+        "kr": "도브-1",
+        "jp": "ドーヴ -1",
+        "idn": "Dove-1",
+        "es": "Dove-1"
+      }
+    },
+    {
+      "id": "128",
+      "names": {
+        "us": "Jomu-1",
+        "tw": "狡木-1",
+        "th": "โจมู-1",
+        "pt": "Jomu-1",
+        "kr": "조무-1",
+        "jp": "ジョム -1",
+        "idn": "Jomu-1",
+        "es": "Jomu-1"
+      }
+    },
+    {
+      "id": "129",
+      "names": {
+        "us": "Nadine-1",
+        "tw": "娜汀-1",
+        "th": "นาดีน-1",
+        "pt": "Nadine-1",
+        "kr": "나딘-1",
+        "jp": "ナディーン -1",
+        "idn": "Nadine-1",
+        "es": "Nadine-1"
+      }
+    },
+    {
+      "id": "130",
+      "names": {
+        "us": "Nadine-2",
+        "tw": "娜汀-2",
+        "th": "นาดีน-2",
+        "pt": "Nadine-2",
+        "kr": "나딘-2",
+        "jp": "ナディーン -2",
+        "idn": "Nadine-2",
+        "es": "Nadine-2"
+      }
+    },
+    {
+      "id": "131",
+      "names": {
+        "us": "Nadine-3",
+        "tw": "娜汀-3",
+        "th": "นาดีน-3",
+        "pt": "Nadine-3",
+        "kr": "나딘-3",
+        "jp": "ナディーン -3",
+        "idn": "Nadine-3",
+        "es": "Nadine-3"
+      }
+    },
+    {
+      "id": "132",
+      "names": {
+        "us": "Nadine-4",
+        "tw": "娜汀-4",
+        "th": "นาดีน-4",
+        "pt": "Nadine-4",
+        "kr": "나딘-4",
+        "jp": "ナディーン -4",
+        "idn": "Nadine-4",
+        "es": "Nadine-4"
+      }
+    },
+    {
+      "id": "133",
+      "names": {
+        "us": "Pittman-1",
+        "tw": "彼亞塔曼-1",
+        "th": "พิตต์แมน-1",
+        "pt": "Pittman-1",
+        "kr": "피트만-1",
+        "jp": "ピアタマン -1",
+        "idn": "Pittman-1",
+        "es": "Pittman-1"
+      }
+    },
+    {
+      "id": "134",
+      "names": {
+        "us": "Pittman-2",
+        "tw": "彼亞塔曼-2",
+        "th": "พิตต์แมน-2",
+        "pt": "Pittman-2",
+        "kr": "피트만-2",
+        "jp": "ピアタマン -2",
+        "idn": "Pittman-2",
+        "es": "Pittman-2"
+      }
+    },
+    {
+      "id": "135",
+      "names": {
+        "us": "Pittman-3",
+        "tw": "彼亞塔曼-3",
+        "th": "พิตต์แมน-3",
+        "pt": "Pittman-3",
+        "kr": "피트만-3",
+        "jp": "ピアタマン -3",
+        "idn": "Pittman-3",
+        "es": "Pittman-3"
+      }
+    },
+    {
+      "id": "136",
+      "names": {
+        "us": "Constantine-1",
+        "tw": "康斯坦丁-1",
+        "th": "คอนสแตนติน-1",
+        "pt": "Constantine-1",
+        "kr": "콘스탄틴-1",
+        "jp": "コンスタン -1",
+        "idn": "Constantine-1",
+        "es": "Constantine-1"
+      }
+    },
+    {
+      "id": "137",
+      "names": {
+        "us": "Constantine-2",
+        "tw": "康斯坦丁-2",
+        "th": "คอนสแตนติน-2",
+        "pt": "Constantine-2",
+        "kr": "콘스탄틴-2",
+        "jp": "コンスタン -2",
+        "idn": "Constantine-2",
+        "es": "Constantine-2"
+      }
+    },
+    {
+      "id": "138",
+      "names": {
+        "us": "Constantine-3",
+        "tw": "康斯坦丁-3",
+        "th": "คอนสแตนติน-3",
+        "pt": "Constantine-3",
+        "kr": "콘스탄틴-3",
+        "jp": "コンスタン -3",
+        "idn": "Constantine-3",
+        "es": "Constantine-3"
+      }
+    },
+    {
+      "id": "139",
+      "names": {
+        "us": "Philyshy-1",
+        "tw": "菲莉詩-1",
+        "th": "ฟิลิชี-1",
+        "pt": "Philyshy-1",
+        "kr": "필리시-1",
+        "jp": "フィリス -1",
+        "idn": "Philyshy-1",
+        "es": "Philyshy-1"
+      }
+    },
+    {
+      "id": "140",
+      "names": {
+        "us": "Philyshy-2",
+        "tw": "菲莉詩-2",
+        "th": "ฟิลิชี-2",
+        "pt": "Philyshy-2",
+        "kr": "필리시-2",
+        "jp": "フィリス -2",
+        "idn": "Philyshy-2",
+        "es": "Philyshy-2"
+      }
+    },
+    {
+      "id": "141",
+      "names": {
+        "us": "Philyshy-3",
+        "tw": "菲莉詩-3",
+        "th": "ฟิลิชี-3",
+        "pt": "Philyshy-3",
+        "kr": "필리시-3",
+        "jp": "フィリス -3",
+        "idn": "Philyshy-3",
+        "es": "Philyshy-3"
+      }
+    },
+    {
+      "id": "142",
+      "names": {
+        "us": "Amy-1",
+        "tw": "艾米-1",
+        "th": "เอมี่-1",
+        "pt": "Amy-1",
+        "kr": "에이미-1",
+        "jp": "エイミー -1",
+        "idn": "Amy-1",
+        "es": "Amy-1"
+      }
+    },
+    {
+      "id": "143",
+      "names": {
+        "us": "Pepi-1",
+        "tw": "匹皮-1",
+        "th": "เปปี-1",
+        "pt": "Pepi-1",
+        "kr": "페피-1",
+        "jp": "ピープ -1",
+        "idn": "Pepi-1",
+        "es": "Pepi-1"
+      }
+    },
+    {
+      "id": "144",
+      "names": {
+        "us": "Jona-1",
+        "tw": "約娜-1",
+        "th": "โจนา-1",
+        "pt": "Jona-1",
+        "kr": "요나-1",
+        "jp": "ジョナ -1",
+        "idn": "Jona-1",
+        "es": "Jona-1"
+      }
+    },
+    {
+      "id": "145",
+      "names": {
+        "us": "Jona-2",
+        "tw": "約娜-2",
+        "th": "โจนา-2",
+        "pt": "Jona-2",
+        "kr": "요나-2",
+        "jp": "ジョナ -2",
+        "idn": "Jona-2",
+        "es": "Jona-2"
+      }
+    },
+    {
+      "id": "146",
+      "names": {
+        "us": "Jona-3",
+        "tw": "約娜-3",
+        "th": "โจนา-3",
+        "pt": "Jona-3",
+        "kr": "요나-3",
+        "jp": "ジョナ -3",
+        "idn": "Jona-3",
+        "es": "Jona-3"
+      }
+    },
+    {
+      "id": "147",
+      "names": {
+        "us": "Chandra-1",
+        "tw": "錢德菈-1",
+        "th": "แชนดรา-1",
+        "pt": "Chandra-1",
+        "kr": "찬드라-1",
+        "jp": "チャンドラ -1",
+        "idn": "Chandra-1",
+        "es": "Chandra-1"
+      }
+    },
+    {
+      "id": "148",
+      "names": {
+        "us": "Chandra-2",
+        "tw": "錢德菈-2",
+        "th": "แชนดรา-2",
+        "pt": "Chandra-2",
+        "kr": "찬드라-2",
+        "jp": "チャンドラ -2",
+        "idn": "Chandra-2",
+        "es": "Chandra-2"
+      }
+    },
+    {
+      "id": "149",
+      "names": {
+        "us": "Chandra-3",
+        "tw": "錢德菈-3",
+        "th": "แชนดรา-3",
+        "pt": "Chandra-3",
+        "kr": "찬드라-3",
+        "jp": "チャンドラ -3",
+        "idn": "Chandra-3",
+        "es": "Chandra-3"
+      }
+    },
+    {
+      "id": "150",
+      "names": {
+        "us": "Sylva-1",
+        "tw": "西爾瓦-1",
+        "th": "ซิลวา-1",
+        "pt": "Sylva-1",
+        "kr": "실바-1",
+        "jp": "シルヴァ -1",
+        "idn": "Sylva-1",
+        "es": "Sylva-1"
+      }
+    },
+    {
+      "id": "151",
+      "names": {
+        "us": "Sylva-2",
+        "tw": "西爾瓦-2",
+        "th": "ซิลวา-2",
+        "pt": "Sylva-2",
+        "kr": "실바-2",
+        "jp": "シルヴァ -2",
+        "idn": "Sylva-2",
+        "es": "Sylva-2"
+      }
+    },
+    {
+      "id": "152",
+      "names": {
+        "us": "Sylva-3",
+        "tw": "西爾瓦-3",
+        "th": "ซิลวา-3",
+        "pt": "Sylva-3",
+        "kr": "실바-3",
+        "jp": "シルヴァ -3",
+        "idn": "Sylva-3",
+        "es": "Sylva-3"
+      }
+    },
+    {
+      "id": "153",
+      "names": {
+        "us": "Wrath-1",
+        "tw": "雷霆-1",
+        "th": "วราธ-1",
+        "pt": "Wrath-1",
+        "kr": "레이스-1",
+        "jp": "ラス -1",
+        "idn": "Wrath-1",
+        "es": "Wrath-1"
+      }
+    },
+    {
+      "id": "154",
+      "names": {
+        "us": "Wrath-2",
+        "tw": "雷霆-2",
+        "th": "วราธ-2",
+        "pt": "Wrath-2",
+        "kr": "레이스-2",
+        "jp": "ラス -2",
+        "idn": "Wrath-2",
+        "es": "Wrath-2"
+      }
+    },
+    {
+      "id": "155",
+      "names": {
+        "us": "Wrath-3",
+        "tw": "雷霆-3",
+        "th": "วราธ-3",
+        "pt": "Wrath-3",
+        "kr": "레이스-3",
+        "jp": "ラス -3",
+        "idn": "Wrath-3",
+        "es": "Wrath-3"
+      }
+    },
+    {
+      "id": "156",
+      "names": {
+        "us": "Tweety-1",
+        "tw": "塔塔-1",
+        "th": "ทวีตตี้-1",
+        "pt": "Tweety-1",
+        "kr": "트위티-1",
+        "jp": "タタ -1",
+        "idn": "Tweety-1",
+        "es": "Tweety-1"
+      }
+    },
+    {
+      "id": "157",
+      "names": {
+        "us": "Tweety-2",
+        "tw": "塔塔-2",
+        "th": "ทวีตตี้-2",
+        "pt": "Tweety-2",
+        "kr": "트위티-2",
+        "jp": "タタ -2",
+        "idn": "Tweety-2",
+        "es": "Tweety-2"
+      }
+    },
+    {
+      "id": "158",
+      "names": {
+        "us": "Tweety-3",
+        "tw": "塔塔-3",
+        "th": "ทวีตตี้-3",
+        "pt": "Tweety-3",
+        "kr": "트위티-3",
+        "jp": "タタ -3",
+        "idn": "Tweety-3",
+        "es": "Tweety-3"
+      }
+    },
+    {
+      "id": "159",
+      "names": {
+        "us": "Alice-1",
+        "tw": "愛麗絲-1",
+        "th": "อลิซ-1",
+        "pt": "Alice-1",
+        "kr": "앨리스-1",
+        "jp": "アリス -1",
+        "idn": "Alice-1",
+        "es": "Alice-1"
+      }
+    },
+    {
+      "id": "160",
+      "names": {
+        "us": "Alice-2",
+        "tw": "愛麗絲-2",
+        "th": "อลิซ-2",
+        "pt": "Alice-2",
+        "kr": "앨리스-2",
+        "jp": "アリス -2",
+        "idn": "Alice-2",
+        "es": "Alice-2"
+      }
+    },
+    {
+      "id": "161",
+      "names": {
+        "us": "Alice-3",
+        "tw": "愛麗絲-3",
+        "th": "อลิซ-3",
+        "pt": "Alice-3",
+        "kr": "앨리스-3",
+        "jp": "アリス -3",
+        "idn": "Alice-3",
+        "es": "Alice-3"
+      }
+    },
+    {
+      "id": "162",
+      "names": {
+        "us": "Wendy-1",
+        "tw": "溫蒂-1",
+        "th": "เวนดี้-1",
+        "pt": "Wendy-1",
+        "kr": "웬디-1",
+        "jp": "ウェンディ -1",
+        "idn": "Wendy-1",
+        "es": "Wendy-1"
+      }
+    },
+    {
+      "id": "163",
+      "names": {
+        "us": "Wendy-2",
+        "tw": "溫蒂-2",
+        "th": "เวนดี้-2",
+        "pt": "Wendy-2",
+        "kr": "웬디-2",
+        "jp": "ウェンディ -2",
+        "idn": "Wendy-2",
+        "es": "Wendy-2"
+      }
+    },
+    {
+      "id": "164",
+      "names": {
+        "us": "Wendy-3",
+        "tw": "溫蒂-3",
+        "th": "เวนดี้-3",
+        "pt": "Wendy-3",
+        "kr": "웬디-3",
+        "jp": "ウェンディ -3",
+        "idn": "Wendy-3",
+        "es": "Wendy-3"
+      }
+    },
+    {
+      "id": "165",
+      "names": {
+        "us": "Leona-1",
+        "tw": "莉奧娜-1",
+        "th": "ลีโอนา-1",
+        "pt": "Leona-1",
+        "kr": "레오나-1",
+        "jp": "リオナ -1",
+        "idn": "Leona-1",
+        "es": "Leona-1"
+      }
+    },
+    {
+      "id": "166",
+      "names": {
+        "us": "Leona-2",
+        "tw": "莉奧娜-2",
+        "th": "ลีโอนา-2",
+        "pt": "Leona-2",
+        "kr": "레오나-2",
+        "jp": "リオナ -2",
+        "idn": "Leona-2",
+        "es": "Leona-2"
+      }
+    },
+    {
+      "id": "167",
+      "names": {
+        "us": "Leona-3",
+        "tw": "莉奧娜-3",
+        "th": "ลีโอนา-3",
+        "pt": "Leona-3",
+        "kr": "레오나-3",
+        "jp": "リオナ -3",
+        "idn": "Leona-3",
+        "es": "Leona-3"
+      }
+    },
+    {
+      "id": "168",
+      "names": {
+        "us": "Taki-1",
+        "tw": "瀧-1",
+        "th": "ทาคิ-1",
+        "pt": "Taki-1",
+        "kr": "타키-1",
+        "jp": "タキ -1",
+        "idn": "Taki-1",
+        "es": "Taki-1"
+      }
+    },
+    {
+      "id": "169",
+      "names": {
+        "us": "Taki-2",
+        "tw": "瀧-2",
+        "th": "ทาคิ-2",
+        "pt": "Taki-2",
+        "kr": "타키-2",
+        "jp": "タキ -2",
+        "idn": "Taki-2",
+        "es": "Taki-2"
+      }
+    },
+    {
+      "id": "170",
+      "names": {
+        "us": "Taki-3",
+        "tw": "瀧-3",
+        "th": "ทาคิ-3",
+        "pt": "Taki-3",
+        "kr": "타키-3",
+        "jp": "タキ -3",
+        "idn": "Taki-3",
+        "es": "Taki-3"
+      }
+    },
+    {
+      "id": "171",
+      "names": {
+        "us": "Patty & Patsy-1",
+        "tw": "帕蒂&帕西-1",
+        "th": "แพตตี้กับแพตซี่-1",
+        "pt": "Patty & Patsy-1",
+        "kr": "파티&파시-1",
+        "jp": "パテ＆パシ -1",
+        "idn": "Patty & Patsy-1",
+        "es": "Patty & Patsy-1"
+      }
+    },
+    {
+      "id": "172",
+      "names": {
+        "us": "Patty & Patsy-2",
+        "tw": "帕蒂&帕西-2",
+        "th": "แพตตี้กับแพตซี่-2",
+        "pt": "Patty & Patsy-2",
+        "kr": "파티&파시-2",
+        "jp": "パテ＆パシ -2",
+        "idn": "Patty & Patsy-2",
+        "es": "Patty & Patsy-2"
+      }
+    },
+    {
+      "id": "173",
+      "names": {
+        "us": "Patty & Patsy-3",
+        "tw": "帕蒂&帕西-3",
+        "th": "แพตตี้กับแพตซี่-3",
+        "pt": "Patty & Patsy-3",
+        "kr": "파티&파시-3",
+        "jp": "パテ＆パシ -3",
+        "idn": "Patty & Patsy-3",
+        "es": "Patty & Patsy-3"
+      }
+    },
+    {
+      "id": "174",
+      "names": {
+        "us": "White Dwarf-1",
+        "tw": "白矮星-1",
+        "th": "ไวท์ดวาร์ฟ-1",
+        "pt": "White Dwarf-1",
+        "kr": "나노스-1",
+        "jp": "ナーノス -1",
+        "idn": "White Dwarf-1",
+        "es": "White Dwarf-1"
+      }
+    },
+    {
+      "id": "175",
+      "names": {
+        "us": "Odi-1",
+        "tw": "歐緹-1",
+        "th": "โอดี-1",
+        "pt": "Odi-1",
+        "kr": "오디-1",
+        "jp": "オティ -1",
+        "idn": "Odi-1",
+        "es": "Odi-1"
+      }
+    },
+    {
+      "id": "176",
+      "names": {
+        "us": "Odi-2",
+        "tw": "歐緹-2",
+        "th": "โอดี-2",
+        "pt": "Odi-2",
+        "kr": "오디-2",
+        "jp": "オティ -2",
+        "idn": "Odi-2",
+        "es": "Odi-2"
+      }
+    },
+    {
+      "id": "177",
+      "names": {
+        "us": "Kleken-1",
+        "tw": "克萊肯-1",
+        "th": "เคลเคน-1",
+        "pt": "Kleken-1",
+        "kr": "클레이튼-1",
+        "jp": "クレーケン -1",
+        "idn": "Kleken-1",
+        "es": "Kleken-1"
+      }
+    },
+    {
+      "id": "178",
+      "names": {
+        "us": "Kleken-2",
+        "tw": "克萊肯-2",
+        "th": "เคลเคน-2",
+        "pt": "Kleken-2",
+        "kr": "클레이튼-2",
+        "jp": "クレーケン -2",
+        "idn": "Kleken-2",
+        "es": "Kleken-2"
+      }
+    },
+    {
+      "id": "179",
+      "names": {
+        "us": "Kleken-3",
+        "tw": "克萊肯-3",
+        "th": "เคลเคน-3",
+        "pt": "Kleken-3",
+        "kr": "클레이튼-3",
+        "jp": "クレーケン -3",
+        "idn": "Kleken-3",
+        "es": "Kleken-3"
+      }
+    },
+    {
+      "id": "180",
+      "names": {
+        "us": "Shaya Bethlehem-1",
+        "tw": "Shaya Bethlehem-1",
+        "th": "Shaya Bethlehem-1",
+        "pt": "Shaya Bethlehem-1",
+        "kr": "Shaya Bethlehem-1",
+        "jp": "Shaya Bethlehem -1",
+        "idn": "Shaya Bethlehem-1",
+        "es": "Shaya Bethlehem-1"
+      }
+    },
+    {
+      "id": "181",
+      "names": {
+        "us": "Shaya Bethlehem-2",
+        "tw": "Shaya Bethlehem-2",
+        "th": "Shaya Bethlehem-2",
+        "pt": "Shaya Bethlehem-2",
+        "kr": "Shaya Bethlehem-2",
+        "jp": "Shaya Bethlehem -2",
+        "idn": "Shaya Bethlehem-2",
+        "es": "Shaya Bethlehem-2"
+      }
+    },
+    {
+      "id": "182",
+      "names": {
+        "us": "Shaya Bethlehem-3",
+        "tw": "Shaya Bethlehem-3",
+        "th": "Shaya Bethlehem-3",
+        "pt": "Shaya Bethlehem-3",
+        "kr": "Shaya Bethlehem-3",
+        "jp": "Shaya Bethlehem -3",
+        "idn": "Shaya Bethlehem-3",
+        "es": "Shaya Bethlehem-3"
+      }
+    },
+    {
+      "id": "183",
+      "names": {
+        "us": "Shaya Bethlehem-4",
+        "tw": "Shaya Bethlehem-4",
+        "th": "Shaya Bethlehem-4",
+        "pt": "Shaya Bethlehem-4",
+        "kr": "Shaya Bethlehem-4",
+        "jp": "Shaya Bethlehem -4",
+        "idn": "Shaya Bethlehem-4",
+        "es": "Shaya Bethlehem-4"
+      }
+    },
+    {
+      "id": "184",
+      "names": {
+        "us": "Robyn-1",
+        "tw": "知更-1",
+        "th": "โรบิน-1",
+        "pt": "Robyn-1",
+        "kr": "로빈-1",
+        "jp": "ロビン -1",
+        "idn": "Robyn-1",
+        "es": "Robyn-1"
+      }
+    },
+    {
+      "id": "185",
+      "names": {
+        "us": "Robyn-2",
+        "tw": "知更-2",
+        "th": "โรบิน-2",
+        "pt": "Robyn-2",
+        "kr": "로빈-2",
+        "jp": "ロビン -2",
+        "idn": "Robyn-2",
+        "es": "Robyn-2"
+      }
+    },
+    {
+      "id": "186",
+      "names": {
+        "us": "Robyn-3",
+        "tw": "知更-3",
+        "th": "โรบิน-3",
+        "pt": "Robyn-3",
+        "kr": "로빈-3",
+        "jp": "ロビン -3",
+        "idn": "Robyn-3",
+        "es": "Robyn-3"
+      }
+    },
+    {
+      "id": "187",
+      "names": {
+        "us": "Michenny-1",
+        "tw": "米潔妮-1",
+        "th": "มิเชนนี-1",
+        "pt": "Michenny-1",
+        "kr": "미제니-1",
+        "jp": "ミジェンニ -1",
+        "idn": "Michenny-1",
+        "es": "Michenny-1"
+      }
+    },
+    {
+      "id": "188",
+      "names": {
+        "us": "Michenny-2",
+        "tw": "米潔妮-2",
+        "th": "มิเชนนี-2",
+        "pt": "Michenny-2",
+        "kr": "미제니-2",
+        "jp": "ミジェンニ -2",
+        "idn": "Michenny-2",
+        "es": "Michenny-2"
+      }
+    },
+    {
+      "id": "189",
+      "names": {
+        "us": "Michenny-3",
+        "tw": "米潔妮-3",
+        "th": "มิเชนนี-3",
+        "pt": "Michenny-3",
+        "kr": "미제니-3",
+        "jp": "ミジェンニ -3",
+        "idn": "Michenny-3",
+        "es": "Michenny-3"
+      }
+    },
+    {
+      "id": "190",
+      "names": {
+        "us": "Unimet-1",
+        "tw": "尤尼梅特-1",
+        "th": "ยูนิเมต-1",
+        "pt": "Unimet-1",
+        "kr": "유니메트-1",
+        "jp": "ユニメート -1",
+        "idn": "Unimet-1",
+        "es": "Unimet-1"
+      }
+    },
+    {
+      "id": "191",
+      "names": {
+        "us": "Brock-1",
+        "tw": "黑潮-1",
+        "th": "บร็อค-1",
+        "pt": "Brock-1",
+        "kr": "렉커-1",
+        "jp": "ヘール -1",
+        "idn": "Brock-1",
+        "es": "Brock-1"
+      }
+    },
+    {
+      "id": "192",
+      "names": {
+        "us": "Brock-2",
+        "tw": "黑潮-2",
+        "th": "บร็อค-2",
+        "pt": "Brock-2",
+        "kr": "렉커-2",
+        "jp": "ヘール -2",
+        "idn": "Brock-2",
+        "es": "Brock-2"
+      }
+    },
+    {
+      "id": "193",
+      "names": {
+        "us": "Brock-3",
+        "tw": "黑潮-3",
+        "th": "บร็อค-3",
+        "pt": "Brock-3",
+        "kr": "렉커-3",
+        "jp": "ヘール -3",
+        "idn": "Brock-3",
+        "es": "Brock-3"
+      }
+    },
+    {
+      "id": "194",
+      "names": {
+        "us": "Ophina-1",
+        "tw": "奧斐娜-1",
+        "th": "โอฟินา-1",
+        "pt": "Ophina-1",
+        "kr": "오피나-1",
+        "jp": "オフィラ -1",
+        "idn": "Ophina-1",
+        "es": "Ophina-1"
+      }
+    },
+    {
+      "id": "195",
+      "names": {
+        "us": "Lilliam-1",
+        "tw": "莉莉姆-1",
+        "th": "ลิลเลียม-1",
+        "pt": "Lilliam-1",
+        "kr": "리리암-1",
+        "jp": "リリム -1",
+        "idn": "Lilliam-1",
+        "es": "Lilliam-1"
+      }
+    },
+    {
+      "id": "196",
+      "names": {
+        "us": "Lilliam-2",
+        "tw": "莉莉姆-2",
+        "th": "ลิลเลียม-2",
+        "pt": "Lilliam-2",
+        "kr": "리리암-2",
+        "jp": "リリム -2",
+        "idn": "Lilliam-2",
+        "es": "Lilliam-2"
+      }
+    },
+    {
+      "id": "197",
+      "names": {
+        "us": "Lilliam-3",
+        "tw": "莉莉姆-3",
+        "th": "ลิลเลียม-3",
+        "pt": "Lilliam-3",
+        "kr": "리리암-3",
+        "jp": "リリム -3",
+        "idn": "Lilliam-3",
+        "es": "Lilliam-3"
+      }
+    },
+    {
+      "id": "198",
+      "names": {
+        "us": "Istvan-1",
+        "tw": "伊斯塔萬-1",
+        "th": "อีสต์วาน-1",
+        "pt": "Istvan-1",
+        "kr": "이스타반-1",
+        "jp": "イスタバン -1",
+        "idn": "Istvan-1",
+        "es": "Istvan-1"
+      }
+    },
+    {
+      "id": "199",
+      "names": {
+        "us": "Istvan-2",
+        "tw": "伊斯塔萬-2",
+        "th": "อีสต์วาน-2",
+        "pt": "Istvan-2",
+        "kr": "이스타반-2",
+        "jp": "イスタバン -2",
+        "idn": "Istvan-2",
+        "es": "Istvan-2"
+      }
+    },
+    {
+      "id": "200",
+      "names": {
+        "us": "Istvan-3",
+        "tw": "伊斯塔萬-3",
+        "th": "อีสต์วาน-3",
+        "pt": "Istvan-3",
+        "kr": "이스타반-3",
+        "jp": "イスタバン -3",
+        "idn": "Istvan-3",
+        "es": "Istvan-3"
+      }
+    },
+    {
+      "id": "201",
+      "names": {
+        "us": "Jane-1",
+        "tw": "珍-1",
+        "th": "เจน-1",
+        "pt": "Jane-1",
+        "kr": "제인-1",
+        "jp": "ジェーン -1",
+        "idn": "Jane-1",
+        "es": "Jane-1"
+      }
+    },
+    {
+      "id": "202",
+      "names": {
+        "us": "Jane-2",
+        "tw": "珍-2",
+        "th": "เจน-2",
+        "pt": "Jane-2",
+        "kr": "제인-2",
+        "jp": "ジェーン -2",
+        "idn": "Jane-2",
+        "es": "Jane-2"
+      }
+    },
+    {
+      "id": "203",
+      "names": {
+        "us": "Jane-3",
+        "tw": "珍-3",
+        "th": "เจน-3",
+        "pt": "Jane-3",
+        "kr": "제인-3",
+        "jp": "ジェーン -3",
+        "idn": "Jane-3",
+        "es": "Jane-3"
+      }
+    },
+    {
+      "id": "204",
+      "names": {
+        "us": "Uriah-1",
+        "tw": "尤萊雅-1",
+        "th": "ยูริอาห์-1",
+        "pt": "Uriah-1",
+        "kr": "우라이아-1",
+        "jp": "ユーライア -1",
+        "idn": "Uriah-1",
+        "es": "Uriah-1"
+      }
+    },
+    {
+      "id": "205",
+      "names": {
+        "us": "Uriah-2",
+        "tw": "尤萊雅-2",
+        "th": "ยูริอาห์-2",
+        "pt": "Uriah-2",
+        "kr": "우라이아-2",
+        "jp": "ユーライア -2",
+        "idn": "Uriah-2",
+        "es": "Uriah-2"
+      }
+    },
+    {
+      "id": "206",
+      "names": {
+        "us": "Uriah-3",
+        "tw": "尤萊雅-3",
+        "th": "ยูริอาห์-3",
+        "pt": "Uriah-3",
+        "kr": "우라이아-3",
+        "jp": "ユーライア -3",
+        "idn": "Uriah-3",
+        "es": "Uriah-3"
+      }
+    },
+    {
+      "id": "207",
+      "names": {
+        "us": "Beverly-1",
+        "tw": "貝芙麗-1",
+        "th": "เบเวอร์ลี-1",
+        "pt": "Beverly-1",
+        "kr": "베벌리-1",
+        "jp": "バーバリー -1",
+        "idn": "Beverly-1",
+        "es": "Beverly-1"
+      }
+    },
+    {
+      "id": "208",
+      "names": {
+        "us": "Beverly-2",
+        "tw": "貝芙麗-2",
+        "th": "เบเวอร์ลี-2",
+        "pt": "Beverly-2",
+        "kr": "베벌리-2",
+        "jp": "バーバリー -2",
+        "idn": "Beverly-2",
+        "es": "Beverly-2"
+      }
+    },
+    {
+      "id": "209",
+      "names": {
+        "us": "Beverly-3",
+        "tw": "貝芙麗-3",
+        "th": "เบเวอร์ลี-3",
+        "pt": "Beverly-3",
+        "kr": "베벌리-3",
+        "jp": "バーバリー -3",
+        "idn": "Beverly-3",
+        "es": "Beverly-3"
+      }
+    },
+    {
+      "id": "210",
+      "names": {
+        "us": "Maggie-1",
+        "tw": "瑪姬-1",
+        "th": "แม็กกี้-1",
+        "pt": "Maggie-1",
+        "kr": "마지-1",
+        "jp": "マギー -1",
+        "idn": "Maggie-1",
+        "es": "Maggie-1"
+      }
+    },
+    {
+      "id": "211",
+      "names": {
+        "us": "Maggie-2",
+        "tw": "瑪姬-2",
+        "th": "แม็กกี้-2",
+        "pt": "Maggie-2",
+        "kr": "마지-2",
+        "jp": "マギー -2",
+        "idn": "Maggie-2",
+        "es": "Maggie-2"
+      }
+    },
+    {
+      "id": "212",
+      "names": {
+        "us": "Maggie-3",
+        "tw": "瑪姬-3",
+        "th": "แม็กกี้-3",
+        "pt": "Maggie-3",
+        "kr": "마지-3",
+        "jp": "マギー -3",
+        "idn": "Maggie-3",
+        "es": "Maggie-3"
+      }
+    },
+    {
+      "id": "213",
+      "names": {
+        "us": "Irridon-1",
+        "tw": "伊倫汀-1",
+        "th": "อิริดอน-1",
+        "pt": "Irridon-1",
+        "kr": "이리돈-1",
+        "jp": "イルンティ -1",
+        "idn": "Irridon-1",
+        "es": "Irridon-1"
+      }
+    },
+    {
+      "id": "214",
+      "names": {
+        "us": "Irridon-2",
+        "tw": "伊倫汀-2",
+        "th": "อิริดอน-2",
+        "pt": "Irridon-2",
+        "kr": "이리돈-2",
+        "jp": "イルンティ -2",
+        "idn": "Irridon-2",
+        "es": "Irridon-2"
+      }
+    },
+    {
+      "id": "215",
+      "names": {
+        "us": "Irridon-3",
+        "tw": "伊倫汀-3",
+        "th": "อิริดอน-3",
+        "pt": "Irridon-3",
+        "kr": "이리돈-3",
+        "jp": "イルンティ -3",
+        "idn": "Irridon-3",
+        "es": "Irridon-3"
+      }
+    },
+    {
+      "id": "216",
+      "names": {
+        "us": "Irridon-4",
+        "tw": "伊倫汀-4",
+        "th": "อิริดอน-4",
+        "pt": "Irridon-4",
+        "kr": "이리돈-4",
+        "jp": "イルンティ -4",
+        "idn": "Irridon-4",
+        "es": "Irridon-4"
+      }
+    },
+    {
+      "id": "217",
+      "names": {
+        "us": "Barbara-1",
+        "tw": "芭芭拉-1",
+        "th": "บาร์บาร่า-1",
+        "pt": "Barbara-1",
+        "kr": "바바라-1",
+        "jp": "バーバラ -1",
+        "idn": "Barbara-1",
+        "es": "Barbara-1"
+      }
+    },
+    {
+      "id": "218",
+      "names": {
+        "us": "Barbara-2",
+        "tw": "芭芭拉-2",
+        "th": "บาร์บาร่า-2",
+        "pt": "Barbara-2",
+        "kr": "바바라-2",
+        "jp": "バーバラ -2",
+        "idn": "Barbara-2",
+        "es": "Barbara-2"
+      }
+    },
+    {
+      "id": "219",
+      "names": {
+        "us": "Barbara-3",
+        "tw": "芭芭拉-3",
+        "th": "บาร์บาร่า-3",
+        "pt": "Barbara-3",
+        "kr": "바바라-3",
+        "jp": "バーバラ -3",
+        "idn": "Barbara-3",
+        "es": "Barbara-3"
+      }
+    },
+    {
+      "id": "220",
+      "names": {
+        "us": "Chloe-1",
+        "tw": "克蘿伊-1",
+        "th": "โคลอี้-1",
+        "pt": "Chloe-1",
+        "kr": "크로이-1",
+        "jp": "クロエ -1",
+        "idn": "Chloe-1",
+        "es": "Chloe-1"
+      }
+    },
+    {
+      "id": "221",
+      "names": {
+        "us": "Chloe-2",
+        "tw": "克蘿伊-2",
+        "th": "โคลอี้-2",
+        "pt": "Chloe-2",
+        "kr": "크로이-2",
+        "jp": "クロエ -2",
+        "idn": "Chloe-2",
+        "es": "Chloe-2"
+      }
+    },
+    {
+      "id": "222",
+      "names": {
+        "us": "Chloe-3",
+        "tw": "克蘿伊-3",
+        "th": "โคลอี้-3",
+        "pt": "Chloe-3",
+        "kr": "크로이-3",
+        "jp": "クロエ -3",
+        "idn": "Chloe-3",
+        "es": "Chloe-3"
+      }
+    },
+    {
+      "id": "223",
+      "names": {
+        "us": "Pact-1",
+        "tw": "契法-1",
+        "th": "แพกต์-1",
+        "pt": "Pact-1",
+        "kr": "펙트-1",
+        "jp": "セファー -1",
+        "idn": "Pact-1",
+        "es": "Pact-1"
+      }
+    },
+    {
+      "id": "224",
+      "names": {
+        "us": "Pact-2",
+        "tw": "契法-2",
+        "th": "แพกต์-2",
+        "pt": "Pact-2",
+        "kr": "펙트-2",
+        "jp": "セファー -2",
+        "idn": "Pact-2",
+        "es": "Pact-2"
+      }
+    },
+    {
+      "id": "225",
+      "names": {
+        "us": "Pact-3",
+        "tw": "契法-3",
+        "th": "แพกต์-3",
+        "pt": "Pact-3",
+        "kr": "펙트-3",
+        "jp": "セファー -3",
+        "idn": "Pact-3",
+        "es": "Pact-3"
+      }
+    },
+    {
+      "id": "226",
+      "names": {
+        "us": "Pact-4",
+        "tw": "契法-4",
+        "th": "แพกต์-4",
+        "pt": "Pact-4",
+        "kr": "펙트-4",
+        "jp": "セファー -4",
+        "idn": "Pact-4",
+        "es": "Pact-4"
+      }
+    },
+    {
+      "id": "227",
+      "names": {
+        "us": "Migard-1",
+        "tw": "彌加德-1",
+        "th": "มิการ์ด-1",
+        "pt": "Migard-1",
+        "kr": "미자드-1",
+        "jp": "ミジャード -1",
+        "idn": "Migard-1",
+        "es": "Migard-1"
+      }
+    },
+    {
+      "id": "228",
+      "names": {
+        "us": "Migard-2",
+        "tw": "彌加德-2",
+        "th": "มิการ์ด-2",
+        "pt": "Migard-2",
+        "kr": "미자드-2",
+        "jp": "ミジャード -2",
+        "idn": "Migard-2",
+        "es": "Migard-2"
+      }
+    },
+    {
+      "id": "229",
+      "names": {
+        "us": "Migard-3",
+        "tw": "彌加德-3",
+        "th": "มิการ์ด-3",
+        "pt": "Migard-3",
+        "kr": "미자드-3",
+        "jp": "ミジャード -3",
+        "idn": "Migard-3",
+        "es": "Migard-3"
+      }
+    },
+    {
+      "id": "230",
+      "names": {
+        "us": "Leah-1",
+        "tw": "莉亞-1",
+        "th": "ลีอาห์-1",
+        "pt": "Leah-1",
+        "kr": "리아-1",
+        "jp": "リア -1",
+        "idn": "Leah-1",
+        "es": "Leah-1"
+      }
+    },
+    {
+      "id": "231",
+      "names": {
+        "us": "Lester-1",
+        "tw": "萊斯特-1",
+        "th": "เลสเตอร์-1",
+        "pt": "Lester-1",
+        "kr": "레스터-1",
+        "jp": "レスター -1",
+        "idn": "Lester-1",
+        "es": "Lester-1"
+      }
+    },
+    {
+      "id": "232",
+      "names": {
+        "us": "Lester-2",
+        "tw": "萊斯特-2",
+        "th": "เลสเตอร์-2",
+        "pt": "Lester-2",
+        "kr": "레스터-2",
+        "jp": "レスター -2",
+        "idn": "Lester-2",
+        "es": "Lester-2"
+      }
+    },
+    {
+      "id": "233",
+      "names": {
+        "us": "Lester-3",
+        "tw": "萊斯特-3",
+        "th": "เลสเตอร์-3",
+        "pt": "Lester-3",
+        "kr": "레스터-3",
+        "jp": "レスター -3",
+        "idn": "Lester-3",
+        "es": "Lester-3"
+      }
+    },
+    {
+      "id": "234",
+      "names": {
+        "us": "Sariel-1",
+        "tw": "沙利葉-1",
+        "th": "ซาริเอล-1",
+        "pt": "Sariel-1",
+        "kr": "샤리-1",
+        "jp": "シャリー -1",
+        "idn": "Sariel-1",
+        "es": "Sariel-1"
+      }
+    },
+    {
+      "id": "235",
+      "names": {
+        "us": "Sariel-2",
+        "tw": "沙利葉-2",
+        "th": "ซาริเอล-2",
+        "pt": "Sariel-2",
+        "kr": "샤리-2",
+        "jp": "シャリー -2",
+        "idn": "Sariel-2",
+        "es": "Sariel-2"
+      }
+    },
+    {
+      "id": "236",
+      "names": {
+        "us": "Sariel-3",
+        "tw": "沙利葉-3",
+        "th": "ซาริเอล-3",
+        "pt": "Sariel-3",
+        "kr": "샤리-3",
+        "jp": "シャリー -3",
+        "idn": "Sariel-3",
+        "es": "Sariel-3"
+      }
+    },
+    {
+      "id": "237",
+      "names": {
+        "us": "Sariel-4",
+        "tw": "沙利葉-4",
+        "th": "ซาริเอล-4",
+        "pt": "Sariel-4",
+        "kr": "샤리-4",
+        "jp": "シャリー -4",
+        "idn": "Sariel-4",
+        "es": "Sariel-4"
+      }
+    },
+    {
+      "id": "238",
+      "names": {
+        "us": "Corax-1",
+        "tw": "渡-1",
+        "th": "โคแร็กซ์-1",
+        "pt": "Corax-1",
+        "kr": "와타리-1",
+        "jp": "ワタリ -1",
+        "idn": "Corax-1",
+        "es": "Corax-1"
+      }
+    },
+    {
+      "id": "239",
+      "names": {
+        "us": "Corax-2",
+        "tw": "渡-2",
+        "th": "โคแร็กซ์-2",
+        "pt": "Corax-2",
+        "kr": "와타리-2",
+        "jp": "ワタリ -2",
+        "idn": "Corax-2",
+        "es": "Corax-2"
+      }
+    },
+    {
+      "id": "240",
+      "names": {
+        "us": "Corax-3",
+        "tw": "渡-3",
+        "th": "โคแร็กซ์-3",
+        "pt": "Corax-3",
+        "kr": "와타리-3",
+        "jp": "ワタリ -3",
+        "idn": "Corax-3",
+        "es": "Corax-3"
+      }
+    },
+    {
+      "id": "241",
+      "names": {
+        "us": "Cuscuta-1",
+        "tw": "庫絲庫塔-1",
+        "th": "คุสคูตา-1",
+        "pt": "Cuscuta-1",
+        "kr": "쿠스쿠타-1",
+        "jp": "クスッタ -1",
+        "idn": "Cuscuta-1",
+        "es": "Cuscuta-1"
+      }
+    },
+    {
+      "id": "242",
+      "names": {
+        "us": "Cuscuta-2",
+        "tw": "庫絲庫塔-2",
+        "th": "คุสคูตา-2",
+        "pt": "Cuscuta-2",
+        "kr": "쿠스쿠타-2",
+        "jp": "クスッタ -2",
+        "idn": "Cuscuta-2",
+        "es": "Cuscuta-2"
+      }
+    },
+    {
+      "id": "243",
+      "names": {
+        "us": "Cuscuta-3",
+        "tw": "庫絲庫塔-3",
+        "th": "คุสคูตา-3",
+        "pt": "Cuscuta-3",
+        "kr": "쿠스쿠타-3",
+        "jp": "クスッタ -3",
+        "idn": "Cuscuta-3",
+        "es": "Cuscuta-3"
+      }
+    },
+    {
+      "id": "244",
+      "names": {
+        "us": "Areia-1",
+        "tw": "艾蕾雅-1",
+        "th": "อาเรีย-1",
+        "pt": "Areia-1",
+        "kr": "아이리나-1",
+        "jp": "アイリーナ -1",
+        "idn": "Areia-1",
+        "es": "Areia-1"
+      }
+    },
+    {
+      "id": "245",
+      "names": {
+        "us": "Areia-2",
+        "tw": "艾蕾雅-2",
+        "th": "อาเรีย-2",
+        "pt": "Areia-2",
+        "kr": "아이리나-2",
+        "jp": "アイリーナ -2",
+        "idn": "Areia-2",
+        "es": "Areia-2"
+      }
+    },
+    {
+      "id": "246",
+      "names": {
+        "us": "Areia-3",
+        "tw": "艾蕾雅-3",
+        "th": "อาเรีย-3",
+        "pt": "Areia-3",
+        "kr": "아이리나-3",
+        "jp": "アイリーナ -3",
+        "idn": "Areia-3",
+        "es": "Areia-3"
+      }
+    },
+    {
+      "id": "247",
+      "names": {
+        "us": "Areia-4",
+        "tw": "艾蕾雅-4",
+        "th": "อาเรีย-4",
+        "pt": "Areia-4",
+        "kr": "아이리나-4",
+        "jp": "アイリーナ -4",
+        "idn": "Areia-4",
+        "es": "Areia-4"
+      }
+    },
+    {
+      "id": "248",
+      "names": {
+        "us": "Sikare-1",
+        "tw": "希卡蕾-1",
+        "th": "ซิคาเร-1",
+        "pt": "Sikare-1",
+        "kr": "스칼렛-1",
+        "jp": "スカーレイ -1",
+        "idn": "Sikare-1",
+        "es": "Sikare-1"
+      }
+    },
+    {
+      "id": "249",
+      "names": {
+        "us": "Sikare-2",
+        "tw": "希卡蕾-2",
+        "th": "ซิคาเร-2",
+        "pt": "Sikare-2",
+        "kr": "스칼렛-2",
+        "jp": "スカーレイ -2",
+        "idn": "Sikare-2",
+        "es": "Sikare-2"
+      }
+    },
+    {
+      "id": "250",
+      "names": {
+        "us": "Sikare-3",
+        "tw": "希卡蕾-3",
+        "th": "ซิคาเร-3",
+        "pt": "Sikare-3",
+        "kr": "스칼렛-3",
+        "jp": "スカーレイ -3",
+        "idn": "Sikare-3",
+        "es": "Sikare-3"
+      }
+    },
+    {
+      "id": "251",
+      "names": {
+        "us": "Sikare-4",
+        "tw": "希卡蕾-4",
+        "th": "ซิคาเร-4",
+        "pt": "Sikare-4",
+        "kr": "스칼렛-4",
+        "jp": "スカーレイ -4",
+        "idn": "Sikare-4",
+        "es": "Sikare-4"
+      }
+    },
+    {
+      "id": "252",
+      "names": {
+        "us": "Ansia-1",
+        "tw": "安希雅-1",
+        "th": "แอนเซีย-1",
+        "pt": "Ansia-1",
+        "kr": "안시아-1",
+        "jp": "アンシア -1",
+        "idn": "Ansia-1",
+        "es": "Ansia-1"
+      }
+    },
+    {
+      "id": "253",
+      "names": {
+        "us": "Ansia-2",
+        "tw": "安希雅-2",
+        "th": "แอนเซีย-2",
+        "pt": "Ansia-2",
+        "kr": "안시아-2",
+        "jp": "アンシア -2",
+        "idn": "Ansia-2",
+        "es": "Ansia-2"
+      }
+    },
+    {
+      "id": "254",
+      "names": {
+        "us": "Ansia-3",
+        "tw": "安希雅-3",
+        "th": "แอนเซีย-3",
+        "pt": "Ansia-3",
+        "kr": "안시아-3",
+        "jp": "アンシア -3",
+        "idn": "Ansia-3",
+        "es": "Ansia-3"
+      }
+    },
+    {
+      "id": "255",
+      "names": {
+        "us": "Tessa-1",
+        "tw": "泰莎-1",
+        "th": "เทสซา-1",
+        "pt": "Tessa-1",
+        "kr": "테사-1",
+        "jp": "テッサ -1",
+        "idn": "Tessa-1",
+        "es": "Tessa-1"
+      }
+    },
+    {
+      "id": "256",
+      "names": {
+        "us": "Tessa-2",
+        "tw": "泰莎-2",
+        "th": "เทสซา-2",
+        "pt": "Tessa-2",
+        "kr": "테사-2",
+        "jp": "テッサ -2",
+        "idn": "Tessa-2",
+        "es": "Tessa-2"
+      }
+    },
+    {
+      "id": "257",
+      "names": {
+        "us": "Tessa-3",
+        "tw": "泰莎-3",
+        "th": "เทสซา-3",
+        "pt": "Tessa-3",
+        "kr": "테사-3",
+        "jp": "テッサ -3",
+        "idn": "Tessa-3",
+        "es": "Tessa-3"
+      }
+    },
+    {
+      "id": "258",
+      "names": {
+        "us": "Eicy-1",
+        "tw": "艾希-1",
+        "th": "เอซี่-1",
+        "pt": "Eicy-1",
+        "kr": "엘시-1",
+        "jp": "エルシー -1",
+        "idn": "Eicy-1",
+        "es": "Eicy-1"
+      }
+    },
+    {
+      "id": "259",
+      "names": {
+        "us": "Eicy-2",
+        "tw": "艾希-2",
+        "th": "เอซี่-2",
+        "pt": "Eicy-2",
+        "kr": "엘시-2",
+        "jp": "エルシー -2",
+        "idn": "Eicy-2",
+        "es": "Eicy-2"
+      }
+    },
+    {
+      "id": "260",
+      "names": {
+        "us": "Eicy-3",
+        "tw": "艾希-3",
+        "th": "เอซี่-3",
+        "pt": "Eicy-3",
+        "kr": "엘시-3",
+        "jp": "エルシー -3",
+        "idn": "Eicy-3",
+        "es": "Eicy-3"
+      }
+    },
+    {
+      "id": "261",
+      "names": {
+        "us": "Eicy-4",
+        "tw": "艾希-4",
+        "th": "เอซี่-4",
+        "pt": "Eicy-4",
+        "kr": "엘시-4",
+        "jp": "エルシー -4",
+        "idn": "Eicy-4",
+        "es": "Eicy-4"
+      }
+    },
+    {
+      "id": "262",
+      "names": {
+        "us": "Dawn-1",
+        "tw": "多恩-1",
+        "th": "ดอว์น-1",
+        "pt": "Dawn-1",
+        "kr": "도엔-1",
+        "jp": "ドーン -1",
+        "idn": "Dawn-1",
+        "es": "Dawn-1"
+      }
+    },
+    {
+      "id": "263",
+      "names": {
+        "us": "Dawn-2",
+        "tw": "多恩-2",
+        "th": "ดอว์น-2",
+        "pt": "Dawn-2",
+        "kr": "도엔-2",
+        "jp": "ドーン -2",
+        "idn": "Dawn-2",
+        "es": "Dawn-2"
+      }
+    },
+    {
+      "id": "264",
+      "names": {
+        "us": "Eve-1",
+        "tw": "伊芙-1",
+        "th": "อีฟ-1",
+        "pt": "Eve-1",
+        "kr": "이브-1",
+        "jp": "イブ -1",
+        "idn": "Eve-1",
+        "es": "Eve-1"
+      }
+    },
+    {
+      "id": "265",
+      "names": {
+        "us": "Eve-2",
+        "tw": "伊芙-2",
+        "th": "อีฟ-2",
+        "pt": "Eve-2",
+        "kr": "이브-2",
+        "jp": "イブ -2",
+        "idn": "Eve-2",
+        "es": "Eve-2"
+      }
+    },
+    {
+      "id": "266",
+      "names": {
+        "us": "Eve-3",
+        "tw": "伊芙-3",
+        "th": "อีฟ-3",
+        "pt": "Eve-3",
+        "kr": "이브-3",
+        "jp": "イブ -3",
+        "idn": "Eve-3",
+        "es": "Eve-3"
+      }
+    },
+    {
+      "id": "267",
+      "names": {
+        "us": "Eve-4",
+        "tw": "伊芙-4",
+        "th": "อีฟ-4",
+        "pt": "Eve-4",
+        "kr": "이브-4",
+        "jp": "イブ -4",
+        "idn": "Eve-4",
+        "es": "Eve-4"
+      }
+    },
+    {
+      "id": "268",
+      "names": {
+        "us": "Regal-1",
+        "tw": "戒衛座-1",
+        "th": "รีกัล-1",
+        "pt": "Regal-1",
+        "kr": "프리토리언-1",
+        "jp": "禁衛座 -1",
+        "idn": "Regal-1",
+        "es": "Regal-1"
+      }
+    },
+    {
+      "id": "269",
+      "names": {
+        "us": "Regal-3",
+        "tw": "戒衛座-3",
+        "th": "รีกัล-3",
+        "pt": "Regal-3",
+        "kr": "프리토리언-3",
+        "jp": "禁衛座 -3",
+        "idn": "Regal-3",
+        "es": "Regal-3"
+      }
+    },
+    {
+      "id": "270",
+      "names": {
+        "us": "Frostfire-1",
+        "tw": "焚霜座-1",
+        "th": "ฟรอสต์ไฟร์-1",
+        "pt": "Frostfire-1",
+        "kr": "히에로플람마-1",
+        "jp": "焚霜座 -1",
+        "idn": "Frostfire-1",
+        "es": "Frostfire-1"
+      }
+    },
+    {
+      "id": "271",
+      "names": {
+        "us": "Mythos-1",
+        "tw": "童謠座-1",
+        "th": "มิธอส-1",
+        "pt": "Mythos-1",
+        "kr": "네니아-1",
+        "jp": "童謡座 -1",
+        "idn": "Mythos-1",
+        "es": "Mythos-1"
+      }
+    },
+    {
+      "id": "272",
+      "names": {
+        "us": "Requiem-1",
+        "tw": "鎮魂座-1",
+        "th": "เรเควียม-1",
+        "pt": "Requiem-1",
+        "kr": "레퀴엠-1",
+        "jp": "鎮魂座 -1",
+        "idn": "Requiem-1",
+        "es": "Requiem-1"
+      }
+    },
+    {
+      "id": "273",
+      "names": {
+        "us": "Beryl-1",
+        "tw": "拜里厄-1",
+        "th": "เบริล-1",
+        "pt": "Beryl-1",
+        "kr": "베릴-1",
+        "jp": "ベリエ -1",
+        "idn": "Beryl-1",
+        "es": "Beryl-1"
+      }
+    },
+    {
+      "id": "274",
+      "names": {
+        "us": "Beryl-2",
+        "tw": "拜里厄-2",
+        "th": "เบริล-2",
+        "pt": "Beryl-2",
+        "kr": "베릴-2",
+        "jp": "ベリエ -2",
+        "idn": "Beryl-2",
+        "es": "Beryl-2"
+      }
+    },
+    {
+      "id": "275",
+      "names": {
+        "us": "Beryl-3",
+        "tw": "拜里厄-3",
+        "th": "เบริล-3",
+        "pt": "Beryl-3",
+        "kr": "베릴-3",
+        "jp": "ベリエ -3",
+        "idn": "Beryl-3",
+        "es": "Beryl-3"
+      }
+    },
+    {
+      "id": "276",
+      "names": {
+        "us": "Smokey-1",
+        "tw": "斯莫奇-1",
+        "th": "สโมกกี้-1",
+        "pt": "Smokey-1",
+        "kr": "스모키-1",
+        "jp": "スモーキー -1",
+        "idn": "Smokey-1",
+        "es": "Smokey-1"
+      }
+    },
+    {
+      "id": "277",
+      "names": {
+        "us": "Smokey-2",
+        "tw": "斯莫奇-2",
+        "th": "สโมกกี้-2",
+        "pt": "Smokey-2",
+        "kr": "스모키-2",
+        "jp": "スモーキー -2",
+        "idn": "Smokey-2",
+        "es": "Smokey-2"
+      }
+    },
+    {
+      "id": "278",
+      "names": {
+        "us": "Smokey-3",
+        "tw": "斯莫奇-3",
+        "th": "สโมกกี้-3",
+        "pt": "Smokey-3",
+        "kr": "스모키-3",
+        "jp": "スモーキー -3",
+        "idn": "Smokey-3",
+        "es": "Smokey-3"
+      }
+    },
+    {
+      "id": "279",
+      "names": {
+        "us": "Bonacie-1",
+        "tw": "波娜瑟-1",
+        "th": "โบนาชี-1",
+        "pt": "Bonacie-1",
+        "kr": "보나시외-1",
+        "jp": "ボナーズ -1",
+        "idn": "Bonacie-1",
+        "es": "Bonacie-1"
+      }
+    },
+    {
+      "id": "280",
+      "names": {
+        "us": "Bonacie-2",
+        "tw": "波娜瑟-2",
+        "th": "โบนาชี-2",
+        "pt": "Bonacie-2",
+        "kr": "보나시외-2",
+        "jp": "ボナーズ -2",
+        "idn": "Bonacie-2",
+        "es": "Bonacie-2"
+      }
+    },
+    {
+      "id": "281",
+      "names": {
+        "us": "Genevieve-1",
+        "tw": "吉納維芙-1",
+        "th": "เจเนวีฟ-1",
+        "pt": "Genevieve-1",
+        "kr": "제네비브-1",
+        "jp": "ジュヌヴィエーヴ -1",
+        "idn": "Genevieve-1",
+        "es": "Genevieve-1"
+      }
+    },
+    {
+      "id": "282",
+      "names": {
+        "us": "Genevieve-2",
+        "tw": "吉納維芙-2",
+        "th": "เจเนวีฟ-2",
+        "pt": "Genevieve-2",
+        "kr": "제네비브-2",
+        "jp": "ジュヌヴィエーヴ -2",
+        "idn": "Genevieve-2",
+        "es": "Genevieve-2"
+      }
+    },
+    {
+      "id": "283",
+      "names": {
+        "us": "Naroxel-1",
+        "tw": "納努塞爾-1",
+        "th": "นาโรเซล-1",
+        "pt": "Naroxel-1",
+        "kr": "나로세르-1",
+        "jp": "ナルセール -1",
+        "idn": "Naroxel-1",
+        "es": "Naroxel-1"
+      }
+    },
+    {
+      "id": "284",
+      "names": {
+        "us": "Naroxel-2",
+        "tw": "納努塞爾-2",
+        "th": "นาโรเซล-2",
+        "pt": "Naroxel-2",
+        "kr": "나로세르-2",
+        "jp": "ナルセール -2",
+        "idn": "Naroxel-2",
+        "es": "Naroxel-2"
+      }
+    },
+    {
+      "id": "285",
+      "names": {
+        "us": "Naroxel-3",
+        "tw": "納努塞爾-3",
+        "th": "นาโรเซล-3",
+        "pt": "Naroxel-3",
+        "kr": "나로세르-3",
+        "jp": "ナルセール -3",
+        "idn": "Naroxel-3",
+        "es": "Naroxel-3"
+      }
+    },
+    {
+      "id": "286",
+      "names": {
+        "us": "Fleur-1",
+        "tw": "弗勞爾-1",
+        "th": "เฟลอร์-1",
+        "pt": "Fleur-1",
+        "kr": "플뢰르-1",
+        "jp": "フェラール -1",
+        "idn": "Fleur-1",
+        "es": "Fleur-1"
+      }
+    },
+    {
+      "id": "287",
+      "names": {
+        "us": "Fleur-2",
+        "tw": "弗勞爾-2",
+        "th": "เฟลอร์-2",
+        "pt": "Fleur-2",
+        "kr": "플뢰르-2",
+        "jp": "フェラール -2",
+        "idn": "Fleur-2",
+        "es": "Fleur-2"
+      }
+    },
+    {
+      "id": "288",
+      "names": {
+        "us": "Fleur-3",
+        "tw": "弗勞爾-3",
+        "th": "เฟลอร์-3",
+        "pt": "Fleur-3",
+        "kr": "플뢰르-3",
+        "jp": "フェラール -3",
+        "idn": "Fleur-3",
+        "es": "Fleur-3"
+      }
+    },
+    {
+      "id": "289",
+      "names": {
+        "us": "Fleur-4",
+        "tw": "弗勞爾-4",
+        "th": "เฟลอร์-4",
+        "pt": "Fleur-4",
+        "kr": "플뢰르-4",
+        "jp": "フェラール -4",
+        "idn": "Fleur-4",
+        "es": "Fleur-4"
+      }
+    },
+    {
+      "id": "290",
+      "names": {
+        "us": "Gram-1",
+        "tw": "克-1",
+        "th": "แกรม-1",
+        "pt": "Gram-1",
+        "kr": "그람-1",
+        "jp": "グラム -1",
+        "idn": "Gram-1",
+        "es": "Gram-1"
+      }
+    },
+    {
+      "id": "291",
+      "names": {
+        "us": "Gram-2",
+        "tw": "克-2",
+        "th": "แกรม-2",
+        "pt": "Gram-2",
+        "kr": "그람-2",
+        "jp": "グラム -2",
+        "idn": "Gram-2",
+        "es": "Gram-2"
+      }
+    },
+    {
+      "id": "292",
+      "names": {
+        "us": "Gram-3",
+        "tw": "克-3",
+        "th": "แกรม-3",
+        "pt": "Gram-3",
+        "kr": "그람-3",
+        "jp": "グラム -3",
+        "idn": "Gram-3",
+        "es": "Gram-3"
+      }
+    },
+    {
+      "id": "293",
+      "names": {
+        "us": "Revy-1",
+        "tw": "雷文頓-1",
+        "th": "เรวี่-1",
+        "pt": "Revy-1",
+        "kr": "레비-1",
+        "jp": "レビィ -1",
+        "idn": "Revy-1",
+        "es": "Revy-1"
+      }
+    },
+    {
+      "id": "294",
+      "names": {
+        "us": "Revy-2",
+        "tw": "雷文頓-2",
+        "th": "เรวี่-2",
+        "pt": "Revy-2",
+        "kr": "레비-2",
+        "jp": "レビィ -2",
+        "idn": "Revy-2",
+        "es": "Revy-2"
+      }
+    },
+    {
+      "id": "295",
+      "names": {
+        "us": "Revy-3",
+        "tw": "雷文頓-3",
+        "th": "เรวี่-3",
+        "pt": "Revy-3",
+        "kr": "레비-3",
+        "jp": "レビィ -3",
+        "idn": "Revy-3",
+        "es": "Revy-3"
+      }
+    },
+    {
+      "id": "296",
+      "names": {
+        "us": "Revy-4",
+        "tw": "雷文頓-4",
+        "th": "เรวี่-4",
+        "pt": "Revy-4",
+        "kr": "레비-4",
+        "jp": "レビィ -4",
+        "idn": "Revy-4",
+        "es": "Revy-4"
+      }
+    },
+    {
+      "id": "297",
+      "names": {
+        "us": "Hedy-1",
+        "tw": "海蒂-1",
+        "th": "เฮดี้-1",
+        "pt": "Hedy-1",
+        "kr": "헤이디-1",
+        "jp": "ヘイディ -1",
+        "idn": "Hedy-1",
+        "es": "Hedy-1"
+      }
+    },
+    {
+      "id": "298",
+      "names": {
+        "us": "Hedy-2",
+        "tw": "海蒂-2",
+        "th": "เฮดี้-2",
+        "pt": "Hedy-2",
+        "kr": "헤이디-2",
+        "jp": "ヘイディ -2",
+        "idn": "Hedy-2",
+        "es": "Hedy-2"
+      }
+    },
+    {
+      "id": "299",
+      "names": {
+        "us": "Hedy-3",
+        "tw": "海蒂-3",
+        "th": "เฮดี้-3",
+        "pt": "Hedy-3",
+        "kr": "헤이디-3",
+        "jp": "ヘイディ -3",
+        "idn": "Hedy-3",
+        "es": "Hedy-3"
+      }
+    },
+    {
+      "id": "300",
+      "names": {
+        "us": "Paloma-1",
+        "tw": "普律瑪-1",
+        "th": "พาโลม่า-1",
+        "pt": "Paloma-1",
+        "kr": "파로마-1",
+        "jp": "パロマ -1",
+        "idn": "Paloma-1",
+        "es": "Paloma-1"
+      }
+    },
+    {
+      "id": "301",
+      "names": {
+        "us": "Paloma-2",
+        "tw": "普律瑪-2",
+        "th": "พาโลม่า-2",
+        "pt": "Paloma-2",
+        "kr": "파로마-2",
+        "jp": "パロマ -2",
+        "idn": "Paloma-2",
+        "es": "Paloma-2"
+      }
+    },
+    {
+      "id": "302",
+      "names": {
+        "us": "Paloma-3",
+        "tw": "普律瑪-3",
+        "th": "พาโลม่า-3",
+        "pt": "Paloma-3",
+        "kr": "파로마-3",
+        "jp": "パロマ -3",
+        "idn": "Paloma-3",
+        "es": "Paloma-3"
+      }
+    },
+    {
+      "id": "303",
+      "names": {
+        "us": "Paloma-4",
+        "tw": "普律瑪-4",
+        "th": "พาโลม่า-4",
+        "pt": "Paloma-4",
+        "kr": "파로마-4",
+        "jp": "パロマ -4",
+        "idn": "Paloma-4",
+        "es": "Paloma-4"
+      }
+    },
+    {
+      "id": "304",
+      "names": {
+        "us": "Allura-1",
+        "tw": "艾爾戈絲-1",
+        "th": "อัลลัวรา-1",
+        "pt": "Allura-1",
+        "kr": "알루라-1",
+        "jp": "アルーラ -1",
+        "idn": "Allura-1",
+        "es": "Allura-1"
+      }
+    },
+    {
+      "id": "305",
+      "names": {
+        "us": "Allura-2",
+        "tw": "艾爾戈絲-2",
+        "th": "อัลลัวรา-2",
+        "pt": "Allura-2",
+        "kr": "알루라-2",
+        "jp": "アルーラ -2",
+        "idn": "Allura-2",
+        "es": "Allura-2"
+      }
+    },
+    {
+      "id": "306",
+      "names": {
+        "us": "Cordy-1",
+        "tw": "柯蒂-1",
+        "th": "คอร์ดี้-1",
+        "pt": "Cordy-1",
+        "kr": "커디-1",
+        "jp": "カーティ -1",
+        "idn": "Cordy-1",
+        "es": "Cordy-1"
+      }
+    },
+    {
+      "id": "307",
+      "names": {
+        "us": "Cordy-2",
+        "tw": "柯蒂-2",
+        "th": "คอร์ดี้-2",
+        "pt": "Cordy-2",
+        "kr": "커디-2",
+        "jp": "カーティ -2",
+        "idn": "Cordy-2",
+        "es": "Cordy-2"
+      }
+    },
+    {
+      "id": "308",
+      "names": {
+        "us": "Bethel-1",
+        "tw": "貝菲爾-1",
+        "th": "เบเธล-1",
+        "pt": "Bethel-1",
+        "kr": "베델-1",
+        "jp": "ベセル -1",
+        "idn": "Bethel-1",
+        "es": "Bethel-1"
+      }
+    },
+    {
+      "id": "309",
+      "names": {
+        "us": "Bethel-2",
+        "tw": "貝菲爾-2",
+        "th": "เบเธล-2",
+        "pt": "Bethel-2",
+        "kr": "베델-2",
+        "jp": "ベセル -2",
+        "idn": "Bethel-2",
+        "es": "Bethel-2"
+      }
+    },
+    {
+      "id": "310",
+      "names": {
+        "us": "Bethel-3",
+        "tw": "貝菲爾-3",
+        "th": "เบเธล-3",
+        "pt": "Bethel-3",
+        "kr": "베델-3",
+        "jp": "ベセル -3",
+        "idn": "Bethel-3",
+        "es": "Bethel-3"
+      }
+    },
+    {
+      "id": "311",
+      "names": {
+        "us": "Pasolo-1",
+        "tw": "帕索洛-1",
+        "th": "พาโซโล่-1",
+        "pt": "Pasolo-1",
+        "kr": "파솔로-1",
+        "jp": "パソロ -1",
+        "idn": "Pasolo-1",
+        "es": "Pasolo-1"
+      }
+    },
+    {
+      "id": "312",
+      "names": {
+        "us": "Pasolo-2",
+        "tw": "帕索洛-2",
+        "th": "พาโซโล่-2",
+        "pt": "Pasolo-2",
+        "kr": "파솔로-2",
+        "jp": "パソロ -2",
+        "idn": "Pasolo-2",
+        "es": "Pasolo-2"
+      }
+    },
+    {
+      "id": "313",
+      "names": {
+        "us": "Pasolo-3",
+        "tw": "帕索洛-3",
+        "th": "พาโซโล่-3",
+        "pt": "Pasolo-3",
+        "kr": "파솔로-3",
+        "jp": "パソロ -3",
+        "idn": "Pasolo-3",
+        "es": "Pasolo-3"
+      }
+    },
+    {
+      "id": "314",
+      "names": {
+        "us": "Luke-1",
+        "tw": "路克-1",
+        "th": "ลุค-1",
+        "pt": "Luke-1",
+        "kr": "루크-1",
+        "jp": "ルーク -1",
+        "idn": "Luke-1",
+        "es": "Luke-1"
+      }
+    },
+    {
+      "id": "315",
+      "names": {
+        "us": "Luke-2",
+        "tw": "路克-2",
+        "th": "ลุค-2",
+        "pt": "Luke-2",
+        "kr": "루크-2",
+        "jp": "ルーク -2",
+        "idn": "Luke-2",
+        "es": "Luke-2"
+      }
+    },
+    {
+      "id": "316",
+      "names": {
+        "us": "Luke-3",
+        "tw": "路克-3",
+        "th": "ลุค-3",
+        "pt": "Luke-3",
+        "kr": "루크-3",
+        "jp": "ルーク -3",
+        "idn": "Luke-3",
+        "es": "Luke-3"
+      }
+    },
+    {
+      "id": "317",
+      "names": {
+        "us": "Judge Jr.-1",
+        "tw": "初階法官-1",
+        "th": "ผู้พิพากษาจูเนียร์-1",
+        "pt": "Judge Jr.-1",
+        "kr": "하급 재판관-1",
+        "jp": "下級裁判官 -1",
+        "idn": "Judge Jr.-1",
+        "es": "Judge Jr.-1"
+      }
+    },
+    {
+      "id": "318",
+      "names": {
+        "us": "Novio-1",
+        "tw": "諾維亞-1",
+        "th": "โนวิโอ-1",
+        "pt": "Novio-1",
+        "kr": "노비오-1",
+        "jp": "ノーヴィオ -1",
+        "idn": "Novio-1",
+        "es": "Novio-1"
+      }
+    },
+    {
+      "id": "319",
+      "names": {
+        "us": "Novio-2",
+        "tw": "諾維亞-2",
+        "th": "โนวิโอ-2",
+        "pt": "Novio-2",
+        "kr": "노비오-2",
+        "jp": "ノーヴィオ -2",
+        "idn": "Novio-2",
+        "es": "Novio-2"
+      }
+    },
+    {
+      "id": "320",
+      "names": {
+        "us": "Novio-3",
+        "tw": "諾維亞-3",
+        "th": "โนวิโอ-3",
+        "pt": "Novio-3",
+        "kr": "노비오-3",
+        "jp": "ノーヴィオ -3",
+        "idn": "Novio-3",
+        "es": "Novio-3"
+      }
+    },
+    {
+      "id": "321",
+      "names": {
+        "us": "Lola-1",
+        "tw": "愛洛拉-1",
+        "th": "โลล่า-1",
+        "pt": "Lola-1",
+        "kr": "로라-1",
+        "jp": "ローラ -1",
+        "idn": "Lola-1",
+        "es": "Lola-1"
+      }
+    },
+    {
+      "id": "322",
+      "names": {
+        "us": "Lola-2",
+        "tw": "愛洛拉-2",
+        "th": "โลล่า-2",
+        "pt": "Lola-2",
+        "kr": "로라-2",
+        "jp": "ローラ -2",
+        "idn": "Lola-2",
+        "es": "Lola-2"
+      }
+    },
+    {
+      "id": "323",
+      "names": {
+        "us": "Tohru-1",
+        "tw": "朵露-1",
+        "th": "โทรุ-1",
+        "pt": "Tohru-1",
+        "kr": "토르-1",
+        "jp": "トール -1",
+        "idn": "Tohru-1",
+        "es": "Tohru-1"
+      }
+    },
+    {
+      "id": "324",
+      "names": {
+        "us": "Tohru-2",
+        "tw": "朵露-2",
+        "th": "โทรุ-2",
+        "pt": "Tohru-2",
+        "kr": "토르-2",
+        "jp": "トール -2",
+        "idn": "Tohru-2",
+        "es": "Tohru-2"
+      }
+    },
+    {
+      "id": "325",
+      "names": {
+        "us": "Kanna-1",
+        "tw": "康娜-1",
+        "th": "คันนะ-1",
+        "pt": "Kanna-1",
+        "kr": "칸나-1",
+        "jp": "カンナ -1",
+        "idn": "Kanna-1",
+        "es": "Kanna-1"
+      }
+    },
+    {
+      "id": "326",
+      "names": {
+        "us": "Kanna-2",
+        "tw": "康娜-2",
+        "th": "คันนะ-2",
+        "pt": "Kanna-2",
+        "kr": "칸나-2",
+        "jp": "カンナ -2",
+        "idn": "Kanna-2",
+        "es": "Kanna-2"
+      }
+    },
+    {
+      "id": "327",
+      "names": {
+        "us": "Elma-1",
+        "tw": "艾爾瑪-1",
+        "th": "เอลมา-1",
+        "pt": "Elma-1",
+        "kr": "엘마-1",
+        "jp": "エルマ -1",
+        "idn": "Elma-1",
+        "es": "Elma-1"
+      }
+    },
+    {
+      "id": "328",
+      "names": {
+        "us": "Elma-2",
+        "tw": "艾爾瑪-2",
+        "th": "เอลมา-2",
+        "pt": "Elma-2",
+        "kr": "엘마-2",
+        "jp": "エルマ -2",
+        "idn": "Elma-2",
+        "es": "Elma-2"
+      }
+    },
+    {
+      "id": "329",
+      "names": {
+        "us": "Lucoa-1",
+        "tw": "露可亞-1",
+        "th": "ลูโคอา-1",
+        "pt": "Lucoa-1",
+        "kr": "루코아-1",
+        "jp": "ルコア -1",
+        "idn": "Lucoa-1",
+        "es": "Lucoa-1"
+      }
+    },
+    {
+      "id": "330",
+      "names": {
+        "us": "Lucoa-2",
+        "tw": "露可亞-2",
+        "th": "ลูโคอา-2",
+        "pt": "Lucoa-2",
+        "kr": "루코아-2",
+        "jp": "ルコア -2",
+        "idn": "Lucoa-2",
+        "es": "Lucoa-2"
+      }
+    },
+    {
+      "id": "331",
+      "names": {
+        "us": "Fafnir-1",
+        "tw": "法夫納-1",
+        "th": "ฟาฟนีร์-1",
+        "pt": "Fafnir-1",
+        "kr": "파프닐-1",
+        "jp": "ファフニール -1",
+        "idn": "Fafnir-1",
+        "es": "Fafnir-1"
+      }
+    },
+    {
+      "id": "332",
+      "names": {
+        "us": "Fafnir-2",
+        "tw": "法夫納-2",
+        "th": "ฟาฟนีร์-2",
+        "pt": "Fafnir-2",
+        "kr": "파프닐-2",
+        "jp": "ファフニール -2",
+        "idn": "Fafnir-2",
+        "es": "Fafnir-2"
+      }
+    },
+    {
+      "id": "333",
+      "names": {
+        "us": "Siobhan-1",
+        "tw": "希諾普-1",
+        "th": "เชอวาน-1",
+        "pt": "Siobhan-1",
+        "kr": "시오반-1",
+        "jp": "シヴォーン -1",
+        "idn": "Siobhan-1",
+        "es": "Siobhan-1"
+      }
+    },
+    {
+      "id": "334",
+      "names": {
+        "us": "Siobhan-2",
+        "tw": "希諾普-2",
+        "th": "เชอวาน-2",
+        "pt": "Siobhan-2",
+        "kr": "시오반-2",
+        "jp": "シヴォーン -2",
+        "idn": "Siobhan-2",
+        "es": "Siobhan-2"
+      }
+    },
+    {
+      "id": "335",
+      "names": {
+        "us": "Siobhan-3",
+        "tw": "希諾普-3",
+        "th": "เชอวาน-3",
+        "pt": "Siobhan-3",
+        "kr": "시오반-3",
+        "jp": "シヴォーン -3",
+        "idn": "Siobhan-3",
+        "es": "Siobhan-3"
+      }
+    },
+    {
+      "id": "336",
+      "names": {
+        "us": "Erica-1",
+        "tw": "艾莉法-1",
+        "th": "เอริก้า-1",
+        "pt": "Erica-1",
+        "kr": "에리카-1",
+        "jp": "エリカ -1",
+        "idn": "Erica-1",
+        "es": "Erica-1"
+      }
+    },
+    {
+      "id": "337",
+      "names": {
+        "us": "Erica-2",
+        "tw": "艾莉法-2",
+        "th": "เอริก้า-2",
+        "pt": "Erica-2",
+        "kr": "에리카-2",
+        "jp": "エリカ -2",
+        "idn": "Erica-2",
+        "es": "Erica-2"
+      }
+    },
+    {
+      "id": "338",
+      "names": {
+        "us": "Florine-1",
+        "tw": "芙洛琳-1",
+        "th": "ฟลอรีน-1",
+        "pt": "Florine-1",
+        "kr": "플로리나-1",
+        "jp": "フロリナ -1",
+        "idn": "Florine-1",
+        "es": "Florine-1"
+      }
+    },
+    {
+      "id": "339",
+      "names": {
+        "us": "Florine-2",
+        "tw": "芙洛琳-2",
+        "th": "ฟลอรีน-2",
+        "pt": "Florine-2",
+        "kr": "플로리나-2",
+        "jp": "フロリナ -2",
+        "idn": "Florine-2",
+        "es": "Florine-2"
+      }
+    },
+    {
+      "id": "340",
+      "names": {
+        "us": "Florine-3",
+        "tw": "芙洛琳-3",
+        "th": "ฟลอรีน-3",
+        "pt": "Florine-3",
+        "kr": "플로리나-3",
+        "jp": "フロリナ -3",
+        "idn": "Florine-3",
+        "es": "Florine-3"
+      }
+    },
+    {
+      "id": "341",
+      "names": {
+        "us": "Ruby-1",
+        "tw": "露比-1",
+        "th": "รูบี้-1",
+        "pt": "Ruby-1",
+        "kr": "루비-1",
+        "jp": "ルビー -1",
+        "idn": "Ruby-1",
+        "es": "Ruby-1"
+      }
+    },
+    {
+      "id": "342",
+      "names": {
+        "us": "Ruby-2",
+        "tw": "露比-2",
+        "th": "รูบี้-2",
+        "pt": "Ruby-2",
+        "kr": "루비-2",
+        "jp": "ルビー -2",
+        "idn": "Ruby-2",
+        "es": "Ruby-2"
+      }
+    },
+    {
+      "id": "343",
+      "names": {
+        "us": "Rouge-1",
+        "tw": "花芸-1",
+        "th": "รูจ-1",
+        "pt": "Rouge-1",
+        "kr": "루즈-1",
+        "jp": "ルージュ -1",
+        "idn": "Rouge-1",
+        "es": "Rouge-1"
+      }
+    },
+    {
+      "id": "344",
+      "names": {
+        "us": "Rouge-2",
+        "tw": "花芸-2",
+        "th": "รูจ-2",
+        "pt": "Rouge-2",
+        "kr": "루즈-2",
+        "jp": "ルージュ -2",
+        "idn": "Rouge-2",
+        "es": "Rouge-2"
+      }
+    },
+    {
+      "id": "345",
+      "names": {
+        "us": "Rinne-1",
+        "tw": "凜音-1",
+        "th": "รินเนะ-1",
+        "pt": "Rinne-1",
+        "kr": "린네-1",
+        "jp": "リンネ -1",
+        "idn": "Rinne-1",
+        "es": "Rinne-1"
+      }
+    },
+    {
+      "id": "346",
+      "names": {
+        "us": "Rinne-2",
+        "tw": "凜音-2",
+        "th": "รินเนะ-2",
+        "pt": "Rinne-2",
+        "kr": "린네-2",
+        "jp": "リンネ -2",
+        "idn": "Rinne-2",
+        "es": "Rinne-2"
+      }
+    },
+    {
+      "id": "347",
+      "names": {
+        "us": "Rinne-3",
+        "tw": "凜音-3",
+        "th": "รินเนะ-3",
+        "pt": "Rinne-3",
+        "kr": "린네-3",
+        "jp": "リンネ -3",
+        "idn": "Rinne-3",
+        "es": "Rinne-3"
+      }
+    },
+    {
+      "id": "348",
+      "names": {
+        "us": "Kayano-1",
+        "tw": "柏乃-1",
+        "th": "คายาโนะ-1",
+        "pt": "Kayano-1",
+        "kr": "카야노-1",
+        "jp": "カヤノ -1",
+        "idn": "Kayano-1",
+        "es": "Kayano-1"
+      }
+    },
+    {
+      "id": "349",
+      "names": {
+        "us": "Kayano-2",
+        "tw": "柏乃-2",
+        "th": "คายาโนะ-2",
+        "pt": "Kayano-2",
+        "kr": "카야노-2",
+        "jp": "カヤノ -2",
+        "idn": "Kayano-2",
+        "es": "Kayano-2"
+      }
+    },
+    {
+      "id": "350",
+      "names": {
+        "us": "Amemori-1",
+        "tw": "雨森-1",
+        "th": "อาเมะโมริ-1",
+        "pt": "Amemori-1",
+        "kr": "아메모리-1",
+        "jp": "アメモリ -1",
+        "idn": "Amemori-1",
+        "es": "Amemori-1"
+      }
+    },
+    {
+      "id": "351",
+      "names": {
+        "us": "Amemori-2",
+        "tw": "雨森-2",
+        "th": "อาเมะโมริ-2",
+        "pt": "Amemori-2",
+        "kr": "아메모리-2",
+        "jp": "アメモリ -2",
+        "idn": "Amemori-2",
+        "es": "Amemori-2"
+      }
+    },
+    {
+      "id": "352",
+      "names": {
+        "us": "Yao-1",
+        "tw": "瑤-1",
+        "th": "เหยา-1",
+        "pt": "Yao-1",
+        "kr": "요우-1",
+        "jp": "ヨウ -1",
+        "idn": "Yao-1",
+        "es": "Yao-1"
+      }
+    },
+    {
+      "id": "353",
+      "names": {
+        "us": "Yao-2",
+        "tw": "瑤-2",
+        "th": "เหยา-2",
+        "pt": "Yao-2",
+        "kr": "요우-2",
+        "jp": "ヨウ -2",
+        "idn": "Yao-2",
+        "es": "Yao-2"
+      }
+    },
+    {
+      "id": "354",
+      "names": {
+        "us": "Momo&Anzu-1",
+        "tw": "Momo&Anzu-1",
+        "th": "Momo&Anzu-1",
+        "pt": "Momo&Anzu-1",
+        "kr": "Momo&Anzu-1",
+        "jp": "Momo&Anzu -1",
+        "idn": "Momo&Anzu-1",
+        "es": "Momo&Anzu-1"
+      }
+    },
+    {
+      "id": "355",
+      "names": {
+        "us": "Momo&Anzu-2",
+        "tw": "Momo&Anzu-2",
+        "th": "Momo&Anzu-2",
+        "pt": "Momo&Anzu-2",
+        "kr": "Momo&Anzu-2",
+        "jp": "Momo&Anzu -2",
+        "idn": "Momo&Anzu-2",
+        "es": "Momo&Anzu-2"
+      }
+    },
+    {
+      "id": "356",
+      "names": {
+        "us": "Azure-1",
+        "tw": "青瞳-1",
+        "th": "แอเชอร์-1",
+        "pt": "Azure-1",
+        "kr": "아주르-1",
+        "jp": "アズール -1",
+        "idn": "Azure-1",
+        "es": "Azure-1"
+      }
+    },
+    {
+      "id": "357",
+      "names": {
+        "us": "Azure-2",
+        "tw": "青瞳-2",
+        "th": "แอเชอร์-2",
+        "pt": "Azure-2",
+        "kr": "아주르-2",
+        "jp": "アズール -2",
+        "idn": "Azure-2",
+        "es": "Azure-2"
+      }
+    },
+    {
+      "id": "358",
+      "names": {
+        "us": "Azure-3",
+        "tw": "青瞳-3",
+        "th": "แอเชอร์-3",
+        "pt": "Azure-3",
+        "kr": "아주르-3",
+        "jp": "アズール -3",
+        "idn": "Azure-3",
+        "es": "Azure-3"
+      }
+    },
+    {
+      "id": "359",
+      "names": {
+        "us": "Azure-4",
+        "tw": "青瞳-4",
+        "th": "แอเชอร์-4",
+        "pt": "Azure-4",
+        "kr": "아주르-4",
+        "jp": "アズール -4",
+        "idn": "Azure-4",
+        "es": "Azure-4"
+      }
+    },
+    {
+      "id": "360",
+      "names": {
+        "us": "Roy-1",
+        "tw": "羅伊-1",
+        "th": "รอย-1",
+        "pt": "Roy-1",
+        "kr": "로이-1",
+        "jp": "ロイ -1",
+        "idn": "Roy-1",
+        "es": "Roy-1"
+      }
+    },
+    {
+      "id": "361",
+      "names": {
+        "us": "Roy-2",
+        "tw": "羅伊-2",
+        "th": "รอย-2",
+        "pt": "Roy-2",
+        "kr": "로이-2",
+        "jp": "ロイ -2",
+        "idn": "Roy-2",
+        "es": "Roy-2"
+      }
+    },
+    {
+      "id": "362",
+      "names": {
+        "us": "Lenore-1",
+        "tw": "蓮-1",
+        "th": "เลนอร์-1",
+        "pt": "Lenore-1",
+        "kr": "레노어-1",
+        "jp": "レノーア -1",
+        "idn": "Lenore-1",
+        "es": "Lenore-1"
+      }
+    },
+    {
+      "id": "363",
+      "names": {
+        "us": "Lenore-2",
+        "tw": "蓮-2",
+        "th": "เลนอร์-2",
+        "pt": "Lenore-2",
+        "kr": "레노어-2",
+        "jp": "レノーア -2",
+        "idn": "Lenore-2",
+        "es": "Lenore-2"
+      }
+    },
+    {
+      "id": "364",
+      "names": {
+        "us": "Giles-1",
+        "tw": "賈爾斯-1",
+        "th": "ไจลส์-1",
+        "pt": "Giles-1",
+        "kr": "길스-1",
+        "jp": "ギルス -1",
+        "idn": "Giles-1",
+        "es": "Giles-1"
+      }
+    },
+    {
+      "id": "365",
+      "names": {
+        "us": "Giles-2",
+        "tw": "賈爾斯-2",
+        "th": "ไจลส์-2",
+        "pt": "Giles-2",
+        "kr": "길스-2",
+        "jp": "ギルス -2",
+        "idn": "Giles-2",
+        "es": "Giles-2"
+      }
+    },
+    {
+      "id": "366",
+      "names": {
+        "us": "May-1",
+        "tw": "梅-1",
+        "th": "เมย์-1",
+        "pt": "May-1",
+        "kr": "메이-1",
+        "jp": "メイ -1",
+        "idn": "May-1",
+        "es": "May-1"
+      }
+    },
+    {
+      "id": "367",
+      "names": {
+        "us": "May-2",
+        "tw": "梅-2",
+        "th": "เมย์-2",
+        "pt": "May-2",
+        "kr": "메이-2",
+        "jp": "メイ -2",
+        "idn": "May-2",
+        "es": "May-2"
+      }
+    },
+    {
+      "id": "368",
+      "names": {
+        "us": "Reinhardt-1",
+        "tw": "萊因哈特-1",
+        "th": "ไรน์ฮาร์ต-1",
+        "pt": "Reinhardt-1",
+        "kr": "라인하르트-1",
+        "jp": "レインハト -1",
+        "idn": "Reinhardt-1",
+        "es": "Reinhardt-1"
+      }
+    },
+    {
+      "id": "369",
+      "names": {
+        "us": "Reinhardt-2",
+        "tw": "萊因哈特-2",
+        "th": "ไรน์ฮาร์ต-2",
+        "pt": "Reinhardt-2",
+        "kr": "라인하르트-2",
+        "jp": "レインハト -2",
+        "idn": "Reinhardt-2",
+        "es": "Reinhardt-2"
+      }
+    },
+    {
+      "id": "370",
+      "names": {
+        "us": "Reinhardt-3",
+        "tw": "萊因哈特-3",
+        "th": "ไรน์ฮาร์ต-3",
+        "pt": "Reinhardt-3",
+        "kr": "라인하르트-3",
+        "jp": "レインハト -3",
+        "idn": "Reinhardt-3",
+        "es": "Reinhardt-3"
+      }
+    },
+    {
+      "id": "371",
+      "names": {
+        "us": "Vice： Keen Sight-1",
+        "tw": "Vice： Keen Sight-1",
+        "th": "Vice： Keen Sight-1",
+        "pt": "Vice： Keen Sight-1",
+        "kr": "Vice： Keen Sight-1",
+        "jp": "Vice： Keen Sight -1",
+        "idn": "Vice： Keen Sight-1",
+        "es": "Vice： Keen Sight-1"
+      }
+    },
+    {
+      "id": "372",
+      "names": {
+        "us": "Vice： Keen Sight-2",
+        "tw": "Vice： Keen Sight-2",
+        "th": "Vice： Keen Sight-2",
+        "pt": "Vice： Keen Sight-2",
+        "kr": "Vice： Keen Sight-2",
+        "jp": "Vice： Keen Sight -2",
+        "idn": "Vice： Keen Sight-2",
+        "es": "Vice： Keen Sight-2"
+      }
+    },
+    {
+      "id": "373",
+      "names": {
+        "us": "Barton： Deft Blades-1",
+        "tw": "Barton： Deft Blades-1",
+        "th": "Barton： Deft Blades-1",
+        "pt": "Barton： Deft Blades-1",
+        "kr": "Barton： Deft Blades-1",
+        "jp": "Barton： Deft Blades -1",
+        "idn": "Barton： Deft Blades-1",
+        "es": "Barton： Deft Blades-1"
+      }
+    },
+    {
+      "id": "374",
+      "names": {
+        "us": "Barton： Deft Blades-2",
+        "tw": "Barton： Deft Blades-2",
+        "th": "Barton： Deft Blades-2",
+        "pt": "Barton： Deft Blades-2",
+        "kr": "Barton： Deft Blades-2",
+        "jp": "Barton： Deft Blades -2",
+        "idn": "Barton： Deft Blades-2",
+        "es": "Barton： Deft Blades-2"
+      }
+    },
+    {
+      "id": "375",
+      "names": {
+        "us": "Barton： Deft Blades-4",
+        "tw": "Barton： Deft Blades-4",
+        "th": "Barton： Deft Blades-4",
+        "pt": "Barton： Deft Blades-4",
+        "kr": "Barton： Deft Blades-4",
+        "jp": "Barton： Deft Blades -4",
+        "idn": "Barton： Deft Blades-4",
+        "es": "Barton： Deft Blades-4"
+      }
+    },
+    {
+      "id": "376",
+      "names": {
+        "us": "Nina-1",
+        "tw": "妮娜-1",
+        "th": "นีน่า-1",
+        "pt": "Nina-1",
+        "kr": "니나-1",
+        "jp": "ニナ -1",
+        "idn": "Nina-1",
+        "es": "Nina-1"
+      }
+    },
+    {
+      "id": "377",
+      "names": {
+        "us": "Nina-2",
+        "tw": "妮娜-2",
+        "th": "นีน่า-2",
+        "pt": "Nina-2",
+        "kr": "니나-2",
+        "jp": "ニナ -2",
+        "idn": "Nina-2",
+        "es": "Nina-2"
+      }
+    },
+    {
+      "id": "378",
+      "names": {
+        "us": "Nina-3",
+        "tw": "妮娜-3",
+        "th": "นีน่า-3",
+        "pt": "Nina-3",
+        "kr": "니나-3",
+        "jp": "ニナ -3",
+        "idn": "Nina-3",
+        "es": "Nina-3"
+      }
+    },
+    {
+      "id": "379",
+      "names": {
+        "us": "Sanae-1",
+        "tw": "早苗-1",
+        "th": "ซานาเอะ-1",
+        "pt": "Sanae-1",
+        "kr": "사나에-1",
+        "jp": "サナエ -1",
+        "idn": "Sanae-1",
+        "es": "Sanae-1"
+      }
+    },
+    {
+      "id": "380",
+      "names": {
+        "us": "Sanae-2",
+        "tw": "早苗-2",
+        "th": "ซานาเอะ-2",
+        "pt": "Sanae-2",
+        "kr": "사나에-2",
+        "jp": "サナエ -2",
+        "idn": "Sanae-2",
+        "es": "Sanae-2"
+      }
+    },
+    {
+      "id": "381",
+      "names": {
+        "us": "Sanae-3",
+        "tw": "早苗-3",
+        "th": "ซานาเอะ-3",
+        "pt": "Sanae-3",
+        "kr": "사나에-3",
+        "jp": "サナエ -3",
+        "idn": "Sanae-3",
+        "es": "Sanae-3"
+      }
+    },
+    {
+      "id": "382",
+      "names": {
+        "us": "JOKER-1",
+        "tw": "JOKER-1",
+        "th": "โจ๊กเกอร์-1",
+        "pt": "JOKER-1",
+        "kr": "조커-1",
+        "jp": "ジョーカー -1",
+        "idn": "JOKER-1",
+        "es": "JOKER-1"
+      }
+    },
+    {
+      "id": "383",
+      "names": {
+        "us": "JOKER-2",
+        "tw": "JOKER-2",
+        "th": "โจ๊กเกอร์-2",
+        "pt": "JOKER-2",
+        "kr": "조커-2",
+        "jp": "ジョーカー -2",
+        "idn": "JOKER-2",
+        "es": "JOKER-2"
+      }
+    },
+    {
+      "id": "384",
+      "names": {
+        "us": "QUEEN-1",
+        "tw": "QUEEN-1",
+        "th": "ควีน-1",
+        "pt": "QUEEN-1",
+        "kr": "퀸-1",
+        "jp": "クイーン -1",
+        "idn": "QUEEN-1",
+        "es": "QUEEN-1"
+      }
+    },
+    {
+      "id": "385",
+      "names": {
+        "us": "QUEEN-2",
+        "tw": "QUEEN-2",
+        "th": "ควีน-2",
+        "pt": "QUEEN-2",
+        "kr": "퀸-2",
+        "jp": "クイーン -2",
+        "idn": "QUEEN-2",
+        "es": "QUEEN-2"
+      }
+    },
+    {
+      "id": "386",
+      "names": {
+        "us": "FOX-1",
+        "tw": "FOX-1",
+        "th": "ฟ็อกซ์-1",
+        "pt": "FOX-1",
+        "kr": "폭스-1",
+        "jp": "フォックス -1",
+        "idn": "FOX-1",
+        "es": "FOX-1"
+      }
+    },
+    {
+      "id": "387",
+      "names": {
+        "us": "FOX-2",
+        "tw": "FOX-2",
+        "th": "ฟ็อกซ์-2",
+        "pt": "FOX-2",
+        "kr": "폭스-2",
+        "jp": "フォックス -2",
+        "idn": "FOX-2",
+        "es": "FOX-2"
+      }
+    },
+    {
+      "id": "388",
+      "names": {
+        "us": "VIOLET-1",
+        "tw": "VIOLET-1",
+        "th": "ไวโอเล็ต-1",
+        "pt": "VIOLET-1",
+        "kr": "바이올렛-1",
+        "jp": "ヴァイオレット -1",
+        "idn": "VIOLET-1",
+        "es": "VIOLET-1"
+      }
+    },
+    {
+      "id": "389",
+      "names": {
+        "us": "VIOLET-2",
+        "tw": "VIOLET-2",
+        "th": "ไวโอเล็ต-2",
+        "pt": "VIOLET-2",
+        "kr": "바이올렛-2",
+        "jp": "ヴァイオレット -2",
+        "idn": "VIOLET-2",
+        "es": "VIOLET-2"
+      }
+    },
+    {
+      "id": "390",
+      "names": {
+        "us": "MONA-1",
+        "tw": "MONA-1",
+        "th": "โมน่า-1",
+        "pt": "MONA-1",
+        "kr": "모나-1",
+        "jp": "モナ -1",
+        "idn": "MONA-1",
+        "es": "MONA-1"
+      }
+    },
+    {
+      "id": "391",
+      "names": {
+        "us": "MONA-2",
+        "tw": "MONA-2",
+        "th": "โมน่า-2",
+        "pt": "MONA-2",
+        "kr": "모나-2",
+        "jp": "モナ -2",
+        "idn": "MONA-2",
+        "es": "MONA-2"
+      }
+    },
+    {
+      "id": "392",
+      "names": {
+        "us": "Tourdog-1",
+        "tw": "巡迴犬-1",
+        "th": "Tourdog-1",
+        "pt": "Tourdog-1",
+        "kr": "투어독-1",
+        "jp": "ツアードッグ -1",
+        "idn": "Tourdog-1",
+        "es": "Tourdog-1"
+      }
+    },
+    {
+      "id": "393",
+      "names": {
+        "us": "Carleen： Smoldering Soul-1",
+        "tw": "Carleen： Smoldering Soul-1",
+        "th": "Carleen： Smoldering Soul-1",
+        "pt": "Carleen： Smoldering Soul-1",
+        "kr": "Carleen： Smoldering Soul-1",
+        "jp": "Carleen： Smoldering Soul -1",
+        "idn": "Carleen： Smoldering Soul-1",
+        "es": "Carleen： Smoldering Soul-1"
+      }
+    },
+    {
+      "id": "394",
+      "names": {
+        "us": "Carleen： Smoldering Soul-2",
+        "tw": "Carleen： Smoldering Soul-2",
+        "th": "Carleen： Smoldering Soul-2",
+        "pt": "Carleen： Smoldering Soul-2",
+        "kr": "Carleen： Smoldering Soul-2",
+        "jp": "Carleen： Smoldering Soul -2",
+        "idn": "Carleen： Smoldering Soul-2",
+        "es": "Carleen： Smoldering Soul-2"
+      }
+    },
+    {
+      "id": "395",
+      "names": {
+        "us": "Ciel-1",
+        "tw": "琪爾-1",
+        "th": "เซียล-1",
+        "pt": "Ciel-1",
+        "kr": "시엘-1",
+        "jp": "シエル -1",
+        "idn": "Ciel-1",
+        "es": "Ciel-1"
+      }
+    },
+    {
+      "id": "396",
+      "names": {
+        "us": "Ciel-2",
+        "tw": "琪爾-2",
+        "th": "เซียล-2",
+        "pt": "Ciel-2",
+        "kr": "시엘-2",
+        "jp": "シエル -2",
+        "idn": "Ciel-2",
+        "es": "Ciel-2"
+      }
+    },
+    {
+      "id": "397",
+      "names": {
+        "us": "Ciel-3",
+        "tw": "琪爾-3",
+        "th": "เซียล-3",
+        "pt": "Ciel-3",
+        "kr": "시엘-3",
+        "jp": "シエル -3",
+        "idn": "Ciel-3",
+        "es": "Ciel-3"
+      }
+    },
+    {
+      "id": "398",
+      "names": {
+        "us": "Fia-1",
+        "tw": "菲雅-1",
+        "th": "ฟีญ่า-1",
+        "pt": "Fia-1",
+        "kr": "피아-1",
+        "jp": "フィア -1",
+        "idn": "Fia-1",
+        "es": "Fia-1"
+      }
+    },
+    {
+      "id": "399",
+      "names": {
+        "us": "Fia-2",
+        "tw": "菲雅-2",
+        "th": "ฟีญ่า-2",
+        "pt": "Fia-2",
+        "kr": "피아-2",
+        "jp": "フィア -2",
+        "idn": "Fia-2",
+        "es": "Fia-2"
+      }
+    },
+    {
+      "id": "400",
+      "names": {
+        "us": "Fia-3",
+        "tw": "菲雅-3",
+        "th": "ฟีญ่า-3",
+        "pt": "Fia-3",
+        "kr": "피아-3",
+        "jp": "フィア -3",
+        "idn": "Fia-3",
+        "es": "Fia-3"
+      }
+    },
+    {
+      "id": "401",
+      "names": {
+        "us": "Jeno-1",
+        "tw": "傑諾-1",
+        "th": "เจโน่-1",
+        "pt": "Jeno-1",
+        "kr": "제노-1",
+        "jp": "ジェノ -1",
+        "idn": "Jeno-1",
+        "es": "Jeno-1"
+      }
+    },
+    {
+      "id": "402",
+      "names": {
+        "us": "Jeno-2",
+        "tw": "傑諾-2",
+        "th": "เจโน่-2",
+        "pt": "Jeno-2",
+        "kr": "제노-2",
+        "jp": "ジェノ -2",
+        "idn": "Jeno-2",
+        "es": "Jeno-2"
+      }
+    },
+    {
+      "id": "403",
+      "names": {
+        "us": "Jeno-3",
+        "tw": "傑諾-3",
+        "th": "เจโน่-3",
+        "pt": "Jeno-3",
+        "kr": "제노-3",
+        "jp": "ジェノ -3",
+        "idn": "Jeno-3",
+        "es": "Jeno-3"
+      }
+    },
+    {
+      "id": "404",
+      "names": {
+        "us": "Rainbow-1",
+        "tw": "虹霞-1",
+        "th": "เรนโบว์-1",
+        "pt": "Rainbow-1",
+        "kr": "레인보우-1",
+        "jp": "レインボー -1",
+        "idn": "Rainbow-1",
+        "es": "Rainbow-1"
+      }
+    },
+    {
+      "id": "405",
+      "names": {
+        "us": "Rainbow-2",
+        "tw": "虹霞-2",
+        "th": "เรนโบว์-2",
+        "pt": "Rainbow-2",
+        "kr": "레인보우-2",
+        "jp": "レインボー -2",
+        "idn": "Rainbow-2",
+        "es": "Rainbow-2"
+      }
+    },
+    {
+      "id": "406",
+      "names": {
+        "us": "Sadie-1",
+        "tw": "塞提-1",
+        "th": "ซาดี-1",
+        "pt": "Sadie-1",
+        "kr": "새디-1",
+        "jp": "サディ -1",
+        "idn": "Sadie-1",
+        "es": "Sadie-1"
+      }
+    },
+    {
+      "id": "407",
+      "names": {
+        "us": "Sadie-2",
+        "tw": "塞提-2",
+        "th": "ซาดี-2",
+        "pt": "Sadie-2",
+        "kr": "새디-2",
+        "jp": "サディ -2",
+        "idn": "Sadie-2",
+        "es": "Sadie-2"
+      }
+    },
+    {
+      "id": "408",
+      "names": {
+        "us": "Pollux-1",
+        "tw": "珀拉珂-1",
+        "th": "พอลลักซ์-1",
+        "pt": "Pollux-1",
+        "kr": "폴룩스-1",
+        "jp": "ポルクス -1",
+        "idn": "Pollux-1",
+        "es": "Pollux-1"
+      }
+    },
+    {
+      "id": "409",
+      "names": {
+        "us": "Pollux-2",
+        "tw": "珀拉珂-2",
+        "th": "พอลลักซ์-2",
+        "pt": "Pollux-2",
+        "kr": "폴룩스-2",
+        "jp": "ポルクス -2",
+        "idn": "Pollux-2",
+        "es": "Pollux-2"
+      }
+    },
+    {
+      "id": "410",
+      "names": {
+        "us": "Pollux-3",
+        "tw": "珀拉珂-3",
+        "th": "พอลลักซ์-3",
+        "pt": "Pollux-3",
+        "kr": "폴룩스-3",
+        "jp": "ポルクス -3",
+        "idn": "Pollux-3",
+        "es": "Pollux-3"
+      }
+    },
+    {
+      "id": "411",
+      "names": {
+        "us": "Casta-1",
+        "tw": "卡斯特-1",
+        "th": "คาสต้า-1",
+        "pt": "Casta-1",
+        "kr": "카스타-1",
+        "jp": "キャスタ -1",
+        "idn": "Casta-1",
+        "es": "Casta-1"
+      }
+    },
+    {
+      "id": "412",
+      "names": {
+        "us": "Casta-2",
+        "tw": "卡斯特-2",
+        "th": "คาสต้า-2",
+        "pt": "Casta-2",
+        "kr": "카스타-2",
+        "jp": "キャスタ -2",
+        "idn": "Casta-2",
+        "es": "Casta-2"
+      }
+    },
+    {
+      "id": "413",
+      "names": {
+        "us": "Lilica-1",
+        "tw": "莉莉卡-1",
+        "th": "ลิลิก้า-1",
+        "pt": "Lilica-1",
+        "kr": "리리카-1",
+        "jp": "リリカ -1",
+        "idn": "Lilica-1",
+        "es": "Lilica-1"
+      }
+    },
+    {
+      "id": "414",
+      "names": {
+        "us": "Lilica-2",
+        "tw": "莉莉卡-2",
+        "th": "ลิลิก้า-2",
+        "pt": "Lilica-2",
+        "kr": "리리카-2",
+        "jp": "リリカ -2",
+        "idn": "Lilica-2",
+        "es": "Lilica-2"
+      }
+    },
+    {
+      "id": "415",
+      "names": {
+        "us": "Lilica-3",
+        "tw": "莉莉卡-3",
+        "th": "ลิลิก้า-3",
+        "pt": "Lilica-3",
+        "kr": "리리카-3",
+        "jp": "リリカ -3",
+        "idn": "Lilica-3",
+        "es": "Lilica-3"
+      }
+    },
+    {
+      "id": "416",
+      "names": {
+        "us": "Minos-1",
+        "tw": "米洛斯-1",
+        "th": "มินอส-1",
+        "pt": "Minos-1",
+        "kr": "미노스-1",
+        "jp": "ミノス -1",
+        "idn": "Minos-1",
+        "es": "Minos-1"
+      }
+    },
+    {
+      "id": "417",
+      "names": {
+        "us": "Minos-2",
+        "tw": "米洛斯-2",
+        "th": "มินอส-2",
+        "pt": "Minos-2",
+        "kr": "미노스-2",
+        "jp": "ミノス -2",
+        "idn": "Minos-2",
+        "es": "Minos-2"
+      }
+    },
+    {
+      "id": "418",
+      "names": {
+        "us": "Minos-3",
+        "tw": "米洛斯-3",
+        "th": "มินอส-3",
+        "pt": "Minos-3",
+        "kr": "미노스-3",
+        "jp": "ミノス -3",
+        "idn": "Minos-3",
+        "es": "Minos-3"
+      }
+    },
+    {
+      "id": "419",
+      "names": {
+        "us": "Axelia-1",
+        "tw": "阿克希亞-1",
+        "th": "Axelia-1",
+        "pt": "Axelia-1",
+        "kr": "악셀리아-1",
+        "jp": "アクセリア -1",
+        "idn": "Axelia-1",
+        "es": "Axelia-1"
+      }
+    },
+    {
+      "id": "420",
+      "names": {
+        "us": "Axelia-2",
+        "tw": "阿克希亞-2",
+        "th": "Axelia-2",
+        "pt": "Axelia-2",
+        "kr": "악셀리아-2",
+        "jp": "アクセリア -2",
+        "idn": "Axelia-2",
+        "es": "Axelia-2"
+      }
+    },
+    {
+      "id": "421",
+      "names": {
+        "us": "Axelia-3",
+        "tw": "阿克希亞-3",
+        "th": "Axelia-3",
+        "pt": "Axelia-3",
+        "kr": "악셀리아-3",
+        "jp": "アクセリア -3",
+        "idn": "Axelia-3",
+        "es": "Axelia-3"
+      }
+    },
+    {
+      "id": "422",
+      "names": {
+        "us": "Beretta-1",
+        "tw": "貝爾塔-1",
+        "th": "เบเร็ตตา-1",
+        "pt": "Beretta-1",
+        "kr": "베르타-1",
+        "jp": "ベルタ -1",
+        "idn": "Beretta-1",
+        "es": "Beretta-1"
+      }
+    },
+    {
+      "id": "423",
+      "names": {
+        "us": "Beretta-2",
+        "tw": "貝爾塔-2",
+        "th": "เบเร็ตตา-2",
+        "pt": "Beretta-2",
+        "kr": "베르타-2",
+        "jp": "ベルタ -2",
+        "idn": "Beretta-2",
+        "es": "Beretta-2"
+      }
+    },
+    {
+      "id": "424",
+      "names": {
+        "us": "Goldie-1",
+        "tw": "歌爾蒂-1",
+        "th": "โกลดี้-1",
+        "pt": "Goldie-1",
+        "kr": "골디-1",
+        "jp": "ゴルディ -1",
+        "idn": "Goldie-1",
+        "es": "Goldie-1"
+      }
+    },
+    {
+      "id": "425",
+      "names": {
+        "us": "Goldie-2",
+        "tw": "歌爾蒂-2",
+        "th": "โกลดี้-2",
+        "pt": "Goldie-2",
+        "kr": "골디-2",
+        "jp": "ゴルディ -2",
+        "idn": "Goldie-2",
+        "es": "Goldie-2"
+      }
+    },
+    {
+      "id": "426",
+      "names": {
+        "us": "Goldie-3",
+        "tw": "歌爾蒂-3",
+        "th": "โกลดี้-3",
+        "pt": "Goldie-3",
+        "kr": "골디-3",
+        "jp": "ゴルディ -3",
+        "idn": "Goldie-3",
+        "es": "Goldie-3"
+      }
+    },
+    {
+      "id": "427",
+      "names": {
+        "us": "Vic-1",
+        "tw": "維克-1",
+        "th": "วิค-1",
+        "pt": "Vic-1",
+        "kr": "비크-1",
+        "jp": "ヴィック -1",
+        "idn": "Vic-1",
+        "es": "Vic-1"
+      }
+    },
+    {
+      "id": "428",
+      "names": {
+        "us": "Vic-2",
+        "tw": "維克-2",
+        "th": "วิค-2",
+        "pt": "Vic-2",
+        "kr": "비크-2",
+        "jp": "ヴィック -2",
+        "idn": "Vic-2",
+        "es": "Vic-2"
+      }
+    },
+    {
+      "id": "429",
+      "names": {
+        "us": "Vic-3",
+        "tw": "維克-3",
+        "th": "วิค-3",
+        "pt": "Vic-3",
+        "kr": "비크-3",
+        "jp": "ヴィック -3",
+        "idn": "Vic-3",
+        "es": "Vic-3"
+      }
+    },
+    {
+      "id": "430",
+      "names": {
+        "us": "Brandy-1",
+        "tw": "珀蘭蒂-1",
+        "th": "บรั่นดี-1",
+        "pt": "Brandy-1",
+        "kr": "브랜디-1",
+        "jp": "ブランディ -1",
+        "idn": "Brandy-1",
+        "es": "Brandy-1"
+      }
+    },
+    {
+      "id": "431",
+      "names": {
+        "us": "Brandy-2",
+        "tw": "珀蘭蒂-2",
+        "th": "บรั่นดี-2",
+        "pt": "Brandy-2",
+        "kr": "브랜디-2",
+        "jp": "ブランディ -2",
+        "idn": "Brandy-2",
+        "es": "Brandy-2"
+      }
+    },
+    {
+      "id": "432",
+      "names": {
+        "us": "Zhong Xu-1",
+        "tw": "仲胥-1",
+        "th": "จงซู-1",
+        "pt": "Zhong Xu-1",
+        "kr": "종서-1",
+        "jp": "シュウ -1",
+        "idn": "Zhong Xu-1",
+        "es": "Zhong Xu-1"
+      }
+    },
+    {
+      "id": "433",
+      "names": {
+        "us": "Zhong Xu-2",
+        "tw": "仲胥-2",
+        "th": "จงซู-2",
+        "pt": "Zhong Xu-2",
+        "kr": "종서-2",
+        "jp": "シュウ -2",
+        "idn": "Zhong Xu-2",
+        "es": "Zhong Xu-2"
+      }
+    },
+    {
+      "id": "434",
+      "names": {
+        "us": "Mu Yuebai-1",
+        "tw": "木月白-1",
+        "th": "มู่หยูไป่-1",
+        "pt": "Mu Yuebai-1",
+        "kr": "목월백-1",
+        "jp": "ユエ -1",
+        "idn": "Mu Yuebai-1",
+        "es": "Mu Yuebai-1"
+      }
+    },
+    {
+      "id": "435",
+      "names": {
+        "us": "Mu Yuebai-2",
+        "tw": "木月白-2",
+        "th": "มู่หยูไป่-2",
+        "pt": "Mu Yuebai-2",
+        "kr": "목월백-2",
+        "jp": "ユエ -2",
+        "idn": "Mu Yuebai-2",
+        "es": "Mu Yuebai-2"
+      }
+    },
+    {
+      "id": "436",
+      "names": {
+        "us": "Mu Yuebai-3",
+        "tw": "木月白-3",
+        "th": "มู่หยูไป่-3",
+        "pt": "Mu Yuebai-3",
+        "kr": "목월백-3",
+        "jp": "ユエ -3",
+        "idn": "Mu Yuebai-3",
+        "es": "Mu Yuebai-3"
+      }
+    },
+    {
+      "id": "437",
+      "names": {
+        "us": "Liqing-1",
+        "tw": "厘青-1",
+        "th": "ลี่ชิง-1",
+        "pt": "Liqing-1",
+        "kr": "리청-1",
+        "jp": "リンセイ -1",
+        "idn": "Liqing-1",
+        "es": "Liqing-1"
+      }
+    },
+    {
+      "id": "438",
+      "names": {
+        "us": "Liqing-2",
+        "tw": "厘青-2",
+        "th": "ลี่ชิง-2",
+        "pt": "Liqing-2",
+        "kr": "리청-2",
+        "jp": "リンセイ -2",
+        "idn": "Liqing-2",
+        "es": "Liqing-2"
+      }
+    },
+    {
+      "id": "439",
+      "names": {
+        "us": "Jeriah-1",
+        "tw": "耶利亞-1",
+        "th": "เยริ-1",
+        "pt": "Jeriah-1",
+        "kr": "예리아-1",
+        "jp": "イェリア -1",
+        "idn": "Jeriah-1",
+        "es": "Jeriah-1"
+      }
+    },
+    {
+      "id": "440",
+      "names": {
+        "us": "Jeriah-2",
+        "tw": "耶利亞-2",
+        "th": "เยริ-2",
+        "pt": "Jeriah-2",
+        "kr": "예리아-2",
+        "jp": "イェリア -2",
+        "idn": "Jeriah-2",
+        "es": "Jeriah-2"
+      }
+    },
+    {
+      "id": "441",
+      "names": {
+        "us": "Jeriah-3",
+        "tw": "耶利亞-3",
+        "th": "เยริ-3",
+        "pt": "Jeriah-3",
+        "kr": "예리아-3",
+        "jp": "イェリア -3",
+        "idn": "Jeriah-3",
+        "es": "Jeriah-3"
+      }
+    },
+    {
+      "id": "442",
+      "names": {
+        "us": "Kya-1",
+        "tw": "凱雅-1",
+        "th": "คยา-1",
+        "pt": "Kya-1",
+        "kr": "키아-1",
+        "jp": "キア -1",
+        "idn": "Kya-1",
+        "es": "Kya-1"
+      }
+    },
+    {
+      "id": "443",
+      "names": {
+        "us": "Kya-2",
+        "tw": "凱雅-2",
+        "th": "คยา-2",
+        "pt": "Kya-2",
+        "kr": "키아-2",
+        "jp": "キア -2",
+        "idn": "Kya-2",
+        "es": "Kya-2"
+      }
+    },
+    {
+      "id": "444",
+      "names": {
+        "us": "Tina-1",
+        "tw": "蒂娜-1",
+        "th": "ทีน่า-1",
+        "pt": "Tina-1",
+        "kr": "티나-1",
+        "jp": "ティナ -1",
+        "idn": "Tina-1",
+        "es": "Tina-1"
+      }
+    },
+    {
+      "id": "445",
+      "names": {
+        "us": "Tina-2",
+        "tw": "蒂娜-2",
+        "th": "ทีน่า-2",
+        "pt": "Tina-2",
+        "kr": "티나-2",
+        "jp": "ティナ -2",
+        "idn": "Tina-2",
+        "es": "Tina-2"
+      }
+    },
+    {
+      "id": "446",
+      "names": {
+        "us": "Tina-3",
+        "tw": "蒂娜-3",
+        "th": "ทีน่า-3",
+        "pt": "Tina-3",
+        "kr": "티나-3",
+        "jp": "ティナ -3",
+        "idn": "Tina-3",
+        "es": "Tina-3"
+      }
+    },
+    {
+      "id": "447",
+      "names": {
+        "us": "Li Tianxian-1",
+        "tw": "李天閑-1",
+        "th": "หลี่ เทียนเซียน-1",
+        "pt": "Li Tianxian-1",
+        "kr": "이천간-1",
+        "jp": "テンカン -1",
+        "idn": "Li Tianxian-1",
+        "es": "Li Tian Xian-1"
+      }
+    },
+    {
+      "id": "448",
+      "names": {
+        "us": "Li Tianxian-2",
+        "tw": "李天閑-2",
+        "th": "หลี่ เทียนเซียน-2",
+        "pt": "Li Tianxian-2",
+        "kr": "이천간-2",
+        "jp": "テンカン -2",
+        "idn": "Li Tianxian-2",
+        "es": "Li Tian Xian-2"
+      }
+    },
+    {
+      "id": "449",
+      "names": {
+        "us": "Li Tianxian-3",
+        "tw": "李天閑-3",
+        "th": "หลี่ เทียนเซียน-3",
+        "pt": "Li Tianxian-3",
+        "kr": "이천간-3",
+        "jp": "テンカン -3",
+        "idn": "Li Tianxian-3",
+        "es": "Li Tian Xian-3"
+      }
+    },
+    {
+      "id": "450",
+      "names": {
+        "us": "Dantang-1",
+        "tw": "丹棠-1",
+        "th": "ดันตัง-1",
+        "pt": "Dantang-1",
+        "kr": "단당-1",
+        "jp": "タンドウ -1",
+        "idn": "Dantang-1",
+        "es": "Dantang-1"
+      }
+    },
+    {
+      "id": "451",
+      "names": {
+        "us": "Dantang-2",
+        "tw": "丹棠-2",
+        "th": "ดันตัง-2",
+        "pt": "Dantang-2",
+        "kr": "단당-2",
+        "jp": "タンドウ -2",
+        "idn": "Dantang-2",
+        "es": "Dantang-2"
+      }
+    },
+    {
+      "id": "452",
+      "names": {
+        "us": "Dantang-3",
+        "tw": "丹棠-3",
+        "th": "ดันตัง-3",
+        "pt": "Dantang-3",
+        "kr": "단당-3",
+        "jp": "タンドウ -3",
+        "idn": "Dantang-3",
+        "es": "Dantang-3"
+      }
+    },
+    {
+      "id": "453",
+      "names": {
+        "us": "Leyn-1",
+        "tw": "零恩-1",
+        "th": "เลย์-1",
+        "pt": "Leyn-1",
+        "kr": "레인-1",
+        "jp": "ライン -1",
+        "idn": "Leyn-1",
+        "es": "Leyn-1"
+      }
+    },
+    {
+      "id": "454",
+      "names": {
+        "us": "Leyn-2",
+        "tw": "零恩-2",
+        "th": "เลย์-2",
+        "pt": "Leyn-2",
+        "kr": "레인-2",
+        "jp": "ライン -2",
+        "idn": "Leyn-2",
+        "es": "Leyn-2"
+      }
+    },
+    {
+      "id": "455",
+      "names": {
+        "us": "Matthieu-1",
+        "tw": "馬太-1",
+        "th": "แมทธิว-1",
+        "pt": "Matthieu-1",
+        "kr": "마티외-1",
+        "jp": "マシュー -1",
+        "idn": "Matthieu-1",
+        "es": "Matthieu-1"
+      }
+    },
+    {
+      "id": "456",
+      "names": {
+        "us": "Matthieu-2",
+        "tw": "馬太-2",
+        "th": "แมทธิว-2",
+        "pt": "Matthieu-2",
+        "kr": "마티외-2",
+        "jp": "マシュー -2",
+        "idn": "Matthieu-2",
+        "es": "Matthieu-2"
+      }
+    },
+    {
+      "id": "457",
+      "names": {
+        "us": "Matthieu-3",
+        "tw": "馬太-3",
+        "th": "แมทธิว-3",
+        "pt": "Matthieu-3",
+        "kr": "마티외-3",
+        "jp": "マシュー -3",
+        "idn": "Matthieu-3",
+        "es": "Matthieu-3"
+      }
+    },
+    {
+      "id": "458",
+      "names": {
+        "us": "Hati-1",
+        "tw": "哈提-1",
+        "th": "ฮาติ-1",
+        "pt": "Hati-1",
+        "kr": "하티-1",
+        "jp": "ハーティ -1",
+        "idn": "Hati-1",
+        "es": "Hati-1"
+      }
+    },
+    {
+      "id": "459",
+      "names": {
+        "us": "Hati-2",
+        "tw": "哈提-2",
+        "th": "ฮาติ-2",
+        "pt": "Hati-2",
+        "kr": "하티-2",
+        "jp": "ハーティ -2",
+        "idn": "Hati-2",
+        "es": "Hati-2"
+      }
+    },
+    {
+      "id": "460",
+      "names": {
+        "us": "Leo-1",
+        "tw": "李奧-1",
+        "th": "สิงห์-1",
+        "pt": "Leo-1",
+        "kr": "레오-1",
+        "jp": "レオ -1",
+        "idn": "Leo-1",
+        "es": "Leo-1"
+      }
+    },
+    {
+      "id": "461",
+      "names": {
+        "us": "Leo-2",
+        "tw": "李奧-2",
+        "th": "สิงห์-2",
+        "pt": "Leo-2",
+        "kr": "레오-2",
+        "jp": "レオ -2",
+        "idn": "Leo-2",
+        "es": "Leo-2"
+      }
+    },
+    {
+      "id": "462",
+      "names": {
+        "us": "Kristen-1",
+        "tw": "克莉絲汀-1",
+        "th": "คริสเตน-1",
+        "pt": "Kristen-1",
+        "kr": "크리스틴-1",
+        "jp": "クリステン -1",
+        "idn": "Kristen-1",
+        "es": "Kristen-1"
+      }
+    },
+    {
+      "id": "463",
+      "names": {
+        "us": "Kristen-2",
+        "tw": "克莉絲汀-2",
+        "th": "คริสเตน-2",
+        "pt": "Kristen-2",
+        "kr": "크리스틴-2",
+        "jp": "クリステン -2",
+        "idn": "Kristen-2",
+        "es": "Kristen-2"
+      }
+    },
+    {
+      "id": "464",
+      "names": {
+        "us": "Yingel-1",
+        "tw": "鶯歌-1",
+        "th": "อิงเกล-1",
+        "pt": "Yingel-1",
+        "kr": "잉겔-1",
+        "jp": "インゲル -1",
+        "idn": "Yingel-1",
+        "es": "Yingel-1"
+      }
+    },
+    {
+      "id": "465",
+      "names": {
+        "us": "Yingel-2",
+        "tw": "鶯歌-2",
+        "th": "อิงเกล-2",
+        "pt": "Yingel-2",
+        "kr": "잉겔-2",
+        "jp": "インゲル -2",
+        "idn": "Yingel-2",
+        "es": "Yingel-2"
+      }
+    },
+    {
+      "id": "466",
+      "names": {
+        "us": "Yingel-3",
+        "tw": "鶯歌-3",
+        "th": "อิงเกล-3",
+        "pt": "Yingel-3",
+        "kr": "잉겔-3",
+        "jp": "インゲル -3",
+        "idn": "Yingel-3",
+        "es": "Yingel-3"
+      }
+    },
+    {
+      "id": "467",
+      "names": {
+        "us": "Anatoli-1",
+        "tw": "阿納托利-1",
+        "th": "แอนาโทลี-1",
+        "pt": "Anatoli-1",
+        "kr": "아나톨리-1",
+        "jp": "アナトリア -1",
+        "idn": "Anatoli-1",
+        "es": "Anatoli-1"
+      }
+    },
+    {
+      "id": "468",
+      "names": {
+        "us": "Anatoli-2",
+        "tw": "阿納托利-2",
+        "th": "แอนาโทลี-2",
+        "pt": "Anatoli-2",
+        "kr": "아나톨리-2",
+        "jp": "アナトリア -2",
+        "idn": "Anatoli-2",
+        "es": "Anatoli-2"
+      }
+    },
+    {
+      "id": "469",
+      "names": {
+        "us": "Mia： Lustrous Soul-1",
+        "tw": "Mia： Lustrous Soul-1",
+        "th": "Mia： Lustrous Soul-1",
+        "pt": "Mia： Lustrous Soul-1",
+        "kr": "Mia： Lustrous Soul-1",
+        "jp": "Mia： Lustrous Soul -1",
+        "idn": "Mia： Lustrous Soul-1",
+        "es": "Mia： Lustrous Soul-1"
+      }
+    },
+    {
+      "id": "470",
+      "names": {
+        "us": "Mia： Lustrous Soul-2",
+        "tw": "Mia： Lustrous Soul-2",
+        "th": "Mia： Lustrous Soul-2",
+        "pt": "Mia： Lustrous Soul-2",
+        "kr": "Mia： Lustrous Soul-2",
+        "jp": "Mia： Lustrous Soul -2",
+        "idn": "Mia： Lustrous Soul-2",
+        "es": "Mia： Lustrous Soul-2"
+      }
+    },
+    {
+      "id": "471",
+      "names": {
+        "us": "Schwartz： Almighty Clamor-1",
+        "tw": "Schwartz： Almighty Clamor-1",
+        "th": "Schwartz： Almighty Clamor-1",
+        "pt": "Schwartz： Almighty Clamor-1",
+        "kr": "Schwartz： Almighty Clamor-1",
+        "jp": "Schwartz： Almighty Clamor -1",
+        "idn": "Schwartz： Almighty Clamor-1",
+        "es": "Schwartz： Almighty Clamor-1"
+      }
+    },
+    {
+      "id": "472",
+      "names": {
+        "us": "Schwartz： Almighty Clamor-2",
+        "tw": "Schwartz： Almighty Clamor-2",
+        "th": "Schwartz： Almighty Clamor-2",
+        "pt": "Schwartz： Almighty Clamor-2",
+        "kr": "Schwartz： Almighty Clamor-2",
+        "jp": "Schwartz： Almighty Clamor -2",
+        "idn": "Schwartz： Almighty Clamor-2",
+        "es": "Schwartz： Almighty Clamor-2"
+      }
+    },
+    {
+      "id": "473",
+      "names": {
+        "us": "Jakine-1",
+        "tw": "加晴-1",
+        "th": "Jakine-1",
+        "pt": "Jakine-1",
+        "kr": "쟈키니-1",
+        "jp": "ジャキーニ -1",
+        "idn": "Jakine-1",
+        "es": "Jakine-1"
+      }
+    },
+    {
+      "id": "474",
+      "names": {
+        "us": "Jakine-2",
+        "tw": "加晴-2",
+        "th": "Jakine-2",
+        "pt": "Jakine-2",
+        "kr": "쟈키니-2",
+        "jp": "ジャキーニ -2",
+        "idn": "Jakine-2",
+        "es": "Jakine-2"
+      }
+    },
+    {
+      "id": "475",
+      "names": {
+        "us": "Joshua-1",
+        "tw": "約書亞-1",
+        "th": "โจชัว-1",
+        "pt": "Joshua-1",
+        "kr": "조슈아-1",
+        "jp": "ヨシュア -1",
+        "idn": "Joshua-1",
+        "es": "Joshua-1"
+      }
+    },
+    {
+      "id": "476",
+      "names": {
+        "us": "Joshua-2",
+        "tw": "約書亞-2",
+        "th": "โจชัว-2",
+        "pt": "Joshua-2",
+        "kr": "조슈아-2",
+        "jp": "ヨシュア -2",
+        "idn": "Joshua-2",
+        "es": "Joshua-2"
+      }
+    },
+    {
+      "id": "477",
+      "names": {
+        "us": "Blanc： Pura Cordis-1",
+        "tw": "Blanc： Pura Cordis-1",
+        "th": "Blanc： Pura Cordis-1",
+        "pt": "Blanc： Pura Cordis-1",
+        "kr": "Blanc： Pura Cordis-1",
+        "jp": "Blanc： Pura Cordis -1",
+        "idn": "Blanc： Pura Cordis-1",
+        "es": "Blanc： Pura Cordis-1"
+      }
+    },
+    {
+      "id": "478",
+      "names": {
+        "us": "Blanc： Pura Cordis-2",
+        "tw": "Blanc： Pura Cordis-2",
+        "th": "Blanc： Pura Cordis-2",
+        "pt": "Blanc： Pura Cordis-2",
+        "kr": "Blanc： Pura Cordis-2",
+        "jp": "Blanc： Pura Cordis -2",
+        "idn": "Blanc： Pura Cordis-2",
+        "es": "Blanc： Pura Cordis-2"
+      }
+    },
+    {
+      "id": "479",
+      "names": {
+        "us": "Lorelei-1",
+        "tw": "萊蕾-1",
+        "th": "ลอเรเลย์-1",
+        "pt": "Lorelei-1",
+        "kr": "로렐라이-1",
+        "jp": "ローレライ -1",
+        "idn": "Lorelei-1",
+        "es": "Lorelei-1"
+      }
+    },
+    {
+      "id": "480",
+      "names": {
+        "us": "Lorelei-2",
+        "tw": "萊蕾-2",
+        "th": "ลอเรเลย์-2",
+        "pt": "Lorelei-2",
+        "kr": "로렐라이-2",
+        "jp": "ローレライ -2",
+        "idn": "Lorelei-2",
+        "es": "Lorelei-2"
+      }
+    },
+    {
+      "id": "481",
+      "names": {
+        "us": "Lorelei-3",
+        "tw": "萊蕾-3",
+        "th": "ลอเรเลย์-3",
+        "pt": "Lorelei-3",
+        "kr": "로렐라이-3",
+        "jp": "ローレライ -3",
+        "idn": "Lorelei-3",
+        "es": "Lorelei-3"
+      }
+    },
+    {
+      "id": "482",
+      "names": {
+        "us": "Cena-1",
+        "tw": "希南-1",
+        "th": "ซีน่า-1",
+        "pt": "Cena-1",
+        "kr": "세나-1",
+        "jp": "セナ -1",
+        "idn": "Cena-1",
+        "es": "Cena-1"
+      }
+    },
+    {
+      "id": "483",
+      "names": {
+        "us": "Cena-2",
+        "tw": "希南-2",
+        "th": "ซีน่า-2",
+        "pt": "Cena-2",
+        "kr": "세나-2",
+        "jp": "セナ -2",
+        "idn": "Cena-2",
+        "es": "Cena-2"
+      }
+    },
+    {
+      "id": "484",
+      "names": {
+        "us": "Bopper-1",
+        "tw": "叭噗-1",
+        "th": "บ็อปเปอร์-1",
+        "pt": "Bopper-1",
+        "kr": "보프-1",
+        "jp": "バップ -1",
+        "idn": "Bopper-1",
+        "es": "Bopper-1"
+      }
+    },
+    {
+      "id": "485",
+      "names": {
+        "us": "Bopper-2",
+        "tw": "叭噗-2",
+        "th": "บ็อปเปอร์-2",
+        "pt": "Bopper-2",
+        "kr": "보프-2",
+        "jp": "バップ -2",
+        "idn": "Bopper-2",
+        "es": "Bopper-2"
+      }
+    },
+    {
+      "id": "486",
+      "names": {
+        "us": "Wrath： Proud Fervor-1",
+        "tw": "Wrath： Proud Fervor-1",
+        "th": "Wrath： Proud Fervor-1",
+        "pt": "Wrath： Proud Fervor-1",
+        "kr": "Wrath： Proud Fervor-1",
+        "jp": "Wrath： Proud Fervor -1",
+        "idn": "Wrath： Proud Fervor-1",
+        "es": "Wrath： Proud Fervor-1"
+      }
+    },
+    {
+      "id": "487",
+      "names": {
+        "us": "Wrath： Proud Fervor-2",
+        "tw": "Wrath： Proud Fervor-2",
+        "th": "Wrath： Proud Fervor-2",
+        "pt": "Wrath： Proud Fervor-2",
+        "kr": "Wrath： Proud Fervor-2",
+        "jp": "Wrath： Proud Fervor -2",
+        "idn": "Wrath： Proud Fervor-2",
+        "es": "Wrath： Proud Fervor-2"
+      }
+    },
+    {
+      "id": "488",
+      "names": {
+        "us": "Joselyne-1",
+        "tw": "喬瑟琳-1",
+        "th": "โจเซลิน-1",
+        "pt": "Joselyne-1",
+        "kr": "조셀린-1",
+        "jp": "ジョセリン -1",
+        "idn": "Joselyne-1",
+        "es": "joselyne-1"
+      }
+    },
+    {
+      "id": "489",
+      "names": {
+        "us": "Joselyne-2",
+        "tw": "喬瑟琳-2",
+        "th": "โจเซลิน-2",
+        "pt": "Joselyne-2",
+        "kr": "조셀린-2",
+        "jp": "ジョセリン -2",
+        "idn": "Joselyne-2",
+        "es": "joselyne-2"
+      }
+    },
+    {
+      "id": "490",
+      "names": {
+        "us": "Zarya-1",
+        "tw": "札莉雅-1",
+        "th": "ซาร์ยา-1",
+        "pt": "Zarya-1",
+        "kr": "자리야-1",
+        "jp": "ザーリャ -1",
+        "idn": "Zarya-1",
+        "es": "Zarya-1"
+      }
+    },
+    {
+      "id": "491",
+      "names": {
+        "us": "Zarya-2",
+        "tw": "札莉雅-2",
+        "th": "ซาร์ยา-2",
+        "pt": "Zarya-2",
+        "kr": "자리야-2",
+        "jp": "ザーリャ -2",
+        "idn": "Zarya-2",
+        "es": "Zarya-2"
+      }
+    },
+    {
+      "id": "492",
+      "names": {
+        "us": "Zarya-3",
+        "tw": "札莉雅-3",
+        "th": "ซาร์ยา-3",
+        "pt": "Zarya-3",
+        "kr": "자리야-3",
+        "jp": "ザーリャ -3",
+        "idn": "Zarya-3",
+        "es": "Zarya-3"
+      }
+    },
+    {
+      "id": "493",
+      "names": {
+        "us": "Antony-1",
+        "tw": "安頓-1",
+        "th": "แอนโทนี่-1",
+        "pt": "Antony-1",
+        "kr": "안토니-1",
+        "jp": "アントニー -1",
+        "idn": "Antony-1",
+        "es": "Antony-1"
+      }
+    },
+    {
+      "id": "494",
+      "names": {
+        "us": "Antony-2",
+        "tw": "安頓-2",
+        "th": "แอนโทนี่-2",
+        "pt": "Antony-2",
+        "kr": "안토니-2",
+        "jp": "アントニー -2",
+        "idn": "Antony-2",
+        "es": "Antony-2"
+      }
+    },
+    {
+      "id": "495",
+      "names": {
+        "us": "No 33-1",
+        "tw": "No 33-1",
+        "th": "No 33-1",
+        "pt": "No 33-1",
+        "kr": "No 33-1",
+        "jp": "No 33 -1",
+        "idn": "No 33-1",
+        "es": "No 33-1"
+      }
+    },
+    {
+      "id": "496",
+      "names": {
+        "us": "No 33-2",
+        "tw": "No 33-2",
+        "th": "No 33-2",
+        "pt": "No 33-2",
+        "kr": "No 33-2",
+        "jp": "No 33 -2",
+        "idn": "No 33-2",
+        "es": "No 33-2"
+      }
+    },
+    {
+      "id": "497",
+      "names": {
+        "us": "Rebecca-1",
+        "tw": "麗蓓卡-1",
+        "th": "เรเบคก้า-1",
+        "pt": "Rebecca-1",
+        "kr": "레베카-1",
+        "jp": "レベッカ -1",
+        "idn": "Rebecca-1",
+        "es": "Rebecca-1"
+      }
+    },
+    {
+      "id": "498",
+      "names": {
+        "us": "Rebecca-2",
+        "tw": "麗蓓卡-2",
+        "th": "เรเบคก้า-2",
+        "pt": "Rebecca-2",
+        "kr": "레베카-2",
+        "jp": "レベッカ -2",
+        "idn": "Rebecca-2",
+        "es": "Rebecca-2"
+      }
+    },
+    {
+      "id": "499",
+      "names": {
+        "us": "Isa-1",
+        "tw": "伊莎-1",
+        "th": "อิซา-1",
+        "pt": "Isa-1",
+        "kr": "이사-1",
+        "jp": "イーサ -1",
+        "idn": "Isa-1",
+        "es": "Isa-1"
+      }
+    },
+    {
+      "id": "500",
+      "names": {
+        "us": "Isa-2",
+        "tw": "伊莎-2",
+        "th": "อิซา-2",
+        "pt": "Isa-2",
+        "kr": "이사-2",
+        "jp": "イーサ -2",
+        "idn": "Isa-2",
+        "es": "Isa-2"
+      }
+    },
+    {
+      "id": "501",
+      "names": {
+        "us": "Xuan Ji-1",
+        "tw": "璇極-1",
+        "th": "ซวนจิ-1",
+        "pt": "Xuan Ji-1",
+        "kr": "선극-1",
+        "jp": "センキョク -1",
+        "idn": "Xuan Ji-1",
+        "es": "Xuan Ji-1"
+      }
+    },
+    {
+      "id": "502",
+      "names": {
+        "us": "Xuan Ji-2",
+        "tw": "璇極-2",
+        "th": "ซวนจิ-2",
+        "pt": "Xuan Ji-2",
+        "kr": "선극-2",
+        "jp": "センキョク -2",
+        "idn": "Xuan Ji-2",
+        "es": "Xuan Ji-2"
+      }
+    },
+    {
+      "id": "503",
+      "names": {
+        "us": "Xuan Ji-3",
+        "tw": "璇極-3",
+        "th": "ซวนจิ-3",
+        "pt": "Xuan Ji-3",
+        "kr": "선극-3",
+        "jp": "センキョク -3",
+        "idn": "Xuan Ji-3",
+        "es": "Xuan Ji-3"
+      }
+    },
+    {
+      "id": "504",
+      "names": {
+        "us": "Sheol-1",
+        "tw": "Sheol-1",
+        "th": "Sheol-1",
+        "pt": "Sheol-1",
+        "kr": "Sheol-1",
+        "jp": "Sheol -1",
+        "idn": "Sheol-1",
+        "es": "Sheol-1"
+      }
+    },
+    {
+      "id": "505",
+      "names": {
+        "us": "Sheol-2",
+        "tw": "Sheol-2",
+        "th": "Sheol-2",
+        "pt": "Sheol-2",
+        "kr": "Sheol-2",
+        "jp": "Sheol -2",
+        "idn": "Sheol-2",
+        "es": "Sheol-2"
+      }
+    },
+    {
+      "id": "506",
+      "names": {
+        "us": "Sheol-3",
+        "tw": "Sheol-3",
+        "th": "Sheol-3",
+        "pt": "Sheol-3",
+        "kr": "Sheol-3",
+        "jp": "Sheol -3",
+        "idn": "Sheol-3",
+        "es": "Sheol-3"
+      }
+    },
+    {
+      "id": "507",
+      "names": {
+        "us": "Istvan： Scarred Pith-1",
+        "tw": "Istvan： Scarred Pith-1",
+        "th": "Istvan： Scarred Pith-1",
+        "pt": "Istvan： Scarred Pith-1",
+        "kr": "Istvan： Scarred Pith-1",
+        "jp": "Istvan： Scarred Pith -1",
+        "idn": "Istvan： Scarred Pith-1",
+        "es": "Istvan： Scarred Pith-1"
+      }
+    },
+    {
+      "id": "508",
+      "names": {
+        "us": "Istvan： Scarred Pith-2",
+        "tw": "Istvan： Scarred Pith-2",
+        "th": "Istvan： Scarred Pith-2",
+        "pt": "Istvan： Scarred Pith-2",
+        "kr": "Istvan： Scarred Pith-2",
+        "jp": "Istvan： Scarred Pith -2",
+        "idn": "Istvan： Scarred Pith-2",
+        "es": "Istvan： Scarred Pith-2"
+      }
+    },
+    {
+      "id": "509",
+      "names": {
+        "us": "Vergil-1",
+        "tw": "維吉爾-1",
+        "th": "เวอร์จิล-1",
+        "pt": "Vergílio-1",
+        "kr": "버질-1",
+        "jp": "バージル -1",
+        "idn": "Vergil-1",
+        "es": "Virgilio-1"
+      }
+    },
+    {
+      "id": "510",
+      "names": {
+        "us": "Vergil-2",
+        "tw": "維吉爾-2",
+        "th": "เวอร์จิล-2",
+        "pt": "Vergílio-2",
+        "kr": "버질-2",
+        "jp": "バージル -2",
+        "idn": "Vergil-2",
+        "es": "Virgilio-2"
+      }
+    },
+    {
+      "id": "511",
+      "names": {
+        "us": "Algol-1",
+        "tw": "阿爾戈爾-1",
+        "th": "อัลกอล-1",
+        "pt": "algol-1",
+        "kr": "알골-1",
+        "jp": "アルゴル -1",
+        "idn": "Algol-1",
+        "es": "Algol-1"
+      }
+    },
+    {
+      "id": "512",
+      "names": {
+        "us": "Algol-2",
+        "tw": "阿爾戈爾-2",
+        "th": "อัลกอล-2",
+        "pt": "algol-2",
+        "kr": "알골-2",
+        "jp": "アルゴル -2",
+        "idn": "Algol-2",
+        "es": "Algol-2"
+      }
+    },
+    {
+      "id": "513",
+      "names": {
+        "us": "Chen'ni-1",
+        "tw": "辰霓-1",
+        "th": "Chen'ni-1",
+        "pt": "Chen'ni-1",
+        "kr": "진예-1",
+        "jp": "シンゲイ -1",
+        "idn": "Chen'ni-1",
+        "es": "Chen'ni-1"
+      }
+    },
+    {
+      "id": "514",
+      "names": {
+        "us": "Chen'ni-2",
+        "tw": "辰霓-2",
+        "th": "Chen'ni-2",
+        "pt": "Chen'ni-2",
+        "kr": "진예-2",
+        "jp": "シンゲイ -2",
+        "idn": "Chen'ni-2",
+        "es": "Chen'ni-2"
+      }
+    },
+    {
+      "id": "515",
+      "names": {
+        "us": "Chen'ni-3",
+        "tw": "辰霓-3",
+        "th": "Chen'ni-3",
+        "pt": "Chen'ni-3",
+        "kr": "진예-3",
+        "jp": "シンゲイ -3",
+        "idn": "Chen'ni-3",
+        "es": "Chen'ni-3"
+      }
+    },
+    {
+      "id": "516",
+      "names": {
+        "us": "Luo Song-1",
+        "tw": "羅松-1",
+        "th": "Luo Song-1",
+        "pt": "Luo Song-1",
+        "kr": "나송-1",
+        "jp": "ラショウ -1",
+        "idn": "Luo Song-1",
+        "es": "Luo Song-1"
+      }
+    },
+    {
+      "id": "517",
+      "names": {
+        "us": "Luo Song-2",
+        "tw": "羅松-2",
+        "th": "Luo Song-2",
+        "pt": "Luo Song-2",
+        "kr": "나송-2",
+        "jp": "ラショウ -2",
+        "idn": "Luo Song-2",
+        "es": "Luo Song-2"
+      }
+    },
+    {
+      "id": "518",
+      "names": {
+        "us": "Tiare-1",
+        "tw": "提亞拉-1",
+        "th": "เทียเร่-1",
+        "pt": "Tiare-1",
+        "kr": "티아라-1",
+        "jp": "ティアラ -1",
+        "idn": "Tiare-1",
+        "es": "Tiaré-1"
+      }
+    },
+    {
+      "id": "519",
+      "names": {
+        "us": "Tiare-2",
+        "tw": "提亞拉-2",
+        "th": "เทียเร่-2",
+        "pt": "Tiare-2",
+        "kr": "티아라-2",
+        "jp": "ティアラ -2",
+        "idn": "Tiare-2",
+        "es": "Tiaré-2"
+      }
+    },
+    {
+      "id": "520",
+      "names": {
+        "us": "Prince Lilypad-1",
+        "tw": "白蛙王子-1",
+        "th": "เจ้าชายลิลิแพด-1",
+        "pt": "Príncipe Lilypad-1",
+        "kr": "흰개구리 왕자-1",
+        "jp": "カエル王子 -1",
+        "idn": "Pangeran Teratai-1",
+        "es": "Príncipe Lilypad-1"
+      }
+    },
+    {
+      "id": "521",
+      "names": {
+        "us": "Rachel-1",
+        "tw": "蕾切爾-1",
+        "th": "ราเชล-1",
+        "pt": "Rachel-1",
+        "kr": "레이첼-1",
+        "jp": "レイチェル -1",
+        "idn": "Rachel-1",
+        "es": "Rachel-1"
+      }
+    },
+    {
+      "id": "522",
+      "names": {
+        "us": "Rachel-2",
+        "tw": "蕾切爾-2",
+        "th": "ราเชล-2",
+        "pt": "Rachel-2",
+        "kr": "레이첼-2",
+        "jp": "レイチェル -2",
+        "idn": "Rachel-2",
+        "es": "Rachel-2"
+      }
+    },
+    {
+      "id": "523",
+      "names": {
+        "us": "Rachel-3",
+        "tw": "蕾切爾-3",
+        "th": "ราเชล-3",
+        "pt": "Rachel-3",
+        "kr": "레이첼-3",
+        "jp": "レイチェル -3",
+        "idn": "Rachel-3",
+        "es": "Rachel-3"
+      }
+    },
+    {
+      "id": "524",
+      "names": {
+        "us": "Zeta-1",
+        "tw": "澤塔-1",
+        "th": "เซต้า-1",
+        "pt": "Zeta-1",
+        "kr": "제타-1",
+        "jp": "ゼタ -1",
+        "idn": "Zeta-1",
+        "es": "Zeta-1"
+      }
+    },
+    {
+      "id": "525",
+      "names": {
+        "us": "Zeta-2",
+        "tw": "澤塔-2",
+        "th": "เซต้า-2",
+        "pt": "Zeta-2",
+        "kr": "제타-2",
+        "jp": "ゼタ -2",
+        "idn": "Zeta-2",
+        "es": "Zeta-2"
+      }
+    },
+    {
+      "id": "526",
+      "names": {
+        "us": "Batia-1",
+        "tw": "巴緹牙-1",
+        "th": "บาเทีย-1",
+        "pt": "Batia-1",
+        "kr": "바티아-1",
+        "jp": "バティア -1",
+        "idn": "Batia-1",
+        "es": "Batia-1"
+      }
+    },
+    {
+      "id": "527",
+      "names": {
+        "us": "Batia-2",
+        "tw": "巴緹牙-2",
+        "th": "บาเทีย-2",
+        "pt": "Batia-2",
+        "kr": "바티아-2",
+        "jp": "バティア -2",
+        "idn": "Batia-2",
+        "es": "Batia-2"
+      }
+    },
+    {
+      "id": "528",
+      "names": {
+        "us": "Victoria： Elegy-1",
+        "tw": "Victoria： Elegy-1",
+        "th": "Victoria： Elegy-1",
+        "pt": "Victoria： Elegy-1",
+        "kr": "Victoria： Elegy-1",
+        "jp": "Victoria： Elegy -1",
+        "idn": "Victoria： Elegy-1",
+        "es": "Victoria： Elegy-1"
+      }
+    },
+    {
+      "id": "529",
+      "names": {
+        "us": "Victoria： Elegy-2",
+        "tw": "Victoria： Elegy-2",
+        "th": "Victoria： Elegy-2",
+        "pt": "Victoria： Elegy-2",
+        "kr": "Victoria： Elegy-2",
+        "jp": "Victoria： Elegy -2",
+        "idn": "Victoria： Elegy-2",
+        "es": "Victoria： Elegy-2"
+      }
+    },
+    {
+      "id": "530",
+      "names": {
+        "us": "Wilhelm-1",
+        "tw": "威廉-1",
+        "th": "วิลเฮล์ม-1",
+        "pt": "Wilhelm-1",
+        "kr": "빌헬름-1",
+        "jp": "ヴィルヘルム -1",
+        "idn": "Wilhelm-1",
+        "es": "Wilhelm-1"
+      }
+    },
+    {
+      "id": "531",
+      "names": {
+        "us": "Wilhelm-2",
+        "tw": "威廉-2",
+        "th": "วิลเฮล์ม-2",
+        "pt": "Wilhelm-2",
+        "kr": "빌헬름-2",
+        "jp": "ヴィルヘルム -2",
+        "idn": "Wilhelm-2",
+        "es": "Wilhelm-2"
+      }
+    },
+    {
+      "id": "532",
+      "names": {
+        "us": "Nails： Sacred Rite-1",
+        "tw": "Nails： Sacred Rite-1",
+        "th": "Nails： Sacred Rite-1",
+        "pt": "Nails： Sacred Rite-1",
+        "kr": "Nails： Sacred Rite-1",
+        "jp": "Nails： Sacred Rite -1",
+        "idn": "Nails： Sacred Rite-1",
+        "es": "Nails： Sacred Rite-1"
+      }
+    },
+    {
+      "id": "533",
+      "names": {
+        "us": "Nails： Sacred Rite-2",
+        "tw": "Nails： Sacred Rite-2",
+        "th": "Nails： Sacred Rite-2",
+        "pt": "Nails： Sacred Rite-2",
+        "kr": "Nails： Sacred Rite-2",
+        "jp": "Nails： Sacred Rite -2",
+        "idn": "Nails： Sacred Rite-2",
+        "es": "Nails： Sacred Rite-2"
+      }
+    },
+    {
+      "id": "534",
+      "names": {
+        "us": "Ryza-1",
+        "tw": "萊莎-1",
+        "th": "Ryza-1",
+        "pt": "Ryza-1",
+        "kr": "라이자-1",
+        "jp": "ライザ -1",
+        "idn": "Ryza-1",
+        "es": "Ryza-1"
+      }
+    },
+    {
+      "id": "535",
+      "names": {
+        "us": "Ryza-2",
+        "tw": "萊莎-2",
+        "th": "Ryza-2",
+        "pt": "Ryza-2",
+        "kr": "라이자-2",
+        "jp": "ライザ -2",
+        "idn": "Ryza-2",
+        "es": "Ryza-2"
+      }
+    },
+    {
+      "id": "536",
+      "names": {
+        "us": "Ryza-3",
+        "tw": "萊莎-3",
+        "th": "Ryza-3",
+        "pt": "Ryza-3",
+        "kr": "라이자-3",
+        "jp": "ライザ -3",
+        "idn": "Ryza-3",
+        "es": "Ryza-3"
+      }
+    },
+    {
+      "id": "537",
+      "names": {
+        "us": "Klaudia-1",
+        "tw": "科洛蒂婭-1",
+        "th": "คลอเดีย-1",
+        "pt": "Klaudia-1",
+        "kr": "클라우디아-1",
+        "jp": "クラウディア -1",
+        "idn": "Klaudia-1",
+        "es": "Klaudia-1"
+      }
+    },
+    {
+      "id": "538",
+      "names": {
+        "us": "Klaudia-2",
+        "tw": "科洛蒂婭-2",
+        "th": "คลอเดีย-2",
+        "pt": "Klaudia-2",
+        "kr": "클라우디아-2",
+        "jp": "クラウディア -2",
+        "idn": "Klaudia-2",
+        "es": "Klaudia-2"
+      }
+    },
+    {
+      "id": "539",
+      "names": {
+        "us": "Patricia-1",
+        "tw": "派翠夏-1",
+        "th": "พัทริเซีย-1",
+        "pt": "Patricia-1",
+        "kr": "파트리샤-1",
+        "jp": "パトリツィア -1",
+        "idn": "Patricia-1",
+        "es": "Patricia-1"
+      }
+    },
+    {
+      "id": "540",
+      "names": {
+        "us": "Patricia-2",
+        "tw": "派翠夏-2",
+        "th": "พัทริเซีย-2",
+        "pt": "Patricia-2",
+        "kr": "파트리샤-2",
+        "jp": "パトリツィア -2",
+        "idn": "Patricia-2",
+        "es": "Patricia-2"
+      }
+    },
+    {
+      "id": "541",
+      "names": {
+        "us": "Claymore-1",
+        "tw": "祭劍座-1",
+        "th": "เคลย์มอร์-1",
+        "pt": "Claymore-1",
+        "kr": "그라디우스-1",
+        "jp": "祭剣座 -1",
+        "idn": "Claymore-1",
+        "es": "Claymore-1"
+      }
+    },
+    {
+      "id": "542",
+      "names": {
+        "us": "Maya-1",
+        "tw": "摩耶-1",
+        "th": "มายา-1",
+        "pt": "Maya-1",
+        "kr": "마야-1",
+        "jp": "マヤ -1",
+        "idn": "Maya-1",
+        "es": "Maya-1"
+      }
+    },
+    {
+      "id": "543",
+      "names": {
+        "us": "Maya-2",
+        "tw": "摩耶-2",
+        "th": "มายา-2",
+        "pt": "Maya-2",
+        "kr": "마야-2",
+        "jp": "マヤ -2",
+        "idn": "Maya-2",
+        "es": "Maya-2"
+      }
+    },
+    {
+      "id": "544",
+      "names": {
+        "us": "Mithra-1",
+        "tw": "蜜特拉-1",
+        "th": "มินอส-1",
+        "pt": "Mithras-1",
+        "kr": "미트라-1",
+        "jp": "ミトラ -1",
+        "idn": "Mithras-1",
+        "es": "Mithras-1"
+      }
+    },
+    {
+      "id": "545",
+      "names": {
+        "us": "Mithra-2",
+        "tw": "蜜特拉-2",
+        "th": "มินอส-2",
+        "pt": "Mithras-2",
+        "kr": "미트라-2",
+        "jp": "ミトラ -2",
+        "idn": "Mithras-2",
+        "es": "Mithras-2"
+      }
+    },
+    {
+      "id": "546",
+      "names": {
+        "us": "Pepita-1",
+        "tw": "佩皮塔-1",
+        "th": "เปปิตา-1",
+        "pt": "Pepita-1",
+        "kr": "페피타-1",
+        "jp": "ペピータ -1",
+        "idn": "Pepita-1",
+        "es": "Pepita-1"
+      }
+    },
+    {
+      "id": "547",
+      "names": {
+        "us": "Pepita-2",
+        "tw": "佩皮塔-2",
+        "th": "เปปิตา-2",
+        "pt": "Pepita-2",
+        "kr": "페피타-2",
+        "jp": "ペピータ -2",
+        "idn": "Pepita-2",
+        "es": "Pepita-2"
+      }
+    }
+  ]
+}

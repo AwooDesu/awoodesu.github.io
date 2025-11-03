@@ -6,16 +6,63 @@ body {
     padding: 0;
 }
 
+.tab-bar {
+    display: flex;
+    width: 100%;
+}
+
+.tab-group {
+    display: flex;
+}
+
+.tab-group.primary {
+    flex: 0 0 80%;
+}
+
+.tab-group.secondary {
+    flex: 0 0 20%;
+}
+
 .tablinks {
     background-color: #282a2e;
     color: white;
-    float: left;
     border: none;
     outline: none;
     cursor: pointer;
-    padding: 14px 16px;
+    padding: 12px 16px;
     transition: 0.3s;
-    width: 16.66%;
+    flex: 1 1 auto;
+    text-align: center;
+}
+
+.tablinks-compact {
+    padding: 10px 14px;
+}
+
+select#languageSelector {
+    background-color: #282a2e;
+    color: white;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 12px 16px;
+    transition: 0.3s;
+    flex: 1 1 auto;
+    text-align: center;
+    font-size: inherit;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+
+select#languageSelector:hover {
+    background-color: #5c6bc0;
+    color: #ffffff;
+}
+
+select#languageSelector option {
+    background-color: #282a2e;
+    color: white;
 }
 
 .import-button {

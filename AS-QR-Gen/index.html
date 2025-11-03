@@ -11,21 +11,35 @@
 </head>
 <body>
     <div class="tabs">
-        <div style="text-align: center;">
-            <button class="tablinks" onclick="openTab(event, 'QR')">QR</button>
-            <button class="tablinks" onclick="openTab(event, 'Units')">Units</button>
-            <button class="tablinks" onclick="openTab(event, 'Skins')">Skins</button>
-            <button class="tablinks" onclick="openTab(event, 'ID')">ID</button>
-            <button class="tablinks" onclick="openTab(event, 'Username')">Name</button>
-            <button class="tablinks" onclick="openTab(event, 'PlainText')">Text</button>
+        <div class="tab-bar">
+            <div class="tab-group primary">
+                <button class="tablinks" onclick="openTab(event, 'QR')">QR</button>
+                <button class="tablinks" onclick="openTab(event, 'Units')">Units</button>
+                <button class="tablinks" onclick="openTab(event, 'Skins')">Skins</button>
+                <button class="tablinks" onclick="openTab(event, 'ID')">ID</button>
+                <button class="tablinks" onclick="openTab(event, 'Username')">Name</button>
+            </div>
+            <div class="tab-group secondary">
+                <button class="tablinks tablinks-compact" onclick="openTab(event, 'PlainText')">Debug</button>
+                <select id="languageSelector" onchange="changeLanguage(this.value)" class="tablinks tablinks-compact" style="padding: 5px; border: none; background: #333; color: white;">
+                    <option value="us">English</option>
+                    <option value="tw">繁體中文</option>
+                    <option value="th">ไทย</option>
+                    <option value="pt">Português</option>
+                    <option value="kr">한국어</option>
+                    <option value="jp">日本語</option>
+                    <option value="idn">Bahasa Indonesia</option>
+                    <option value="es">Español</option>
+                </select>
+            </div>
         </div>
     </div>
 
     <div id="QR" class="tabcontent">
         <div style="text-align: center;">
-            <span class="import-button" onclick="document.getElementById('qrInput').click()">Import QR</span>
+            <span class="import-button" id="importQRButton" onclick="document.getElementById('qrInput').click()">Import QR</span>
             <input type="file" id="qrInput" accept="image/png" onchange="importQR()" style="display: none;">
-            <span class="import-button" onclick="downloadQR()">Download QR</span>
+            <span class="import-button" id="downloadQRButton" onclick="downloadQR()">Download QR</span>
             <img id="qrImage" src="" alt="QR Code" style="display: none;">
         </div>
     </div>
@@ -33,12 +47,18 @@
     <div id="Units" class="tabcontent">
         <div class="checkbox-group" id="checkboxesTab1"></div>
         <div style="text-align: center; margin-top: 20px;">
+            <button class="randomize-button" onclick="selectAllUnits()">ALL</button>
+            <button class="randomize-button" onclick="selectNoneUnits()">NONE</button>
             <button class="randomize-button" onclick="randomizeUnits()">RANDOMIZE</button>
         </div>
     </div>
 
     <div id="Skins" class="tabcontent">
         <div class="checkbox-group" id="checkboxesTab2"></div>
+        <div style="text-align: center; margin-top: 20px;">
+            <button class="randomize-button" onclick="selectAllSkins()">ALL</button>
+            <button class="randomize-button" onclick="selectNoneSkins()">NONE</button>
+        </div>
     </div>
 
     <div id="ID" class="tabcontent">
@@ -60,10 +80,11 @@
         </div>
     </div>
 
+
     <!-- Warning Modal -->
     <div id="editWarningModal" class="modal">
         <div class="modal-content">
-            <p>Warning!<br>Only use this if you know what you're doing.<br>Will disable tabs other than QR and Text until next refresh.</p>
+            <p>Warning!<br>Only use this if you know what you're doing.<br>Will disable tabs other than QR and Debug until next refresh.</p>
             <div class="modal-buttons">
                 <button class="modal-button confirm" onclick="enableTextEditing()">Confirm</button>
                 <button class="modal-button cancel" onclick="hideEditWarning()">Cancel</button>
