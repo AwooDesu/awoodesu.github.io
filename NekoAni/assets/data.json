@@ -1,0 +1,3880 @@
+{
+  "card": [
+    {
+      "id": "1010101_02",
+      "type": "spine",
+      "skel": "assets/card/1010101_02.skel",
+      "atlas": "assets/card/1010101_02.atlas"
+    },
+    {
+      "id": "1010101_11",
+      "type": "spine",
+      "skel": "assets/card/1010101_11.skel",
+      "atlas": "assets/card/1010101_11.atlas"
+    },
+    {
+      "id": "1010101_12",
+      "type": "spine",
+      "skel": "assets/card/1010101_12.skel",
+      "atlas": "assets/card/1010101_12.atlas"
+    },
+    {
+      "id": "1010201_02",
+      "type": "spine",
+      "skel": "assets/card/1010201_02.skel",
+      "atlas": "assets/card/1010201_02.atlas"
+    },
+    {
+      "id": "1010201_11",
+      "type": "spine",
+      "skel": "assets/card/1010201_11.skel",
+      "atlas": "assets/card/1010201_11.atlas"
+    },
+    {
+      "id": "1010201_12",
+      "type": "spine",
+      "skel": "assets/card/1010201_12.skel",
+      "atlas": "assets/card/1010201_12.atlas"
+    },
+    {
+      "id": "1010301_02",
+      "type": "spine",
+      "skel": "assets/card/1010301_02.skel",
+      "atlas": "assets/card/1010301_02.atlas"
+    },
+    {
+      "id": "1010301_12",
+      "type": "spine",
+      "skel": "assets/card/1010301_12.skel",
+      "atlas": "assets/card/1010301_12.atlas"
+    },
+    {
+      "id": "1010401_02",
+      "type": "spine",
+      "skel": "assets/card/1010401_02.skel",
+      "atlas": "assets/card/1010401_02.atlas"
+    },
+    {
+      "id": "1010501_02",
+      "type": "spine",
+      "skel": "assets/card/1010501_02.skel",
+      "atlas": "assets/card/1010501_02.atlas"
+    },
+    {
+      "id": "1010601_02",
+      "type": "spine",
+      "skel": "assets/card/1010601_02.skel",
+      "atlas": "assets/card/1010601_02.atlas"
+    },
+    {
+      "id": "1010601_12",
+      "type": "spine",
+      "skel": "assets/card/1010601_12.skel",
+      "atlas": "assets/card/1010601_12.atlas"
+    },
+    {
+      "id": "1010701_02",
+      "type": "spine",
+      "skel": "assets/card/1010701_02.skel",
+      "atlas": "assets/card/1010701_02.atlas"
+    },
+    {
+      "id": "1010701_12",
+      "type": "spine",
+      "skel": "assets/card/1010701_12.skel",
+      "atlas": "assets/card/1010701_12.atlas"
+    },
+    {
+      "id": "1020101_02",
+      "type": "spine",
+      "skel": "assets/card/1020101_02.skel",
+      "atlas": "assets/card/1020101_02.atlas"
+    },
+    {
+      "id": "1020201_02",
+      "type": "spine",
+      "skel": "assets/card/1020201_02.skel",
+      "atlas": "assets/card/1020201_02.atlas"
+    },
+    {
+      "id": "1020301_02",
+      "type": "spine",
+      "skel": "assets/card/1020301_02.skel",
+      "atlas": "assets/card/1020301_02.atlas"
+    },
+    {
+      "id": "1020401_02",
+      "type": "spine",
+      "skel": "assets/card/1020401_02.skel",
+      "atlas": "assets/card/1020401_02.atlas"
+    },
+    {
+      "id": "1020501_02",
+      "type": "spine",
+      "skel": "assets/card/1020501_02.skel",
+      "atlas": "assets/card/1020501_02.atlas"
+    },
+    {
+      "id": "1030101_02",
+      "type": "spine",
+      "skel": "assets/card/1030101_02.skel",
+      "atlas": "assets/card/1030101_02.atlas"
+    },
+    {
+      "id": "1030201_02",
+      "type": "spine",
+      "skel": "assets/card/1030201_02.skel",
+      "atlas": "assets/card/1030201_02.atlas"
+    },
+    {
+      "id": "1030301_02",
+      "type": "spine",
+      "skel": "assets/card/1030301_02.skel",
+      "atlas": "assets/card/1030301_02.atlas"
+    },
+    {
+      "id": "1030401_02",
+      "type": "spine",
+      "skel": "assets/card/1030401_02.skel",
+      "atlas": "assets/card/1030401_02.atlas"
+    },
+    {
+      "id": "1040101_02",
+      "type": "spine",
+      "skel": "assets/card/1040101_02.skel",
+      "atlas": "assets/card/1040101_02.atlas"
+    },
+    {
+      "id": "1040201_02",
+      "type": "spine",
+      "skel": "assets/card/1040201_02.skel",
+      "atlas": "assets/card/1040201_02.atlas"
+    },
+    {
+      "id": "1040301_02",
+      "type": "spine",
+      "skel": "assets/card/1040301_02.skel",
+      "atlas": "assets/card/1040301_02.atlas"
+    },
+    {
+      "id": "1040301_12",
+      "type": "spine",
+      "skel": "assets/card/1040301_12.skel",
+      "atlas": "assets/card/1040301_12.atlas"
+    },
+    {
+      "id": "1040401_02",
+      "type": "spine",
+      "skel": "assets/card/1040401_02.skel",
+      "atlas": "assets/card/1040401_02.atlas"
+    },
+    {
+      "id": "1050101_02",
+      "type": "spine",
+      "skel": "assets/card/1050101_02.skel",
+      "atlas": "assets/card/1050101_02.atlas"
+    },
+    {
+      "id": "1050201_02",
+      "type": "spine",
+      "skel": "assets/card/1050201_02.skel",
+      "atlas": "assets/card/1050201_02.atlas"
+    },
+    {
+      "id": "1050301_02",
+      "type": "spine",
+      "skel": "assets/card/1050301_02.skel",
+      "atlas": "assets/card/1050301_02.atlas"
+    },
+    {
+      "id": "1050401_02",
+      "type": "spine",
+      "skel": "assets/card/1050401_02.skel",
+      "atlas": "assets/card/1050401_02.atlas"
+    },
+    {
+      "id": "1060101_02",
+      "type": "spine",
+      "skel": "assets/card/1060101_02.skel",
+      "atlas": "assets/card/1060101_02.atlas"
+    },
+    {
+      "id": "1060201_02",
+      "type": "spine",
+      "skel": "assets/card/1060201_02.skel",
+      "atlas": "assets/card/1060201_02.atlas"
+    },
+    {
+      "id": "1060301_02",
+      "type": "spine",
+      "skel": "assets/card/1060301_02.skel",
+      "atlas": "assets/card/1060301_02.atlas"
+    },
+    {
+      "id": "1060401_02",
+      "type": "spine",
+      "skel": "assets/card/1060401_02.skel",
+      "atlas": "assets/card/1060401_02.atlas"
+    },
+    {
+      "id": "1060501_02",
+      "type": "spine",
+      "skel": "assets/card/1060501_02.skel",
+      "atlas": "assets/card/1060501_02.atlas"
+    },
+    {
+      "id": "1060501_12",
+      "type": "spine",
+      "skel": "assets/card/1060501_12.skel",
+      "atlas": "assets/card/1060501_12.atlas"
+    },
+    {
+      "id": "1990101_02",
+      "type": "spine",
+      "skel": "assets/card/1990101_02.skel",
+      "atlas": "assets/card/1990101_02.atlas"
+    },
+    {
+      "id": "1990201_02",
+      "type": "spine",
+      "skel": "assets/card/1990201_02.skel",
+      "atlas": "assets/card/1990201_02.atlas"
+    },
+    {
+      "id": "1990301_02",
+      "type": "spine",
+      "skel": "assets/card/1990301_02.skel",
+      "atlas": "assets/card/1990301_02.atlas"
+    },
+    {
+      "id": "1990401_02",
+      "type": "spine",
+      "skel": "assets/card/1990401_02.skel",
+      "atlas": "assets/card/1990401_02.atlas"
+    },
+    {
+      "id": "1990501_02",
+      "type": "spine",
+      "skel": "assets/card/1990501_02.skel",
+      "atlas": "assets/card/1990501_02.atlas"
+    },
+    {
+      "id": "1990601_02",
+      "type": "spine",
+      "skel": "assets/card/1990601_02.skel",
+      "atlas": "assets/card/1990601_02.atlas"
+    },
+    {
+      "id": "1990701_02",
+      "type": "spine",
+      "skel": "assets/card/1990701_02.skel",
+      "atlas": "assets/card/1990701_02.atlas"
+    },
+    {
+      "id": "1990801_02",
+      "type": "spine",
+      "skel": "assets/card/1990801_02.skel",
+      "atlas": "assets/card/1990801_02.atlas"
+    },
+    {
+      "id": "1990901_02",
+      "type": "spine",
+      "skel": "assets/card/1990901_02.skel",
+      "atlas": "assets/card/1990901_02.atlas"
+    },
+    {
+      "id": "1991001_02",
+      "type": "spine",
+      "skel": "assets/card/1991001_02.skel",
+      "atlas": "assets/card/1991001_02.atlas"
+    },
+    {
+      "id": "1991101_02",
+      "type": "spine",
+      "skel": "assets/card/1991101_02.skel",
+      "atlas": "assets/card/1991101_02.atlas"
+    },
+    {
+      "id": "1991201_02",
+      "type": "spine",
+      "skel": "assets/card/1991201_02.skel",
+      "atlas": "assets/card/1991201_02.atlas"
+    }
+  ],
+  "sd": [
+    {
+      "id": "1010101",
+      "type": "spine",
+      "skel": "assets/sd/1010101.skel",
+      "atlas": "assets/sd/1010101.atlas"
+    },
+    {
+      "id": "1010101_10",
+      "type": "spine",
+      "skel": "assets/sd/1010101_10.skel",
+      "atlas": "assets/sd/1010101_10.atlas"
+    },
+    {
+      "id": "1010201",
+      "type": "spine",
+      "skel": "assets/sd/1010201.skel",
+      "atlas": "assets/sd/1010201.atlas"
+    },
+    {
+      "id": "1010201_10",
+      "type": "spine",
+      "skel": "assets/sd/1010201_10.skel",
+      "atlas": "assets/sd/1010201_10.atlas"
+    },
+    {
+      "id": "1010301",
+      "type": "spine",
+      "skel": "assets/sd/1010301.skel",
+      "atlas": "assets/sd/1010301.atlas"
+    },
+    {
+      "id": "1010301_10",
+      "type": "spine",
+      "skel": "assets/sd/1010301_10.skel",
+      "atlas": "assets/sd/1010301_10.atlas"
+    },
+    {
+      "id": "1010401",
+      "type": "spine",
+      "skel": "assets/sd/1010401.skel",
+      "atlas": "assets/sd/1010401.atlas"
+    },
+    {
+      "id": "1010501",
+      "type": "spine",
+      "skel": "assets/sd/1010501.skel",
+      "atlas": "assets/sd/1010501.atlas"
+    },
+    {
+      "id": "1010601",
+      "type": "spine",
+      "skel": "assets/sd/1010601.skel",
+      "atlas": "assets/sd/1010601.atlas"
+    },
+    {
+      "id": "1010601_10",
+      "type": "spine",
+      "skel": "assets/sd/1010601_10.skel",
+      "atlas": "assets/sd/1010601_10.atlas"
+    },
+    {
+      "id": "1010701",
+      "type": "spine",
+      "skel": "assets/sd/1010701.skel",
+      "atlas": "assets/sd/1010701.atlas"
+    },
+    {
+      "id": "1010701_10",
+      "type": "spine",
+      "skel": "assets/sd/1010701_10.skel",
+      "atlas": "assets/sd/1010701_10.atlas"
+    },
+    {
+      "id": "1020101",
+      "type": "spine",
+      "skel": "assets/sd/1020101.skel",
+      "atlas": "assets/sd/1020101.atlas"
+    },
+    {
+      "id": "1020201",
+      "type": "spine",
+      "skel": "assets/sd/1020201.skel",
+      "atlas": "assets/sd/1020201.atlas"
+    },
+    {
+      "id": "1020301",
+      "type": "spine",
+      "skel": "assets/sd/1020301.skel",
+      "atlas": "assets/sd/1020301.atlas"
+    },
+    {
+      "id": "1020401",
+      "type": "spine",
+      "skel": "assets/sd/1020401.skel",
+      "atlas": "assets/sd/1020401.atlas"
+    },
+    {
+      "id": "1020501",
+      "type": "spine",
+      "skel": "assets/sd/1020501.skel",
+      "atlas": "assets/sd/1020501.atlas"
+    },
+    {
+      "id": "1030101",
+      "type": "spine",
+      "skel": "assets/sd/1030101.skel",
+      "atlas": "assets/sd/1030101.atlas"
+    },
+    {
+      "id": "1030201",
+      "type": "spine",
+      "skel": "assets/sd/1030201.skel",
+      "atlas": "assets/sd/1030201.atlas"
+    },
+    {
+      "id": "1030301",
+      "type": "spine",
+      "skel": "assets/sd/1030301.skel",
+      "atlas": "assets/sd/1030301.atlas"
+    },
+    {
+      "id": "1030401",
+      "type": "spine",
+      "skel": "assets/sd/1030401.skel",
+      "atlas": "assets/sd/1030401.atlas"
+    },
+    {
+      "id": "1040101",
+      "type": "spine",
+      "skel": "assets/sd/1040101.skel",
+      "atlas": "assets/sd/1040101.atlas"
+    },
+    {
+      "id": "1040201",
+      "type": "spine",
+      "skel": "assets/sd/1040201.skel",
+      "atlas": "assets/sd/1040201.atlas"
+    },
+    {
+      "id": "1040301",
+      "type": "spine",
+      "skel": "assets/sd/1040301.skel",
+      "atlas": "assets/sd/1040301.atlas"
+    },
+    {
+      "id": "1040301_10",
+      "type": "spine",
+      "skel": "assets/sd/1040301_10.skel",
+      "atlas": "assets/sd/1040301_10.atlas"
+    },
+    {
+      "id": "1040401",
+      "type": "spine",
+      "skel": "assets/sd/1040401.skel",
+      "atlas": "assets/sd/1040401.atlas"
+    },
+    {
+      "id": "1050101",
+      "type": "spine",
+      "skel": "assets/sd/1050101.skel",
+      "atlas": "assets/sd/1050101.atlas"
+    },
+    {
+      "id": "1050201",
+      "type": "spine",
+      "skel": "assets/sd/1050201.skel",
+      "atlas": "assets/sd/1050201.atlas"
+    },
+    {
+      "id": "1050301",
+      "type": "spine",
+      "skel": "assets/sd/1050301.skel",
+      "atlas": "assets/sd/1050301.atlas"
+    },
+    {
+      "id": "1050401",
+      "type": "spine",
+      "skel": "assets/sd/1050401.skel",
+      "atlas": "assets/sd/1050401.atlas"
+    },
+    {
+      "id": "1060101",
+      "type": "spine",
+      "skel": "assets/sd/1060101.skel",
+      "atlas": "assets/sd/1060101.atlas"
+    },
+    {
+      "id": "1060201",
+      "type": "spine",
+      "skel": "assets/sd/1060201.skel",
+      "atlas": "assets/sd/1060201.atlas"
+    },
+    {
+      "id": "1060301",
+      "type": "spine",
+      "skel": "assets/sd/1060301.skel",
+      "atlas": "assets/sd/1060301.atlas"
+    },
+    {
+      "id": "1060401",
+      "type": "spine",
+      "skel": "assets/sd/1060401.skel",
+      "atlas": "assets/sd/1060401.atlas"
+    },
+    {
+      "id": "1060501",
+      "type": "spine",
+      "skel": "assets/sd/1060501.skel",
+      "atlas": "assets/sd/1060501.atlas"
+    },
+    {
+      "id": "1060501_10",
+      "type": "spine",
+      "skel": "assets/sd/1060501_10.skel",
+      "atlas": "assets/sd/1060501_10.atlas"
+    },
+    {
+      "id": "1990101",
+      "type": "spine",
+      "skel": "assets/sd/1990101.skel",
+      "atlas": "assets/sd/1990101.atlas"
+    },
+    {
+      "id": "1990201",
+      "type": "spine",
+      "skel": "assets/sd/1990201.skel",
+      "atlas": "assets/sd/1990201.atlas"
+    },
+    {
+      "id": "1990301",
+      "type": "spine",
+      "skel": "assets/sd/1990301.skel",
+      "atlas": "assets/sd/1990301.atlas"
+    },
+    {
+      "id": "1990401",
+      "type": "spine",
+      "skel": "assets/sd/1990401.skel",
+      "atlas": "assets/sd/1990401.atlas"
+    },
+    {
+      "id": "1990501",
+      "type": "spine",
+      "skel": "assets/sd/1990501.skel",
+      "atlas": "assets/sd/1990501.atlas"
+    },
+    {
+      "id": "1990601",
+      "type": "spine",
+      "skel": "assets/sd/1990601.skel",
+      "atlas": "assets/sd/1990601.atlas"
+    },
+    {
+      "id": "1990701",
+      "type": "spine",
+      "skel": "assets/sd/1990701.skel",
+      "atlas": "assets/sd/1990701.atlas"
+    },
+    {
+      "id": "1990801",
+      "type": "spine",
+      "skel": "assets/sd/1990801.skel",
+      "atlas": "assets/sd/1990801.atlas"
+    },
+    {
+      "id": "1990901",
+      "type": "spine",
+      "skel": "assets/sd/1990901.skel",
+      "atlas": "assets/sd/1990901.atlas"
+    },
+    {
+      "id": "1991001",
+      "type": "spine",
+      "skel": "assets/sd/1991001.skel",
+      "atlas": "assets/sd/1991001.atlas"
+    },
+    {
+      "id": "1991101",
+      "type": "spine",
+      "skel": "assets/sd/1991101.skel",
+      "atlas": "assets/sd/1991101.atlas"
+    },
+    {
+      "id": "1991201",
+      "type": "spine",
+      "skel": "assets/sd/1991201.skel",
+      "atlas": "assets/sd/1991201.atlas"
+    },
+    {
+      "id": "49901",
+      "type": "spine",
+      "skel": "assets/sd/49901.skel",
+      "atlas": "assets/sd/49901.atlas"
+    },
+    {
+      "id": "49902",
+      "type": "spine",
+      "skel": "assets/sd/49902.skel",
+      "atlas": "assets/sd/49902.atlas"
+    },
+    {
+      "id": "49903",
+      "type": "spine",
+      "skel": "assets/sd/49903.skel",
+      "atlas": "assets/sd/49903.atlas"
+    },
+    {
+      "id": "49904",
+      "type": "spine",
+      "skel": "assets/sd/49904.skel",
+      "atlas": "assets/sd/49904.atlas"
+    },
+    {
+      "id": "49905",
+      "type": "spine",
+      "skel": "assets/sd/49905.skel",
+      "atlas": "assets/sd/49905.atlas"
+    },
+    {
+      "id": "59901",
+      "type": "spine",
+      "skel": "assets/sd/59901.skel",
+      "atlas": "assets/sd/59901.atlas"
+    },
+    {
+      "id": "69901011",
+      "type": "spine",
+      "skel": "assets/sd/69901011.skel",
+      "atlas": "assets/sd/69901011.atlas"
+    },
+    {
+      "id": "69901012",
+      "type": "spine",
+      "skel": "assets/sd/69901012.skel",
+      "atlas": "assets/sd/69901012.atlas"
+    },
+    {
+      "id": "69901021",
+      "type": "spine",
+      "skel": "assets/sd/69901021.skel",
+      "atlas": "assets/sd/69901021.atlas"
+    },
+    {
+      "id": "69901022",
+      "type": "spine",
+      "skel": "assets/sd/69901022.skel",
+      "atlas": "assets/sd/69901022.atlas"
+    },
+    {
+      "id": "69901031",
+      "type": "spine",
+      "skel": "assets/sd/69901031.skel",
+      "atlas": "assets/sd/69901031.atlas"
+    },
+    {
+      "id": "69901032",
+      "type": "spine",
+      "skel": "assets/sd/69901032.skel",
+      "atlas": "assets/sd/69901032.atlas"
+    },
+    {
+      "id": "69901041",
+      "type": "spine",
+      "skel": "assets/sd/69901041.skel",
+      "atlas": "assets/sd/69901041.atlas"
+    },
+    {
+      "id": "69901042",
+      "type": "spine",
+      "skel": "assets/sd/69901042.skel",
+      "atlas": "assets/sd/69901042.atlas"
+    },
+    {
+      "id": "69901051",
+      "type": "spine",
+      "skel": "assets/sd/69901051.skel",
+      "atlas": "assets/sd/69901051.atlas"
+    },
+    {
+      "id": "69901052",
+      "type": "spine",
+      "skel": "assets/sd/69901052.skel",
+      "atlas": "assets/sd/69901052.atlas"
+    },
+    {
+      "id": "69901061",
+      "type": "spine",
+      "skel": "assets/sd/69901061.skel",
+      "atlas": "assets/sd/69901061.atlas"
+    },
+    {
+      "id": "69901062",
+      "type": "spine",
+      "skel": "assets/sd/69901062.skel",
+      "atlas": "assets/sd/69901062.atlas"
+    },
+    {
+      "id": "69901071",
+      "type": "spine",
+      "skel": "assets/sd/69901071.skel",
+      "atlas": "assets/sd/69901071.atlas"
+    },
+    {
+      "id": "69901072",
+      "type": "spine",
+      "skel": "assets/sd/69901072.skel",
+      "atlas": "assets/sd/69901072.atlas"
+    },
+    {
+      "id": "69901081",
+      "type": "spine",
+      "skel": "assets/sd/69901081.skel",
+      "atlas": "assets/sd/69901081.atlas"
+    },
+    {
+      "id": "69901082",
+      "type": "spine",
+      "skel": "assets/sd/69901082.skel",
+      "atlas": "assets/sd/69901082.atlas"
+    },
+    {
+      "id": "69901091",
+      "type": "spine",
+      "skel": "assets/sd/69901091.skel",
+      "atlas": "assets/sd/69901091.atlas"
+    },
+    {
+      "id": "69901092",
+      "type": "spine",
+      "skel": "assets/sd/69901092.skel",
+      "atlas": "assets/sd/69901092.atlas"
+    },
+    {
+      "id": "69901101",
+      "type": "spine",
+      "skel": "assets/sd/69901101.skel",
+      "atlas": "assets/sd/69901101.atlas"
+    },
+    {
+      "id": "69901102",
+      "type": "spine",
+      "skel": "assets/sd/69901102.skel",
+      "atlas": "assets/sd/69901102.atlas"
+    },
+    {
+      "id": "69901111",
+      "type": "spine",
+      "skel": "assets/sd/69901111.skel",
+      "atlas": "assets/sd/69901111.atlas"
+    },
+    {
+      "id": "69901112",
+      "type": "spine",
+      "skel": "assets/sd/69901112.skel",
+      "atlas": "assets/sd/69901112.atlas"
+    },
+    {
+      "id": "69901121",
+      "type": "spine",
+      "skel": "assets/sd/69901121.skel",
+      "atlas": "assets/sd/69901121.atlas"
+    },
+    {
+      "id": "69901122",
+      "type": "spine",
+      "skel": "assets/sd/69901122.skel",
+      "atlas": "assets/sd/69901122.atlas"
+    },
+    {
+      "id": "69901131",
+      "type": "spine",
+      "skel": "assets/sd/69901131.skel",
+      "atlas": "assets/sd/69901131.atlas"
+    },
+    {
+      "id": "69901132",
+      "type": "spine",
+      "skel": "assets/sd/69901132.skel",
+      "atlas": "assets/sd/69901132.atlas"
+    },
+    {
+      "id": "69901141",
+      "type": "spine",
+      "skel": "assets/sd/69901141.skel",
+      "atlas": "assets/sd/69901141.atlas"
+    },
+    {
+      "id": "69901142",
+      "type": "spine",
+      "skel": "assets/sd/69901142.skel",
+      "atlas": "assets/sd/69901142.atlas"
+    },
+    {
+      "id": "69901151",
+      "type": "spine",
+      "skel": "assets/sd/69901151.skel",
+      "atlas": "assets/sd/69901151.atlas"
+    },
+    {
+      "id": "69901152",
+      "type": "spine",
+      "skel": "assets/sd/69901152.skel",
+      "atlas": "assets/sd/69901152.atlas"
+    },
+    {
+      "id": "69901161",
+      "type": "spine",
+      "skel": "assets/sd/69901161.skel",
+      "atlas": "assets/sd/69901161.atlas"
+    },
+    {
+      "id": "69901162",
+      "type": "spine",
+      "skel": "assets/sd/69901162.skel",
+      "atlas": "assets/sd/69901162.atlas"
+    },
+    {
+      "id": "69901171",
+      "type": "spine",
+      "skel": "assets/sd/69901171.skel",
+      "atlas": "assets/sd/69901171.atlas"
+    },
+    {
+      "id": "69901172",
+      "type": "spine",
+      "skel": "assets/sd/69901172.skel",
+      "atlas": "assets/sd/69901172.atlas"
+    },
+    {
+      "id": "69901181",
+      "type": "spine",
+      "skel": "assets/sd/69901181.skel",
+      "atlas": "assets/sd/69901181.atlas"
+    },
+    {
+      "id": "69901182",
+      "type": "spine",
+      "skel": "assets/sd/69901182.skel",
+      "atlas": "assets/sd/69901182.atlas"
+    },
+    {
+      "id": "69901191",
+      "type": "spine",
+      "skel": "assets/sd/69901191.skel",
+      "atlas": "assets/sd/69901191.atlas"
+    },
+    {
+      "id": "69901192",
+      "type": "spine",
+      "skel": "assets/sd/69901192.skel",
+      "atlas": "assets/sd/69901192.atlas"
+    },
+    {
+      "id": "69901201",
+      "type": "spine",
+      "skel": "assets/sd/69901201.skel",
+      "atlas": "assets/sd/69901201.atlas"
+    },
+    {
+      "id": "69901202",
+      "type": "spine",
+      "skel": "assets/sd/69901202.skel",
+      "atlas": "assets/sd/69901202.atlas"
+    },
+    {
+      "id": "69902011",
+      "type": "spine",
+      "skel": "assets/sd/69902011.skel",
+      "atlas": "assets/sd/69902011.atlas"
+    },
+    {
+      "id": "69902012",
+      "type": "spine",
+      "skel": "assets/sd/69902012.skel",
+      "atlas": "assets/sd/69902012.atlas"
+    },
+    {
+      "id": "69902021",
+      "type": "spine",
+      "skel": "assets/sd/69902021.skel",
+      "atlas": "assets/sd/69902021.atlas"
+    },
+    {
+      "id": "69902022",
+      "type": "spine",
+      "skel": "assets/sd/69902022.skel",
+      "atlas": "assets/sd/69902022.atlas"
+    },
+    {
+      "id": "69902031",
+      "type": "spine",
+      "skel": "assets/sd/69902031.skel",
+      "atlas": "assets/sd/69902031.atlas"
+    },
+    {
+      "id": "69902032",
+      "type": "spine",
+      "skel": "assets/sd/69902032.skel",
+      "atlas": "assets/sd/69902032.atlas"
+    },
+    {
+      "id": "69902041",
+      "type": "spine",
+      "skel": "assets/sd/69902041.skel",
+      "atlas": "assets/sd/69902041.atlas"
+    },
+    {
+      "id": "69902042",
+      "type": "spine",
+      "skel": "assets/sd/69902042.skel",
+      "atlas": "assets/sd/69902042.atlas"
+    },
+    {
+      "id": "69902051",
+      "type": "spine",
+      "skel": "assets/sd/69902051.skel",
+      "atlas": "assets/sd/69902051.atlas"
+    },
+    {
+      "id": "69902052",
+      "type": "spine",
+      "skel": "assets/sd/69902052.skel",
+      "atlas": "assets/sd/69902052.atlas"
+    },
+    {
+      "id": "69902061",
+      "type": "spine",
+      "skel": "assets/sd/69902061.skel",
+      "atlas": "assets/sd/69902061.atlas"
+    },
+    {
+      "id": "69902062",
+      "type": "spine",
+      "skel": "assets/sd/69902062.skel",
+      "atlas": "assets/sd/69902062.atlas"
+    },
+    {
+      "id": "69902071",
+      "type": "spine",
+      "skel": "assets/sd/69902071.skel",
+      "atlas": "assets/sd/69902071.atlas"
+    },
+    {
+      "id": "69902072",
+      "type": "spine",
+      "skel": "assets/sd/69902072.skel",
+      "atlas": "assets/sd/69902072.atlas"
+    },
+    {
+      "id": "69902081",
+      "type": "spine",
+      "skel": "assets/sd/69902081.skel",
+      "atlas": "assets/sd/69902081.atlas"
+    },
+    {
+      "id": "69902082",
+      "type": "spine",
+      "skel": "assets/sd/69902082.skel",
+      "atlas": "assets/sd/69902082.atlas"
+    },
+    {
+      "id": "69902091",
+      "type": "spine",
+      "skel": "assets/sd/69902091.skel",
+      "atlas": "assets/sd/69902091.atlas"
+    },
+    {
+      "id": "69902092",
+      "type": "spine",
+      "skel": "assets/sd/69902092.skel",
+      "atlas": "assets/sd/69902092.atlas"
+    },
+    {
+      "id": "69902101",
+      "type": "spine",
+      "skel": "assets/sd/69902101.skel",
+      "atlas": "assets/sd/69902101.atlas"
+    },
+    {
+      "id": "69902102",
+      "type": "spine",
+      "skel": "assets/sd/69902102.skel",
+      "atlas": "assets/sd/69902102.atlas"
+    },
+    {
+      "id": "69902111",
+      "type": "spine",
+      "skel": "assets/sd/69902111.skel",
+      "atlas": "assets/sd/69902111.atlas"
+    },
+    {
+      "id": "69902112",
+      "type": "spine",
+      "skel": "assets/sd/69902112.skel",
+      "atlas": "assets/sd/69902112.atlas"
+    },
+    {
+      "id": "69902121",
+      "type": "spine",
+      "skel": "assets/sd/69902121.skel",
+      "atlas": "assets/sd/69902121.atlas"
+    },
+    {
+      "id": "69902122",
+      "type": "spine",
+      "skel": "assets/sd/69902122.skel",
+      "atlas": "assets/sd/69902122.atlas"
+    },
+    {
+      "id": "69902131",
+      "type": "spine",
+      "skel": "assets/sd/69902131.skel",
+      "atlas": "assets/sd/69902131.atlas"
+    },
+    {
+      "id": "69902132",
+      "type": "spine",
+      "skel": "assets/sd/69902132.skel",
+      "atlas": "assets/sd/69902132.atlas"
+    },
+    {
+      "id": "69902141",
+      "type": "spine",
+      "skel": "assets/sd/69902141.skel",
+      "atlas": "assets/sd/69902141.atlas"
+    },
+    {
+      "id": "69902142",
+      "type": "spine",
+      "skel": "assets/sd/69902142.skel",
+      "atlas": "assets/sd/69902142.atlas"
+    },
+    {
+      "id": "69902151",
+      "type": "spine",
+      "skel": "assets/sd/69902151.skel",
+      "atlas": "assets/sd/69902151.atlas"
+    },
+    {
+      "id": "69902152",
+      "type": "spine",
+      "skel": "assets/sd/69902152.skel",
+      "atlas": "assets/sd/69902152.atlas"
+    },
+    {
+      "id": "69902161",
+      "type": "spine",
+      "skel": "assets/sd/69902161.skel",
+      "atlas": "assets/sd/69902161.atlas"
+    },
+    {
+      "id": "69902162",
+      "type": "spine",
+      "skel": "assets/sd/69902162.skel",
+      "atlas": "assets/sd/69902162.atlas"
+    },
+    {
+      "id": "69902171",
+      "type": "spine",
+      "skel": "assets/sd/69902171.skel",
+      "atlas": "assets/sd/69902171.atlas"
+    },
+    {
+      "id": "69902172",
+      "type": "spine",
+      "skel": "assets/sd/69902172.skel",
+      "atlas": "assets/sd/69902172.atlas"
+    },
+    {
+      "id": "69902181",
+      "type": "spine",
+      "skel": "assets/sd/69902181.skel",
+      "atlas": "assets/sd/69902181.atlas"
+    },
+    {
+      "id": "69902182",
+      "type": "spine",
+      "skel": "assets/sd/69902182.skel",
+      "atlas": "assets/sd/69902182.atlas"
+    },
+    {
+      "id": "69902191",
+      "type": "spine",
+      "skel": "assets/sd/69902191.skel",
+      "atlas": "assets/sd/69902191.atlas"
+    },
+    {
+      "id": "69902192",
+      "type": "spine",
+      "skel": "assets/sd/69902192.skel",
+      "atlas": "assets/sd/69902192.atlas"
+    },
+    {
+      "id": "69902201",
+      "type": "spine",
+      "skel": "assets/sd/69902201.skel",
+      "atlas": "assets/sd/69902201.atlas"
+    },
+    {
+      "id": "69902202",
+      "type": "spine",
+      "skel": "assets/sd/69902202.skel",
+      "atlas": "assets/sd/69902202.atlas"
+    },
+    {
+      "id": "69903011",
+      "type": "spine",
+      "skel": "assets/sd/69903011.skel",
+      "atlas": "assets/sd/69903011.atlas"
+    },
+    {
+      "id": "69903012",
+      "type": "spine",
+      "skel": "assets/sd/69903012.skel",
+      "atlas": "assets/sd/69903012.atlas"
+    },
+    {
+      "id": "69903021",
+      "type": "spine",
+      "skel": "assets/sd/69903021.skel",
+      "atlas": "assets/sd/69903021.atlas"
+    },
+    {
+      "id": "69903022",
+      "type": "spine",
+      "skel": "assets/sd/69903022.skel",
+      "atlas": "assets/sd/69903022.atlas"
+    },
+    {
+      "id": "69903031",
+      "type": "spine",
+      "skel": "assets/sd/69903031.skel",
+      "atlas": "assets/sd/69903031.atlas"
+    },
+    {
+      "id": "69903032",
+      "type": "spine",
+      "skel": "assets/sd/69903032.skel",
+      "atlas": "assets/sd/69903032.atlas"
+    },
+    {
+      "id": "69903041",
+      "type": "spine",
+      "skel": "assets/sd/69903041.skel",
+      "atlas": "assets/sd/69903041.atlas"
+    },
+    {
+      "id": "69903042",
+      "type": "spine",
+      "skel": "assets/sd/69903042.skel",
+      "atlas": "assets/sd/69903042.atlas"
+    },
+    {
+      "id": "69903051",
+      "type": "spine",
+      "skel": "assets/sd/69903051.skel",
+      "atlas": "assets/sd/69903051.atlas"
+    },
+    {
+      "id": "69903052",
+      "type": "spine",
+      "skel": "assets/sd/69903052.skel",
+      "atlas": "assets/sd/69903052.atlas"
+    },
+    {
+      "id": "69903061",
+      "type": "spine",
+      "skel": "assets/sd/69903061.skel",
+      "atlas": "assets/sd/69903061.atlas"
+    },
+    {
+      "id": "69903062",
+      "type": "spine",
+      "skel": "assets/sd/69903062.skel",
+      "atlas": "assets/sd/69903062.atlas"
+    },
+    {
+      "id": "69903071",
+      "type": "spine",
+      "skel": "assets/sd/69903071.skel",
+      "atlas": "assets/sd/69903071.atlas"
+    },
+    {
+      "id": "69903072",
+      "type": "spine",
+      "skel": "assets/sd/69903072.skel",
+      "atlas": "assets/sd/69903072.atlas"
+    },
+    {
+      "id": "69903081",
+      "type": "spine",
+      "skel": "assets/sd/69903081.skel",
+      "atlas": "assets/sd/69903081.atlas"
+    },
+    {
+      "id": "69903082",
+      "type": "spine",
+      "skel": "assets/sd/69903082.skel",
+      "atlas": "assets/sd/69903082.atlas"
+    },
+    {
+      "id": "69903091",
+      "type": "spine",
+      "skel": "assets/sd/69903091.skel",
+      "atlas": "assets/sd/69903091.atlas"
+    },
+    {
+      "id": "69903092",
+      "type": "spine",
+      "skel": "assets/sd/69903092.skel",
+      "atlas": "assets/sd/69903092.atlas"
+    },
+    {
+      "id": "69903101",
+      "type": "spine",
+      "skel": "assets/sd/69903101.skel",
+      "atlas": "assets/sd/69903101.atlas"
+    },
+    {
+      "id": "69903102",
+      "type": "spine",
+      "skel": "assets/sd/69903102.skel",
+      "atlas": "assets/sd/69903102.atlas"
+    },
+    {
+      "id": "69903111",
+      "type": "spine",
+      "skel": "assets/sd/69903111.skel",
+      "atlas": "assets/sd/69903111.atlas"
+    },
+    {
+      "id": "69903112",
+      "type": "spine",
+      "skel": "assets/sd/69903112.skel",
+      "atlas": "assets/sd/69903112.atlas"
+    },
+    {
+      "id": "69903121",
+      "type": "spine",
+      "skel": "assets/sd/69903121.skel",
+      "atlas": "assets/sd/69903121.atlas"
+    },
+    {
+      "id": "69903122",
+      "type": "spine",
+      "skel": "assets/sd/69903122.skel",
+      "atlas": "assets/sd/69903122.atlas"
+    },
+    {
+      "id": "69903131",
+      "type": "spine",
+      "skel": "assets/sd/69903131.skel",
+      "atlas": "assets/sd/69903131.atlas"
+    },
+    {
+      "id": "69903132",
+      "type": "spine",
+      "skel": "assets/sd/69903132.skel",
+      "atlas": "assets/sd/69903132.atlas"
+    },
+    {
+      "id": "69903141",
+      "type": "spine",
+      "skel": "assets/sd/69903141.skel",
+      "atlas": "assets/sd/69903141.atlas"
+    },
+    {
+      "id": "69903142",
+      "type": "spine",
+      "skel": "assets/sd/69903142.skel",
+      "atlas": "assets/sd/69903142.atlas"
+    },
+    {
+      "id": "69903151",
+      "type": "spine",
+      "skel": "assets/sd/69903151.skel",
+      "atlas": "assets/sd/69903151.atlas"
+    },
+    {
+      "id": "69903152",
+      "type": "spine",
+      "skel": "assets/sd/69903152.skel",
+      "atlas": "assets/sd/69903152.atlas"
+    },
+    {
+      "id": "69903161",
+      "type": "spine",
+      "skel": "assets/sd/69903161.skel",
+      "atlas": "assets/sd/69903161.atlas"
+    },
+    {
+      "id": "69903162",
+      "type": "spine",
+      "skel": "assets/sd/69903162.skel",
+      "atlas": "assets/sd/69903162.atlas"
+    },
+    {
+      "id": "69903171",
+      "type": "spine",
+      "skel": "assets/sd/69903171.skel",
+      "atlas": "assets/sd/69903171.atlas"
+    },
+    {
+      "id": "69903172",
+      "type": "spine",
+      "skel": "assets/sd/69903172.skel",
+      "atlas": "assets/sd/69903172.atlas"
+    },
+    {
+      "id": "69903181",
+      "type": "spine",
+      "skel": "assets/sd/69903181.skel",
+      "atlas": "assets/sd/69903181.atlas"
+    },
+    {
+      "id": "69903182",
+      "type": "spine",
+      "skel": "assets/sd/69903182.skel",
+      "atlas": "assets/sd/69903182.atlas"
+    },
+    {
+      "id": "69903191",
+      "type": "spine",
+      "skel": "assets/sd/69903191.skel",
+      "atlas": "assets/sd/69903191.atlas"
+    },
+    {
+      "id": "69903192",
+      "type": "spine",
+      "skel": "assets/sd/69903192.skel",
+      "atlas": "assets/sd/69903192.atlas"
+    },
+    {
+      "id": "69903201",
+      "type": "spine",
+      "skel": "assets/sd/69903201.skel",
+      "atlas": "assets/sd/69903201.atlas"
+    },
+    {
+      "id": "69903202",
+      "type": "spine",
+      "skel": "assets/sd/69903202.skel",
+      "atlas": "assets/sd/69903202.atlas"
+    },
+    {
+      "id": "7990101",
+      "type": "spine",
+      "skel": "assets/sd/7990101.skel",
+      "atlas": "assets/sd/7990101.atlas"
+    },
+    {
+      "id": "80201011",
+      "type": "spine",
+      "skel": "assets/sd/80201011.skel",
+      "atlas": "assets/sd/80201011.atlas"
+    },
+    {
+      "id": "80201012",
+      "type": "spine",
+      "skel": "assets/sd/80201012.skel",
+      "atlas": "assets/sd/80201012.atlas"
+    },
+    {
+      "id": "80201021",
+      "type": "spine",
+      "skel": "assets/sd/80201021.skel",
+      "atlas": "assets/sd/80201021.atlas"
+    },
+    {
+      "id": "80201022",
+      "type": "spine",
+      "skel": "assets/sd/80201022.skel",
+      "atlas": "assets/sd/80201022.atlas"
+    },
+    {
+      "id": "80201031",
+      "type": "spine",
+      "skel": "assets/sd/80201031.skel",
+      "atlas": "assets/sd/80201031.atlas"
+    },
+    {
+      "id": "80201032",
+      "type": "spine",
+      "skel": "assets/sd/80201032.skel",
+      "atlas": "assets/sd/80201032.atlas"
+    },
+    {
+      "id": "80201041",
+      "type": "spine",
+      "skel": "assets/sd/80201041.skel",
+      "atlas": "assets/sd/80201041.atlas"
+    },
+    {
+      "id": "80201042",
+      "type": "spine",
+      "skel": "assets/sd/80201042.skel",
+      "atlas": "assets/sd/80201042.atlas"
+    },
+    {
+      "id": "80201051",
+      "type": "spine",
+      "skel": "assets/sd/80201051.skel",
+      "atlas": "assets/sd/80201051.atlas"
+    },
+    {
+      "id": "80201052",
+      "type": "spine",
+      "skel": "assets/sd/80201052.skel",
+      "atlas": "assets/sd/80201052.atlas"
+    },
+    {
+      "id": "80202011",
+      "type": "spine",
+      "skel": "assets/sd/80202011.skel",
+      "atlas": "assets/sd/80202011.atlas"
+    },
+    {
+      "id": "80202012",
+      "type": "spine",
+      "skel": "assets/sd/80202012.skel",
+      "atlas": "assets/sd/80202012.atlas"
+    },
+    {
+      "id": "80202021",
+      "type": "spine",
+      "skel": "assets/sd/80202021.skel",
+      "atlas": "assets/sd/80202021.atlas"
+    },
+    {
+      "id": "80202022",
+      "type": "spine",
+      "skel": "assets/sd/80202022.skel",
+      "atlas": "assets/sd/80202022.atlas"
+    },
+    {
+      "id": "80202031",
+      "type": "spine",
+      "skel": "assets/sd/80202031.skel",
+      "atlas": "assets/sd/80202031.atlas"
+    },
+    {
+      "id": "80202032",
+      "type": "spine",
+      "skel": "assets/sd/80202032.skel",
+      "atlas": "assets/sd/80202032.atlas"
+    },
+    {
+      "id": "80202041",
+      "type": "spine",
+      "skel": "assets/sd/80202041.skel",
+      "atlas": "assets/sd/80202041.atlas"
+    },
+    {
+      "id": "80202042",
+      "type": "spine",
+      "skel": "assets/sd/80202042.skel",
+      "atlas": "assets/sd/80202042.atlas"
+    },
+    {
+      "id": "80202051",
+      "type": "spine",
+      "skel": "assets/sd/80202051.skel",
+      "atlas": "assets/sd/80202051.atlas"
+    },
+    {
+      "id": "80202052",
+      "type": "spine",
+      "skel": "assets/sd/80202052.skel",
+      "atlas": "assets/sd/80202052.atlas"
+    },
+    {
+      "id": "80203011",
+      "type": "spine",
+      "skel": "assets/sd/80203011.skel",
+      "atlas": "assets/sd/80203011.atlas"
+    },
+    {
+      "id": "80203012",
+      "type": "spine",
+      "skel": "assets/sd/80203012.skel",
+      "atlas": "assets/sd/80203012.atlas"
+    },
+    {
+      "id": "80203021",
+      "type": "spine",
+      "skel": "assets/sd/80203021.skel",
+      "atlas": "assets/sd/80203021.atlas"
+    },
+    {
+      "id": "80203022",
+      "type": "spine",
+      "skel": "assets/sd/80203022.skel",
+      "atlas": "assets/sd/80203022.atlas"
+    },
+    {
+      "id": "80203031",
+      "type": "spine",
+      "skel": "assets/sd/80203031.skel",
+      "atlas": "assets/sd/80203031.atlas"
+    },
+    {
+      "id": "80203032",
+      "type": "spine",
+      "skel": "assets/sd/80203032.skel",
+      "atlas": "assets/sd/80203032.atlas"
+    },
+    {
+      "id": "80203041",
+      "type": "spine",
+      "skel": "assets/sd/80203041.skel",
+      "atlas": "assets/sd/80203041.atlas"
+    },
+    {
+      "id": "80203042",
+      "type": "spine",
+      "skel": "assets/sd/80203042.skel",
+      "atlas": "assets/sd/80203042.atlas"
+    },
+    {
+      "id": "80203051",
+      "type": "spine",
+      "skel": "assets/sd/80203051.skel",
+      "atlas": "assets/sd/80203051.atlas"
+    },
+    {
+      "id": "80203052",
+      "type": "spine",
+      "skel": "assets/sd/80203052.skel",
+      "atlas": "assets/sd/80203052.atlas"
+    },
+    {
+      "id": "80204011",
+      "type": "spine",
+      "skel": "assets/sd/80204011.skel",
+      "atlas": "assets/sd/80204011.atlas"
+    },
+    {
+      "id": "80204012",
+      "type": "spine",
+      "skel": "assets/sd/80204012.skel",
+      "atlas": "assets/sd/80204012.atlas"
+    },
+    {
+      "id": "80204021",
+      "type": "spine",
+      "skel": "assets/sd/80204021.skel",
+      "atlas": "assets/sd/80204021.atlas"
+    },
+    {
+      "id": "80204022",
+      "type": "spine",
+      "skel": "assets/sd/80204022.skel",
+      "atlas": "assets/sd/80204022.atlas"
+    },
+    {
+      "id": "80204031",
+      "type": "spine",
+      "skel": "assets/sd/80204031.skel",
+      "atlas": "assets/sd/80204031.atlas"
+    },
+    {
+      "id": "80204032",
+      "type": "spine",
+      "skel": "assets/sd/80204032.skel",
+      "atlas": "assets/sd/80204032.atlas"
+    },
+    {
+      "id": "80204041",
+      "type": "spine",
+      "skel": "assets/sd/80204041.skel",
+      "atlas": "assets/sd/80204041.atlas"
+    },
+    {
+      "id": "80204042",
+      "type": "spine",
+      "skel": "assets/sd/80204042.skel",
+      "atlas": "assets/sd/80204042.atlas"
+    },
+    {
+      "id": "80204051",
+      "type": "spine",
+      "skel": "assets/sd/80204051.skel",
+      "atlas": "assets/sd/80204051.atlas"
+    },
+    {
+      "id": "80204052",
+      "type": "spine",
+      "skel": "assets/sd/80204052.skel",
+      "atlas": "assets/sd/80204052.atlas"
+    },
+    {
+      "id": "80205011",
+      "type": "spine",
+      "skel": "assets/sd/80205011.skel",
+      "atlas": "assets/sd/80205011.atlas"
+    },
+    {
+      "id": "80205012",
+      "type": "spine",
+      "skel": "assets/sd/80205012.skel",
+      "atlas": "assets/sd/80205012.atlas"
+    },
+    {
+      "id": "80205021",
+      "type": "spine",
+      "skel": "assets/sd/80205021.skel",
+      "atlas": "assets/sd/80205021.atlas"
+    },
+    {
+      "id": "80205022",
+      "type": "spine",
+      "skel": "assets/sd/80205022.skel",
+      "atlas": "assets/sd/80205022.atlas"
+    },
+    {
+      "id": "80205031",
+      "type": "spine",
+      "skel": "assets/sd/80205031.skel",
+      "atlas": "assets/sd/80205031.atlas"
+    },
+    {
+      "id": "80205032",
+      "type": "spine",
+      "skel": "assets/sd/80205032.skel",
+      "atlas": "assets/sd/80205032.atlas"
+    },
+    {
+      "id": "80205041",
+      "type": "spine",
+      "skel": "assets/sd/80205041.skel",
+      "atlas": "assets/sd/80205041.atlas"
+    },
+    {
+      "id": "80205042",
+      "type": "spine",
+      "skel": "assets/sd/80205042.skel",
+      "atlas": "assets/sd/80205042.atlas"
+    },
+    {
+      "id": "80205051",
+      "type": "spine",
+      "skel": "assets/sd/80205051.skel",
+      "atlas": "assets/sd/80205051.atlas"
+    },
+    {
+      "id": "80205052",
+      "type": "spine",
+      "skel": "assets/sd/80205052.skel",
+      "atlas": "assets/sd/80205052.atlas"
+    },
+    {
+      "id": "80301011",
+      "type": "spine",
+      "skel": "assets/sd/80301011.skel",
+      "atlas": "assets/sd/80301011.atlas"
+    },
+    {
+      "id": "80301012",
+      "type": "spine",
+      "skel": "assets/sd/80301012.skel",
+      "atlas": "assets/sd/80301012.atlas"
+    },
+    {
+      "id": "80301021",
+      "type": "spine",
+      "skel": "assets/sd/80301021.skel",
+      "atlas": "assets/sd/80301021.atlas"
+    },
+    {
+      "id": "80301022",
+      "type": "spine",
+      "skel": "assets/sd/80301022.skel",
+      "atlas": "assets/sd/80301022.atlas"
+    },
+    {
+      "id": "80301031",
+      "type": "spine",
+      "skel": "assets/sd/80301031.skel",
+      "atlas": "assets/sd/80301031.atlas"
+    },
+    {
+      "id": "80301032",
+      "type": "spine",
+      "skel": "assets/sd/80301032.skel",
+      "atlas": "assets/sd/80301032.atlas"
+    },
+    {
+      "id": "80301041",
+      "type": "spine",
+      "skel": "assets/sd/80301041.skel",
+      "atlas": "assets/sd/80301041.atlas"
+    },
+    {
+      "id": "80301042",
+      "type": "spine",
+      "skel": "assets/sd/80301042.skel",
+      "atlas": "assets/sd/80301042.atlas"
+    },
+    {
+      "id": "80301051",
+      "type": "spine",
+      "skel": "assets/sd/80301051.skel",
+      "atlas": "assets/sd/80301051.atlas"
+    },
+    {
+      "id": "80301052",
+      "type": "spine",
+      "skel": "assets/sd/80301052.skel",
+      "atlas": "assets/sd/80301052.atlas"
+    },
+    {
+      "id": "80302011",
+      "type": "spine",
+      "skel": "assets/sd/80302011.skel",
+      "atlas": "assets/sd/80302011.atlas"
+    },
+    {
+      "id": "80302012",
+      "type": "spine",
+      "skel": "assets/sd/80302012.skel",
+      "atlas": "assets/sd/80302012.atlas"
+    },
+    {
+      "id": "80302021",
+      "type": "spine",
+      "skel": "assets/sd/80302021.skel",
+      "atlas": "assets/sd/80302021.atlas"
+    },
+    {
+      "id": "80302022",
+      "type": "spine",
+      "skel": "assets/sd/80302022.skel",
+      "atlas": "assets/sd/80302022.atlas"
+    },
+    {
+      "id": "80302031",
+      "type": "spine",
+      "skel": "assets/sd/80302031.skel",
+      "atlas": "assets/sd/80302031.atlas"
+    },
+    {
+      "id": "80302032",
+      "type": "spine",
+      "skel": "assets/sd/80302032.skel",
+      "atlas": "assets/sd/80302032.atlas"
+    },
+    {
+      "id": "80302041",
+      "type": "spine",
+      "skel": "assets/sd/80302041.skel",
+      "atlas": "assets/sd/80302041.atlas"
+    },
+    {
+      "id": "80302042",
+      "type": "spine",
+      "skel": "assets/sd/80302042.skel",
+      "atlas": "assets/sd/80302042.atlas"
+    },
+    {
+      "id": "80302051",
+      "type": "spine",
+      "skel": "assets/sd/80302051.skel",
+      "atlas": "assets/sd/80302051.atlas"
+    },
+    {
+      "id": "80302052",
+      "type": "spine",
+      "skel": "assets/sd/80302052.skel",
+      "atlas": "assets/sd/80302052.atlas"
+    },
+    {
+      "id": "80303011",
+      "type": "spine",
+      "skel": "assets/sd/80303011.skel",
+      "atlas": "assets/sd/80303011.atlas"
+    },
+    {
+      "id": "80303012",
+      "type": "spine",
+      "skel": "assets/sd/80303012.skel",
+      "atlas": "assets/sd/80303012.atlas"
+    },
+    {
+      "id": "80303021",
+      "type": "spine",
+      "skel": "assets/sd/80303021.skel",
+      "atlas": "assets/sd/80303021.atlas"
+    },
+    {
+      "id": "80303022",
+      "type": "spine",
+      "skel": "assets/sd/80303022.skel",
+      "atlas": "assets/sd/80303022.atlas"
+    },
+    {
+      "id": "80303031",
+      "type": "spine",
+      "skel": "assets/sd/80303031.skel",
+      "atlas": "assets/sd/80303031.atlas"
+    },
+    {
+      "id": "80303032",
+      "type": "spine",
+      "skel": "assets/sd/80303032.skel",
+      "atlas": "assets/sd/80303032.atlas"
+    },
+    {
+      "id": "80303041",
+      "type": "spine",
+      "skel": "assets/sd/80303041.skel",
+      "atlas": "assets/sd/80303041.atlas"
+    },
+    {
+      "id": "80303042",
+      "type": "spine",
+      "skel": "assets/sd/80303042.skel",
+      "atlas": "assets/sd/80303042.atlas"
+    },
+    {
+      "id": "80303051",
+      "type": "spine",
+      "skel": "assets/sd/80303051.skel",
+      "atlas": "assets/sd/80303051.atlas"
+    },
+    {
+      "id": "80303052",
+      "type": "spine",
+      "skel": "assets/sd/80303052.skel",
+      "atlas": "assets/sd/80303052.atlas"
+    },
+    {
+      "id": "80304011",
+      "type": "spine",
+      "skel": "assets/sd/80304011.skel",
+      "atlas": "assets/sd/80304011.atlas"
+    },
+    {
+      "id": "80304012",
+      "type": "spine",
+      "skel": "assets/sd/80304012.skel",
+      "atlas": "assets/sd/80304012.atlas"
+    },
+    {
+      "id": "80304021",
+      "type": "spine",
+      "skel": "assets/sd/80304021.skel",
+      "atlas": "assets/sd/80304021.atlas"
+    },
+    {
+      "id": "80304022",
+      "type": "spine",
+      "skel": "assets/sd/80304022.skel",
+      "atlas": "assets/sd/80304022.atlas"
+    },
+    {
+      "id": "80304031",
+      "type": "spine",
+      "skel": "assets/sd/80304031.skel",
+      "atlas": "assets/sd/80304031.atlas"
+    },
+    {
+      "id": "80304032",
+      "type": "spine",
+      "skel": "assets/sd/80304032.skel",
+      "atlas": "assets/sd/80304032.atlas"
+    },
+    {
+      "id": "80304041",
+      "type": "spine",
+      "skel": "assets/sd/80304041.skel",
+      "atlas": "assets/sd/80304041.atlas"
+    },
+    {
+      "id": "80304042",
+      "type": "spine",
+      "skel": "assets/sd/80304042.skel",
+      "atlas": "assets/sd/80304042.atlas"
+    },
+    {
+      "id": "80304051",
+      "type": "spine",
+      "skel": "assets/sd/80304051.skel",
+      "atlas": "assets/sd/80304051.atlas"
+    },
+    {
+      "id": "80304052",
+      "type": "spine",
+      "skel": "assets/sd/80304052.skel",
+      "atlas": "assets/sd/80304052.atlas"
+    },
+    {
+      "id": "80305011",
+      "type": "spine",
+      "skel": "assets/sd/80305011.skel",
+      "atlas": "assets/sd/80305011.atlas"
+    },
+    {
+      "id": "80305012",
+      "type": "spine",
+      "skel": "assets/sd/80305012.skel",
+      "atlas": "assets/sd/80305012.atlas"
+    },
+    {
+      "id": "80305021",
+      "type": "spine",
+      "skel": "assets/sd/80305021.skel",
+      "atlas": "assets/sd/80305021.atlas"
+    },
+    {
+      "id": "80305022",
+      "type": "spine",
+      "skel": "assets/sd/80305022.skel",
+      "atlas": "assets/sd/80305022.atlas"
+    },
+    {
+      "id": "80305031",
+      "type": "spine",
+      "skel": "assets/sd/80305031.skel",
+      "atlas": "assets/sd/80305031.atlas"
+    },
+    {
+      "id": "80305032",
+      "type": "spine",
+      "skel": "assets/sd/80305032.skel",
+      "atlas": "assets/sd/80305032.atlas"
+    },
+    {
+      "id": "80305041",
+      "type": "spine",
+      "skel": "assets/sd/80305041.skel",
+      "atlas": "assets/sd/80305041.atlas"
+    },
+    {
+      "id": "80305042",
+      "type": "spine",
+      "skel": "assets/sd/80305042.skel",
+      "atlas": "assets/sd/80305042.atlas"
+    },
+    {
+      "id": "80305051",
+      "type": "spine",
+      "skel": "assets/sd/80305051.skel",
+      "atlas": "assets/sd/80305051.atlas"
+    },
+    {
+      "id": "80305052",
+      "type": "spine",
+      "skel": "assets/sd/80305052.skel",
+      "atlas": "assets/sd/80305052.atlas"
+    },
+    {
+      "id": "80401011",
+      "type": "spine",
+      "skel": "assets/sd/80401011.skel",
+      "atlas": "assets/sd/80401011.atlas"
+    },
+    {
+      "id": "80401012",
+      "type": "spine",
+      "skel": "assets/sd/80401012.skel",
+      "atlas": "assets/sd/80401012.atlas"
+    },
+    {
+      "id": "80401021",
+      "type": "spine",
+      "skel": "assets/sd/80401021.skel",
+      "atlas": "assets/sd/80401021.atlas"
+    },
+    {
+      "id": "80401022",
+      "type": "spine",
+      "skel": "assets/sd/80401022.skel",
+      "atlas": "assets/sd/80401022.atlas"
+    },
+    {
+      "id": "80401031",
+      "type": "spine",
+      "skel": "assets/sd/80401031.skel",
+      "atlas": "assets/sd/80401031.atlas"
+    },
+    {
+      "id": "80401032",
+      "type": "spine",
+      "skel": "assets/sd/80401032.skel",
+      "atlas": "assets/sd/80401032.atlas"
+    },
+    {
+      "id": "80401041",
+      "type": "spine",
+      "skel": "assets/sd/80401041.skel",
+      "atlas": "assets/sd/80401041.atlas"
+    },
+    {
+      "id": "80401042",
+      "type": "spine",
+      "skel": "assets/sd/80401042.skel",
+      "atlas": "assets/sd/80401042.atlas"
+    },
+    {
+      "id": "80401051",
+      "type": "spine",
+      "skel": "assets/sd/80401051.skel",
+      "atlas": "assets/sd/80401051.atlas"
+    },
+    {
+      "id": "80401052",
+      "type": "spine",
+      "skel": "assets/sd/80401052.skel",
+      "atlas": "assets/sd/80401052.atlas"
+    },
+    {
+      "id": "80402011",
+      "type": "spine",
+      "skel": "assets/sd/80402011.skel",
+      "atlas": "assets/sd/80402011.atlas"
+    },
+    {
+      "id": "80402012",
+      "type": "spine",
+      "skel": "assets/sd/80402012.skel",
+      "atlas": "assets/sd/80402012.atlas"
+    },
+    {
+      "id": "80402021",
+      "type": "spine",
+      "skel": "assets/sd/80402021.skel",
+      "atlas": "assets/sd/80402021.atlas"
+    },
+    {
+      "id": "80402022",
+      "type": "spine",
+      "skel": "assets/sd/80402022.skel",
+      "atlas": "assets/sd/80402022.atlas"
+    },
+    {
+      "id": "80402031",
+      "type": "spine",
+      "skel": "assets/sd/80402031.skel",
+      "atlas": "assets/sd/80402031.atlas"
+    },
+    {
+      "id": "80402032",
+      "type": "spine",
+      "skel": "assets/sd/80402032.skel",
+      "atlas": "assets/sd/80402032.atlas"
+    },
+    {
+      "id": "80402041",
+      "type": "spine",
+      "skel": "assets/sd/80402041.skel",
+      "atlas": "assets/sd/80402041.atlas"
+    },
+    {
+      "id": "80402042",
+      "type": "spine",
+      "skel": "assets/sd/80402042.skel",
+      "atlas": "assets/sd/80402042.atlas"
+    },
+    {
+      "id": "80402051",
+      "type": "spine",
+      "skel": "assets/sd/80402051.skel",
+      "atlas": "assets/sd/80402051.atlas"
+    },
+    {
+      "id": "80402052",
+      "type": "spine",
+      "skel": "assets/sd/80402052.skel",
+      "atlas": "assets/sd/80402052.atlas"
+    },
+    {
+      "id": "80403011",
+      "type": "spine",
+      "skel": "assets/sd/80403011.skel",
+      "atlas": "assets/sd/80403011.atlas"
+    },
+    {
+      "id": "80403012",
+      "type": "spine",
+      "skel": "assets/sd/80403012.skel",
+      "atlas": "assets/sd/80403012.atlas"
+    },
+    {
+      "id": "80403021",
+      "type": "spine",
+      "skel": "assets/sd/80403021.skel",
+      "atlas": "assets/sd/80403021.atlas"
+    },
+    {
+      "id": "80403022",
+      "type": "spine",
+      "skel": "assets/sd/80403022.skel",
+      "atlas": "assets/sd/80403022.atlas"
+    },
+    {
+      "id": "80403031",
+      "type": "spine",
+      "skel": "assets/sd/80403031.skel",
+      "atlas": "assets/sd/80403031.atlas"
+    },
+    {
+      "id": "80403032",
+      "type": "spine",
+      "skel": "assets/sd/80403032.skel",
+      "atlas": "assets/sd/80403032.atlas"
+    },
+    {
+      "id": "80403041",
+      "type": "spine",
+      "skel": "assets/sd/80403041.skel",
+      "atlas": "assets/sd/80403041.atlas"
+    },
+    {
+      "id": "80403042",
+      "type": "spine",
+      "skel": "assets/sd/80403042.skel",
+      "atlas": "assets/sd/80403042.atlas"
+    },
+    {
+      "id": "80403051",
+      "type": "spine",
+      "skel": "assets/sd/80403051.skel",
+      "atlas": "assets/sd/80403051.atlas"
+    },
+    {
+      "id": "80403052",
+      "type": "spine",
+      "skel": "assets/sd/80403052.skel",
+      "atlas": "assets/sd/80403052.atlas"
+    },
+    {
+      "id": "80404011",
+      "type": "spine",
+      "skel": "assets/sd/80404011.skel",
+      "atlas": "assets/sd/80404011.atlas"
+    },
+    {
+      "id": "80404012",
+      "type": "spine",
+      "skel": "assets/sd/80404012.skel",
+      "atlas": "assets/sd/80404012.atlas"
+    },
+    {
+      "id": "80404021",
+      "type": "spine",
+      "skel": "assets/sd/80404021.skel",
+      "atlas": "assets/sd/80404021.atlas"
+    },
+    {
+      "id": "80404022",
+      "type": "spine",
+      "skel": "assets/sd/80404022.skel",
+      "atlas": "assets/sd/80404022.atlas"
+    },
+    {
+      "id": "80404031",
+      "type": "spine",
+      "skel": "assets/sd/80404031.skel",
+      "atlas": "assets/sd/80404031.atlas"
+    },
+    {
+      "id": "80404032",
+      "type": "spine",
+      "skel": "assets/sd/80404032.skel",
+      "atlas": "assets/sd/80404032.atlas"
+    },
+    {
+      "id": "80404041",
+      "type": "spine",
+      "skel": "assets/sd/80404041.skel",
+      "atlas": "assets/sd/80404041.atlas"
+    },
+    {
+      "id": "80404042",
+      "type": "spine",
+      "skel": "assets/sd/80404042.skel",
+      "atlas": "assets/sd/80404042.atlas"
+    },
+    {
+      "id": "80404051",
+      "type": "spine",
+      "skel": "assets/sd/80404051.skel",
+      "atlas": "assets/sd/80404051.atlas"
+    },
+    {
+      "id": "80404052",
+      "type": "spine",
+      "skel": "assets/sd/80404052.skel",
+      "atlas": "assets/sd/80404052.atlas"
+    },
+    {
+      "id": "80405011",
+      "type": "spine",
+      "skel": "assets/sd/80405011.skel",
+      "atlas": "assets/sd/80405011.atlas"
+    },
+    {
+      "id": "80405012",
+      "type": "spine",
+      "skel": "assets/sd/80405012.skel",
+      "atlas": "assets/sd/80405012.atlas"
+    },
+    {
+      "id": "80405021",
+      "type": "spine",
+      "skel": "assets/sd/80405021.skel",
+      "atlas": "assets/sd/80405021.atlas"
+    },
+    {
+      "id": "80405022",
+      "type": "spine",
+      "skel": "assets/sd/80405022.skel",
+      "atlas": "assets/sd/80405022.atlas"
+    },
+    {
+      "id": "80405031",
+      "type": "spine",
+      "skel": "assets/sd/80405031.skel",
+      "atlas": "assets/sd/80405031.atlas"
+    },
+    {
+      "id": "80405032",
+      "type": "spine",
+      "skel": "assets/sd/80405032.skel",
+      "atlas": "assets/sd/80405032.atlas"
+    },
+    {
+      "id": "80405041",
+      "type": "spine",
+      "skel": "assets/sd/80405041.skel",
+      "atlas": "assets/sd/80405041.atlas"
+    },
+    {
+      "id": "80405042",
+      "type": "spine",
+      "skel": "assets/sd/80405042.skel",
+      "atlas": "assets/sd/80405042.atlas"
+    },
+    {
+      "id": "80405051",
+      "type": "spine",
+      "skel": "assets/sd/80405051.skel",
+      "atlas": "assets/sd/80405051.atlas"
+    },
+    {
+      "id": "80405052",
+      "type": "spine",
+      "skel": "assets/sd/80405052.skel",
+      "atlas": "assets/sd/80405052.atlas"
+    },
+    {
+      "id": "80501011",
+      "type": "spine",
+      "skel": "assets/sd/80501011.skel",
+      "atlas": "assets/sd/80501011.atlas"
+    },
+    {
+      "id": "80501012",
+      "type": "spine",
+      "skel": "assets/sd/80501012.skel",
+      "atlas": "assets/sd/80501012.atlas"
+    },
+    {
+      "id": "80501021",
+      "type": "spine",
+      "skel": "assets/sd/80501021.skel",
+      "atlas": "assets/sd/80501021.atlas"
+    },
+    {
+      "id": "80501022",
+      "type": "spine",
+      "skel": "assets/sd/80501022.skel",
+      "atlas": "assets/sd/80501022.atlas"
+    },
+    {
+      "id": "80501031",
+      "type": "spine",
+      "skel": "assets/sd/80501031.skel",
+      "atlas": "assets/sd/80501031.atlas"
+    },
+    {
+      "id": "80501032",
+      "type": "spine",
+      "skel": "assets/sd/80501032.skel",
+      "atlas": "assets/sd/80501032.atlas"
+    },
+    {
+      "id": "80501041",
+      "type": "spine",
+      "skel": "assets/sd/80501041.skel",
+      "atlas": "assets/sd/80501041.atlas"
+    },
+    {
+      "id": "80501042",
+      "type": "spine",
+      "skel": "assets/sd/80501042.skel",
+      "atlas": "assets/sd/80501042.atlas"
+    },
+    {
+      "id": "80501051",
+      "type": "spine",
+      "skel": "assets/sd/80501051.skel",
+      "atlas": "assets/sd/80501051.atlas"
+    },
+    {
+      "id": "80501052",
+      "type": "spine",
+      "skel": "assets/sd/80501052.skel",
+      "atlas": "assets/sd/80501052.atlas"
+    },
+    {
+      "id": "80502011",
+      "type": "spine",
+      "skel": "assets/sd/80502011.skel",
+      "atlas": "assets/sd/80502011.atlas"
+    },
+    {
+      "id": "80502012",
+      "type": "spine",
+      "skel": "assets/sd/80502012.skel",
+      "atlas": "assets/sd/80502012.atlas"
+    },
+    {
+      "id": "80502021",
+      "type": "spine",
+      "skel": "assets/sd/80502021.skel",
+      "atlas": "assets/sd/80502021.atlas"
+    },
+    {
+      "id": "80502022",
+      "type": "spine",
+      "skel": "assets/sd/80502022.skel",
+      "atlas": "assets/sd/80502022.atlas"
+    },
+    {
+      "id": "80502031",
+      "type": "spine",
+      "skel": "assets/sd/80502031.skel",
+      "atlas": "assets/sd/80502031.atlas"
+    },
+    {
+      "id": "80502032",
+      "type": "spine",
+      "skel": "assets/sd/80502032.skel",
+      "atlas": "assets/sd/80502032.atlas"
+    },
+    {
+      "id": "80502041",
+      "type": "spine",
+      "skel": "assets/sd/80502041.skel",
+      "atlas": "assets/sd/80502041.atlas"
+    },
+    {
+      "id": "80502042",
+      "type": "spine",
+      "skel": "assets/sd/80502042.skel",
+      "atlas": "assets/sd/80502042.atlas"
+    },
+    {
+      "id": "80502051",
+      "type": "spine",
+      "skel": "assets/sd/80502051.skel",
+      "atlas": "assets/sd/80502051.atlas"
+    },
+    {
+      "id": "80502052",
+      "type": "spine",
+      "skel": "assets/sd/80502052.skel",
+      "atlas": "assets/sd/80502052.atlas"
+    },
+    {
+      "id": "80503011",
+      "type": "spine",
+      "skel": "assets/sd/80503011.skel",
+      "atlas": "assets/sd/80503011.atlas"
+    },
+    {
+      "id": "80503012",
+      "type": "spine",
+      "skel": "assets/sd/80503012.skel",
+      "atlas": "assets/sd/80503012.atlas"
+    },
+    {
+      "id": "80503021",
+      "type": "spine",
+      "skel": "assets/sd/80503021.skel",
+      "atlas": "assets/sd/80503021.atlas"
+    },
+    {
+      "id": "80503022",
+      "type": "spine",
+      "skel": "assets/sd/80503022.skel",
+      "atlas": "assets/sd/80503022.atlas"
+    },
+    {
+      "id": "80503031",
+      "type": "spine",
+      "skel": "assets/sd/80503031.skel",
+      "atlas": "assets/sd/80503031.atlas"
+    },
+    {
+      "id": "80503032",
+      "type": "spine",
+      "skel": "assets/sd/80503032.skel",
+      "atlas": "assets/sd/80503032.atlas"
+    },
+    {
+      "id": "80503041",
+      "type": "spine",
+      "skel": "assets/sd/80503041.skel",
+      "atlas": "assets/sd/80503041.atlas"
+    },
+    {
+      "id": "80503042",
+      "type": "spine",
+      "skel": "assets/sd/80503042.skel",
+      "atlas": "assets/sd/80503042.atlas"
+    },
+    {
+      "id": "80503051",
+      "type": "spine",
+      "skel": "assets/sd/80503051.skel",
+      "atlas": "assets/sd/80503051.atlas"
+    },
+    {
+      "id": "80503052",
+      "type": "spine",
+      "skel": "assets/sd/80503052.skel",
+      "atlas": "assets/sd/80503052.atlas"
+    },
+    {
+      "id": "80504011",
+      "type": "spine",
+      "skel": "assets/sd/80504011.skel",
+      "atlas": "assets/sd/80504011.atlas"
+    },
+    {
+      "id": "80504012",
+      "type": "spine",
+      "skel": "assets/sd/80504012.skel",
+      "atlas": "assets/sd/80504012.atlas"
+    },
+    {
+      "id": "80504021",
+      "type": "spine",
+      "skel": "assets/sd/80504021.skel",
+      "atlas": "assets/sd/80504021.atlas"
+    },
+    {
+      "id": "80504022",
+      "type": "spine",
+      "skel": "assets/sd/80504022.skel",
+      "atlas": "assets/sd/80504022.atlas"
+    },
+    {
+      "id": "80504031",
+      "type": "spine",
+      "skel": "assets/sd/80504031.skel",
+      "atlas": "assets/sd/80504031.atlas"
+    },
+    {
+      "id": "80504032",
+      "type": "spine",
+      "skel": "assets/sd/80504032.skel",
+      "atlas": "assets/sd/80504032.atlas"
+    },
+    {
+      "id": "80504041",
+      "type": "spine",
+      "skel": "assets/sd/80504041.skel",
+      "atlas": "assets/sd/80504041.atlas"
+    },
+    {
+      "id": "80504042",
+      "type": "spine",
+      "skel": "assets/sd/80504042.skel",
+      "atlas": "assets/sd/80504042.atlas"
+    },
+    {
+      "id": "80504051",
+      "type": "spine",
+      "skel": "assets/sd/80504051.skel",
+      "atlas": "assets/sd/80504051.atlas"
+    },
+    {
+      "id": "80504052",
+      "type": "spine",
+      "skel": "assets/sd/80504052.skel",
+      "atlas": "assets/sd/80504052.atlas"
+    },
+    {
+      "id": "80505011",
+      "type": "spine",
+      "skel": "assets/sd/80505011.skel",
+      "atlas": "assets/sd/80505011.atlas"
+    },
+    {
+      "id": "80505012",
+      "type": "spine",
+      "skel": "assets/sd/80505012.skel",
+      "atlas": "assets/sd/80505012.atlas"
+    },
+    {
+      "id": "80505021",
+      "type": "spine",
+      "skel": "assets/sd/80505021.skel",
+      "atlas": "assets/sd/80505021.atlas"
+    },
+    {
+      "id": "80505022",
+      "type": "spine",
+      "skel": "assets/sd/80505022.skel",
+      "atlas": "assets/sd/80505022.atlas"
+    },
+    {
+      "id": "80505031",
+      "type": "spine",
+      "skel": "assets/sd/80505031.skel",
+      "atlas": "assets/sd/80505031.atlas"
+    },
+    {
+      "id": "80505032",
+      "type": "spine",
+      "skel": "assets/sd/80505032.skel",
+      "atlas": "assets/sd/80505032.atlas"
+    },
+    {
+      "id": "80505041",
+      "type": "spine",
+      "skel": "assets/sd/80505041.skel",
+      "atlas": "assets/sd/80505041.atlas"
+    },
+    {
+      "id": "80505042",
+      "type": "spine",
+      "skel": "assets/sd/80505042.skel",
+      "atlas": "assets/sd/80505042.atlas"
+    },
+    {
+      "id": "80505051",
+      "type": "spine",
+      "skel": "assets/sd/80505051.skel",
+      "atlas": "assets/sd/80505051.atlas"
+    },
+    {
+      "id": "80505052",
+      "type": "spine",
+      "skel": "assets/sd/80505052.skel",
+      "atlas": "assets/sd/80505052.atlas"
+    },
+    {
+      "id": "80601011",
+      "type": "spine",
+      "skel": "assets/sd/80601011.skel",
+      "atlas": "assets/sd/80601011.atlas"
+    },
+    {
+      "id": "80601012",
+      "type": "spine",
+      "skel": "assets/sd/80601012.skel",
+      "atlas": "assets/sd/80601012.atlas"
+    },
+    {
+      "id": "80601021",
+      "type": "spine",
+      "skel": "assets/sd/80601021.skel",
+      "atlas": "assets/sd/80601021.atlas"
+    },
+    {
+      "id": "80601022",
+      "type": "spine",
+      "skel": "assets/sd/80601022.skel",
+      "atlas": "assets/sd/80601022.atlas"
+    },
+    {
+      "id": "80601031",
+      "type": "spine",
+      "skel": "assets/sd/80601031.skel",
+      "atlas": "assets/sd/80601031.atlas"
+    },
+    {
+      "id": "80601032",
+      "type": "spine",
+      "skel": "assets/sd/80601032.skel",
+      "atlas": "assets/sd/80601032.atlas"
+    },
+    {
+      "id": "80601041",
+      "type": "spine",
+      "skel": "assets/sd/80601041.skel",
+      "atlas": "assets/sd/80601041.atlas"
+    },
+    {
+      "id": "80601042",
+      "type": "spine",
+      "skel": "assets/sd/80601042.skel",
+      "atlas": "assets/sd/80601042.atlas"
+    },
+    {
+      "id": "80601051",
+      "type": "spine",
+      "skel": "assets/sd/80601051.skel",
+      "atlas": "assets/sd/80601051.atlas"
+    },
+    {
+      "id": "80601052",
+      "type": "spine",
+      "skel": "assets/sd/80601052.skel",
+      "atlas": "assets/sd/80601052.atlas"
+    },
+    {
+      "id": "80602011",
+      "type": "spine",
+      "skel": "assets/sd/80602011.skel",
+      "atlas": "assets/sd/80602011.atlas"
+    },
+    {
+      "id": "80602012",
+      "type": "spine",
+      "skel": "assets/sd/80602012.skel",
+      "atlas": "assets/sd/80602012.atlas"
+    },
+    {
+      "id": "80602021",
+      "type": "spine",
+      "skel": "assets/sd/80602021.skel",
+      "atlas": "assets/sd/80602021.atlas"
+    },
+    {
+      "id": "80602022",
+      "type": "spine",
+      "skel": "assets/sd/80602022.skel",
+      "atlas": "assets/sd/80602022.atlas"
+    },
+    {
+      "id": "80602031",
+      "type": "spine",
+      "skel": "assets/sd/80602031.skel",
+      "atlas": "assets/sd/80602031.atlas"
+    },
+    {
+      "id": "80602032",
+      "type": "spine",
+      "skel": "assets/sd/80602032.skel",
+      "atlas": "assets/sd/80602032.atlas"
+    },
+    {
+      "id": "80602041",
+      "type": "spine",
+      "skel": "assets/sd/80602041.skel",
+      "atlas": "assets/sd/80602041.atlas"
+    },
+    {
+      "id": "80602042",
+      "type": "spine",
+      "skel": "assets/sd/80602042.skel",
+      "atlas": "assets/sd/80602042.atlas"
+    },
+    {
+      "id": "80602051",
+      "type": "spine",
+      "skel": "assets/sd/80602051.skel",
+      "atlas": "assets/sd/80602051.atlas"
+    },
+    {
+      "id": "80602052",
+      "type": "spine",
+      "skel": "assets/sd/80602052.skel",
+      "atlas": "assets/sd/80602052.atlas"
+    },
+    {
+      "id": "80603011",
+      "type": "spine",
+      "skel": "assets/sd/80603011.skel",
+      "atlas": "assets/sd/80603011.atlas"
+    },
+    {
+      "id": "80603012",
+      "type": "spine",
+      "skel": "assets/sd/80603012.skel",
+      "atlas": "assets/sd/80603012.atlas"
+    },
+    {
+      "id": "80603021",
+      "type": "spine",
+      "skel": "assets/sd/80603021.skel",
+      "atlas": "assets/sd/80603021.atlas"
+    },
+    {
+      "id": "80603022",
+      "type": "spine",
+      "skel": "assets/sd/80603022.skel",
+      "atlas": "assets/sd/80603022.atlas"
+    },
+    {
+      "id": "80603031",
+      "type": "spine",
+      "skel": "assets/sd/80603031.skel",
+      "atlas": "assets/sd/80603031.atlas"
+    },
+    {
+      "id": "80603032",
+      "type": "spine",
+      "skel": "assets/sd/80603032.skel",
+      "atlas": "assets/sd/80603032.atlas"
+    },
+    {
+      "id": "80603041",
+      "type": "spine",
+      "skel": "assets/sd/80603041.skel",
+      "atlas": "assets/sd/80603041.atlas"
+    },
+    {
+      "id": "80603042",
+      "type": "spine",
+      "skel": "assets/sd/80603042.skel",
+      "atlas": "assets/sd/80603042.atlas"
+    },
+    {
+      "id": "80603051",
+      "type": "spine",
+      "skel": "assets/sd/80603051.skel",
+      "atlas": "assets/sd/80603051.atlas"
+    },
+    {
+      "id": "80603052",
+      "type": "spine",
+      "skel": "assets/sd/80603052.skel",
+      "atlas": "assets/sd/80603052.atlas"
+    },
+    {
+      "id": "80604011",
+      "type": "spine",
+      "skel": "assets/sd/80604011.skel",
+      "atlas": "assets/sd/80604011.atlas"
+    },
+    {
+      "id": "80604012",
+      "type": "spine",
+      "skel": "assets/sd/80604012.skel",
+      "atlas": "assets/sd/80604012.atlas"
+    },
+    {
+      "id": "80604021",
+      "type": "spine",
+      "skel": "assets/sd/80604021.skel",
+      "atlas": "assets/sd/80604021.atlas"
+    },
+    {
+      "id": "80604022",
+      "type": "spine",
+      "skel": "assets/sd/80604022.skel",
+      "atlas": "assets/sd/80604022.atlas"
+    },
+    {
+      "id": "80604031",
+      "type": "spine",
+      "skel": "assets/sd/80604031.skel",
+      "atlas": "assets/sd/80604031.atlas"
+    },
+    {
+      "id": "80604032",
+      "type": "spine",
+      "skel": "assets/sd/80604032.skel",
+      "atlas": "assets/sd/80604032.atlas"
+    },
+    {
+      "id": "80604041",
+      "type": "spine",
+      "skel": "assets/sd/80604041.skel",
+      "atlas": "assets/sd/80604041.atlas"
+    },
+    {
+      "id": "80604042",
+      "type": "spine",
+      "skel": "assets/sd/80604042.skel",
+      "atlas": "assets/sd/80604042.atlas"
+    },
+    {
+      "id": "80604051",
+      "type": "spine",
+      "skel": "assets/sd/80604051.skel",
+      "atlas": "assets/sd/80604051.atlas"
+    },
+    {
+      "id": "80604052",
+      "type": "spine",
+      "skel": "assets/sd/80604052.skel",
+      "atlas": "assets/sd/80604052.atlas"
+    },
+    {
+      "id": "80605011",
+      "type": "spine",
+      "skel": "assets/sd/80605011.skel",
+      "atlas": "assets/sd/80605011.atlas"
+    },
+    {
+      "id": "80605012",
+      "type": "spine",
+      "skel": "assets/sd/80605012.skel",
+      "atlas": "assets/sd/80605012.atlas"
+    },
+    {
+      "id": "80605021",
+      "type": "spine",
+      "skel": "assets/sd/80605021.skel",
+      "atlas": "assets/sd/80605021.atlas"
+    },
+    {
+      "id": "80605022",
+      "type": "spine",
+      "skel": "assets/sd/80605022.skel",
+      "atlas": "assets/sd/80605022.atlas"
+    },
+    {
+      "id": "80605031",
+      "type": "spine",
+      "skel": "assets/sd/80605031.skel",
+      "atlas": "assets/sd/80605031.atlas"
+    },
+    {
+      "id": "80605032",
+      "type": "spine",
+      "skel": "assets/sd/80605032.skel",
+      "atlas": "assets/sd/80605032.atlas"
+    },
+    {
+      "id": "80605041",
+      "type": "spine",
+      "skel": "assets/sd/80605041.skel",
+      "atlas": "assets/sd/80605041.atlas"
+    },
+    {
+      "id": "80605042",
+      "type": "spine",
+      "skel": "assets/sd/80605042.skel",
+      "atlas": "assets/sd/80605042.atlas"
+    },
+    {
+      "id": "80605051",
+      "type": "spine",
+      "skel": "assets/sd/80605051.skel",
+      "atlas": "assets/sd/80605051.atlas"
+    },
+    {
+      "id": "80605052",
+      "type": "spine",
+      "skel": "assets/sd/80605052.skel",
+      "atlas": "assets/sd/80605052.atlas"
+    },
+    {
+      "id": "89901011",
+      "type": "spine",
+      "skel": "assets/sd/89901011.skel",
+      "atlas": "assets/sd/89901011.atlas"
+    },
+    {
+      "id": "89901012",
+      "type": "spine",
+      "skel": "assets/sd/89901012.skel",
+      "atlas": "assets/sd/89901012.atlas"
+    },
+    {
+      "id": "89901021",
+      "type": "spine",
+      "skel": "assets/sd/89901021.skel",
+      "atlas": "assets/sd/89901021.atlas"
+    },
+    {
+      "id": "89901022",
+      "type": "spine",
+      "skel": "assets/sd/89901022.skel",
+      "atlas": "assets/sd/89901022.atlas"
+    },
+    {
+      "id": "89901031",
+      "type": "spine",
+      "skel": "assets/sd/89901031.skel",
+      "atlas": "assets/sd/89901031.atlas"
+    },
+    {
+      "id": "89901032",
+      "type": "spine",
+      "skel": "assets/sd/89901032.skel",
+      "atlas": "assets/sd/89901032.atlas"
+    },
+    {
+      "id": "89901041",
+      "type": "spine",
+      "skel": "assets/sd/89901041.skel",
+      "atlas": "assets/sd/89901041.atlas"
+    },
+    {
+      "id": "89901042",
+      "type": "spine",
+      "skel": "assets/sd/89901042.skel",
+      "atlas": "assets/sd/89901042.atlas"
+    },
+    {
+      "id": "89901051",
+      "type": "spine",
+      "skel": "assets/sd/89901051.skel",
+      "atlas": "assets/sd/89901051.atlas"
+    },
+    {
+      "id": "89901052",
+      "type": "spine",
+      "skel": "assets/sd/89901052.skel",
+      "atlas": "assets/sd/89901052.atlas"
+    },
+    {
+      "id": "89902011",
+      "type": "spine",
+      "skel": "assets/sd/89902011.skel",
+      "atlas": "assets/sd/89902011.atlas"
+    },
+    {
+      "id": "89902012",
+      "type": "spine",
+      "skel": "assets/sd/89902012.skel",
+      "atlas": "assets/sd/89902012.atlas"
+    },
+    {
+      "id": "89902021",
+      "type": "spine",
+      "skel": "assets/sd/89902021.skel",
+      "atlas": "assets/sd/89902021.atlas"
+    },
+    {
+      "id": "89902022",
+      "type": "spine",
+      "skel": "assets/sd/89902022.skel",
+      "atlas": "assets/sd/89902022.atlas"
+    },
+    {
+      "id": "89902031",
+      "type": "spine",
+      "skel": "assets/sd/89902031.skel",
+      "atlas": "assets/sd/89902031.atlas"
+    },
+    {
+      "id": "89902032",
+      "type": "spine",
+      "skel": "assets/sd/89902032.skel",
+      "atlas": "assets/sd/89902032.atlas"
+    },
+    {
+      "id": "89902041",
+      "type": "spine",
+      "skel": "assets/sd/89902041.skel",
+      "atlas": "assets/sd/89902041.atlas"
+    },
+    {
+      "id": "89902042",
+      "type": "spine",
+      "skel": "assets/sd/89902042.skel",
+      "atlas": "assets/sd/89902042.atlas"
+    },
+    {
+      "id": "89902051",
+      "type": "spine",
+      "skel": "assets/sd/89902051.skel",
+      "atlas": "assets/sd/89902051.atlas"
+    },
+    {
+      "id": "89902052",
+      "type": "spine",
+      "skel": "assets/sd/89902052.skel",
+      "atlas": "assets/sd/89902052.atlas"
+    },
+    {
+      "id": "89903011",
+      "type": "spine",
+      "skel": "assets/sd/89903011.skel",
+      "atlas": "assets/sd/89903011.atlas"
+    },
+    {
+      "id": "89903012",
+      "type": "spine",
+      "skel": "assets/sd/89903012.skel",
+      "atlas": "assets/sd/89903012.atlas"
+    },
+    {
+      "id": "89903021",
+      "type": "spine",
+      "skel": "assets/sd/89903021.skel",
+      "atlas": "assets/sd/89903021.atlas"
+    },
+    {
+      "id": "89903022",
+      "type": "spine",
+      "skel": "assets/sd/89903022.skel",
+      "atlas": "assets/sd/89903022.atlas"
+    },
+    {
+      "id": "89903031",
+      "type": "spine",
+      "skel": "assets/sd/89903031.skel",
+      "atlas": "assets/sd/89903031.atlas"
+    },
+    {
+      "id": "89903032",
+      "type": "spine",
+      "skel": "assets/sd/89903032.skel",
+      "atlas": "assets/sd/89903032.atlas"
+    },
+    {
+      "id": "89903041",
+      "type": "spine",
+      "skel": "assets/sd/89903041.skel",
+      "atlas": "assets/sd/89903041.atlas"
+    },
+    {
+      "id": "89903042",
+      "type": "spine",
+      "skel": "assets/sd/89903042.skel",
+      "atlas": "assets/sd/89903042.atlas"
+    },
+    {
+      "id": "89903051",
+      "type": "spine",
+      "skel": "assets/sd/89903051.skel",
+      "atlas": "assets/sd/89903051.atlas"
+    },
+    {
+      "id": "89903052",
+      "type": "spine",
+      "skel": "assets/sd/89903052.skel",
+      "atlas": "assets/sd/89903052.atlas"
+    },
+    {
+      "id": "89904011",
+      "type": "spine",
+      "skel": "assets/sd/89904011.skel",
+      "atlas": "assets/sd/89904011.atlas"
+    },
+    {
+      "id": "89904012",
+      "type": "spine",
+      "skel": "assets/sd/89904012.skel",
+      "atlas": "assets/sd/89904012.atlas"
+    },
+    {
+      "id": "89904021",
+      "type": "spine",
+      "skel": "assets/sd/89904021.skel",
+      "atlas": "assets/sd/89904021.atlas"
+    },
+    {
+      "id": "89904022",
+      "type": "spine",
+      "skel": "assets/sd/89904022.skel",
+      "atlas": "assets/sd/89904022.atlas"
+    },
+    {
+      "id": "89904031",
+      "type": "spine",
+      "skel": "assets/sd/89904031.skel",
+      "atlas": "assets/sd/89904031.atlas"
+    },
+    {
+      "id": "89904032",
+      "type": "spine",
+      "skel": "assets/sd/89904032.skel",
+      "atlas": "assets/sd/89904032.atlas"
+    },
+    {
+      "id": "89904041",
+      "type": "spine",
+      "skel": "assets/sd/89904041.skel",
+      "atlas": "assets/sd/89904041.atlas"
+    },
+    {
+      "id": "89904042",
+      "type": "spine",
+      "skel": "assets/sd/89904042.skel",
+      "atlas": "assets/sd/89904042.atlas"
+    },
+    {
+      "id": "89904051",
+      "type": "spine",
+      "skel": "assets/sd/89904051.skel",
+      "atlas": "assets/sd/89904051.atlas"
+    },
+    {
+      "id": "89904052",
+      "type": "spine",
+      "skel": "assets/sd/89904052.skel",
+      "atlas": "assets/sd/89904052.atlas"
+    },
+    {
+      "id": "89905011",
+      "type": "spine",
+      "skel": "assets/sd/89905011.skel",
+      "atlas": "assets/sd/89905011.atlas"
+    },
+    {
+      "id": "89905012",
+      "type": "spine",
+      "skel": "assets/sd/89905012.skel",
+      "atlas": "assets/sd/89905012.atlas"
+    },
+    {
+      "id": "89905021",
+      "type": "spine",
+      "skel": "assets/sd/89905021.skel",
+      "atlas": "assets/sd/89905021.atlas"
+    },
+    {
+      "id": "89905022",
+      "type": "spine",
+      "skel": "assets/sd/89905022.skel",
+      "atlas": "assets/sd/89905022.atlas"
+    },
+    {
+      "id": "89905031",
+      "type": "spine",
+      "skel": "assets/sd/89905031.skel",
+      "atlas": "assets/sd/89905031.atlas"
+    },
+    {
+      "id": "89905032",
+      "type": "spine",
+      "skel": "assets/sd/89905032.skel",
+      "atlas": "assets/sd/89905032.atlas"
+    },
+    {
+      "id": "89905041",
+      "type": "spine",
+      "skel": "assets/sd/89905041.skel",
+      "atlas": "assets/sd/89905041.atlas"
+    },
+    {
+      "id": "89905042",
+      "type": "spine",
+      "skel": "assets/sd/89905042.skel",
+      "atlas": "assets/sd/89905042.atlas"
+    },
+    {
+      "id": "89905051",
+      "type": "spine",
+      "skel": "assets/sd/89905051.skel",
+      "atlas": "assets/sd/89905051.atlas"
+    },
+    {
+      "id": "89905052",
+      "type": "spine",
+      "skel": "assets/sd/89905052.skel",
+      "atlas": "assets/sd/89905052.atlas"
+    }
+  ],
+  "comic_en": [
+    {
+      "id": "comic_01_en",
+      "type": "image",
+      "url": "assets/comic_en/comic_01_en.png"
+    },
+    {
+      "id": "comic_02_en",
+      "type": "image",
+      "url": "assets/comic_en/comic_02_en.png"
+    },
+    {
+      "id": "comic_03_en",
+      "type": "image",
+      "url": "assets/comic_en/comic_03_en.png"
+    },
+    {
+      "id": "comic_04_en",
+      "type": "image",
+      "url": "assets/comic_en/comic_04_en.png"
+    },
+    {
+      "id": "comic_05_en",
+      "type": "image",
+      "url": "assets/comic_en/comic_05_en.png"
+    },
+    {
+      "id": "comic_06_en",
+      "type": "image",
+      "url": "assets/comic_en/comic_06_en.png"
+    },
+    {
+      "id": "comic_07_en",
+      "type": "image",
+      "url": "assets/comic_en/comic_07_en.png"
+    },
+    {
+      "id": "comic_08_en",
+      "type": "image",
+      "url": "assets/comic_en/comic_08_en.png"
+    },
+    {
+      "id": "comic_09_en",
+      "type": "image",
+      "url": "assets/comic_en/comic_09_en.png"
+    },
+    {
+      "id": "comic_10_en",
+      "type": "image",
+      "url": "assets/comic_en/comic_10_en.png"
+    },
+    {
+      "id": "comic_11_en",
+      "type": "image",
+      "url": "assets/comic_en/comic_11_en.png"
+    },
+    {
+      "id": "comic_12_en",
+      "type": "image",
+      "url": "assets/comic_en/comic_12_en.png"
+    },
+    {
+      "id": "comic_13_en",
+      "type": "image",
+      "url": "assets/comic_en/comic_13_en.png"
+    },
+    {
+      "id": "comic_14_en",
+      "type": "image",
+      "url": "assets/comic_en/comic_14_en.png"
+    },
+    {
+      "id": "comic_15_en",
+      "type": "image",
+      "url": "assets/comic_en/comic_15_en.png"
+    },
+    {
+      "id": "comic_16_en",
+      "type": "image",
+      "url": "assets/comic_en/comic_16_en.png"
+    },
+    {
+      "id": "comic_17_en",
+      "type": "image",
+      "url": "assets/comic_en/comic_17_en.png"
+    },
+    {
+      "id": "comic_18_en",
+      "type": "image",
+      "url": "assets/comic_en/comic_18_en.png"
+    },
+    {
+      "id": "comic_19_en",
+      "type": "image",
+      "url": "assets/comic_en/comic_19_en.png"
+    },
+    {
+      "id": "comic_20_en",
+      "type": "image",
+      "url": "assets/comic_en/comic_20_en.png"
+    },
+    {
+      "id": "comic_21_en",
+      "type": "image",
+      "url": "assets/comic_en/comic_21_en.png"
+    },
+    {
+      "id": "comic_22_en",
+      "type": "image",
+      "url": "assets/comic_en/comic_22_en.png"
+    },
+    {
+      "id": "comic_23_en",
+      "type": "image",
+      "url": "assets/comic_en/comic_23_en.png"
+    },
+    {
+      "id": "comic_24_en",
+      "type": "image",
+      "url": "assets/comic_en/comic_24_en.png"
+    },
+    {
+      "id": "comic_25_en",
+      "type": "image",
+      "url": "assets/comic_en/comic_25_en.png"
+    },
+    {
+      "id": "comic_26_en",
+      "type": "image",
+      "url": "assets/comic_en/comic_26_en.png"
+    },
+    {
+      "id": "comic_27_en",
+      "type": "image",
+      "url": "assets/comic_en/comic_27_en.png"
+    },
+    {
+      "id": "comic_28_en",
+      "type": "image",
+      "url": "assets/comic_en/comic_28_en.png"
+    },
+    {
+      "id": "comic_29_en",
+      "type": "image",
+      "url": "assets/comic_en/comic_29_en.png"
+    },
+    {
+      "id": "comic_30_en",
+      "type": "image",
+      "url": "assets/comic_en/comic_30_en.png"
+    },
+    {
+      "id": "comic_31_en",
+      "type": "image",
+      "url": "assets/comic_en/comic_31_en.png"
+    },
+    {
+      "id": "comic_32_en",
+      "type": "image",
+      "url": "assets/comic_en/comic_32_en.png"
+    },
+    {
+      "id": "comic_33_en",
+      "type": "image",
+      "url": "assets/comic_en/comic_33_en.png"
+    },
+    {
+      "id": "comic_34_en",
+      "type": "image",
+      "url": "assets/comic_en/comic_34_en.png"
+    },
+    {
+      "id": "comic_35_en",
+      "type": "image",
+      "url": "assets/comic_en/comic_35_en.png"
+    },
+    {
+      "id": "comic_36_en",
+      "type": "image",
+      "url": "assets/comic_en/comic_36_en.png"
+    },
+    {
+      "id": "comic_37_en",
+      "type": "image",
+      "url": "assets/comic_en/comic_37_en.png"
+    },
+    {
+      "id": "comic_38_en",
+      "type": "image",
+      "url": "assets/comic_en/comic_38_en.png"
+    },
+    {
+      "id": "comic_39_en",
+      "type": "image",
+      "url": "assets/comic_en/comic_39_en.png"
+    },
+    {
+      "id": "comic_40_en",
+      "type": "image",
+      "url": "assets/comic_en/comic_40_en.png"
+    },
+    {
+      "id": "comic_41_en",
+      "type": "image",
+      "url": "assets/comic_en/comic_41_en.png"
+    },
+    {
+      "id": "comic_42_en",
+      "type": "image",
+      "url": "assets/comic_en/comic_42_en.png"
+    },
+    {
+      "id": "comic_43_en",
+      "type": "image",
+      "url": "assets/comic_en/comic_43_en.png"
+    },
+    {
+      "id": "comic_44_en",
+      "type": "image",
+      "url": "assets/comic_en/comic_44_en.png"
+    },
+    {
+      "id": "comic_45_en",
+      "type": "image",
+      "url": "assets/comic_en/comic_45_en.png"
+    },
+    {
+      "id": "comic_46_en",
+      "type": "image",
+      "url": "assets/comic_en/comic_46_en.png"
+    },
+    {
+      "id": "comic_47_en",
+      "type": "image",
+      "url": "assets/comic_en/comic_47_en.png"
+    },
+    {
+      "id": "comic_48_en",
+      "type": "image",
+      "url": "assets/comic_en/comic_48_en.png"
+    },
+    {
+      "id": "comic_49_en",
+      "type": "image",
+      "url": "assets/comic_en/comic_49_en.png"
+    },
+    {
+      "id": "comic_50_en",
+      "type": "image",
+      "url": "assets/comic_en/comic_50_en.png"
+    },
+    {
+      "id": "comic_51_en",
+      "type": "image",
+      "url": "assets/comic_en/comic_51_en.png"
+    },
+    {
+      "id": "comic_52_en",
+      "type": "image",
+      "url": "assets/comic_en/comic_52_en.png"
+    },
+    {
+      "id": "comic_53_en",
+      "type": "image",
+      "url": "assets/comic_en/comic_53_en.png"
+    },
+    {
+      "id": "comic_54_en",
+      "type": "image",
+      "url": "assets/comic_en/comic_54_en.png"
+    },
+    {
+      "id": "comic_55_en",
+      "type": "image",
+      "url": "assets/comic_en/comic_55_en.png"
+    },
+    {
+      "id": "comic_56_en",
+      "type": "image",
+      "url": "assets/comic_en/comic_56_en.png"
+    },
+    {
+      "id": "comic_57_en",
+      "type": "image",
+      "url": "assets/comic_en/comic_57_en.png"
+    },
+    {
+      "id": "comic_58_en",
+      "type": "image",
+      "url": "assets/comic_en/comic_58_en.png"
+    },
+    {
+      "id": "comic_59_en",
+      "type": "image",
+      "url": "assets/comic_en/comic_59_en.png"
+    },
+    {
+      "id": "comic_60_en",
+      "type": "image",
+      "url": "assets/comic_en/comic_60_en.png"
+    },
+    {
+      "id": "comic_61_en",
+      "type": "image",
+      "url": "assets/comic_en/comic_61_en.png"
+    },
+    {
+      "id": "comic_62_en",
+      "type": "image",
+      "url": "assets/comic_en/comic_62_en.png"
+    },
+    {
+      "id": "comic_63_en",
+      "type": "image",
+      "url": "assets/comic_en/comic_63_en.png"
+    },
+    {
+      "id": "comic_64_en",
+      "type": "image",
+      "url": "assets/comic_en/comic_64_en.png"
+    },
+    {
+      "id": "comic_65_en",
+      "type": "image",
+      "url": "assets/comic_en/comic_65_en.png"
+    },
+    {
+      "id": "comic_66_en",
+      "type": "image",
+      "url": "assets/comic_en/comic_66_en.png"
+    },
+    {
+      "id": "comic_67_en",
+      "type": "image",
+      "url": "assets/comic_en/comic_67_en.png"
+    },
+    {
+      "id": "comic_68_en",
+      "type": "image",
+      "url": "assets/comic_en/comic_68_en.png"
+    },
+    {
+      "id": "comic_69_en",
+      "type": "image",
+      "url": "assets/comic_en/comic_69_en.png"
+    },
+    {
+      "id": "comic_70_en",
+      "type": "image",
+      "url": "assets/comic_en/comic_70_en.png"
+    },
+    {
+      "id": "comic_71_en",
+      "type": "image",
+      "url": "assets/comic_en/comic_71_en.png"
+    },
+    {
+      "id": "comic_72_en",
+      "type": "image",
+      "url": "assets/comic_en/comic_72_en.png"
+    }
+  ],
+  "comic_jp": [
+    {
+      "id": "comic_01",
+      "type": "image",
+      "url": "assets/comic_jp/comic_01.png"
+    },
+    {
+      "id": "comic_02",
+      "type": "image",
+      "url": "assets/comic_jp/comic_02.png"
+    },
+    {
+      "id": "comic_03",
+      "type": "image",
+      "url": "assets/comic_jp/comic_03.png"
+    },
+    {
+      "id": "comic_04",
+      "type": "image",
+      "url": "assets/comic_jp/comic_04.png"
+    },
+    {
+      "id": "comic_05",
+      "type": "image",
+      "url": "assets/comic_jp/comic_05.png"
+    },
+    {
+      "id": "comic_06",
+      "type": "image",
+      "url": "assets/comic_jp/comic_06.png"
+    },
+    {
+      "id": "comic_07",
+      "type": "image",
+      "url": "assets/comic_jp/comic_07.png"
+    },
+    {
+      "id": "comic_08",
+      "type": "image",
+      "url": "assets/comic_jp/comic_08.png"
+    },
+    {
+      "id": "comic_09",
+      "type": "image",
+      "url": "assets/comic_jp/comic_09.png"
+    },
+    {
+      "id": "comic_10",
+      "type": "image",
+      "url": "assets/comic_jp/comic_10.png"
+    },
+    {
+      "id": "comic_11",
+      "type": "image",
+      "url": "assets/comic_jp/comic_11.png"
+    },
+    {
+      "id": "comic_12",
+      "type": "image",
+      "url": "assets/comic_jp/comic_12.png"
+    },
+    {
+      "id": "comic_13",
+      "type": "image",
+      "url": "assets/comic_jp/comic_13.png"
+    },
+    {
+      "id": "comic_14",
+      "type": "image",
+      "url": "assets/comic_jp/comic_14.png"
+    },
+    {
+      "id": "comic_15",
+      "type": "image",
+      "url": "assets/comic_jp/comic_15.png"
+    },
+    {
+      "id": "comic_16",
+      "type": "image",
+      "url": "assets/comic_jp/comic_16.png"
+    },
+    {
+      "id": "comic_17",
+      "type": "image",
+      "url": "assets/comic_jp/comic_17.png"
+    },
+    {
+      "id": "comic_18",
+      "type": "image",
+      "url": "assets/comic_jp/comic_18.png"
+    },
+    {
+      "id": "comic_19",
+      "type": "image",
+      "url": "assets/comic_jp/comic_19.png"
+    },
+    {
+      "id": "comic_20",
+      "type": "image",
+      "url": "assets/comic_jp/comic_20.png"
+    },
+    {
+      "id": "comic_21",
+      "type": "image",
+      "url": "assets/comic_jp/comic_21.png"
+    },
+    {
+      "id": "comic_22",
+      "type": "image",
+      "url": "assets/comic_jp/comic_22.png"
+    },
+    {
+      "id": "comic_23",
+      "type": "image",
+      "url": "assets/comic_jp/comic_23.png"
+    },
+    {
+      "id": "comic_24",
+      "type": "image",
+      "url": "assets/comic_jp/comic_24.png"
+    },
+    {
+      "id": "comic_25",
+      "type": "image",
+      "url": "assets/comic_jp/comic_25.png"
+    },
+    {
+      "id": "comic_26",
+      "type": "image",
+      "url": "assets/comic_jp/comic_26.png"
+    },
+    {
+      "id": "comic_27",
+      "type": "image",
+      "url": "assets/comic_jp/comic_27.png"
+    },
+    {
+      "id": "comic_28",
+      "type": "image",
+      "url": "assets/comic_jp/comic_28.png"
+    },
+    {
+      "id": "comic_29",
+      "type": "image",
+      "url": "assets/comic_jp/comic_29.png"
+    },
+    {
+      "id": "comic_30",
+      "type": "image",
+      "url": "assets/comic_jp/comic_30.png"
+    },
+    {
+      "id": "comic_31",
+      "type": "image",
+      "url": "assets/comic_jp/comic_31.png"
+    },
+    {
+      "id": "comic_32",
+      "type": "image",
+      "url": "assets/comic_jp/comic_32.png"
+    },
+    {
+      "id": "comic_33",
+      "type": "image",
+      "url": "assets/comic_jp/comic_33.png"
+    },
+    {
+      "id": "comic_34",
+      "type": "image",
+      "url": "assets/comic_jp/comic_34.png"
+    },
+    {
+      "id": "comic_35",
+      "type": "image",
+      "url": "assets/comic_jp/comic_35.png"
+    },
+    {
+      "id": "comic_36",
+      "type": "image",
+      "url": "assets/comic_jp/comic_36.png"
+    },
+    {
+      "id": "comic_37",
+      "type": "image",
+      "url": "assets/comic_jp/comic_37.png"
+    },
+    {
+      "id": "comic_38",
+      "type": "image",
+      "url": "assets/comic_jp/comic_38.png"
+    },
+    {
+      "id": "comic_39",
+      "type": "image",
+      "url": "assets/comic_jp/comic_39.png"
+    },
+    {
+      "id": "comic_40",
+      "type": "image",
+      "url": "assets/comic_jp/comic_40.png"
+    },
+    {
+      "id": "comic_41",
+      "type": "image",
+      "url": "assets/comic_jp/comic_41.png"
+    },
+    {
+      "id": "comic_42",
+      "type": "image",
+      "url": "assets/comic_jp/comic_42.png"
+    },
+    {
+      "id": "comic_43",
+      "type": "image",
+      "url": "assets/comic_jp/comic_43.png"
+    },
+    {
+      "id": "comic_44",
+      "type": "image",
+      "url": "assets/comic_jp/comic_44.png"
+    },
+    {
+      "id": "comic_45",
+      "type": "image",
+      "url": "assets/comic_jp/comic_45.png"
+    },
+    {
+      "id": "comic_46",
+      "type": "image",
+      "url": "assets/comic_jp/comic_46.png"
+    },
+    {
+      "id": "comic_47",
+      "type": "image",
+      "url": "assets/comic_jp/comic_47.png"
+    },
+    {
+      "id": "comic_48",
+      "type": "image",
+      "url": "assets/comic_jp/comic_48.png"
+    },
+    {
+      "id": "comic_49",
+      "type": "image",
+      "url": "assets/comic_jp/comic_49.png"
+    },
+    {
+      "id": "comic_50",
+      "type": "image",
+      "url": "assets/comic_jp/comic_50.png"
+    },
+    {
+      "id": "comic_51",
+      "type": "image",
+      "url": "assets/comic_jp/comic_51.png"
+    },
+    {
+      "id": "comic_52",
+      "type": "image",
+      "url": "assets/comic_jp/comic_52.png"
+    },
+    {
+      "id": "comic_53",
+      "type": "image",
+      "url": "assets/comic_jp/comic_53.png"
+    },
+    {
+      "id": "comic_54",
+      "type": "image",
+      "url": "assets/comic_jp/comic_54.png"
+    },
+    {
+      "id": "comic_55",
+      "type": "image",
+      "url": "assets/comic_jp/comic_55.png"
+    },
+    {
+      "id": "comic_56",
+      "type": "image",
+      "url": "assets/comic_jp/comic_56.png"
+    },
+    {
+      "id": "comic_57",
+      "type": "image",
+      "url": "assets/comic_jp/comic_57.png"
+    },
+    {
+      "id": "comic_58",
+      "type": "image",
+      "url": "assets/comic_jp/comic_58.png"
+    },
+    {
+      "id": "comic_59",
+      "type": "image",
+      "url": "assets/comic_jp/comic_59.png"
+    },
+    {
+      "id": "comic_60",
+      "type": "image",
+      "url": "assets/comic_jp/comic_60.png"
+    },
+    {
+      "id": "comic_61",
+      "type": "image",
+      "url": "assets/comic_jp/comic_61.png"
+    },
+    {
+      "id": "comic_62",
+      "type": "image",
+      "url": "assets/comic_jp/comic_62.png"
+    },
+    {
+      "id": "comic_63",
+      "type": "image",
+      "url": "assets/comic_jp/comic_63.png"
+    },
+    {
+      "id": "comic_64",
+      "type": "image",
+      "url": "assets/comic_jp/comic_64.png"
+    },
+    {
+      "id": "comic_65",
+      "type": "image",
+      "url": "assets/comic_jp/comic_65.png"
+    },
+    {
+      "id": "comic_66",
+      "type": "image",
+      "url": "assets/comic_jp/comic_66.png"
+    },
+    {
+      "id": "comic_67",
+      "type": "image",
+      "url": "assets/comic_jp/comic_67.png"
+    },
+    {
+      "id": "comic_68",
+      "type": "image",
+      "url": "assets/comic_jp/comic_68.png"
+    },
+    {
+      "id": "comic_69",
+      "type": "image",
+      "url": "assets/comic_jp/comic_69.png"
+    },
+    {
+      "id": "comic_70",
+      "type": "image",
+      "url": "assets/comic_jp/comic_70.png"
+    },
+    {
+      "id": "comic_71",
+      "type": "image",
+      "url": "assets/comic_jp/comic_71.png"
+    },
+    {
+      "id": "comic_72",
+      "type": "image",
+      "url": "assets/comic_jp/comic_72.png"
+    }
+  ]
+}

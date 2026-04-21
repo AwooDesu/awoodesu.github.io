@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Neko Viewer</title>
+    <link rel="stylesheet" href="https://unpkg.com/@esotericsoftware/spine-player@4.1/dist/spine-player.css">
+    <link rel="stylesheet" href="style.css?v=2">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="app-container">
+        <aside class="sidebar">
+            <div class="thin-logo">Neko</div>
+
+            <div class="folder-tabs">
+                <button class="tab-btn active" data-folder="card">Card</button>
+                <button class="tab-btn" data-folder="sd">SD</button>
+                <button class="tab-btn" data-folder="comic_en">Comic EN</button>
+                <button class="tab-btn" data-folder="comic_jp">Comic JP</button>
+            </div>
+
+            <div class="camera-controls thin-controls">
+                <h3>Settings</h3>
+                <div class="control-group">
+                    <label>Zoom <span id="valZoom">2700</span></label>
+                    <input type="range" id="camZoom" min="500" max="8000" step="10" value="2700">
+                </div>
+                <div class="control-group">
+                    <label>X <span id="valX">0</span></label>
+                    <input type="range" id="camX" min="-4000" max="4000" step="10" value="0">
+                </div>
+                <div class="control-group">
+                    <label>Y <span id="valY">0</span></label>
+                    <input type="range" id="camY" min="-4000" max="4000" step="10" value="0">
+                </div>
+
+                <div class="control-group" id="anim-control" style="display:none;">
+                    <label>Animation</label>
+                    <select id="animSelector" class="anim-dropdown"></select>
+                </div>
+            </div>
+
+            <div class="search-box thin-search">
+                <input type="text" id="spineSearch" placeholder="Search...">
+            </div>
+
+            <ul id="spineList" class="spine-list">
+                <div class="loading">Loading...</div>
+            </ul>
+        </aside>
+
+        <main class="viewer-container">
+            <div id="player-container">
+                <div class="no-selection">
+                    <div class="icon">✨</div>
+                </div>
+            </div>
+
+        </main>
+    </div>
+
+    <!-- Official Spine Player 4.1 -->
+    <script src="https://unpkg.com/@esotericsoftware/spine-player@4.1/dist/iife/spine-player.js"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>
