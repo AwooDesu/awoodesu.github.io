@@ -1,0 +1,230 @@
+{
+  "Type": "Live2D Expression",
+  "Parameters": [
+    {
+      "Id": "ParamEyeLOpen",
+      "Value": 1.0,
+      "Blend": 2
+    },
+    {
+      "Id": "ParamEyeLForm",
+      "Value": 0.0,
+      "Blend": 1
+    },
+    {
+      "Id": "ParamEyeROpen",
+      "Value": 1.0,
+      "Blend": 2
+    },
+    {
+      "Id": "ParamEyeRForm",
+      "Value": 0.0,
+      "Blend": 1
+    },
+    {
+      "Id": "ParamEyeBallSize",
+      "Value": 0.0,
+      "Blend": 1
+    },
+    {
+      "Id": "ParamEyeBallForm01",
+      "Value": 0.0,
+      "Blend": 1
+    },
+    {
+      "Id": "ParamEyeBallForm02",
+      "Value": 0.0,
+      "Blend": 1
+    },
+    {
+      "Id": "ParamBrowLY",
+      "Value": -0.8180000185966492,
+      "Blend": 1
+    },
+    {
+      "Id": "ParamBrowRY",
+      "Value": -0.8339999914169312,
+      "Blend": 1
+    },
+    {
+      "Id": "ParamBrowLX",
+      "Value": -0.31200000643730164,
+      "Blend": 1
+    },
+    {
+      "Id": "ParamBrowRX",
+      "Value": -0.009999999776482582,
+      "Blend": 1
+    },
+    {
+      "Id": "ParamBrowLAngle",
+      "Value": -0.3880000114440918,
+      "Blend": 1
+    },
+    {
+      "Id": "ParamBrowRAngle",
+      "Value": -0.1679999977350235,
+      "Blend": 1
+    },
+    {
+      "Id": "ParamBrowLForm01",
+      "Value": 0.0,
+      "Blend": 1
+    },
+    {
+      "Id": "ParamBrowRForm01",
+      "Value": 0.0,
+      "Blend": 1
+    },
+    {
+      "Id": "ParamMouthForm01Open",
+      "Value": 0.0,
+      "Blend": 1
+    },
+    {
+      "Id": "ParamMouthForm01Close",
+      "Value": 0.0,
+      "Blend": 1
+    },
+    {
+      "Id": "ParamMouthForm01Ad",
+      "Value": 0.0,
+      "Blend": 1
+    },
+    {
+      "Id": "ParamMouthForm02Open",
+      "Value": 0.0,
+      "Blend": 1
+    },
+    {
+      "Id": "ParamMouthForm02Close",
+      "Value": 0.0,
+      "Blend": 1
+    },
+    {
+      "Id": "ParamMouthForm02Ad",
+      "Value": 0.0,
+      "Blend": 1
+    },
+    {
+      "Id": "ParamMouthForm03Open",
+      "Value": 0.0,
+      "Blend": 1
+    },
+    {
+      "Id": "ParamMouthForm03Close",
+      "Value": 0.0,
+      "Blend": 1
+    },
+    {
+      "Id": "ParamMouthForm04Open",
+      "Value": 0.0,
+      "Blend": 1
+    },
+    {
+      "Id": "ParamMouthForm04Close",
+      "Value": 0.0,
+      "Blend": 1
+    },
+    {
+      "Id": "ParamMouthForm04Ad",
+      "Value": 0.0,
+      "Blend": 1
+    },
+    {
+      "Id": "ParamMouthForm05Open",
+      "Value": 0.0,
+      "Blend": 1
+    },
+    {
+      "Id": "ParamMouthForm05Close",
+      "Value": 0.0,
+      "Blend": 1
+    },
+    {
+      "Id": "ParamMouthForm05Ad",
+      "Value": 0.0,
+      "Blend": 1
+    },
+    {
+      "Id": "ParamMouthForm06Open",
+      "Value": 1.0,
+      "Blend": 1
+    },
+    {
+      "Id": "ParamMouthForm06Close",
+      "Value": 1.0,
+      "Blend": 1
+    },
+    {
+      "Id": "ParamMouthForm06Ad",
+      "Value": 1.0,
+      "Blend": 1
+    },
+    {
+      "Id": "ParamMouthForm08Open",
+      "Value": 0.0,
+      "Blend": 1
+    },
+    {
+      "Id": "ParamMouthForm08Close",
+      "Value": 0.0,
+      "Blend": 1
+    },
+    {
+      "Id": "ParamMouthForm07Open",
+      "Value": 0.0,
+      "Blend": 1
+    },
+    {
+      "Id": "ParamMouthForm07Close",
+      "Value": 0.0,
+      "Blend": 1
+    },
+    {
+      "Id": "ParamCheek",
+      "Value": -1.0,
+      "Blend": 1
+    },
+    {
+      "Id": "ParamSmile",
+      "Value": 0.0,
+      "Blend": 1
+    },
+    {
+      "Id": "ParamAnger",
+      "Value": 0.0,
+      "Blend": 1
+    },
+    {
+      "Id": "ParamSad",
+      "Value": 0.0,
+      "Blend": 1
+    },
+    {
+      "Id": "ParamSurprise",
+      "Value": 1.0,
+      "Blend": 1
+    },
+    {
+      "Id": "ParamStraight",
+      "Value": 0.0,
+      "Blend": 1
+    },
+    {
+      "Id": "ParamShyness",
+      "Value": 0.0,
+      "Blend": 1
+    },
+    {
+      "Id": "ParamComical",
+      "Value": 0.0,
+      "Blend": 1
+    },
+    {
+      "Id": "ParamFrontHairOff",
+      "Value": 1.0,
+      "Blend": 1
+    }
+  ]
+}

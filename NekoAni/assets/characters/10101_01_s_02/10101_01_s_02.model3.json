@@ -1,0 +1,43 @@
+{
+  "Version": 3,
+  "FileReferences": {
+    "Moc": "10101_01_s_02.moc3",
+    "Textures": [
+      "texture_00.png"
+    ],
+    "Expressions": [
+      {
+        "Name": "mtn_ex_030.exp3",
+        "File": "mtn_ex_030.exp3.json"
+      },
+      {
+        "Name": "mtn_ex_020.exp3",
+        "File": "mtn_ex_020.exp3.json"
+      },
+      {
+        "Name": "mtn_ex_000.exp3",
+        "File": "mtn_ex_000.exp3.json"
+      },
+      {
+        "Name": "mtn_ex_070.exp3",
+        "File": "mtn_ex_070.exp3.json"
+      },
+      {
+        "Name": "mtn_ex_010.exp3",
+        "File": "mtn_ex_010.exp3.json"
+      },
+      {
+        "Name": "mtn_ex_060.exp3",
+        "File": "mtn_ex_060.exp3.json"
+      },
+      {
+        "Name": "mtn_ex_040.exp3",
+        "File": "mtn_ex_040.exp3.json"
+      },
+      {
+        "Name": "mtn_ex_050.exp3",
+        "File": "mtn_ex_050.exp3.json"
+      }
+    ]
+  }
+}

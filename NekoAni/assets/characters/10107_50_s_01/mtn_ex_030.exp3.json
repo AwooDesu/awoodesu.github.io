@@ -1,0 +1,230 @@
+{
+  "Type": "Live2D Expression",
+  "Parameters": [
+    {
+      "Id": "ParamEyeLOpen",
+      "Value": 1.0,
+      "Blend": 2
+    },
+    {
+      "Id": "ParamEyeLSmile",
+      "Value": 0.0,
+      "Blend": 1
+    },
+    {
+      "Id": "ParamEyeLForm",
+      "Value": -2.0,
+      "Blend": 1
+    },
+    {
+      "Id": "ParamEyeL021",
+      "Value": 0.0,
+      "Blend": 1
+    },
+    {
+      "Id": "ParamEyeL060",
+      "Value": 0.0,
+      "Blend": 1
+    },
+    {
+      "Id": "ParamEyeL060Hi",
+      "Value": 0.0,
+      "Blend": 1
+    },
+    {
+      "Id": "ParamEyeL070",
+      "Value": 0.0,
+      "Blend": 1
+    },
+    {
+      "Id": "ParamEyeROpen",
+      "Value": 1.0,
+      "Blend": 2
+    },
+    {
+      "Id": "ParamEyeRSmile",
+      "Value": 0.0,
+      "Blend": 1
+    },
+    {
+      "Id": "ParamEyeRForm",
+      "Value": -2.0,
+      "Blend": 1
+    },
+    {
+      "Id": "ParamEyeR021",
+      "Value": 0.0,
+      "Blend": 1
+    },
+    {
+      "Id": "ParamEyeR060",
+      "Value": 0.0,
+      "Blend": 1
+    },
+    {
+      "Id": "ParamEyeR060Hi",
+      "Value": 0.0,
+      "Blend": 1
+    },
+    {
+      "Id": "ParamEyeR0070",
+      "Value": 0.0,
+      "Blend": 1
+    },
+    {
+      "Id": "ParamEyeBallSize",
+      "Value": 0.0,
+      "Blend": 1
+    },
+    {
+      "Id": "ParamEyeBallForm01",
+      "Value": 0.0,
+      "Blend": 1
+    },
+    {
+      "Id": "ParamEyeBallForm02",
+      "Value": 1.0,
+      "Blend": 1
+    },
+    {
+      "Id": "ParamBrowLY",
+      "Value": -0.49399998784065247,
+      "Blend": 1
+    },
+    {
+      "Id": "ParamBrowLX",
+      "Value": -0.14000000059604645,
+      "Blend": 1
+    },
+    {
+      "Id": "ParamBrowLAngle",
+      "Value": 0.2460000067949295,
+      "Blend": 1
+    },
+    {
+      "Id": "ParamBrowRY",
+      "Value": -0.1340000033378601,
+      "Blend": 1
+    },
+    {
+      "Id": "ParamBrowRX",
+      "Value": -0.1379999965429306,
+      "Blend": 1
+    },
+    {
+      "Id": "ParamBrowRAngle",
+      "Value": 0.800000011920929,
+      "Blend": 1
+    },
+    {
+      "Id": "ParamBrowLForm01",
+      "Value": -1.0,
+      "Blend": 1
+    },
+    {
+      "Id": "ParamBrowLForm02",
+      "Value": 1.0,
+      "Blend": 1
+    },
+    {
+      "Id": "ParamBrowL021",
+      "Value": 0.0,
+      "Blend": 1
+    },
+    {
+      "Id": "ParamBrowL070",
+      "Value": 0.0,
+      "Blend": 1
+    },
+    {
+      "Id": "ParamBrowRForm01",
+      "Value": -1.0,
+      "Blend": 1
+    },
+    {
+      "Id": "ParamBrowRForm02",
+      "Value": 1.0,
+      "Blend": 1
+    },
+    {
+      "Id": "ParamBrowR020",
+      "Value": 0.0,
+      "Blend": 1
+    },
+    {
+      "Id": "ParamBrowR070",
+      "Value": 0.0,
+      "Blend": 1
+    },
+    {
+      "Id": "ParamMouthForm01",
+      "Value": -1.0,
+      "Blend": 1
+    },
+    {
+      "Id": "ParamMouthForm02",
+      "Value": -1.0,
+      "Blend": 1
+    },
+    {
+      "Id": "ParamMouth021",
+      "Value": 0.0,
+      "Blend": 1
+    },
+    {
+      "Id": "ParamMouth060",
+      "Value": 0.0,
+      "Blend": 1
+    },
+    {
+      "Id": "ParamMouth061",
+      "Value": 0.0,
+      "Blend": 1
+    },
+    {
+      "Id": "ParamMouth070",
+      "Value": 0.0,
+      "Blend": 1
+    },
+    {
+      "Id": "ParamCheek",
+      "Value": 1.0,
+      "Blend": 1
+    },
+    {
+      "Id": "ParamSweat",
+      "Value": 0.0,
+      "Blend": 1
+    },
+    {
+      "Id": "ParamComicalCheek",
+      "Value": 0.0,
+      "Blend": 1
+    },
+    {
+      "Id": "ParamComicalStar",
+      "Value": 0.0,
+      "Blend": 1
+    },
+    {
+      "Id": "ParamTear",
+      "Value": 1.0,
+      "Blend": 1
+    },
+    {
+      "Id": "ParamEyeWrinklesR",
+      "Value": 1.0,
+      "Blend": 1
+    },
+    {
+      "Id": "ParamEyeWrinklesL",
+      "Value": 1.0,
+      "Blend": 1
+    },
+    {
+      "Id": "ParamEyelashL",
+      "Value": 1.0,
+      "Blend": 1
+    }
+  ]
+}

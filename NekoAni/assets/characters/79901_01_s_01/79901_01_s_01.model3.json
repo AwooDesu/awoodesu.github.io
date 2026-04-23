@@ -1,0 +1,31 @@
+{
+  "Version": 3,
+  "FileReferences": {
+    "Moc": "79901_01_s_01.moc3",
+    "Textures": [
+      "texture_00.png"
+    ],
+    "Expressions": [
+      {
+        "Name": "mtn_ex_030.exp3",
+        "File": "mtn_ex_030.exp3.json"
+      },
+      {
+        "Name": "mtn_ex_010.exp3",
+        "File": "mtn_ex_010.exp3.json"
+      },
+      {
+        "Name": "mtn_ex_040.exp3",
+        "File": "mtn_ex_040.exp3.json"
+      },
+      {
+        "Name": "mtn_ex_000.exp3",
+        "File": "mtn_ex_000.exp3.json"
+      },
+      {
+        "Name": "mtn_ex_020.exp3",
+        "File": "mtn_ex_020.exp3.json"
+      }
+    ]
+  }
+}
