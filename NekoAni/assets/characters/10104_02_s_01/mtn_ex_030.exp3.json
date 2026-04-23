@@ -1,0 +1,250 @@
+{
+  "Type": "Live2D Expression",
+  "Parameters": [
+    {
+      "Id": "ParamEyeLOpen",
+      "Value": -1.0,
+      "Blend": 1
+    },
+    {
+      "Id": "ParamEyeLSmile",
+      "Value": 0.0,
+      "Blend": 1
+    },
+    {
+      "Id": "ParamEyeLForm",
+      "Value": -1.0,
+      "Blend": 1
+    },
+    {
+      "Id": "ParamEyeL011",
+      "Value": 0.0,
+      "Blend": 1
+    },
+    {
+      "Id": "ParamEyeL060",
+      "Value": 0.0,
+      "Blend": 1
+    },
+    {
+      "Id": "ParamEyeL061",
+      "Value": 0.0,
+      "Blend": 1
+    },
+    {
+      "Id": "ParamEyeL071",
+      "Value": 0.0,
+      "Blend": 1
+    },
+    {
+      "Id": "ParamEyeROpen",
+      "Value": -1.0,
+      "Blend": 1
+    },
+    {
+      "Id": "ParamEyeRSmile",
+      "Value": 0.0,
+      "Blend": 1
+    },
+    {
+      "Id": "ParamEyeRForm",
+      "Value": -1.0,
+      "Blend": 1
+    },
+    {
+      "Id": "ParamEyeR011",
+      "Value": 0.0,
+      "Blend": 1
+    },
+    {
+      "Id": "ParamEyeR060",
+      "Value": 0.0,
+      "Blend": 1
+    },
+    {
+      "Id": "ParamEyeR061",
+      "Value": 0.0,
+      "Blend": 1
+    },
+    {
+      "Id": "ParamEyeR071",
+      "Value": 0.0,
+      "Blend": 1
+    },
+    {
+      "Id": "ParamEyelashesLOFF",
+      "Value": 0.0,
+      "Blend": 1
+    },
+    {
+      "Id": "ParamEyelashesROFF",
+      "Value": 0.0,
+      "Blend": 1
+    },
+    {
+      "Id": "ParamEyeBallSize",
+      "Value": -0.30000001192092896,
+      "Blend": 1
+    },
+    {
+      "Id": "ParamEyeBallX2",
+      "Value": 0.0,
+      "Blend": 1
+    },
+    {
+      "Id": "ParamBrowLY",
+      "Value": -0.6340000033378601,
+      "Blend": 1
+    },
+    {
+      "Id": "ParamBrowLX",
+      "Value": -0.20000000298023224,
+      "Blend": 1
+    },
+    {
+      "Id": "ParamBrowLAngle",
+      "Value": 0.800000011920929,
+      "Blend": 1
+    },
+    {
+      "Id": "ParamBrowRY",
+      "Value": -0.6819999814033508,
+      "Blend": 1
+    },
+    {
+      "Id": "ParamBrowRX",
+      "Value": 0.20000000298023224,
+      "Blend": 1
+    },
+    {
+      "Id": "ParamBrowRAngle",
+      "Value": 1.0,
+      "Blend": 1
+    },
+    {
+      "Id": "ParamBrowLForm01",
+      "Value": -1.0,
+      "Blend": 1
+    },
+    {
+      "Id": "ParamBrowLForm02",
+      "Value": 0.0,
+      "Blend": 1
+    },
+    {
+      "Id": "ParamBrowL060",
+      "Value": 0.0,
+      "Blend": 1
+    },
+    {
+      "Id": "ParamBrowL061",
+      "Value": 0.0,
+      "Blend": 1
+    },
+    {
+      "Id": "ParamBrowL071",
+      "Value": 0.0,
+      "Blend": 1
+    },
+    {
+      "Id": "ParamBrowRForm01",
+      "Value": -1.0,
+      "Blend": 1
+    },
+    {
+      "Id": "ParamBrowRForm02",
+      "Value": 0.0,
+      "Blend": 1
+    },
+    {
+      "Id": "ParamBrowR060",
+      "Value": 0.0,
+      "Blend": 1
+    },
+    {
+      "Id": "ParamBrowR061",
+      "Value": 0.0,
+      "Blend": 1
+    },
+    {
+      "Id": "ParamBrowR071",
+      "Value": 0.0,
+      "Blend": 1
+    },
+    {
+      "Id": "ParamMouthForm01",
+      "Value": -2.0,
+      "Blend": 1
+    },
+    {
+      "Id": "ParamMouthForm02",
+      "Value": 0.0,
+      "Blend": 1
+    },
+    {
+      "Id": "ParamMouth060",
+      "Value": 0.0,
+      "Blend": 1
+    },
+    {
+      "Id": "ParamMouth060Open",
+      "Value": 0.0,
+      "Blend": 1
+    },
+    {
+      "Id": "ParamMouth060Open2",
+      "Value": 0.0,
+      "Blend": 1
+    },
+    {
+      "Id": "ParamMouth061",
+      "Value": 0.0,
+      "Blend": 1
+    },
+    {
+      "Id": "ParamMouth061Open",
+      "Value": 0.0,
+      "Blend": 1
+    },
+    {
+      "Id": "ParamMouth061Open2",
+      "Value": 0.0,
+      "Blend": 1
+    },
+    {
+      "Id": "ParamMouth071",
+      "Value": 0.0,
+      "Blend": 1
+    },
+    {
+      "Id": "ParamMouth071Open",
+      "Value": 0.0,
+      "Blend": 1
+    },
+    {
+      "Id": "ParamMouth071Open2",
+      "Value": 0.0,
+      "Blend": 1
+    },
+    {
+      "Id": "ParamCheek",
+      "Value": 0.0,
+      "Blend": 1
+    },
+    {
+      "Id": "ParamSweat",
+      "Value": 0.0,
+      "Blend": 1
+    },
+    {
+      "Id": "ParamFaceChange",
+      "Value": 0.0,
+      "Blend": 1
+    },
+    {
+      "Id": "ParamHairOff",
+      "Value": 0.0,
+      "Blend": 1
+    }
+  ]
+}

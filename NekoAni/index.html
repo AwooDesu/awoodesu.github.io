@@ -22,6 +22,7 @@
                 <button class="tab-btn" data-folder="sd">SD</button>
                 <button class="tab-btn" data-folder="comic_en">Comic EN</button>
                 <button class="tab-btn" data-folder="comic_jp">Comic JP</button>
+                <button class="tab-btn" data-folder="live2d">Live2D</button>
             </div>
 
             <div class="camera-controls thin-controls">
@@ -43,6 +44,16 @@
                     <label>Animation</label>
                     <select id="animSelector" class="anim-dropdown"></select>
                 </div>
+
+                <div class="control-group" id="expression-control" style="display:none;">
+                    <label>Expression</label>
+                    <select id="expressionSelector" class="anim-dropdown"></select>
+                </div>
+
+                <div class="control-group" id="motion-control" style="display:none;">
+                    <label>Motion</label>
+                    <select id="motionSelector" class="anim-dropdown"></select>
+                </div>
             </div>
 
             <div class="search-box thin-search">
@@ -60,12 +71,19 @@
                     <div class="icon">✨</div>
                 </div>
             </div>
-
+            <!-- Live2D Canvas (hidden by default) -->
+            <canvas id="live2d-canvas" style="display:none;"></canvas>
         </main>
     </div>
 
     <!-- Official Spine Player 4.1 -->
     <script src="https://unpkg.com/@esotericsoftware/spine-player@4.1/dist/iife/spine-player.js"></script>
+    <!-- PIXI.js v6 (required for pixi-live2d-display) -->
+    <script src="https://cdn.jsdelivr.net/npm/pixi.js@6.5.10/dist/browser/pixi.min.js"></script>
+    <!-- Live2D Cubism Core -->
+    <script src="https://cubism.live2d.com/sdk-web/cubismcore/live2dcubismcore.min.js"></script>
+    <!-- PIXI Live2D Display -->
+    <script src="https://cdn.jsdelivr.net/npm/pixi-live2d-display@0.4.0/dist/cubism4.min.js"></script>
     <script src="main.js"></script>
 </body>
 

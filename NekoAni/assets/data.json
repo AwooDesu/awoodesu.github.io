@@ -3153,6 +3153,508 @@
       "atlas": "assets/sd/89905052.atlas"
     }
   ],
+  "live2d": [
+    {
+      "id": "10101_01_s_01",
+      "type": "live2d",
+      "model": "assets/characters/10101_01_s_01/10101_01_s_01.model3.json"
+    },
+    {
+      "id": "10101_01_s_02",
+      "type": "live2d",
+      "model": "assets/characters/10101_01_s_02/10101_01_s_02.model3.json"
+    },
+    {
+      "id": "10101_02_s_01",
+      "type": "live2d",
+      "model": "assets/characters/10101_02_s_01/10101_02_s_01.model3.json"
+    },
+    {
+      "id": "10101_11_s_01",
+      "type": "live2d",
+      "model": "assets/characters/10101_11_s_01/10101_11_s_01.model3.json"
+    },
+    {
+      "id": "10101_50_s_01",
+      "type": "live2d",
+      "model": "assets/characters/10101_50_s_01/10101_50_s_01.model3.json"
+    },
+    {
+      "id": "10102_01_s_01",
+      "type": "live2d",
+      "model": "assets/characters/10102_01_s_01/10102_01_s_01.model3.json"
+    },
+    {
+      "id": "10102_01_s_02",
+      "type": "live2d",
+      "model": "assets/characters/10102_01_s_02/10102_01_s_02.model3.json"
+    },
+    {
+      "id": "10102_02_s_01",
+      "type": "live2d",
+      "model": "assets/characters/10102_02_s_01/10102_02_s_01.model3.json"
+    },
+    {
+      "id": "10102_50_s_01",
+      "type": "live2d",
+      "model": "assets/characters/10102_50_s_01/10102_50_s_01.model3.json"
+    },
+    {
+      "id": "10103_01_s_01",
+      "type": "live2d",
+      "model": "assets/characters/10103_01_s_01/10103_01_s_01.model3.json"
+    },
+    {
+      "id": "10103_01_s_02",
+      "type": "live2d",
+      "model": "assets/characters/10103_01_s_02/10103_01_s_02.model3.json"
+    },
+    {
+      "id": "10103_02_s_01",
+      "type": "live2d",
+      "model": "assets/characters/10103_02_s_01/10103_02_s_01.model3.json"
+    },
+    {
+      "id": "10103_50_s_01",
+      "type": "live2d",
+      "model": "assets/characters/10103_50_s_01/10103_50_s_01.model3.json"
+    },
+    {
+      "id": "10104_01_s_01",
+      "type": "live2d",
+      "model": "assets/characters/10104_01_s_01/10104_01_s_01.model3.json"
+    },
+    {
+      "id": "10104_01_s_02",
+      "type": "live2d",
+      "model": "assets/characters/10104_01_s_02/10104_01_s_02.model3.json"
+    },
+    {
+      "id": "10104_02_s_01",
+      "type": "live2d",
+      "model": "assets/characters/10104_02_s_01/10104_02_s_01.model3.json"
+    },
+    {
+      "id": "10105_01_s_01",
+      "type": "live2d",
+      "model": "assets/characters/10105_01_s_01/10105_01_s_01.model3.json"
+    },
+    {
+      "id": "10105_01_s_02",
+      "type": "live2d",
+      "model": "assets/characters/10105_01_s_02/10105_01_s_02.model3.json"
+    },
+    {
+      "id": "10105_02_s_01",
+      "type": "live2d",
+      "model": "assets/characters/10105_02_s_01/10105_02_s_01.model3.json"
+    },
+    {
+      "id": "10106_01_s_01",
+      "type": "live2d",
+      "model": "assets/characters/10106_01_s_01/10106_01_s_01.model3.json"
+    },
+    {
+      "id": "10106_01_s_02",
+      "type": "live2d",
+      "model": "assets/characters/10106_01_s_02/10106_01_s_02.model3.json"
+    },
+    {
+      "id": "10106_02_s_01",
+      "type": "live2d",
+      "model": "assets/characters/10106_02_s_01/10106_02_s_01.model3.json"
+    },
+    {
+      "id": "10106_50_s_01",
+      "type": "live2d",
+      "model": "assets/characters/10106_50_s_01/10106_50_s_01.model3.json"
+    },
+    {
+      "id": "10107_01_s_01",
+      "type": "live2d",
+      "model": "assets/characters/10107_01_s_01/10107_01_s_01.model3.json"
+    },
+    {
+      "id": "10107_01_s_02",
+      "type": "live2d",
+      "model": "assets/characters/10107_01_s_02/10107_01_s_02.model3.json"
+    },
+    {
+      "id": "10107_02_s_01",
+      "type": "live2d",
+      "model": "assets/characters/10107_02_s_01/10107_02_s_01.model3.json"
+    },
+    {
+      "id": "10107_50_s_01",
+      "type": "live2d",
+      "model": "assets/characters/10107_50_s_01/10107_50_s_01.model3.json"
+    },
+    {
+      "id": "10201_01_s_01",
+      "type": "live2d",
+      "model": "assets/characters/10201_01_s_01/10201_01_s_01.model3.json"
+    },
+    {
+      "id": "10201_01_s_02",
+      "type": "live2d",
+      "model": "assets/characters/10201_01_s_02/10201_01_s_02.model3.json"
+    },
+    {
+      "id": "10202_01_s_01",
+      "type": "live2d",
+      "model": "assets/characters/10202_01_s_01/10202_01_s_01.model3.json"
+    },
+    {
+      "id": "10203_01_s_01",
+      "type": "live2d",
+      "model": "assets/characters/10203_01_s_01/10203_01_s_01.model3.json"
+    },
+    {
+      "id": "10204_01_s_01",
+      "type": "live2d",
+      "model": "assets/characters/10204_01_s_01/10204_01_s_01.model3.json"
+    },
+    {
+      "id": "10205_01_s_01",
+      "type": "live2d",
+      "model": "assets/characters/10205_01_s_01/10205_01_s_01.model3.json"
+    },
+    {
+      "id": "10206_01_s_01",
+      "type": "live2d",
+      "model": "assets/characters/10206_01_s_01/10206_01_s_01.model3.json"
+    },
+    {
+      "id": "10208_01_s_01",
+      "type": "live2d",
+      "model": "assets/characters/10208_01_s_01/10208_01_s_01.model3.json"
+    },
+    {
+      "id": "10208_50_s_01",
+      "type": "live2d",
+      "model": "assets/characters/10208_50_s_01/10208_50_s_01.model3.json"
+    },
+    {
+      "id": "10301_01_s_01",
+      "type": "live2d",
+      "model": "assets/characters/10301_01_s_01/10301_01_s_01.model3.json"
+    },
+    {
+      "id": "10301_01_s_02",
+      "type": "live2d",
+      "model": "assets/characters/10301_01_s_02/10301_01_s_02.model3.json"
+    },
+    {
+      "id": "10302_01_s_01",
+      "type": "live2d",
+      "model": "assets/characters/10302_01_s_01/10302_01_s_01.model3.json"
+    },
+    {
+      "id": "10303_01_s_01",
+      "type": "live2d",
+      "model": "assets/characters/10303_01_s_01/10303_01_s_01.model3.json"
+    },
+    {
+      "id": "10304_01_s_01",
+      "type": "live2d",
+      "model": "assets/characters/10304_01_s_01/10304_01_s_01.model3.json"
+    },
+    {
+      "id": "10306_01_s_01",
+      "type": "live2d",
+      "model": "assets/characters/10306_01_s_01/10306_01_s_01.model3.json"
+    },
+    {
+      "id": "10306_50_s_01",
+      "type": "live2d",
+      "model": "assets/characters/10306_50_s_01/10306_50_s_01.model3.json"
+    },
+    {
+      "id": "10307_01_s_01",
+      "type": "live2d",
+      "model": "assets/characters/10307_01_s_01/10307_01_s_01.model3.json"
+    },
+    {
+      "id": "10308_01_s_01",
+      "type": "live2d",
+      "model": "assets/characters/10308_01_s_01/10308_01_s_01.model3.json"
+    },
+    {
+      "id": "10311_01_s_01",
+      "type": "live2d",
+      "model": "assets/characters/10311_01_s_01/10311_01_s_01.model3.json"
+    },
+    {
+      "id": "10401_01_s_01",
+      "type": "live2d",
+      "model": "assets/characters/10401_01_s_01/10401_01_s_01.model3.json"
+    },
+    {
+      "id": "10401_01_s_02",
+      "type": "live2d",
+      "model": "assets/characters/10401_01_s_02/10401_01_s_02.model3.json"
+    },
+    {
+      "id": "10402_01_s_01",
+      "type": "live2d",
+      "model": "assets/characters/10402_01_s_01/10402_01_s_01.model3.json"
+    },
+    {
+      "id": "10402_01_s_02",
+      "type": "live2d",
+      "model": "assets/characters/10402_01_s_02/10402_01_s_02.model3.json"
+    },
+    {
+      "id": "10403_01_s_01",
+      "type": "live2d",
+      "model": "assets/characters/10403_01_s_01/10403_01_s_01.model3.json"
+    },
+    {
+      "id": "10403_50_s_01",
+      "type": "live2d",
+      "model": "assets/characters/10403_50_s_01/10403_50_s_01.model3.json"
+    },
+    {
+      "id": "10404_01_s_01",
+      "type": "live2d",
+      "model": "assets/characters/10404_01_s_01/10404_01_s_01.model3.json"
+    },
+    {
+      "id": "10404_01_s_02",
+      "type": "live2d",
+      "model": "assets/characters/10404_01_s_02/10404_01_s_02.model3.json"
+    },
+    {
+      "id": "10406_01_s_01",
+      "type": "live2d",
+      "model": "assets/characters/10406_01_s_01/10406_01_s_01.model3.json"
+    },
+    {
+      "id": "10407_01_s_01",
+      "type": "live2d",
+      "model": "assets/characters/10407_01_s_01/10407_01_s_01.model3.json"
+    },
+    {
+      "id": "10501_01_s_01",
+      "type": "live2d",
+      "model": "assets/characters/10501_01_s_01/10501_01_s_01.model3.json"
+    },
+    {
+      "id": "10501_01_s_02",
+      "type": "live2d",
+      "model": "assets/characters/10501_01_s_02/10501_01_s_02.model3.json"
+    },
+    {
+      "id": "10502_01_s_01",
+      "type": "live2d",
+      "model": "assets/characters/10502_01_s_01/10502_01_s_01.model3.json"
+    },
+    {
+      "id": "10503_01_s_01",
+      "type": "live2d",
+      "model": "assets/characters/10503_01_s_01/10503_01_s_01.model3.json"
+    },
+    {
+      "id": "10504_01_s_01",
+      "type": "live2d",
+      "model": "assets/characters/10504_01_s_01/10504_01_s_01.model3.json"
+    },
+    {
+      "id": "10505_01_s_01",
+      "type": "live2d",
+      "model": "assets/characters/10505_01_s_01/10505_01_s_01.model3.json"
+    },
+    {
+      "id": "10505_50_s_01",
+      "type": "live2d",
+      "model": "assets/characters/10505_50_s_01/10505_50_s_01.model3.json"
+    },
+    {
+      "id": "10509_01_s_02",
+      "type": "live2d",
+      "model": "assets/characters/10509_01_s_02/10509_01_s_02.model3.json"
+    },
+    {
+      "id": "10509_03_s_02",
+      "type": "live2d",
+      "model": "assets/characters/10509_03_s_02/10509_03_s_02.model3.json"
+    },
+    {
+      "id": "10511_01_s_01",
+      "type": "live2d",
+      "model": "assets/characters/10511_01_s_01/10511_01_s_01.model3.json"
+    },
+    {
+      "id": "10601_01_s_01",
+      "type": "live2d",
+      "model": "assets/characters/10601_01_s_01/10601_01_s_01.model3.json"
+    },
+    {
+      "id": "10601_01_s_02",
+      "type": "live2d",
+      "model": "assets/characters/10601_01_s_02/10601_01_s_02.model3.json"
+    },
+    {
+      "id": "10602_01_s_01",
+      "type": "live2d",
+      "model": "assets/characters/10602_01_s_01/10602_01_s_01.model3.json"
+    },
+    {
+      "id": "10603_01_s_01",
+      "type": "live2d",
+      "model": "assets/characters/10603_01_s_01/10603_01_s_01.model3.json"
+    },
+    {
+      "id": "10604_01_s_01",
+      "type": "live2d",
+      "model": "assets/characters/10604_01_s_01/10604_01_s_01.model3.json"
+    },
+    {
+      "id": "10605_01_s_01",
+      "type": "live2d",
+      "model": "assets/characters/10605_01_s_01/10605_01_s_01.model3.json"
+    },
+    {
+      "id": "10605_50_s_01",
+      "type": "live2d",
+      "model": "assets/characters/10605_50_s_01/10605_50_s_01.model3.json"
+    },
+    {
+      "id": "10611_01_s_01",
+      "type": "live2d",
+      "model": "assets/characters/10611_01_s_01/10611_01_s_01.model3.json"
+    },
+    {
+      "id": "19901_01_s_01",
+      "type": "live2d",
+      "model": "assets/characters/19901_01_s_01/19901_01_s_01.model3.json"
+    },
+    {
+      "id": "19902_01_s_01",
+      "type": "live2d",
+      "model": "assets/characters/19902_01_s_01/19902_01_s_01.model3.json"
+    },
+    {
+      "id": "19903_01_s_01",
+      "type": "live2d",
+      "model": "assets/characters/19903_01_s_01/19903_01_s_01.model3.json"
+    },
+    {
+      "id": "19904_01_s_01",
+      "type": "live2d",
+      "model": "assets/characters/19904_01_s_01/19904_01_s_01.model3.json"
+    },
+    {
+      "id": "19905_01_s_01",
+      "type": "live2d",
+      "model": "assets/characters/19905_01_s_01/19905_01_s_01.model3.json"
+    },
+    {
+      "id": "19906_01_s_01",
+      "type": "live2d",
+      "model": "assets/characters/19906_01_s_01/19906_01_s_01.model3.json"
+    },
+    {
+      "id": "19907_01_s_01",
+      "type": "live2d",
+      "model": "assets/characters/19907_01_s_01/19907_01_s_01.model3.json"
+    },
+    {
+      "id": "19908_01_s_01",
+      "type": "live2d",
+      "model": "assets/characters/19908_01_s_01/19908_01_s_01.model3.json"
+    },
+    {
+      "id": "19909_01_s_01",
+      "type": "live2d",
+      "model": "assets/characters/19909_01_s_01/19909_01_s_01.model3.json"
+    },
+    {
+      "id": "19910_01_s_01",
+      "type": "live2d",
+      "model": "assets/characters/19910_01_s_01/19910_01_s_01.model3.json"
+    },
+    {
+      "id": "19911_01_s_01",
+      "type": "live2d",
+      "model": "assets/characters/19911_01_s_01/19911_01_s_01.model3.json"
+    },
+    {
+      "id": "19912_01_s_01",
+      "type": "live2d",
+      "model": "assets/characters/19912_01_s_01/19912_01_s_01.model3.json"
+    },
+    {
+      "id": "19913_01_s_01",
+      "type": "live2d",
+      "model": "assets/characters/19913_01_s_01/19913_01_s_01.model3.json"
+    },
+    {
+      "id": "19916_01_s_01",
+      "type": "live2d",
+      "model": "assets/characters/19916_01_s_01/19916_01_s_01.model3.json"
+    },
+    {
+      "id": "19917_01_s_01",
+      "type": "live2d",
+      "model": "assets/characters/19917_01_s_01/19917_01_s_01.model3.json"
+    },
+    {
+      "id": "19918_01_s_01",
+      "type": "live2d",
+      "model": "assets/characters/19918_01_s_01/19918_01_s_01.model3.json"
+    },
+    {
+      "id": "20101_01_s_01",
+      "type": "live2d",
+      "model": "assets/characters/20101_01_s_01/20101_01_s_01.model3.json"
+    },
+    {
+      "id": "20202_01_s_01",
+      "type": "live2d",
+      "model": "assets/characters/20202_01_s_01/20202_01_s_01.model3.json"
+    },
+    {
+      "id": "25001_01_s_01",
+      "type": "live2d",
+      "model": "assets/characters/25001_01_s_01/25001_01_s_01.model3.json"
+    },
+    {
+      "id": "25002_01_s_01",
+      "type": "live2d",
+      "model": "assets/characters/25002_01_s_01/25002_01_s_01.model3.json"
+    },
+    {
+      "id": "25003_01_s_01",
+      "type": "live2d",
+      "model": "assets/characters/25003_01_s_01/25003_01_s_01.model3.json"
+    },
+    {
+      "id": "79901_01_s_01",
+      "type": "live2d",
+      "model": "assets/characters/79901_01_s_01/79901_01_s_01.model3.json"
+    },
+    {
+      "id": "79901_02_s_01",
+      "type": "live2d",
+      "model": "assets/characters/79901_02_s_01/79901_02_s_01.model3.json"
+    },
+    {
+      "id": "80201_01_s_01",
+      "type": "live2d",
+      "model": "assets/characters/80201_01_s_01/80201_01_s_01.model3.json"
+    },
+    {
+      "id": "80202_01_s_01",
+      "type": "live2d",
+      "model": "assets/characters/80202_01_s_01/80202_01_s_01.model3.json"
+    },
+    {
+      "id": "99999_99_s_99",
+      "type": "live2d",
+      "model": "assets/characters/99999_99_s_99/99999_99_s_99.model3.json"
+    }
+  ],
   "comic_en": [
     {
       "id": "comic_01_en",

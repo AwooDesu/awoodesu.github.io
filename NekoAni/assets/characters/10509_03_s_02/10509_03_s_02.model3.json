@@ -1,0 +1,15 @@
+{
+  "Version": 3,
+  "FileReferences": {
+    "Moc": "10509_03_s_02.moc3",
+    "Textures": [
+      "texture_00.png"
+    ],
+    "Expressions": [
+      {
+        "Name": "mtn_ex_000.exp3",
+        "File": "mtn_ex_000.exp3.json"
+      }
+    ]
+  }
+}
