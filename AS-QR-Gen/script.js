@@ -1084,7 +1084,17 @@ window.addEventListener('DOMContentLoaded', async function() {
 
     // Set up listeners
     const idInput = document.getElementById('idInput');
-    if (idInput) idInput.addEventListener('input', validateID);
+    if (idInput) {
+        // Strip non-numbers immediately so they can't type letters
+        idInput.addEventListener('input', function() {
+            let val = this.value.replace(/[^0-9]/g, '');
+            if (this.value !== val) {
+                this.value = val;
+            }
+        });
+        // Full validation (range, bounds) only on blur/change
+        idInput.addEventListener('change', validateID);
+    }
 
     const languageSelector = document.getElementById('languageSelector');
     if (languageSelector) {
