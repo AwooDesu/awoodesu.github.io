@@ -65,8 +65,29 @@ let nextChibis = [];
 let isNameVisible = true;
 let isIDVisible = true;
 
+let imageCache = new Map(); // path -> Promise<Image | null>
+
+function preloadImage(path) {
+    if (imageCache.has(path)) {
+        return imageCache.get(path);
+    }
+    const promise = new Promise((resolve) => {
+        const img = new Image();
+        img.onload = () => resolve(img);
+        img.onerror = () => {
+            console.warn("Failed to load image:", path);
+            imageCache.delete(path); // Allow retrying later if it fails
+            resolve(null);
+        };
+        img.src = path;
+    });
+    imageCache.set(path, promise);
+    return promise;
+}
+
 async function loadImages() {
     try {
+        preloadImage('png/astra_project.png'); // Eager preload for faster startup
         const response = await fetch(`./images.json?v=${Date.now()}`);
         if (response.ok) {
             availableImages = await response.json();
@@ -91,6 +112,8 @@ async function refreshPicturePools(isInitial = false) {
         // Preload 7 more into next
         nextChibis = shuffled.slice(0, 7);
     }
+    // Eagerly preload all images so they are fully loaded by the time QR generates
+    [...currentChibis, ...nextChibis].forEach(path => preloadImage(path));
 }
 
 function toggleNameVisibility() {
@@ -126,20 +149,12 @@ async function assembleQRWithExtras(qrDataURL, username, userId) {
         const ctx = canvas.getContext('2d');
         
         const qrImg = new Image();
-        const topImg = new Image();
-        topImg.src = 'png/astra_project.png';
         
         qrImg.onload = async () => {
             const qrSize = qrImg.width;
+            const topImg = await preloadImage('png/astra_project.png');
             
-            // Wait for top image to load to get its aspect ratio
-            await new Promise((res) => {
-                if (topImg.complete) res();
-                else topImg.onload = res;
-                topImg.onerror = res; // Proceed anyway if top image fails
-            });
-            
-            const topHeight = topImg.height ? (topImg.height / topImg.width) * qrSize : 0;
+            const topHeight = (topImg && topImg.height) ? (topImg.height / topImg.width) * qrSize : 0;
             const extraBottomHeight = 120;
             const totalContentHeight = topHeight + qrSize + extraBottomHeight;
 
@@ -156,58 +171,53 @@ async function assembleQRWithExtras(qrDataURL, username, userId) {
             ctx.fillRect(0, 0, canvas.width, canvas.height);
             
             // Draw top image if it loaded
-            if (topImg.height) {
+            if (topImg && topImg.height) {
                 ctx.drawImage(topImg, xOffset, yOffset, qrSize, topHeight);
             }
             
             // Draw QR
             ctx.drawImage(qrImg, xOffset, yOffset + topHeight);
             
-            const drawImage = (path, x, y) => {
-                return new Promise((res) => {
-                    const img = new Image();
-                    img.onload = () => {
-                        ctx.save();
-                        ctx.globalAlpha = 0.95;
-                        ctx.imageSmoothingEnabled = true;
-                        ctx.imageSmoothingQuality = 'high';
-                        
-                        // Use a subtle blur to "soften" the jaggies
-                        ctx.filter = 'blur(0.3px)';
-                        
-                        // Stepped downscaling for better quality
-                        let tempCanvas = document.createElement('canvas');
-                        let tempCtx = tempCanvas.getContext('2d');
-                        let w = img.width;
-                        let h = img.height;
-                        
-                        tempCanvas.width = w;
-                        tempCanvas.height = h;
-                        tempCtx.drawImage(img, 0, 0);
-                        
-                        // Step down to avoid aliasing
-                        while (w > 200) {
-                            const nextW = Math.floor(w / 2);
-                            const nextH = Math.floor(h / 2);
-                            const nextCanvas = document.createElement('canvas');
-                            const nextCtx = nextCanvas.getContext('2d');
-                            nextCanvas.width = nextW;
-                            nextCanvas.height = nextH;
-                            nextCtx.imageSmoothingEnabled = true;
-                            nextCtx.imageSmoothingQuality = 'high';
-                            nextCtx.drawImage(tempCanvas, 0, 0, w, h, 0, 0, nextW, nextH);
-                            tempCanvas = nextCanvas;
-                            w = nextW;
-                            h = nextH;
-                        }
-                        
-                        ctx.drawImage(tempCanvas, 0, 0, w, h, x, y, 100, 100);
-                        ctx.restore();
-                        res();
-                    };
-                    img.onerror = () => res();
-                    img.src = path;
-                });
+            const drawImage = async (path, x, y) => {
+                const img = await preloadImage(path);
+                if (!img) return; // If failed, just skip safely
+
+                ctx.save();
+                ctx.globalAlpha = 0.95;
+                ctx.imageSmoothingEnabled = true;
+                ctx.imageSmoothingQuality = 'high';
+                
+                // Use a subtle blur to "soften" the jaggies
+                ctx.filter = 'blur(0.3px)';
+                
+                // Stepped downscaling for better quality
+                let tempCanvas = document.createElement('canvas');
+                let tempCtx = tempCanvas.getContext('2d');
+                let w = img.width;
+                let h = img.height;
+                
+                tempCanvas.width = w;
+                tempCanvas.height = h;
+                tempCtx.drawImage(img, 0, 0);
+                
+                // Step down to avoid aliasing
+                while (w > 200) {
+                    const nextW = Math.floor(w / 2);
+                    const nextH = Math.floor(h / 2);
+                    const nextCanvas = document.createElement('canvas');
+                    const nextCtx = nextCanvas.getContext('2d');
+                    nextCanvas.width = nextW;
+                    nextCanvas.height = nextH;
+                    nextCtx.imageSmoothingEnabled = true;
+                    nextCtx.imageSmoothingQuality = 'high';
+                    nextCtx.drawImage(tempCanvas, 0, 0, w, h, 0, 0, nextW, nextH);
+                    tempCanvas = nextCanvas;
+                    w = nextW;
+                    h = nextH;
+                }
+                
+                ctx.drawImage(tempCanvas, 0, 0, w, h, x, y, 100, 100);
+                ctx.restore();
             };
             
             // Use pre-selected unique chibis from the pool
