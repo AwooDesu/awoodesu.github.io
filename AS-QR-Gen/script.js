@@ -65,24 +65,35 @@ let nextChibis = [];
 let isNameVisible = true;
 let isIDVisible = true;
 
-let imageCache = new Map(); // path -> Promise<Image | null>
+let imageCache = new Map(); // path -> Promise<string | null>
 
 function preloadImage(path) {
     if (imageCache.has(path)) {
         return imageCache.get(path);
     }
-    const promise = new Promise((resolve) => {
-        const img = new Image();
-        img.onload = () => resolve(img);
-        img.onerror = () => {
-            console.warn("Failed to load image:", path);
-            imageCache.delete(path); // Allow retrying later if it fails
-            resolve(null);
-        };
-        img.src = path;
-    });
+    const promise = fetch(path)
+        .then(res => {
+            if (!res.ok) throw new Error("Network response was not ok");
+            return res.blob();
+        })
+        .then(blob => URL.createObjectURL(blob))
+        .catch(e => {
+            console.warn("Failed to fetch image blob:", path, e);
+            imageCache.delete(path);
+            return null;
+        });
     imageCache.set(path, promise);
     return promise;
+}
+
+function createImageFromUrl(url) {
+    return new Promise((resolve) => {
+        if (!url) return resolve(null);
+        const img = new Image();
+        img.onload = () => resolve(img);
+        img.onerror = () => resolve(null);
+        img.src = url;
+    });
 }
 
 async function loadImages() {
@@ -152,7 +163,8 @@ async function assembleQRWithExtras(qrDataURL, username, userId) {
         
         qrImg.onload = async () => {
             const qrSize = qrImg.width;
-            const topImg = await preloadImage('png/astra_project.png');
+            const topImgUrl = await preloadImage('png/astra_project.png');
+            const topImg = await createImageFromUrl(topImgUrl);
             
             const topHeight = (topImg && topImg.height) ? (topImg.height / topImg.width) * qrSize : 0;
             const extraBottomHeight = 120;
@@ -179,8 +191,9 @@ async function assembleQRWithExtras(qrDataURL, username, userId) {
             ctx.drawImage(qrImg, xOffset, yOffset + topHeight);
             
             const drawImage = async (path, x, y) => {
-                const img = await preloadImage(path);
-                if (!img) return; // If failed, just skip safely
+                const objectUrl = await preloadImage(path);
+                const img = await createImageFromUrl(objectUrl);
+                if (!img || img.width === 0 || img.height === 0) return; // If failed, just skip safely
 
                 ctx.save();
                 ctx.globalAlpha = 0.95;
