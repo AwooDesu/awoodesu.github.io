@@ -24,5 +24,7 @@
   "ok": "ตกลง",
   "title": "เครื่องสร้าง QR Alchemy Stars",
   "id_placeholder": "42069",
-  "username_placeholder": "Navigator"
+  "username_placeholder": "Navigator",
+  "toggle_qr_style": "สลับรูปแบบ QR",
+  "test_zip": "ทดสอบ Zip"
 }

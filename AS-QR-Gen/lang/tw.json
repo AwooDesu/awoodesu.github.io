@@ -24,5 +24,7 @@
   "ok": "OK",
   "title": "白夜極光QR產生器",
   "id_placeholder": "42069",
-  "username_placeholder": "導航員"
+  "username_placeholder": "Navigator",
+  "toggle_qr_style": "切換 QR 樣式",
+  "test_zip": "測試 Zip"
 }

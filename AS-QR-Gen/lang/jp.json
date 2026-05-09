@@ -24,5 +24,7 @@
   "ok": "OK",
   "title": "白夜極光 QRジェネレーター",
   "id_placeholder": "42069",
-  "username_placeholder": "ナビゲーター"
+  "username_placeholder": "ナビゲーター",
+  "toggle_qr_style": "QRスタイルの切り替え",
+  "test_zip": "テストZip"
 }

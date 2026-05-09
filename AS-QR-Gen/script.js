@@ -3,7 +3,7 @@ function openTab(evt, tabName) {
     if (evt.currentTarget.classList.contains('disabled')) {
         return;
     }
-    
+
     var i, tabcontent, tablinks;
     tabcontent = document.getElementsByClassName("tabcontent");
     for (i = 0; i < tabcontent.length; i++) {
@@ -45,11 +45,165 @@ let characterData = {};
 let skinData = {};
 
 // Global variable to track QR style (default or FT)
-let useFTStyle = false;
+let useFTStyle = true;
 
 // Track UNKNOWN positions for T/F format
 let unitUnknownPositions = new Set();
 let skinUnknownPositions = new Set();
+
+// Flag to track if QR has been generated at least once
+let qrGenerated = false;
+
+let availableImages = [];
+
+async function loadImages() {
+    try {
+        const response = await fetch('./images.json');
+        if (response.ok) {
+            availableImages = await response.json();
+        }
+    } catch (e) {
+        console.error("Failed to load images.json:", e);
+    }
+}
+
+async function assembleQRWithExtras(qrDataURL, username) {
+    return new Promise((resolve) => {
+        const canvas = document.createElement('canvas');
+        const ctx = canvas.getContext('2d');
+        
+        const qrImg = new Image();
+        const topImg = new Image();
+        topImg.src = 'png/astra_project.png';
+        
+        qrImg.onload = async () => {
+            const qrSize = qrImg.width;
+            
+            // Wait for top image to load to get its aspect ratio
+            await new Promise((res) => {
+                if (topImg.complete) res();
+                else topImg.onload = res;
+                topImg.onerror = res; // Proceed anyway if top image fails
+            });
+            
+            const topHeight = topImg.height ? (topImg.height / topImg.width) * qrSize : 0;
+            const extraBottomHeight = 120;
+            const totalContentHeight = topHeight + qrSize + extraBottomHeight;
+
+            // Make it a square by using the larger dimension
+            const finalSize = Math.max(qrSize, totalContentHeight);
+            canvas.width = finalSize;
+            canvas.height = finalSize;
+            
+            // Calculate offsets to center content
+            const xOffset = (finalSize - qrSize) / 2;
+            const yOffset = (finalSize - totalContentHeight) / 2;
+            
+            ctx.fillStyle = 'white';
+            ctx.fillRect(0, 0, canvas.width, canvas.height);
+            
+            // Draw top image if it loaded
+            if (topImg.height) {
+                ctx.drawImage(topImg, xOffset, yOffset, qrSize, topHeight);
+            }
+            
+            // Draw QR
+            ctx.drawImage(qrImg, xOffset, yOffset + topHeight);
+            
+            const drawImage = (path, x, y) => {
+                return new Promise((res) => {
+                    const img = new Image();
+                    img.onload = () => {
+                        ctx.save();
+                        ctx.globalAlpha = 0.95;
+                        ctx.imageSmoothingEnabled = true;
+                        ctx.imageSmoothingQuality = 'high';
+                        
+                        // Use a subtle blur to "soften" the jaggies
+                        ctx.filter = 'blur(0.3px)';
+                        
+                        // Stepped downscaling for better quality
+                        let tempCanvas = document.createElement('canvas');
+                        let tempCtx = tempCanvas.getContext('2d');
+                        let w = img.width;
+                        let h = img.height;
+                        
+                        tempCanvas.width = w;
+                        tempCanvas.height = h;
+                        tempCtx.drawImage(img, 0, 0);
+                        
+                        // Step down to avoid aliasing
+                        while (w > 200) {
+                            const nextW = Math.floor(w / 2);
+                            const nextH = Math.floor(h / 2);
+                            const nextCanvas = document.createElement('canvas');
+                            const nextCtx = nextCanvas.getContext('2d');
+                            nextCanvas.width = nextW;
+                            nextCanvas.height = nextH;
+                            nextCtx.imageSmoothingEnabled = true;
+                            nextCtx.imageSmoothingQuality = 'high';
+                            nextCtx.drawImage(tempCanvas, 0, 0, w, h, 0, 0, nextW, nextH);
+                            tempCanvas = nextCanvas;
+                            w = nextW;
+                            h = nextH;
+                        }
+                        
+                        ctx.drawImage(tempCanvas, 0, 0, w, h, x, y, 100, 100);
+                        ctx.restore();
+                        res();
+                    };
+                    img.onerror = () => res();
+                    img.src = path;
+                });
+            };
+            
+            // Randomly pick 6 UNIQUE positions (excluding astra_project)
+            const pool = availableImages.filter(p => !p.includes('astra_project'));
+            const shuffledPool = [...pool].sort(() => 0.5 - Math.random());
+            let poolIndex = 0;
+            const getUniqueImg = () => shuffledPool[poolIndex++] || pool[0];
+            
+            // Bottom Corners
+            await drawImage(getUniqueImg(), 10, finalSize - 110);
+            await drawImage(getUniqueImg(), finalSize - 110, finalSize - 110);
+            
+            // Top Corners
+            await drawImage(getUniqueImg(), 10, 10);
+            await drawImage(getUniqueImg(), finalSize - 110, 10);
+            
+            // Mid Sides
+            const midY = (finalSize / 2) - 50;
+            await drawImage(getUniqueImg(), 10, midY);
+            await drawImage(getUniqueImg(), finalSize - 110, midY);
+            
+            const bottomStart = yOffset + topHeight + qrSize;
+            
+            // Dynamic font size for the Username
+            ctx.fillStyle = 'black';
+            ctx.textAlign = 'center';
+            ctx.textBaseline = 'middle';
+            
+            const maxTextWidth = finalSize - 240; // Margin from the chibis
+            let fontSize = 40; // Initial target size
+            ctx.font = `${fontSize}px "IM Fell English"`;
+            let metrics = ctx.measureText(username);
+            
+            // Adjust font size to fill space better
+            if (metrics.width > maxTextWidth) {
+                fontSize = Math.floor(fontSize * (maxTextWidth / metrics.width));
+            } else if (metrics.width < maxTextWidth * 0.8) {
+                // Scale up if there's too much blank space, up to a limit
+                fontSize = Math.min(72, Math.floor(fontSize * (maxTextWidth / metrics.width) * 0.9));
+            }
+            
+            ctx.font = `${fontSize}px "IM Fell English"`;
+            ctx.fillText(username, finalSize / 2, bottomStart + 60);
+            
+            resolve(canvas.toDataURL('image/png'));
+        };
+        qrImg.src = qrDataURL;
+    });
+}
 
 // Get the current state of checkboxes in a container
 function getCheckboxStates(containerId) {
@@ -63,10 +217,10 @@ function getCheckboxStates(containerId) {
 // Set the state of checkboxes in a container
 function setCheckboxStates(containerId, states) {
     if (!states || !Array.isArray(states)) return;
-    
+
     const checkboxes = document.getElementById(containerId).querySelectorAll("input[type='checkbox']");
     const stateMap = new Map(states.map(state => [state.value, state.checked]));
-    
+
     checkboxes.forEach(checkbox => {
         if (stateMap.has(checkbox.value)) {
             checkbox.checked = stateMap.get(checkbox.value);
@@ -89,10 +243,10 @@ async function loadTranslations() {
             fetch('all_ID.json').then(res => res.json()),
             fetch('all_skin.json').then(res => res.json())
         ]);
-        
+
         characterData = await charResponse;
         skinData = await skinResponse;
-        
+
         // Now load UI translations if needed
         try {
             const response = await fetch(`./lang/${currentLanguage}.json`);
@@ -131,12 +285,12 @@ function t(key) {
     if (translations[currentLanguage] && translations[currentLanguage][key]) {
         return translations[currentLanguage][key];
     }
-    
+
     // Fall back to English if the key is not found in the current language
     if (currentLanguage !== 'us' && translations['us'] && translations['us'][key]) {
         return translations['us'][key];
     }
-    
+
     // If the key is not found in either language, return the key as a fallback
     return key;
 }
@@ -151,7 +305,20 @@ function detectAndSetLanguage() {
     }
 }
 
+function validateID() {
+    const idInput = document.getElementById('idInput');
+    let val = idInput.value.replace(/[^0-9]/g, '');
+    if (val === '') val = '1';
+    let num = Number(val);
+    if (isNaN(num) || num <= 0) num = 1;
+    if (num > 9007199254740991) num = 9007199254740991;
+    if (idInput.value !== num.toString()) {
+        idInput.value = num.toString();
+    }
+}
+
 function updateText() {
+    validateID();
     let unitOutput = [];
     let skinOutput = [];
     const unitCheckboxes = document.getElementById('checkboxesTab1').querySelectorAll("input[type='checkbox']");
@@ -160,42 +327,58 @@ function updateText() {
     const username = document.getElementById('usernameInput').value;
 
     if (useFTStyle) {
-        // FT Style: Build full sequence including UNKNOWN positions as F
-        unitOutput = buildTFSequence(unitCheckboxes, unitUnknownPositions);
-        skinOutput = buildTFSequence(skinCheckboxes, skinUnknownPositions);
-        document.getElementById("output").value = unitOutput + '|' + skinOutput + '|' + idValue + '|' + username;
+        // T/F Style
+        const unitTF = buildTFSequence(unitCheckboxes, unitUnknownPositions);
+        const skinTF = buildTFSequence(skinCheckboxes, skinUnknownPositions);
+        document.getElementById("output").value = unitTF + '|' + skinTF + '|' + idValue + '|' + username;
     } else {
-        // Default Style: Only include checked checkbox values
+        // Standard (Numerical) Style
         unitCheckboxes.forEach((checkbox) => {
-            if (checkbox.checked) {
-                unitOutput.push(checkbox.value);
-            }
+            if (checkbox.checked) unitOutput.push(checkbox.value);
         });
         skinCheckboxes.forEach((checkbox) => {
-            if (checkbox.checked) {
-                skinOutput.push(checkbox.value);
-            }
+            if (checkbox.checked) skinOutput.push(checkbox.value);
         });
         document.getElementById("output").value = unitOutput.join(',') + '|' + skinOutput.join(',') + '|' + idValue + '|' + username;
     }
+
+    generateQRPreview();
+}
+
+function generateQRPreview() {
+    if (!qrGenerated) return;
+    const inputText = document.getElementById('output').value;
+    const username = document.getElementById('usernameInput').value.trim() || 'user';
+    let qrOptions = { errorCorrectionLevel: 'M', width: 400 };
+
+    QRCode.toDataURL(inputText, qrOptions, async function (error, url) {
+        if (!error) {
+            const finalUrl = await assembleQRWithExtras(url, username);
+            const qrImage = document.getElementById('qrImage');
+            qrImage.src = finalUrl;
+            qrImage.style.display = 'block';
+        } else {
+            document.getElementById('qrImage').style.display = 'none';
+        }
+    });
 }
 
 function buildTFSequence(checkboxes, unknownPositions) {
     let result = [];
     let checkboxIndex = 0;
-    
+
     // Find the maximum ID to determine sequence length
     let maxId = 0;
     checkboxes.forEach((checkbox) => {
         const id = parseInt(checkbox.value);
         if (id > maxId) maxId = id;
     });
-    
+
     // Also check unknown positions for max
     unknownPositions.forEach(pos => {
         if (pos > maxId) maxId = pos;
     });
-    
+
     // Build sequence from 1 to maxId
     for (let i = 1; i <= maxId; i++) {
         if (unknownPositions.has(i)) {
@@ -212,7 +395,7 @@ function buildTFSequence(checkboxes, unknownPositions) {
             }
         }
     }
-    
+
     return result.join('');
 }
 
@@ -220,37 +403,37 @@ function loadCheckboxes() {
     // Clear existing checkboxes
     document.getElementById('checkboxesTab1').innerHTML = '';
     document.getElementById('checkboxesTab2').innerHTML = '';
-    
+
     // Load characters
     if (characterData && characterData.characters) {
         const tab1 = document.getElementById('checkboxesTab1');
         populateCharacterCheckboxes(tab1, unitUnknownPositions);
     }
-    
+
     // Load skins
     if (skinData && skinData.skins) {
         const tab2 = document.getElementById('checkboxesTab2');
         populateSkinCheckboxes(tab2, skinUnknownPositions);
     }
-    
+
     updateText();
 }
 
 function populateCharacterCheckboxes(container, unknownSet) {
     const characters = Object.values(characterData.characters);
-    
+
     // Sort characters by QR ID
     characters.sort((a, b) => parseInt(a.qr_id) - parseInt(b.qr_id));
-    
+
     characters.forEach(character => {
         const id = character.qr_id;
         const name = character.names ? (character.names[currentLanguage] || character.names['us'] || 'UNKNOWN') : 'UNKNOWN';
-        
+
         if (name === 'UNKNOWN') {
             unknownSet.add(parseInt(id));
             return;
         }
-        
+
         const checkbox = createCheckbox(id, name);
         container.appendChild(checkbox);
     });
@@ -260,12 +443,12 @@ function populateSkinCheckboxes(container, unknownSet) {
     skinData.skins.forEach(skin => {
         const id = skin.id;
         const name = skin.names ? (skin.names[currentLanguage] || skin.names['us'] || `UNKNOWN-${id}`) : `UNKNOWN-${id}`;
-        
+
         if (name.startsWith('UNKNOWN')) {
             unknownSet.add(parseInt(id));
             return;
         }
-        
+
         const checkbox = createCheckbox(id, name);
         container.appendChild(checkbox);
     });
@@ -273,7 +456,7 @@ function populateSkinCheckboxes(container, unknownSet) {
 
 function createCheckbox(value, label) {
     const container = document.createElement('label');
-    container.style.display = 'block'; 
+    container.style.display = 'block';
     const checkbox = document.createElement('input');
     checkbox.type = 'checkbox';
     checkbox.value = value;
@@ -284,27 +467,30 @@ function createCheckbox(value, label) {
     return container;
 }
 
-document.addEventListener("DOMContentLoaded", async function() {
+document.addEventListener("DOMContentLoaded", async function () {
     // First detect the language
     detectAndSetLanguage();
-    
+
     // Then load translations for the detected language
     await loadTranslations();
-    
+
     // Update the UI with the loaded translations
     updateUI();
-    
+
     // Set up the language selector change event
     const languageSelector = document.getElementById('languageSelector');
     if (languageSelector) {
         languageSelector.value = currentLanguage;
         languageSelector.addEventListener('change', (e) => changeLanguage(e.target.value));
     }
+
+    document.getElementById('idInput').addEventListener('input', validateID);
+
     await loadTranslations();
     updateUI(); // Update UI with translations
     document.getElementsByClassName("tablinks")[0].click();
     loadCheckboxes();
-    
+
     // Force update UI again after a short delay to ensure all elements are loaded
     setTimeout(updateUI, 100);
 });
@@ -318,12 +504,12 @@ function importQR() {
     }
 
     const reader = new FileReader();
-    reader.onload = function(e) {
+    reader.onload = function (e) {
         const imageData = e.target.result;
         const canvas = document.createElement('canvas');
         const context = canvas.getContext('2d');
         const image = new Image();
-        image.onload = function() {
+        image.onload = function () {
             canvas.width = image.width;
             canvas.height = image.height;
             context.drawImage(image, 0, 0);
@@ -343,52 +529,36 @@ function importQR() {
 
 function downloadQR() {
     const inputText = document.getElementById('output').value;
+    qrGenerated = true;
+
+    const username = document.getElementById('usernameInput').value.trim() || 'user';
+    const userId = document.getElementById('idInput').value.trim() || 'ID';
     
-    // Check if text is too long for QR code
-    // QR Version 40 with error correction L can handle approximately 2953 bytes
-    const maxBytes = 2953;
-    const textBytes = new Blob([inputText]).size;
-    
-    if (textBytes > maxBytes) {
-        showErrorModal();
-        return;
-    }
-    
-    const qrOptions = {
-        scale: 1, // Set scale to 1 to make each dot 1 pixel in size
-        version: 40, // Use the highest version for maximum data capacity
-        errorCorrectionLevel: 'L' // Use low error correction for more data capacity
-    };
-    QRCode.toDataURL(inputText, qrOptions, function (error, url) {
+    let qrOptions = { errorCorrectionLevel: 'M', width: 400 };
+    QRCode.toDataURL(inputText, qrOptions, async function (error, url) {
         if (error) {
             console.error('Error generating QR code:', error);
             showErrorModal();
             return;
         }
-        const qrImage = document.getElementById('qrImage');
-        qrImage.src = url;
-        qrImage.style.display = 'block'; 
-
-        // Get username and ID from input fields
-        const username = document.getElementById('usernameInput').value.trim() || 'user';
-        const userId = document.getElementById('idInput').value.trim() || 'ID';
         
-        // Create a safe filename by removing invalid characters while preserving CJK and other Unicode letters
+        const finalUrl = await assembleQRWithExtras(url, username);
+        const qrImage = document.getElementById('qrImage');
+        qrImage.src = finalUrl;
+        qrImage.style.display = 'block';
+
         const safeUsername = username
-            .replace(/[\\/:*?"<>|]/g, '_')  // Only remove truly problematic filename characters
-            .replace(/\s+/g, ' ')            // Replace multiple spaces with single space
-            .trim()
-            .substring(0, 30);
-            
+            .replace(/[\\/:*?"<>|]/g, '_')
+            .replace(/\s+/g, ' ')
+            .trim();
+
         const safeUserId = userId
             .replace(/[\\/:*?"<>|]/g, '_')
             .replace(/\s+/g, ' ')
-            .trim()
-            .substring(0, 15);
-        
-        // Create download link with formatted filename
+            .trim();
+
         const downloadLink = document.createElement('a');
-        downloadLink.href = url;
+        downloadLink.href = finalUrl;
         downloadLink.download = `QRCode-${safeUsername}-${safeUserId}.png`;
         downloadLink.click();
     });
@@ -396,8 +566,8 @@ function downloadQR() {
 
 function copyToClipboard() {
     const textArea = document.getElementById('output');
-    textArea.select(); 
-    document.execCommand('copy'); 
+    textArea.select();
+    document.execCommand('copy');
 
     alert('Text copied to clipboard!');
 }
@@ -437,11 +607,15 @@ function updateCheckboxesFromArray(values, containerId) {
 
 function updateCheckboxesFromTF(values, containerId) {
     const checkboxes = document.getElementById(containerId).querySelectorAll("input[type='checkbox']");
-    checkboxes.forEach((checkbox, index) => {
-        if (index < values.length) {
-            checkbox.checked = values.charAt(index) === 'T';
-        } else {
-            checkbox.checked = false;
+    checkboxes.forEach((checkbox) => {
+        const id = parseInt(checkbox.value);
+        if (!isNaN(id)) {
+            const index = id - 1;
+            if (index >= 0 && index < values.length) {
+                checkbox.checked = values.charAt(index) === 'T';
+            } else {
+                checkbox.checked = false;
+            }
         }
     });
 }
@@ -501,22 +675,22 @@ function enableTextEditing() {
     // Remove readonly from textarea
     const textarea = document.getElementById('output');
     textarea.removeAttribute('readonly');
-    
+
     // Disable tabs other than QR and Debug
     const tablinks = document.getElementsByClassName('tablinks');
     for (let i = 0; i < tablinks.length; i++) {
         const tabButton = tablinks[i];
         const tabText = tabButton.textContent;
-        
+
         // Only keep QR and Debug tabs enabled
         if (tabText !== 'QR' && tabText !== 'Debug') {
             tabButton.classList.add('disabled');
         }
     }
-    
+
     // Hide the modal
     hideEditWarning();
-    
+
     // Switch to the Debug tab
     const textTab = Array.from(tablinks).find(tab => tab.textContent === 'Debug');
     if (textTab && !textTab.classList.contains('active')) {
@@ -539,92 +713,99 @@ function updateUI() {
     // Update tab button text
     const qrTab = document.querySelector('button[onclick*="openTab(event, \'QR\')"]');
     if (qrTab) qrTab.textContent = t('qr_tab');
-    
+
     const unitsTab = document.querySelector('button[onclick*="openTab(event, \'Units\')"]');
     if (unitsTab) unitsTab.textContent = t('units_tab');
-    
+
     const skinsTab = document.querySelector('button[onclick*="openTab(event, \'Skins\')"]');
     if (skinsTab) skinsTab.textContent = t('skins_tab');
-    
+
     const idTab = document.querySelector('button[onclick*="openTab(event, \'ID\')"]');
     if (idTab) idTab.textContent = t('id_tab');
-    
+
     const nameTab = document.querySelector('button[onclick*="openTab(event, \'Username\')"]');
     if (nameTab) nameTab.textContent = t('name_tab');
-    
+
     const debugTab = document.querySelector('button[onclick*="openTab(event, \'PlainText\')"]');
     if (debugTab) debugTab.textContent = t('debug_tab');
-    
+
     // Update QR tab buttons
     const importButton = document.getElementById('importQRButton');
     if (importButton) importButton.textContent = t('import_qr');
-    
+
     const downloadButton = document.getElementById('downloadQRButton');
     if (downloadButton) downloadButton.textContent = t('download_qr');
-    
+
     // Update Units tab buttons
     const unitsAllButton = document.querySelector('button[onclick="selectAllUnits()"]');
     if (unitsAllButton) unitsAllButton.textContent = t('all');
-    
+
     const unitsNoneButton = document.querySelector('button[onclick="selectNoneUnits()"]');
     if (unitsNoneButton) unitsNoneButton.textContent = t('none');
-    
+
     const unitsRandomButton = document.querySelector('button[onclick="randomizeUnits()"]');
     if (unitsRandomButton) unitsRandomButton.textContent = t('randomize');
-    
+
     // Update Skins tab buttons
     const skinsAllButton = document.querySelector('button[onclick="selectAllSkins()"]');
     if (skinsAllButton) skinsAllButton.textContent = t('all');
-    
+
     const skinsNoneButton = document.querySelector('button[onclick="selectNoneSkins()"]');
     if (skinsNoneButton) skinsNoneButton.textContent = t('none');
-    
+
     // Update PlainText tab buttons
     const copyButton = document.querySelector('.import-button[onclick*="copyToClipboard"]');
     if (copyButton) copyButton.textContent = t('copy_to_clipboard');
-    
+
     const editButton = document.querySelector('button[onclick="showEditWarning()"]');
     if (editButton) editButton.textContent = t('enable_text_editing');
-    
+
     const tfButton = document.querySelector('button[onclick="toggleQRStyle()"]');
-    if (tfButton) tfButton.textContent = t('use_tf_qr');
-    
+    if (tfButton) {
+        tfButton.textContent = t('toggle_qr_style');
+    }
+
+    const testZipButton = document.querySelector('button[onclick="generateTestZip()"]');
+    if (testZipButton) {
+        testZipButton.textContent = t('test_zip');
+    }
+
     // Update modal content
     const warningModalP = document.querySelector('#editWarningModal .modal-content p');
     if (warningModalP) {
         warningModalP.innerHTML = `${t('warning')}<br>${t('warning_desc')}<br>${t('warning_effect')}`;
     }
-    
+
     const errorModalP = document.querySelector('#errorModal .modal-content p');
     if (errorModalP) {
         errorModalP.innerHTML = `${t('error')}<br>${t('qr_failed')}<br>${t('qr_too_long')}`;
     }
-    
+
     // Update modal buttons
     const confirmButton = document.querySelector('#editWarningModal .modal-button.confirm');
     if (confirmButton) confirmButton.textContent = t('confirm');
-    
+
     const cancelButton = document.querySelector('#editWarningModal .modal-button.cancel');
     if (cancelButton) cancelButton.textContent = t('cancel');
-    
+
     const okButton = document.querySelector('#errorModal .modal-button.cancel');
     if (okButton) okButton.textContent = t('ok');
-    
+
     // Update title in the HTML document
     document.title = t('title');
-    
+
     // Update the username input placeholder if it exists in translations
     const usernameInput = document.getElementById('usernameInput');
     if (usernameInput) {
         usernameInput.placeholder = t('username_placeholder') || '';
     }
-    
+
     // Update the ID input placeholder if it exists in translations
     const idInput = document.getElementById('idInput');
     if (idInput) {
         idInput.placeholder = t('id_placeholder') || '';
     }
-    
+
     // Update the language selector to match current language
     const languageSelector = document.getElementById('languageSelector');
     if (languageSelector) {
@@ -641,31 +822,31 @@ function updateURL() {
 // Function to change language
 async function changeLanguage(lang) {
     if (lang === currentLanguage) return;
-    
+
     try {
         // Save the current state
         const unitState = getCheckboxStates('checkboxesTab1');
         const skinState = getCheckboxStates('checkboxesTab2');
-        
+
         // Update the current language
         currentLanguage = lang;
-        
+
         // Load translations for the new language
         await loadTranslations();
-        
+
         // Update the UI with the new language
         updateUI();
-        
+
         // Reload the checkboxes with the new language
         loadCheckboxes();
-        
+
         // Restore the checkbox states after a small delay to ensure DOM is updated
         setTimeout(() => {
             setCheckboxStates('checkboxesTab1', unitState);
             setCheckboxStates('checkboxesTab2', skinState);
             updateText();
         }, 50);
-        
+
         // Update the URL with the new language
         updateURL();
     } catch (error) {
@@ -675,19 +856,78 @@ async function changeLanguage(lang) {
 
 function toggleQRStyle() {
     useFTStyle = !useFTStyle;
-    
-    // Update button appearance
-    const buttons = document.querySelectorAll('.edit-toggle-button');
-    const ftButton = Array.from(buttons).find(btn => btn.textContent.includes(t('use_tf_qr')) || btn.textContent.includes('T/F'));
-    
-    if (ftButton) {
-        if (useFTStyle) {
-            ftButton.classList.add('active-style');
-        } else {
-            ftButton.classList.remove('active-style');
-        }
+
+    // Update button text
+    const tfButton = document.querySelector('button[onclick="toggleQRStyle()"]');
+    if (tfButton) {
+        tfButton.textContent = t('toggle_qr_style');
     }
-    
+
     // Regenerate the text with the new style
     updateText();
 }
+
+async function generateTestZip() {
+    const zip = new JSZip();
+    const count = 40;
+    
+    // Save current state
+    const originalUnits = getCheckboxStates('checkboxesTab1');
+    const originalSkins = getCheckboxStates('checkboxesTab2');
+    const originalId = document.getElementById('idInput').value;
+    const originalUsername = document.getElementById('usernameInput').value;
+    
+    for (let i = 0; i < count; i++) {
+        const paddedIndex = String(i + 1).padStart(2, '0');
+        const currentTestName = `Test #${paddedIndex}`;
+        
+        // Update Name and ID fields for this test case
+        document.getElementById('usernameInput').value = currentTestName;
+        document.getElementById('idInput').value = originalId + paddedIndex;
+        
+        // Randomize units (this calls updateText internally)
+        randomizeUnits();
+        
+        const inputText = document.getElementById('output').value;
+        const qrOptions = { 
+            errorCorrectionLevel: 'M',
+            width: 400
+        };
+        
+        const qrUrl = await new Promise((resolve) => {
+            QRCode.toDataURL(inputText, qrOptions, (err, url) => resolve(url));
+        });
+        
+        if (qrUrl) {
+            // Generate the decorated version
+            const finalUrl = await assembleQRWithExtras(qrUrl, currentTestName);
+            const base64Data = finalUrl.split(',')[1];
+            zip.file(`TestQR_${paddedIndex}.png`, base64Data, {base64: true});
+        }
+    }
+    
+    // Restore original state
+    setCheckboxStates('checkboxesTab1', originalUnits);
+    setCheckboxStates('checkboxesTab2', originalSkins);
+    document.getElementById('idInput').value = originalId;
+    document.getElementById('usernameInput').value = originalUsername;
+    updateText();
+    
+    const content = await zip.generateAsync({type: "blob"});
+    const link = document.createElement('a');
+    link.href = URL.createObjectURL(content);
+    link.download = "Test_QRs.zip";
+    link.click();
+}
+
+// Initialize the application
+(async function() {
+    await loadImages();
+    detectAndSetLanguage();
+    await loadTranslations();
+    updateUI();
+    loadCheckboxes();
+    // Set default tab
+    const firstTab = document.querySelector('.tablinks');
+    if (firstTab) firstTab.click();
+})();

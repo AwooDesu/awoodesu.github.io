@@ -24,5 +24,7 @@
   "ok": "Aceptar",
   "title": "Generador de QR de Alchemy Stars",
   "id_placeholder": "42069",
-  "username_placeholder": "Navegante"
+  "username_placeholder": "Navegante",
+  "toggle_qr_style": "Alternar estilo de QR",
+  "test_zip": "Probar Zip"
 }

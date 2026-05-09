@@ -5,8 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Alchemy Stars QR Generator</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IM+Fell+English&display=swap" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/jsqr/dist/jsQR.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/qrcode/build/qrcode.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js"></script>
     <script src="script.js"></script>
 </head>
 <body>
@@ -73,10 +77,13 @@
         <div style="text-align: center;">
            <span class="import-button" onclick="copyToClipboard()">Copy to Clipboard</span>
            <textarea id="output" readonly></textarea>
-           <div class="button-group">
-               <button class="edit-toggle-button" onclick="showEditWarning()">Enable text editing</button>
-               <button class="edit-toggle-button" onclick="toggleQRStyle()">Use T/F QR</button>
-           </div>
+            <div style="position: relative; max-width: 80%; margin: 10px auto;">
+               <div class="button-group">
+                   <button class="edit-toggle-button" onclick="showEditWarning()">Enable text editing</button>
+                   <button class="edit-toggle-button" onclick="toggleQRStyle()">Toggle QR Style</button>
+                   <button class="edit-toggle-button" onclick="generateTestZip()">Test Zip</button>
+               </div>
+            </div>
         </div>
     </div>
 
