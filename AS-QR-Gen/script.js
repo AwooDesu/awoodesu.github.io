@@ -422,12 +422,20 @@ function detectAndSetLanguage() {
 function validateID() {
     const idInput = document.getElementById('idInput');
     let val = idInput.value.replace(/[^0-9]/g, '');
-    if (val === '') val = '1';
-    let num = Number(val);
-    if (isNaN(num) || num <= 0) num = 1;
-    if (num > 9007199254740991) num = 9007199254740991;
-    if (idInput.value !== num.toString()) {
-        idInput.value = num.toString();
+    
+    if (val === '') {
+        val = '1';
+    } else {
+        let num = Number(val);
+        if (num <= 0) {
+            val = '1';
+        } else if (num > 9007199254740991) {
+            val = '9007199254740991';
+        }
+    }
+    
+    if (idInput.value !== val) {
+        idInput.value = val;
     }
 }
 
