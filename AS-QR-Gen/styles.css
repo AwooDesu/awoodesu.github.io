@@ -4,6 +4,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    overflow-x: hidden;
 }
 
 .tab-bar {
@@ -16,11 +17,11 @@ body {
 }
 
 .tab-group.primary {
-    flex: 0 0 80%;
+    flex: 1;
 }
 
 .tab-group.secondary {
-    flex: 0 0 20%;
+    flex: 0 0 auto;
 }
 
 .tablinks {
@@ -45,11 +46,12 @@ select#languageSelector {
     border: none;
     outline: none;
     cursor: pointer;
-    padding: 12px 16px;
+    padding: 12px 10px;
     transition: 0.3s;
-    flex: 1 1 auto;
+    width: auto;
+    min-width: 0;
     text-align: center;
-    font-size: inherit;
+    font-size: 13px;
     appearance: none;
     -webkit-appearance: none;
     -moz-appearance: none;
@@ -113,6 +115,16 @@ textarea {
     align-items: center;
     flex: 1;
     width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+#qrImage {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 4px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.5);
 }
 
 #QR > div {
@@ -197,6 +209,33 @@ textarea {
     border-color: #7986cb;
 }
 
+.qr-controls {
+    display: flex;
+    gap: 8px;
+    justify-content: center;
+    margin-top: 10px;
+    flex-wrap: wrap;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.control-button {
+    background-color: #282a2e;
+    color: white;
+    border: 1px solid #373b41;
+    cursor: pointer;
+    padding: 10px 18px;
+    transition: 0.3s;
+    border-radius: 4px;
+    font-size: 14px;
+    flex: 0 1 auto;
+}
+
+.control-button:hover {
+    background-color: #373b41;
+}
+
 /* Modal styles */
 .modal {
     display: none;
@@ -279,4 +318,40 @@ textarea {
         max-width: 90%;
         padding: 20px;
     }
+}
+
+@media (max-width: 480px) {
+    .tablinks {
+        padding: 12px 8px;
+        font-size: 13px;
+    }
+    select#languageSelector {
+        padding: 12px 5px;
+        font-size: 12px;
+        min-width: 80px;
+    }
+}
+
+/* Custom Context Menu */
+.custom-menu {
+    position: absolute;
+    background-color: #282a2e;
+    border: 1px solid #5c6bc0;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.5);
+    z-index: 2000;
+    padding: 5px 0;
+    border-radius: 4px;
+    min-width: 150px;
+}
+
+.custom-menu-item {
+    padding: 10px 15px;
+    cursor: pointer;
+    color: white;
+    font-size: 14px;
+    transition: 0.2s;
+}
+
+.custom-menu-item:hover {
+    background-color: #5c6bc0;
 }

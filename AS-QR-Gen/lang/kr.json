@@ -26,5 +26,10 @@
   "id_placeholder": "42069",
   "username_placeholder": "내비게이터",
   "toggle_qr_style": "QR 스타일 전환",
-  "test_zip": "테스트 Zip"
+  "test_zip": "테스트 Zip",
+  "show_name": "이름 표시",
+  "hide_name": "이름 숨기기",
+  "show_id": "ID 표시",
+  "hide_id": "ID 숨기기",
+  "randomize_pictures": "이미지 무작위"
 }

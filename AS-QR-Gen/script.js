@@ -15,6 +15,11 @@ function openTab(evt, tabName) {
     }
     document.getElementById(tabName).style.display = "block";
     evt.currentTarget.className += " active";
+
+    // Automatically generate QR when switching to the QR tab to reflect any changes made in other tabs
+    if (tabName === 'QR') {
+        updateText();
+    }
 }
 
 // Global language setting (default to English)
@@ -55,19 +60,67 @@ let skinUnknownPositions = new Set();
 let qrGenerated = false;
 
 let availableImages = [];
+let currentChibis = [];
+let nextChibis = [];
+let isNameVisible = true;
+let isIDVisible = true;
 
 async function loadImages() {
     try {
-        const response = await fetch('./images.json');
+        const response = await fetch(`./images.json?v=${Date.now()}`);
         if (response.ok) {
             availableImages = await response.json();
+            // Initial selection of 12 images (6 for current, 6 for next)
+            await refreshPicturePools(true);
         }
     } catch (e) {
         console.error("Failed to load images.json:", e);
     }
 }
 
-async function assembleQRWithExtras(qrDataURL, username) {
+async function refreshPicturePools(isInitial = false) {
+    const pool = availableImages.filter(p => !p.includes('astra_project'));
+    const shuffled = [...pool].sort(() => 0.5 - Math.random());
+    
+    if (isInitial) {
+        currentChibis = shuffled.slice(0, 7); // Pick up to 7 in case both name/ID are hidden
+        nextChibis = shuffled.slice(7, 14);
+    } else {
+        // Move next to current
+        currentChibis = [...nextChibis];
+        // Preload 7 more into next
+        nextChibis = shuffled.slice(0, 7);
+    }
+}
+
+function toggleNameVisibility() {
+    isNameVisible = !isNameVisible;
+    const btn = document.getElementById('toggleNameBtn');
+    if (isNameVisible) {
+        btn.textContent = t('hide_name');
+    } else {
+        btn.textContent = t('show_name');
+    }
+    updateText();
+}
+
+function toggleIDVisibility() {
+    isIDVisible = !isIDVisible;
+    const btn = document.getElementById('toggleIDBtn');
+    if (isIDVisible) {
+        btn.textContent = t('hide_id');
+    } else {
+        btn.textContent = t('show_id');
+    }
+    updateText();
+}
+
+async function rerollPictures() {
+    await refreshPicturePools(false);
+    updateText();
+}
+
+async function assembleQRWithExtras(qrDataURL, username, userId) {
     return new Promise((resolve) => {
         const canvas = document.createElement('canvas');
         const ctx = canvas.getContext('2d');
@@ -157,11 +210,9 @@ async function assembleQRWithExtras(qrDataURL, username) {
                 });
             };
             
-            // Randomly pick 6 UNIQUE positions (excluding astra_project)
-            const pool = availableImages.filter(p => !p.includes('astra_project'));
-            const shuffledPool = [...pool].sort(() => 0.5 - Math.random());
-            let poolIndex = 0;
-            const getUniqueImg = () => shuffledPool[poolIndex++] || pool[0];
+            // Use pre-selected unique chibis from the pool
+            let chibiIndex = 0;
+            const getUniqueImg = () => currentChibis[chibiIndex++] || currentChibis[0];
             
             // Bottom Corners
             await drawImage(getUniqueImg(), 10, finalSize - 110);
@@ -177,27 +228,52 @@ async function assembleQRWithExtras(qrDataURL, username) {
             await drawImage(getUniqueImg(), finalSize - 110, midY);
             
             const bottomStart = yOffset + topHeight + qrSize;
+            const footerCenterY = bottomStart + 60;
             
-            // Dynamic font size for the Username
-            ctx.fillStyle = 'black';
-            ctx.textAlign = 'center';
-            ctx.textBaseline = 'middle';
-            
-            const maxTextWidth = finalSize - 240; // Margin from the chibis
-            let fontSize = 40; // Initial target size
-            ctx.font = `${fontSize}px "IM Fell English"`;
-            let metrics = ctx.measureText(username);
-            
-            // Adjust font size to fill space better
-            if (metrics.width > maxTextWidth) {
-                fontSize = Math.floor(fontSize * (maxTextWidth / metrics.width));
-            } else if (metrics.width < maxTextWidth * 0.8) {
-                // Scale up if there's too much blank space, up to a limit
-                fontSize = Math.min(72, Math.floor(fontSize * (maxTextWidth / metrics.width) * 0.9));
+            // Draw Decorations (Name/ID)
+            if (!isNameVisible && !isIDVisible) {
+                // If both hidden, add a 7th chibi in the center
+                await drawImage(getUniqueImg(), (finalSize / 2) - 50, bottomStart + 10);
+            } else {
+                ctx.fillStyle = 'black';
+                ctx.textAlign = 'center';
+                ctx.textBaseline = 'middle';
+                const maxTextWidth = finalSize - 240;
+
+                if (isNameVisible && isIDVisible) {
+                    // Draw Name (Top) - Increased size further
+                    let nameFontSize = 52;
+                    ctx.font = `700 ${nameFontSize}px "Cinzel"`;
+                    let nameMetrics = ctx.measureText(username);
+                    if (nameMetrics.width > maxTextWidth) {
+                        nameFontSize = Math.floor(nameFontSize * (maxTextWidth / nameMetrics.width));
+                        ctx.font = `700 ${nameFontSize}px "Cinzel"`;
+                    }
+                    ctx.fillText(username, finalSize / 2, footerCenterY - 24);
+
+                    // Draw ID (Bottom) - Increased size further (+10%)
+                    let idFontSize = 24;
+                    ctx.font = `400 ${idFontSize}px "Cinzel"`;
+                    ctx.fillText(`ID: ${userId}`, finalSize / 2, footerCenterY + 30);
+                } else if (isNameVisible) {
+                    // Draw Only Name (Centered) - Increased size further (+10%)
+                    let fontSize = 57;
+                    ctx.font = `700 ${fontSize}px "Cinzel"`;
+                    let metrics = ctx.measureText(username);
+                    if (metrics.width > maxTextWidth) {
+                        fontSize = Math.floor(fontSize * (maxTextWidth / metrics.width));
+                    } else if (metrics.width < maxTextWidth * 0.8) {
+                        fontSize = Math.min(88, Math.floor(fontSize * (maxTextWidth / metrics.width) * 0.9));
+                    }
+                    ctx.font = `700 ${fontSize}px "Cinzel"`;
+                    ctx.fillText(username, finalSize / 2, footerCenterY);
+                } else if (isIDVisible) {
+                    // Draw Only ID (Centered) - Increased size further (+10%)
+                    let fontSize = 44;
+                    ctx.font = `400 ${fontSize}px "Cinzel"`;
+                    ctx.fillText(`ID: ${userId}`, finalSize / 2, footerCenterY);
+                }
             }
-            
-            ctx.font = `${fontSize}px "IM Fell English"`;
-            ctx.fillText(username, finalSize / 2, bottomStart + 60);
             
             resolve(canvas.toDataURL('image/png'));
         };
@@ -249,13 +325,13 @@ async function loadTranslations() {
 
         // Now load UI translations if needed
         try {
-            const response = await fetch(`./lang/${currentLanguage}.json`);
+            const response = await fetch(`./lang/${currentLanguage}.json?v=${Date.now()}`);
             if (response.ok) {
                 translations[currentLanguage] = await response.json();
             } else if (currentLanguage !== 'us') {
                 // Fallback to English if the requested language doesn't exist
                 currentLanguage = 'us';
-                const enResponse = await fetch('./lang/us.json');
+                const enResponse = await fetch(`./lang/us.json?v=${Date.now()}`);
                 if (enResponse.ok) {
                     translations['us'] = await enResponse.json();
                 }
@@ -264,7 +340,7 @@ async function loadTranslations() {
             console.error('Error loading UI translations:', e);
             if (currentLanguage !== 'us' && !translations['us']) {
                 try {
-                    const enResponse = await fetch('./lang/us.json');
+                    const enResponse = await fetch(`./lang/us.json?v=${Date.now()}`);
                     if (enResponse.ok) {
                         translations['us'] = await enResponse.json();
                         currentLanguage = 'us';
@@ -295,6 +371,21 @@ function t(key) {
     return key;
 }
 
+function resizeLanguageSelector() {
+    const sel = document.getElementById('languageSelector');
+    if (!sel) return;
+    const tempSpan = document.createElement('span');
+    tempSpan.style.visibility = 'hidden';
+    tempSpan.style.position = 'absolute';
+    tempSpan.style.whiteSpace = 'nowrap';
+    tempSpan.style.font = window.getComputedStyle(sel).font;
+    tempSpan.textContent = sel.options[sel.selectedIndex].text;
+    document.body.appendChild(tempSpan);
+    // Add some padding for the arrow/dropdown icon space
+    sel.style.width = (tempSpan.getBoundingClientRect().width + 25) + 'px';
+    document.body.removeChild(tempSpan);
+}
+
 // Set the current language based on the browser's language
 function detectAndSetLanguage() {
     if (!isInitialized) {
@@ -316,6 +407,8 @@ function validateID() {
         idInput.value = num.toString();
     }
 }
+
+let qrDebounceTimer = null;
 
 function updateText() {
     validateID();
@@ -342,23 +435,58 @@ function updateText() {
         document.getElementById("output").value = unitOutput.join(',') + '|' + skinOutput.join(',') + '|' + idValue + '|' + username;
     }
 
-    generateQRPreview();
+    // Only trigger QR preview generation if the QR tab is active, using debounce to save performance
+    if (document.getElementById('QR').style.display === 'block') {
+        clearTimeout(qrDebounceTimer);
+        qrDebounceTimer = setTimeout(() => {
+            generateQRPreview();
+        }, 150);
+    }
 }
 
 function generateQRPreview() {
-    if (!qrGenerated) return;
+    qrGenerated = true;
     const inputText = document.getElementById('output').value;
     const username = document.getElementById('usernameInput').value.trim() || 'user';
+    const userId = document.getElementById('idInput').value.trim() || '0';
     let qrOptions = { errorCorrectionLevel: 'M', width: 400 };
 
     QRCode.toDataURL(inputText, qrOptions, async function (error, url) {
         if (!error) {
-            const finalUrl = await assembleQRWithExtras(url, username);
+            const finalUrl = await assembleQRWithExtras(url, username, userId);
             const qrImage = document.getElementById('qrImage');
-            qrImage.src = finalUrl;
+            const wrapper = document.getElementById('qrDownloadWrapper');
+            
+            const safeUsername = username.replace(/[\\/:*?"<>|]/g, '_').replace(/\s+/g, ' ').trim();
+            const safeUserId = userId.replace(/[\\/:*?"<>|]/g, '_').replace(/\s+/g, ' ').trim();
+            const filename = `QRCode-${safeUsername}-${safeUserId}.png`;
+            
+            // Convert DataURL to a File object with a name to help browser naming on right-click
+            const response = await fetch(finalUrl);
+            const blob = await response.blob();
+            const file = new File([blob], filename, { type: 'image/png' });
+            const blobUrl = URL.createObjectURL(file);
+            
+            // Clean up old blob URLs to prevent memory leaks
+            if (qrImage.src && qrImage.src.startsWith('blob:')) {
+                URL.revokeObjectURL(qrImage.src);
+            }
+            
+            qrImage.src = blobUrl;
+            qrImage.alt = filename;
+            qrImage.title = filename; // Some browsers use title as filename hint
+            
+            if (wrapper) {
+                wrapper.href = blobUrl;
+                wrapper.download = filename;
+                wrapper.style.display = 'block';
+            }
             qrImage.style.display = 'block';
         } else {
-            document.getElementById('qrImage').style.display = 'none';
+            const qrImage = document.getElementById('qrImage');
+            const wrapper = document.getElementById('qrDownloadWrapper');
+            if (qrImage) qrImage.style.display = 'none';
+            if (wrapper) wrapper.style.display = 'none';
         }
     });
 }
@@ -467,33 +595,8 @@ function createCheckbox(value, label) {
     return container;
 }
 
-document.addEventListener("DOMContentLoaded", async function () {
-    // First detect the language
-    detectAndSetLanguage();
 
-    // Then load translations for the detected language
-    await loadTranslations();
 
-    // Update the UI with the loaded translations
-    updateUI();
-
-    // Set up the language selector change event
-    const languageSelector = document.getElementById('languageSelector');
-    if (languageSelector) {
-        languageSelector.value = currentLanguage;
-        languageSelector.addEventListener('change', (e) => changeLanguage(e.target.value));
-    }
-
-    document.getElementById('idInput').addEventListener('input', validateID);
-
-    await loadTranslations();
-    updateUI(); // Update UI with translations
-    document.getElementsByClassName("tablinks")[0].click();
-    loadCheckboxes();
-
-    // Force update UI again after a short delay to ensure all elements are loaded
-    setTimeout(updateUI, 100);
-});
 
 function importQR() {
     const fileInput = document.getElementById('qrInput');
@@ -542,7 +645,7 @@ function downloadQR() {
             return;
         }
         
-        const finalUrl = await assembleQRWithExtras(url, username);
+        const finalUrl = await assembleQRWithExtras(url, username, userId);
         const qrImage = document.getElementById('qrImage');
         qrImage.src = finalUrl;
         qrImage.style.display = 'block';
@@ -806,6 +909,25 @@ function updateUI() {
         idInput.placeholder = t('id_placeholder') || '';
     }
 
+    // Update context menu
+    const contextDownloadBtn = document.getElementById('contextDownloadBtn');
+    if (contextDownloadBtn) contextDownloadBtn.textContent = t('download_qr');
+
+    const toggleNameBtn = document.getElementById('toggleNameBtn');
+    if (toggleNameBtn) {
+        toggleNameBtn.textContent = isNameVisible ? t('hide_name') : t('show_name');
+    }
+
+    const toggleIDBtn = document.getElementById('toggleIDBtn');
+    if (toggleIDBtn) {
+        toggleIDBtn.textContent = isIDVisible ? t('hide_id') : t('show_id');
+    }
+
+    const rerollPicturesBtn = document.getElementById('rerollPicturesBtn');
+    if (rerollPicturesBtn) {
+        rerollPicturesBtn.textContent = t('randomize_pictures');
+    }
+
     // Update the language selector to match current language
     const languageSelector = document.getElementById('languageSelector');
     if (languageSelector) {
@@ -900,7 +1022,8 @@ async function generateTestZip() {
         
         if (qrUrl) {
             // Generate the decorated version
-            const finalUrl = await assembleQRWithExtras(qrUrl, currentTestName);
+            const currentTestId = document.getElementById('idInput').value;
+            const finalUrl = await assembleQRWithExtras(qrUrl, currentTestName, currentTestId);
             const base64Data = finalUrl.split(',')[1];
             zip.file(`TestQR_${paddedIndex}.png`, base64Data, {base64: true});
         }
@@ -921,13 +1044,57 @@ async function generateTestZip() {
 }
 
 // Initialize the application
-(async function() {
+window.addEventListener('DOMContentLoaded', async function() {
     await loadImages();
     detectAndSetLanguage();
     await loadTranslations();
     updateUI();
     loadCheckboxes();
+
+    // Set up listeners
+    const idInput = document.getElementById('idInput');
+    if (idInput) idInput.addEventListener('input', validateID);
+
+    const languageSelector = document.getElementById('languageSelector');
+    if (languageSelector) {
+        languageSelector.addEventListener('change', (e) => {
+            changeLanguage(e.target.value);
+            resizeLanguageSelector();
+        });
+    }
+    
     // Set default tab
     const firstTab = document.querySelector('.tablinks');
     if (firstTab) firstTab.click();
-})();
+
+    // Ensure the custom 'Cinzel' font is fully loaded before the first heavy QR render
+    if (document.fonts && document.fonts.ready) {
+        document.fonts.ready.then(() => {
+            if (document.getElementById('QR').style.display === 'block') {
+                updateText();
+            }
+        });
+    }
+
+    // Custom context menu logic for the QR image
+    const qrImage = document.getElementById('qrImage');
+    const customMenu = document.getElementById('customContextMenu');
+
+    if (qrImage && customMenu) {
+        qrImage.addEventListener('contextmenu', function(e) {
+            e.preventDefault();
+            customMenu.style.display = 'block';
+            customMenu.style.left = e.pageX + 'px';
+            customMenu.style.top = e.pageY + 'px';
+        });
+
+        document.addEventListener('click', function(e) {
+            if (customMenu && !customMenu.contains(e.target)) {
+                customMenu.style.display = 'none';
+            }
+        });
+    }
+
+    // Initial resize of language selector
+    setTimeout(resizeLanguageSelector, 100);
+});

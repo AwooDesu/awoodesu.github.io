@@ -26,5 +26,10 @@
   "id_placeholder": "42069",
   "username_placeholder": "Navegador",
   "toggle_qr_style": "Alternar estilo de QR",
-  "test_zip": "Testar Zip"
+  "test_zip": "Testar Zip",
+  "show_name": "Mostrar Nome",
+  "hide_name": "Ocultar Nome",
+  "show_id": "Mostrar ID",
+  "hide_id": "Ocultar ID",
+  "randomize_pictures": "Aleatorizar Imagens"
 }

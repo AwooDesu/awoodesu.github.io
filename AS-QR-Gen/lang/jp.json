@@ -26,5 +26,10 @@
   "id_placeholder": "42069",
   "username_placeholder": "ナビゲーター",
   "toggle_qr_style": "QRスタイルの切り替え",
-  "test_zip": "テストZip"
+  "test_zip": "テストZip",
+  "show_name": "名前を表示",
+  "hide_name": "名前を非表示",
+  "show_id": "IDを表示",
+  "hide_id": "IDを非表示",
+  "randomize_pictures": "画像をランダム化"
 }

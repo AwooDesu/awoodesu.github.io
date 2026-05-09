@@ -26,5 +26,10 @@
   "id_placeholder": "42069",
   "username_placeholder": "Navigator",
   "toggle_qr_style": "切換 QR 樣式",
-  "test_zip": "測試 Zip"
+  "test_zip": "測試 Zip",
+  "show_name": "顯示名字",
+  "hide_name": "隱藏名字",
+  "show_id": "顯示ID",
+  "hide_id": "隱藏ID",
+  "randomize_pictures": "隨機圖片"
 }

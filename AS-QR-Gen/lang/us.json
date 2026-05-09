@@ -26,5 +26,10 @@
   "id_placeholder": "42069",
   "username_placeholder": "Navigator",
   "toggle_qr_style": "Toggle QR Style",
-  "test_zip": "Test Zip"
+  "test_zip": "Test Zip",
+  "show_name": "Show Name",
+  "hide_name": "Hide Name",
+  "show_id": "Show ID",
+  "hide_id": "Hide ID",
+  "randomize_pictures": "Randomize Pictures"
 }

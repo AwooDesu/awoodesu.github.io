@@ -26,5 +26,10 @@
   "id_placeholder": "42069",
   "username_placeholder": "Navigator",
   "toggle_qr_style": "Ganti Gaya QR",
-  "test_zip": "Tes Zip"
+  "test_zip": "Tes Zip",
+  "show_name": "Tampilkan Nama",
+  "hide_name": "Sembunyikan Nama",
+  "show_id": "Tampilkan ID",
+  "hide_id": "Sembunyikan ID",
+  "randomize_pictures": "Acak Gambar"
 }

@@ -26,5 +26,10 @@
   "id_placeholder": "42069",
   "username_placeholder": "Navigator",
   "toggle_qr_style": "สลับรูปแบบ QR",
-  "test_zip": "ทดสอบ Zip"
+  "test_zip": "ทดสอบ Zip",
+  "show_name": "แสดงชื่อ",
+  "hide_name": "ซ่อนชื่อ",
+  "show_id": "แสดง ID",
+  "hide_id": "ซ่อน ID",
+  "randomize_pictures": "สุ่มรูปภาพ"
 }
