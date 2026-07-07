@@ -1,0 +1,187 @@
+{
+  "Type": "Live2D Expression",
+  "FadeInTime": 0.5,
+  "FadeOutTime": 0.5,
+  "Parameters": [
+    {
+      "Id": "ParamEyeLOpen",
+      "Value": 1.0,
+      "Blend": 2
+    },
+    {
+      "Id": "ParamEyeLForm000",
+      "Value": 1.0,
+      "Blend": 1
+    },
+    {
+      "Id": "ParamEyeLForm010",
+      "Value": 0.0,
+      "Blend": 1
+    },
+    {
+      "Id": "ParamEyeLForm020",
+      "Value": 0.0,
+      "Blend": 1
+    },
+    {
+      "Id": "ParamEyeLForm060",
+      "Value": 0.0,
+      "Blend": 1
+    },
+    {
+      "Id": "ParamEyeROpen",
+      "Value": 1.0,
+      "Blend": 2
+    },
+    {
+      "Id": "ParamEyeRForm000",
+      "Value": 1.0,
+      "Blend": 1
+    },
+    {
+      "Id": "ParamEyeRForm010",
+      "Value": 0.0,
+      "Blend": 1
+    },
+    {
+      "Id": "ParamEyeRForm020",
+      "Value": 0.0,
+      "Blend": 1
+    },
+    {
+      "Id": "ParamEyeRForm060",
+      "Value": 0.0,
+      "Blend": 1
+    },
+    {
+      "Id": "ParamBrowLY",
+      "Value": 0.0,
+      "Blend": 1
+    },
+    {
+      "Id": "ParamBrowLX",
+      "Value": 0.0,
+      "Blend": 1
+    },
+    {
+      "Id": "ParamBrowLAngle",
+      "Value": 0.0,
+      "Blend": 1
+    },
+    {
+      "Id": "ParamBrowRY",
+      "Value": 0.0,
+      "Blend": 1
+    },
+    {
+      "Id": "ParamBrowRX",
+      "Value": 0.0,
+      "Blend": 1
+    },
+    {
+      "Id": "ParamBrowRAngle",
+      "Value": 0.0,
+      "Blend": 1
+    },
+    {
+      "Id": "ParamBrowLForm000",
+      "Value": 1.0,
+      "Blend": 1
+    },
+    {
+      "Id": "ParamBrowLForm010",
+      "Value": 0.0,
+      "Blend": 1
+    },
+    {
+      "Id": "ParamBrowLForm020",
+      "Value": 0.0,
+      "Blend": 1
+    },
+    {
+      "Id": "ParamBrowLForm060",
+      "Value": 0.0,
+      "Blend": 1
+    },
+    {
+      "Id": "ParamBrowRForm000",
+      "Value": 1.0,
+      "Blend": 1
+    },
+    {
+      "Id": "ParamBrowRForm010",
+      "Value": 0.0,
+      "Blend": 1
+    },
+    {
+      "Id": "ParamBrowRForm020",
+      "Value": 0.0,
+      "Blend": 1
+    },
+    {
+      "Id": "ParamBrowRForm060",
+      "Value": 0.0,
+      "Blend": 1
+    },
+    {
+      "Id": "ParamMouthForm000Open",
+      "Value": 1.0,
+      "Blend": 1
+    },
+    {
+      "Id": "ParamMouthForm000Close",
+      "Value": 1.0,
+      "Blend": 1
+    },
+    {
+      "Id": "ParamMouthForm010Open",
+      "Value": 0.0,
+      "Blend": 1
+    },
+    {
+      "Id": "ParamMouthForm010Close",
+      "Value": 0.0,
+      "Blend": 1
+    },
+    {
+      "Id": "ParamMouthForm020Open",
+      "Value": 0.0,
+      "Blend": 1
+    },
+    {
+      "Id": "ParamMouthForm020Close",
+      "Value": 0.0,
+      "Blend": 1
+    },
+    {
+      "Id": "ParamMouthForm060Open",
+      "Value": 0.0,
+      "Blend": 1
+    },
+    {
+      "Id": "ParamMouthForm060Close",
+      "Value": 0.0,
+      "Blend": 1
+    },
+    {
+      "Id": "ParamMouthForm060Ad",
+      "Value": 0.0,
+      "Blend": 1
+    },
+    {
+      "Id": "ParamCheek01",
+      "Value": 0.0,
+      "Blend": 1
+    },
+    {
+      "Id": "ParamCheek02",
+      "Value": 0.0,
+      "Blend": 1
+    },
+    {
+      "Id": "ParamCheek03",
+      "Value": 0.0,
+      "Blend": 1
+    }
+  ]
+}

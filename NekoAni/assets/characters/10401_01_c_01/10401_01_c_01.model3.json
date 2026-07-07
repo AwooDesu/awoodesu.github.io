@@ -1,0 +1,70 @@
+{
+    "Version":  3,
+    "FileReferences":  {
+                           "Moc":  "10401_01_c_01.moc3",
+                           "Textures":  [
+                                            "texture_00.png",
+                                            "texture_01.png"
+                                        ],
+                           "Physics":  "10401_01_c_01.physics3.json",
+                           "Expressions":  [
+                                               {
+                                                   "File":  "mtn_ex_000.exp3.json",
+                                                   "Name":  "mtn_ex_000"
+                                               },
+                                               {
+                                                   "File":  "mtn_ex_010.exp3.json",
+                                                   "Name":  "mtn_ex_010"
+                                               },
+                                               {
+                                                   "File":  "mtn_ex_020.exp3.json",
+                                                   "Name":  "mtn_ex_020"
+                                               },
+                                               {
+                                                   "File":  "mtn_ex_021.exp3.json",
+                                                   "Name":  "mtn_ex_021"
+                                               },
+                                               {
+                                                   "File":  "mtn_ex_060.exp3.json",
+                                                   "Name":  "mtn_ex_060"
+                                               }
+                                           ],
+                           "Motions":  {
+                                           "motion_100":  [
+                                                              {
+                                                                  "File":  "motions/motion_100.motion3.json"
+                                                              }
+                                                          ],
+                                           "motion_910":  [
+                                                              {
+                                                                  "File":  "motions/motion_910.motion3.json"
+                                                              }
+                                                          ],
+                                           "motion_200":  [
+                                                              {
+                                                                  "File":  "motions/motion_200.motion3.json"
+                                                              }
+                                                          ],
+                                           "motion_920":  [
+                                                              {
+                                                                  "File":  "motions/motion_920.motion3.json"
+                                                              }
+                                                          ],
+                                           "motion_600":  [
+                                                              {
+                                                                  "File":  "motions/motion_600.motion3.json"
+                                                              }
+                                                          ],
+                                           "motion_900":  [
+                                                              {
+                                                                  "File":  "motions/motion_900.motion3.json"
+                                                              }
+                                                          ],
+                                           "motion_000":  [
+                                                              {
+                                                                  "File":  "motions/motion_000.motion3.json"
+                                                              }
+                                                          ]
+                                       }
+                       }
+}
