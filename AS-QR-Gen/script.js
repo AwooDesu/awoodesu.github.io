@@ -1144,7 +1144,7 @@ function buildFilterRow(rowId, items, activeSet, onToggle) {
         }
         const labelNode = document.createTextNode(item.label);
         btn.appendChild(labelNode);
-        if (!item.label) btn.classList.add('filter-btn-icon-only');
+        if (!item.icon && !item.square) btn.classList.add('filter-btn-text-only');
         btn.onclick = () => {
             if (activeSet.has(item.key)) activeSet.delete(item.key);
             else activeSet.add(item.key);
@@ -1162,8 +1162,7 @@ function buildFilterRows() {
     )).sort((a, b) => b - a).filter(s => s > 0);
     const rarityItems = stars.map(s => ({
         key: String(s),
-        label: '',
-        square: { text: s + '★', bg: '#5c6bc0' }
+        label: s + '★'
     }));
 
     const elementPrimaryItems = ELEMENT_ORDER.map(e => ({

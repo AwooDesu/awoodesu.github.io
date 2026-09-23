@@ -225,8 +225,8 @@ textarea {
     padding: 4px 12px;
 }
 
-.filter-btn.filter-btn-icon-only {
-    padding: 4px;
+.filter-btn.filter-btn-text-only {
+    padding: 4px 12px;
 }
 
 /* Sort row + buttons */
