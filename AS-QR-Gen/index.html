@@ -56,6 +56,18 @@
     </div>
 
     <div id="Units" class="tabcontent">
+        <div class="filter-bar">
+            <div class="sort-row">
+                <button id="unitSortId" class="sort-btn" onclick="cycleUnitSort('id')">ID</button>
+                <button id="unitSortAlpha" class="sort-btn" onclick="cycleUnitSort('alpha')">A–Z</button>
+            </div>
+            <input type="text" id="unitSearch" class="filter-search" placeholder="Search..." autocomplete="off">
+            <div class="filter-line"><span class="filter-label">Rarity</span><div class="filter-row" id="unitRarityFilters"></div></div>
+            <div class="filter-line"><span class="filter-label">Class</span><div class="filter-row" id="unitClassFilters"></div></div>
+            <div class="filter-line"><span class="filter-label">Primary</span><div class="filter-row" id="unitPrimaryFilters"></div></div>
+            <div class="filter-line"><span class="filter-label">Secondary</span><div class="filter-row" id="unitSecondaryFilters"></div></div>
+            <div class="filter-line"><span class="filter-label">Faction</span><div class="filter-row" id="unitFactionFilters"></div></div>
+        </div>
         <div class="checkbox-group" id="checkboxesTab1"></div>
         <div style="text-align: center; margin-top: 20px;">
             <button class="randomize-button" onclick="selectAllUnits()">ALL</button>
@@ -65,6 +77,18 @@
     </div>
 
     <div id="Skins" class="tabcontent">
+        <div class="filter-bar">
+            <div class="sort-row">
+                <button id="skinSortId" class="sort-btn" onclick="cycleSkinSort('id')">ID</button>
+                <button id="skinSortAlpha" class="sort-btn" onclick="cycleSkinSort('alpha')">A–Z</button>
+            </div>
+            <input type="text" id="skinSearch" class="filter-search" placeholder="Search..." autocomplete="off">
+            <div class="filter-line"><span class="filter-label">Rarity</span><div class="filter-row" id="skinRarityFilters"></div></div>
+            <div class="filter-line"><span class="filter-label">Class</span><div class="filter-row" id="skinClassFilters"></div></div>
+            <div class="filter-line"><span class="filter-label">Primary</span><div class="filter-row" id="skinPrimaryFilters"></div></div>
+            <div class="filter-line"><span class="filter-label">Secondary</span><div class="filter-row" id="skinSecondaryFilters"></div></div>
+            <div class="filter-line"><span class="filter-label">Faction</span><div class="filter-row" id="skinFactionFilters"></div></div>
+        </div>
         <div class="checkbox-group" id="checkboxesTab2"></div>
         <div style="text-align: center; margin-top: 20px;">
             <button class="randomize-button" onclick="selectAllSkins()">ALL</button>

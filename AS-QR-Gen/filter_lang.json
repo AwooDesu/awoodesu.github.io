@@ -1,0 +1,274 @@
+{
+ "us": {
+  "rarity": "Rarity",
+  "class": "Class",
+  "primary": "Primary",
+  "secondary": "Secondary",
+  "faction": "Faction",
+  "all": "All",
+  "az": "A–Z",
+  "search": "Search...",
+  "elements": {
+   "1": "Water",
+   "2": "Fire",
+   "3": "Forest",
+   "4": "Thunder",
+   "6": "None"
+  },
+  "classes": {
+   "2001": "Converter",
+   "2002": "Sniper",
+   "2003": "Detonator",
+   "2004": "Support"
+  },
+  "factions": {
+   "1001": "Lumopolis",
+   "1002": "Umbraton",
+   "1003": "Illumina Federation",
+   "1004": "Northland",
+   "1005": "Rediesel Wrench",
+   "1006": "True Order",
+   "1007": "Independent",
+   "1008": "Eclipse",
+   "1009": "Longzhou"
+  }
+ },
+ "tw": {
+  "rarity": "稀有度",
+  "class": "職業",
+  "primary": "主屬性",
+  "secondary": "副屬性",
+  "faction": "陣營",
+  "all": "全部",
+  "az": "A–Z",
+  "search": "搜尋...",
+  "elements": {
+   "1": "水屬性",
+   "2": "火屬性",
+   "3": "森屬性",
+   "4": "雷屬性",
+   "6": "無"
+  },
+  "classes": {
+   "2001": "變化",
+   "2002": "狙擊手",
+   "2003": "爆破",
+   "2004": "輔助"
+  },
+  "factions": {
+   "1001": "白夜城",
+   "1002": "影鎮",
+   "1003": "啟光聯邦",
+   "1004": "北境",
+   "1005": "紅油扳手",
+   "1006": "真理結社",
+   "1007": "無勢力者",
+   "1008": "日蝕",
+   "1009": "龍洲"
+  }
+ },
+ "th": {
+  "rarity": "ระดับความหายาก",
+  "class": "อาชีพ",
+  "primary": "ธาตุหลัก",
+  "secondary": "ธาตุรอง",
+  "faction": "สังกัด",
+  "all": "ทั้งหมด",
+  "az": "ก–ฮ",
+  "search": "ค้นหา...",
+  "elements": {
+   "1": "น้ำ",
+   "2": "ไฟ",
+   "3": "ไม้",
+   "4": "สายฟ้า",
+   "6": "ไม่มี"
+  },
+  "classes": {
+   "2001": "คอนเวอร์เตอร์",
+   "2002": "สไนเปอร์",
+   "2003": "เดโทเนเตอร์",
+   "2004": "สนับสนุน"
+  },
+  "factions": {
+   "1001": "ลูโมโพลิส",
+   "1002": "อัมบราตัน",
+   "1003": "สหพันธรัฐอิลลูมินา",
+   "1004": "นอร์ธแลนด์",
+   "1005": "เรดีเซล เวรนช์",
+   "1006": "ทรู ออเดอร์",
+   "1007": "อิสระ",
+   "1008": "อิคลิพส์",
+   "1009": "หลงโจว"
+  }
+ },
+ "pt": {
+  "rarity": "Raridade",
+  "class": "Classe",
+  "primary": "Primário",
+  "secondary": "Secundário",
+  "faction": "Facção",
+  "all": "Todos",
+  "az": "A–Z",
+  "search": "Pesquisar...",
+  "elements": {
+   "1": "Água",
+   "2": "Fogo",
+   "3": "Floresta",
+   "4": "Trovão",
+   "6": "Nenhum"
+  },
+  "classes": {
+   "2001": "Conversor",
+   "2002": "Atirador",
+   "2003": "Detonador",
+   "2004": "Suporte"
+  },
+  "factions": {
+   "1001": "Lumópolis",
+   "1002": "Umbraton",
+   "1003": "Federação Illumina",
+   "1004": "Northland",
+   "1005": "Rediesel Wrench",
+   "1006": "True Order",
+   "1007": "Independente",
+   "1008": "Eclipse",
+   "1009": "Longzhou"
+  }
+ },
+ "kr": {
+  "rarity": "등급",
+  "class": "클래스",
+  "primary": "주 속성",
+  "secondary": "부 속성",
+  "faction": "세력",
+  "all": "전체",
+  "az": "가–힣",
+  "search": "검색...",
+  "elements": {
+   "1": "물 속성",
+   "2": "불 속성",
+   "3": "숲 속성",
+   "4": "번개 속성",
+   "6": "없음"
+  },
+  "classes": {
+   "2001": "체인저",
+   "2002": "스나이퍼",
+   "2003": "버스터",
+   "2004": "서포터"
+  },
+  "factions": {
+   "1001": "백야성",
+   "1002": "움브라톤",
+   "1003": "일루미나 연방",
+   "1004": "북방",
+   "1005": "레디젤 렌치",
+   "1006": "진리의 결사",
+   "1007": "무소속자",
+   "1008": "이클립스",
+   "1009": "용주"
+  }
+ },
+ "jp": {
+  "rarity": "レアリティ",
+  "class": "クラス",
+  "primary": "主属性",
+  "secondary": "副属性",
+  "faction": "勢力",
+  "all": "全て",
+  "az": "あ–ん",
+  "search": "検索...",
+  "elements": {
+   "1": "水属性",
+   "2": "火属性",
+   "3": "森属性",
+   "4": "雷属性",
+   "6": "なし"
+  },
+  "classes": {
+   "2001": "チェンジャー",
+   "2002": "スナイパー",
+   "2003": "ボマー",
+   "2004": "サポーター"
+  },
+  "factions": {
+   "1001": "白夜城",
+   "1002": "影ノ街",
+   "1003": "啓光連邦",
+   "1004": "北境",
+   "1005": "R・W",
+   "1006": "真理結社",
+   "1007": "無勢力者",
+   "1008": "日蝕",
+   "1009": "龍州"
+  }
+ },
+ "idn": {
+  "rarity": "Kelangkaan",
+  "class": "Kelas",
+  "primary": "Utama",
+  "secondary": "Sekunder",
+  "faction": "Fraksi",
+  "all": "Semua",
+  "az": "A–Z",
+  "search": "Cari...",
+  "elements": {
+   "1": "Water",
+   "2": "Fire",
+   "3": "Forest",
+   "4": "Thunder",
+   "6": "Tidak Ada"
+  },
+  "classes": {
+   "2001": "Converter",
+   "2002": "Sniper",
+   "2003": "Detonator",
+   "2004": "Support"
+  },
+  "factions": {
+   "1001": "Lumopolis",
+   "1002": "Umbraton",
+   "1003": "Illumina Federation",
+   "1004": "Northland",
+   "1005": "Rediesel Wrench",
+   "1006": "True Order",
+   "1007": "Independent",
+   "1008": "Eclipse",
+   "1009": "Longzhou"
+  }
+ },
+ "es": {
+  "rarity": "Rareza",
+  "class": "Clase",
+  "primary": "Primario",
+  "secondary": "Secundario",
+  "faction": "Facción",
+  "all": "Todos",
+  "az": "A–Z",
+  "search": "Buscar...",
+  "elements": {
+   "1": "Agua",
+   "2": "Fuego",
+   "3": "Bosque",
+   "4": "Trueno",
+   "6": "Ninguno"
+  },
+  "classes": {
+   "2001": "Convertidor",
+   "2002": "Francotirador",
+   "2003": "Detonador",
+   "2004": "Soporte"
+  },
+  "factions": {
+   "1001": "Lumopolis",
+   "1002": "Umbraton",
+   "1003": "Federación de Illumina",
+   "1004": "Northland",
+   "1005": "Rediesel Wrench",
+   "1006": "True Order",
+   "1007": "Independiente",
+   "1008": "Eclipse",
+   "1009": "Longzhou"
+  }
+ }
+}

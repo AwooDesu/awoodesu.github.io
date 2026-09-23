@@ -146,14 +146,265 @@ textarea {
     text-align: center;
 }
 
-.checkbox-group {
-    column-count: 5;
-    column-gap: 20px;
+/* ---- Filter bar (search + quick filters) ---- */
+.filter-bar {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-bottom: 12px;
 }
 
-.checkbox-group label {
+.filter-search {
+    width: 100%;
+    max-width: 420px;
+    padding: 8px 12px;
+    font-size: 15px;
+    background-color: #282a2e;
+    color: white;
+    border: 1px solid #373b41;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.filter-search:focus {
+    outline: none;
+    border-color: #5c6bc0;
+}
+
+.filter-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+}
+
+.filter-line {
+    display: grid;
+    grid-template-columns: 82px 1fr;
+    gap: 8px;
+    align-items: start;
+}
+
+.filter-label {
+    font-size: 12px;
+    font-weight: bold;
+    color: #9aa0a6;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    padding-top: 7px;
+    text-align: right;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.filter-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    background-color: #282a2e;
+    color: #cfd2d6;
+    border: 1px solid #373b41;
+    border-radius: 4px;
+    cursor: pointer;
+    padding: 4px 10px 4px 4px;
+    font-size: 13px;
+    transition: background-color 0.2s, border-color 0.2s, color 0.2s;
+}
+
+.filter-btn:hover {
+    border-color: #5c6bc0;
+    color: #ffffff;
+}
+
+.filter-btn.active {
+    background-color: #5c6bc0;
+    border-color: #7986cb;
+    color: #ffffff;
+}
+
+.filter-btn.filter-all {
+    padding: 4px 12px;
+}
+
+.filter-btn.filter-btn-icon-only {
+    padding: 4px;
+}
+
+/* Sort row + buttons */
+.sort-row {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.sort-btn {
+    background-color: #282a2e;
+    color: #cfd2d6;
+    border: 1px solid #373b41;
+    border-radius: 4px;
+    cursor: pointer;
+    padding: 6px 14px;
+    font-size: 13px;
+    font-weight: bold;
+    transition: background-color 0.2s, border-color 0.2s, color 0.2s;
+}
+
+.sort-btn:hover {
+    border-color: #5c6bc0;
+    color: #ffffff;
+}
+
+.sort-btn.active {
+    background-color: #5c6bc0;
+    border-color: #7986cb;
+    color: #ffffff;
+}
+
+/* Square temp icons: text placeholders until real element/faction icons arrive */
+.sq {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 22px;
+    height: 22px;
+    min-width: 22px;
+    border-radius: 3px;
+    font-size: 11px;
+    font-weight: bold;
+    color: #ffffff;
+    line-height: 1;
+}
+
+.sq-inline {
+    width: 20px;
+    height: 20px;
+    min-width: 20px;
+    font-size: 10px;
+    flex: 0 0 auto;
+}
+
+/* Real icon images inside filter buttons (same square footprint as .sq) */
+.sq-img {
+    width: 22px;
+    height: 22px;
+    min-width: 22px;
+    object-fit: contain;
+    border-radius: 3px;
+    background: rgba(255, 255, 255, 0.06);
+}
+
+/* ---- Grouped checkbox lists ---- */
+.checkbox-group {
     display: block;
-    margin-bottom: 5px;
+}
+
+.rarity-group {
+    margin-bottom: 14px;
+}
+
+.group-header {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    background-color: #33363b;
+    border-left: 4px solid #5c6bc0;
+    padding: 6px 12px;
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 8px;
+    cursor: pointer;
+    user-select: none;
+    border-radius: 0 4px 4px 0;
+}
+
+.group-header:hover {
+    background-color: #3d4148;
+}
+
+/* Shrunk star icons in rarity section headers */
+.star-icon {
+    height: 18px;
+    width: auto;
+}
+
+.star-icon + .star-icon {
+    margin-left: -5px;
+}
+
+.group-items {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 4px;
+}
+
+.unit-item, .skin-item {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    background-color: #282a2e;
+    border: 1px solid transparent;
+    padding: 3px 6px;
+    border-radius: 4px;
+    cursor: pointer;
+    min-width: 0;
+    will-change: transform;
+    margin-bottom: 0;
+}
+
+.unit-item:hover, .skin-item:hover {
+    border-color: #5c6bc0;
+}
+
+.unit-item input, .skin-item input {
+    flex: 0 0 auto;
+}
+
+.unit-icon {
+    width: 26px;
+    height: 26px;
+    object-fit: contain;
+    flex: 0 0 auto;
+}
+
+.unit-name {
+    flex: 1 1 auto;
+    min-width: 0;
+    font-size: 14px;
+    overflow-wrap: anywhere;
+}
+
+.hidden {
+    display: none !important;
+}
+
+/* ---- Skins tab: rarity sections holding unit cards (big portrait left, options right) ---- */
+.skin-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    gap: 12px;
+}
+
+.skin-unit-group {
+    display: grid;
+    grid-template-columns: 104px 1fr;
+    gap: 10px;
+    align-items: start;
+    margin-bottom: 12px;
+}
+
+.skin-unit-portrait {
+    width: 96px;
+    display: block;
+    border-radius: 6px;
+    cursor: pointer;
+    justify-self: center;
+}
+
+.skin-unit-list {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    padding-top: 2px;
 }
 
 .randomize-button {
@@ -307,8 +558,13 @@ textarea {
 }
 
 @media (max-width: 600px) {
-    .checkbox-group {
-        column-count: 3;
+    .filter-line {
+        grid-template-columns: 1fr;
+        gap: 4px;
+    }
+    .filter-label {
+        text-align: left;
+        padding-top: 0;
     }
     textarea {
         min-height: 800px;

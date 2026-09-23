@@ -49,6 +49,101 @@ let translations = {
 let characterData = {};
 let skinData = {};
 
+// Unit tags from game lua (internal_id -> {star, e1, e2, faction, class}); see tools/build_unit_tags.py
+let unitTags = {};
+// Filter display text per language (element/class/faction names from lua + chrome words);
+// see tools/build_filter_lang.py. Falls back to embedded EN if the fetch fails.
+let filterLang = {};
+const FILTER_FALLBACK_LANG = 'us';
+const DEFAULT_FILTER_TEXT = {
+    rarity: 'Rarity', class: 'Class', primary: 'Primary', secondary: 'Secondary',
+    faction: 'Faction', all: 'All', az: 'A–Z',
+    search: 'Search...',
+    elements: { 1: 'Water', 2: 'Fire', 3: 'Forest', 4: 'Thunder', 6: 'None' },
+    classes: { 2001: 'Converter', 2002: 'Sniper', 2003: 'Detonator', 2004: 'Support' },
+    factions: { 1001: 'Lumopolis', 1002: 'Umbraton', 1003: 'Illumina Federation', 1004: 'Northland', 1005: 'Rediesel Wrench', 1006: 'True Order', 1007: 'Independent', 1009: 'Longzhou' }
+};
+
+function ft(key) {
+    if (filterLang[currentLanguage] && filterLang[currentLanguage][key] != null) return filterLang[currentLanguage][key];
+    if (filterLang[FILTER_FALLBACK_LANG] && filterLang[FILTER_FALLBACK_LANG][key] != null) return filterLang[FILTER_FALLBACK_LANG][key];
+    return DEFAULT_FILTER_TEXT[key] != null ? DEFAULT_FILTER_TEXT[key] : key;
+}
+
+function ftMap(mapName, id) {
+    const maps = [filterLang[currentLanguage] && filterLang[currentLanguage][mapName],
+        filterLang[FILTER_FALLBACK_LANG] && filterLang[FILTER_FALLBACK_LANG][mapName],
+        DEFAULT_FILTER_TEXT[mapName]];
+    for (let i = 0; i < maps.length; i++) {
+        if (maps[i] && maps[i][id] != null) return maps[i][id];
+    }
+    return String(id);
+}
+
+function elemName(e) { return ftMap('elements', e); }
+function clsName(c) { return ftMap('classes', c); }
+function factionName(f) { return ftMap('factions', f); }
+
+// Element IDs from cfg_pet_element.lua: 1=Water 2=Fire 3=Forest 4=Thunder 6=No Element (special).
+// Display names come from filterLang (lua strings per language). SecondElement 0 = single-element unit.
+const ELEMENT_INFO = {
+    2: { code: 'FI', color: '#c0392b', icon: 'icons/Fire.webp' },
+    1: { code: 'WA', color: '#2980b9', icon: 'icons/Water.webp' },
+    3: { code: 'FO', color: '#27ae60', icon: 'icons/Forest.webp' },
+    4: { code: 'TH', color: '#b7950b', icon: 'icons/Thunder.webp' },
+    6: { code: '--', color: '#616a6b', icon: 'icons/None.webp' }
+};
+const ELEMENT_ORDER = [2, 1, 3, 4, 6];
+
+// Faction IDs from cfg_pet_tags.lua (Tags[0] in cfg_pet.lua). 1008 Eclipse has no playable units.
+const FACTION_INFO = {
+    1001: { color: '#f39c12', icon: 'icons/Lumopolis.webp' },
+    1002: { color: '#8e44ad', icon: 'icons/Umbraton.webp' },
+    1003: { color: '#2980b9', icon: 'icons/Illumina_Federation.webp' },
+    1004: { color: '#16a085', icon: 'icons/Northland.webp' },
+    1005: { color: '#c0392b', icon: 'icons/Rediesel_Wrench.webp' },
+    1006: { color: '#d35400', icon: 'icons/True_Order.webp' },
+    1007: { color: '#7f8c8d', icon: 'icons/Independent.webp' },
+    1009: { color: '#27ae60', icon: 'icons/Longzhou.webp' }
+};
+const FACTION_ORDER = [1001, 1002, 1003, 1004, 1005, 1006, 1007, 1009];
+
+// Class IDs from Prof in cfg_pet.lua (names from str_pet_tag_job_name_* via filterLang).
+const CLASS_INFO = {
+    2001: { icon: 'icons/Converter.webp' },
+    2002: { icon: 'icons/Sniper.webp' },
+    2003: { icon: 'icons/Detonator.webp' },
+    2004: { icon: 'icons/Support.webp' }
+};
+const CLASS_ORDER = [2001, 2002, 2003, 2004];
+
+// Per-unit portrait overrides: served from the dev icons/ folder instead of AS-Terminal.
+const UNIT_ICON_OVERRIDE = {
+    '1101061': 'icons/Sheol.webp' // Sheol
+};
+
+// Active filters. Empty sets = no constraint. pe = primary element, se = secondary element.
+const unitFilter = { q: '', rarity: new Set(), pe: new Set(), se: new Set(), cls: new Set(), faction: new Set() };
+const skinFilter = { q: '', rarity: new Set(), pe: new Set(), se: new Set(), cls: new Set(), faction: new Set() };
+
+// Sort modes per tab: 'id-asc' (default, lowest on top), 'id-desc', 'alpha-asc', 'alpha-desc'.
+let unitSort = 'id-asc';
+let skinSort = 'id-asc';
+
+function terminalIconPath(internalId) {
+    if (UNIT_ICON_OVERRIDE[internalId]) return UNIT_ICON_OVERRIDE[internalId];
+    return '../AS-Terminal/icons/icon_item_' + internalId + '_scale.png';
+}
+
+// Tag lookup with fallback: rarity from 2nd digit of internal ID (AS-Terminal convention),
+// element/faction/class unknown when the unit is missing from unit_tags.json.
+function getUnitTag(internalId) {
+    const tag = unitTags[internalId];
+    if (tag) return { star: tag.star, e1: tag.e1, e2: tag.e2, faction: tag.faction, cls: tag.class, unknown: false };
+    const fallbackStar = parseInt((internalId || '').charAt(1), 10);
+    return { star: isNaN(fallbackStar) ? 0 : fallbackStar, e1: null, e2: null, faction: null, cls: null, unknown: true };
+}
+
 // Global variable to track QR style (default or FT)
 let useFTStyle = true;
 
@@ -346,6 +441,26 @@ async function loadTranslations() {
         characterData = await charResponse;
         skinData = await skinResponse;
 
+        // Unit tags (rarity/element/faction/class from game lua). Non-fatal: fallbacks apply if missing.
+        try {
+            const tagResponse = await fetch('unit_tags.json');
+            if (tagResponse.ok) {
+                unitTags = await tagResponse.json();
+            }
+        } catch (e) {
+            console.warn('unit_tags.json not loaded, using fallback tags:', e);
+        }
+
+        // Filter display text per language (names from lua + chrome words). Non-fatal: embedded EN applies.
+        try {
+            const langResponse = await fetch('filter_lang.json');
+            if (langResponse.ok) {
+                filterLang = await langResponse.json();
+            }
+        } catch (e) {
+            console.warn('filter_lang.json not loaded, using embedded English:', e);
+        }
+
         // Now load UI translations if needed
         try {
             const response = await fetch(`./lang/${currentLanguage}.json?v=${Date.now()}`);
@@ -575,14 +690,40 @@ function loadCheckboxes() {
         populateSkinCheckboxes(tab2, skinUnknownPositions);
     }
 
+    // Re-apply saved sort order, then active search/filters without animation
+    // (preserves them across language switches)
+    sortUnitItems();
+    sortSkinCards();
+    applyUnitFilter(false);
+    applySkinFilter(false);
+
     updateText();
+}
+
+function toggleGroupCheckboxes(groupDiv, itemClass) {
+    const boxes = Array.from(groupDiv.querySelectorAll('.' + itemClass + ' input[type="checkbox"]'));
+    const visible = boxes.filter(cb => !cb.closest('.' + itemClass).classList.contains('hidden'));
+    const targets = visible.length ? visible : boxes;
+    const allChecked = targets.every(cb => cb.checked);
+    targets.forEach(cb => { cb.checked = !allChecked; });
+    updateText();
+}
+
+// Rarity section header: a row of shrunk star icons, no text.
+function appendStarIcons(header, star) {
+    const n = Math.min(Math.max(star, 0), 6);
+    for (let i = 0; i < n; i++) {
+        const im = document.createElement('img');
+        im.className = 'star-icon';
+        im.src = 'icons/star.webp';
+        im.alt = star + ' star';
+        header.appendChild(im);
+    }
 }
 
 function populateCharacterCheckboxes(container, unknownSet) {
     const characters = Object.values(characterData.characters);
-
-    // Sort characters by QR ID
-    characters.sort((a, b) => parseInt(a.qr_id) - parseInt(b.qr_id));
+    const entries = [];
 
     characters.forEach(character => {
         const id = character.qr_id;
@@ -593,37 +734,506 @@ function populateCharacterCheckboxes(container, unknownSet) {
             return;
         }
 
-        const checkbox = createCheckbox(id, name);
-        container.appendChild(checkbox);
+        const internalId = character.internal_id;
+        entries.push({
+            qrId: id,
+            internalId: internalId,
+            name: name,
+            usName: (character.names && character.names['us']) || name,
+            tag: getUnitTag(internalId)
+        });
+    });
+
+    // Sort: rarity (star) descending, then name, then QR id
+    entries.sort((a, b) => (b.tag.star - a.tag.star) || a.name.localeCompare(b.name) || (parseInt(a.qrId) - parseInt(b.qrId)));
+
+    let currentStar = null;
+    let groupItems = null;
+    entries.forEach(entry => {
+        if (entry.tag.star !== currentStar) {
+            currentStar = entry.tag.star;
+            const groupDiv = document.createElement('div');
+            groupDiv.className = 'rarity-group';
+            groupDiv.dataset.star = String(currentStar);
+
+            const header = document.createElement('div');
+            header.className = 'group-header';
+            header.title = 'Click to toggle all units in this group';
+            if (currentStar > 0) appendStarIcons(header, currentStar);
+            else header.textContent = '? Unknown';
+            header.onclick = () => toggleGroupCheckboxes(groupDiv, 'unit-item');
+            groupDiv.appendChild(header);
+
+            groupItems = document.createElement('div');
+            groupItems.className = 'group-items';
+            groupDiv.appendChild(groupItems);
+            container.appendChild(groupDiv);
+        }
+        groupItems.appendChild(createUnitCheckbox(entry));
     });
 }
 
+function createUnitCheckbox(entry) {
+    const label = document.createElement('label');
+    label.className = 'unit-item';
+    label.dataset.star = String(entry.tag.star);
+    label.dataset.e1 = String(entry.tag.e1);
+    label.dataset.e2 = String(entry.tag.e2);
+    label.dataset.cls = String(entry.tag.cls);
+    label.dataset.faction = String(entry.tag.faction);
+    label.dataset.qr = String(entry.qrId);
+    label.dataset.dname = entry.name;
+    label.dataset.name = (entry.name + ' ' + entry.usName + ' ' + entry.qrId).toLowerCase();
+
+    const checkbox = document.createElement('input');
+    checkbox.type = 'checkbox';
+    checkbox.value = entry.qrId;
+    checkbox.onchange = updateText;
+    checkbox.checked = true;
+    label.appendChild(checkbox);
+
+    const img = document.createElement('img');
+    img.className = 'unit-icon';
+    img.src = terminalIconPath(entry.internalId);
+    img.alt = '';
+    img.loading = 'lazy';
+    img.onerror = () => { img.style.display = 'none'; };
+    label.appendChild(img);
+
+    const nameSpan = document.createElement('span');
+    nameSpan.className = 'unit-name';
+    nameSpan.textContent = entry.name;
+    label.appendChild(nameSpan);
+
+    const faction = FACTION_INFO[entry.tag.faction];
+    const cls = CLASS_INFO[entry.tag.cls];
+    const e1Name = ELEMENT_INFO[entry.tag.e1] ? elemName(entry.tag.e1) : '?';
+    const e2Name = entry.tag.e2 === 0 ? 'Single' : (ELEMENT_INFO[entry.tag.e2] ? elemName(entry.tag.e2) : '?');
+    label.title = entry.name + ' | ' + entry.tag.star + '★ | ' + (cls ? clsName(entry.tag.cls) : '?') + ' | ' + e1Name + '/' + e2Name + ' | ' + (faction ? factionName(entry.tag.faction) : '?');
+    return label;
+}
+
 function populateSkinCheckboxes(container, unknownSet) {
+    // Map US unit name -> character, so each skin inherits its unit's tags + portrait
+    const usToUnit = {};
+    Object.values(characterData.characters || {}).forEach(character => {
+        const us = character.names && character.names['us'];
+        if (us && us !== 'UNKNOWN') usToUnit[us] = character;
+    });
+
+    const groups = {};
     skinData.skins.forEach(skin => {
         const id = skin.id;
-        const name = skin.names ? (skin.names[currentLanguage] || skin.names['us'] || `UNKNOWN-${id}`) : `UNKNOWN-${id}`;
+        const usName = skin.names ? (skin.names['us'] || '') : '';
+        const name = skin.names ? (skin.names[currentLanguage] || skin.names['us'] || ('UNKNOWN-' + id)) : ('UNKNOWN-' + id);
 
-        if (name.startsWith('UNKNOWN')) {
+        if (name.startsWith('UNKNOWN') || usName.startsWith('UNKNOWN')) {
             unknownSet.add(parseInt(id));
             return;
         }
 
-        const checkbox = createCheckbox(id, name);
-        container.appendChild(checkbox);
+        const prefix = usName.indexOf('-') >= 0 ? usName.slice(0, usName.lastIndexOf('-')) : usName;
+        const unit = usToUnit[prefix];
+        const internalId = unit ? unit.internal_id : null;
+        const tag = unit ? getUnitTag(internalId) : { star: 0, e1: null, e2: null, faction: null, cls: null, unknown: true };
+        const unitName = unit ? (unit.names[currentLanguage] || unit.names['us']) : prefix;
+        const key = internalId || ('noid_' + prefix);
+        if (!groups[key]) groups[key] = { internalId: internalId, unitName: unitName, unitQr: unit ? unit.qr_id : '0', tag: tag, skins: [] };
+        groups[key].skins.push({ id: id, name: name, usName: usName });
+    });
+
+    // Rarity sections (top-down like the unit tab), unit cards inside sorted alphabetically.
+    const byStar = {};
+    Object.values(groups).forEach(group => {
+        const star = group.tag.star;
+        if (!byStar[star]) byStar[star] = [];
+        byStar[star].push(group);
+    });
+    Object.keys(byStar).map(Number).sort((a, b) => b - a).forEach(star => {
+        const section = document.createElement('div');
+        section.className = 'rarity-group';
+        section.dataset.star = String(star);
+
+        const header = document.createElement('div');
+        header.className = 'group-header';
+        header.title = 'Click to toggle all skins in this group';
+        if (star > 0) appendStarIcons(header, star);
+        else header.textContent = '? Unknown';
+        header.onclick = () => toggleGroupCheckboxes(section, 'skin-item');
+        section.appendChild(header);
+
+        const cards = document.createElement('div');
+        cards.className = 'skin-cards';
+        section.appendChild(cards);
+
+        byStar[star]
+            .sort((a, b) => a.unitName.localeCompare(b.unitName))
+            .forEach(group => {
+                group.skins.sort((a, b) => parseInt(a.id) - parseInt(b.id));
+
+                const groupDiv = document.createElement('div');
+                groupDiv.className = 'skin-unit-group';
+                groupDiv.dataset.uqr = String(group.unitQr);
+                groupDiv.dataset.uname = group.unitName;
+
+                // Big portrait on the left; click toggles the whole group. One icon per group.
+                if (group.internalId) {
+                    const portrait = document.createElement('img');
+                    portrait.className = 'skin-unit-portrait';
+                    portrait.src = terminalIconPath(group.internalId);
+                    portrait.alt = group.unitName;
+                    portrait.loading = 'lazy';
+                    portrait.title = group.unitName + ' — click to toggle all skins in this group';
+                    portrait.onerror = () => { portrait.style.display = 'none'; };
+                    portrait.onclick = () => toggleGroupCheckboxes(groupDiv, 'skin-item');
+                    groupDiv.appendChild(portrait);
+                }
+
+                const list = document.createElement('div');
+                list.className = 'skin-unit-list';
+                group.skins.forEach(skin => list.appendChild(createSkinCheckbox(skin, group)));
+                groupDiv.appendChild(list);
+                cards.appendChild(groupDiv);
+            });
+
+        container.appendChild(section);
     });
 }
 
-function createCheckbox(value, label) {
-    const container = document.createElement('label');
-    container.style.display = 'block';
+function createSkinCheckbox(skin, group) {
+    const label = document.createElement('label');
+    label.className = 'skin-item';
+    label.dataset.star = String(group.tag.star);
+    label.dataset.e1 = String(group.tag.e1);
+    label.dataset.e2 = String(group.tag.e2);
+    label.dataset.cls = String(group.tag.cls);
+    label.dataset.faction = String(group.tag.faction);
+    label.dataset.dname = skin.name;
+    label.dataset.name = (skin.name + ' ' + skin.usName + ' ' + group.unitName).toLowerCase();
+
     const checkbox = document.createElement('input');
     checkbox.type = 'checkbox';
-    checkbox.value = value;
+    checkbox.value = skin.id;
     checkbox.onchange = updateText;
     checkbox.checked = true;
-    container.appendChild(checkbox);
-    container.appendChild(document.createTextNode(label));
-    return container;
+    label.appendChild(checkbox);
+
+    const nameSpan = document.createElement('span');
+    nameSpan.className = 'unit-name';
+    nameSpan.textContent = skin.name;
+    label.appendChild(nameSpan);
+
+    const e1Name = ELEMENT_INFO[group.tag.e1] ? elemName(group.tag.e1) : '?';
+    const e2Name = group.tag.e2 === 0 ? 'Single' : (ELEMENT_INFO[group.tag.e2] ? elemName(group.tag.e2) : '?');
+    label.title = skin.name + ' | ' + group.tag.star + '★ | ' + e1Name + '/' + e2Name;
+    return label;
+}
+
+// ---------- Search + quick filters with FLIP animation ----------
+
+// Shared predicate for DOM items. `ignore` skips one filter category.
+function entryMatches(entry, filter, ignore) {
+    if (filter.q && entry.hay.indexOf(filter.q) < 0) return false;
+    if (ignore !== 'rarity' && filter.rarity.size > 0 && !filter.rarity.has(String(entry.star))) return false;
+    if (ignore !== 'pe' && filter.pe.size > 0) {
+        if (entry.e1 == null) return false;
+        let ok = false;
+        filter.pe.forEach(e => { if (entry.e1 === Number(e)) ok = true; });
+        if (!ok) return false;
+    }
+    if (ignore !== 'se' && filter.se.size > 0) {
+        if (entry.e2 == null) return false;
+        let ok = false;
+        filter.se.forEach(e => { if (entry.e2 === Number(e)) ok = true; });
+        if (!ok) return false;
+    }
+    if (ignore !== 'cls' && filter.cls.size > 0 && !filter.cls.has(String(entry.cls))) return false;
+    if (ignore !== 'faction' && filter.faction.size > 0 && !filter.faction.has(String(entry.faction))) return false;
+    return true;
+}
+
+function datasetEntry(ds) {
+    const num = v => (v === 'null' || v === 'undefined' || v == null || v === '') ? null : Number(v);
+    return { star: Number(ds.star), e1: num(ds.e1), e2: num(ds.e2), cls: num(ds.cls), faction: ds.faction, hay: ds.name || '' };
+}
+
+function itemMatches(el, filter) {
+    return entryMatches(datasetEntry(el.dataset), filter, null);
+}
+
+function applyItemFilter(containerId, itemClass, filter, animate) {
+    const container = document.getElementById(containerId);
+    if (!container) return;
+    const items = Array.from(container.querySelectorAll('.' + itemClass));
+
+    // First: record positions of currently visible items
+    const first = new Map();
+    if (animate) {
+        items.forEach(el => {
+            if (!el.classList.contains('hidden')) first.set(el, el.getBoundingClientRect());
+        });
+    }
+
+    // Mutate: show/hide items, hide emptied groups
+    items.forEach(el => el.classList.toggle('hidden', !itemMatches(el, filter)));
+    container.querySelectorAll('.rarity-group, .skin-unit-group').forEach(g => {
+        const anyVisible = Array.from(g.querySelectorAll('.' + itemClass)).some(el => !el.classList.contains('hidden'));
+        g.classList.toggle('hidden', !anyVisible);
+    });
+
+    if (!animate) return;
+
+    // Last/Invert/Play: glide surviving items to their new spots, pop in newcomers
+    items.forEach(el => {
+        if (el.classList.contains('hidden')) return;
+        const f = first.get(el);
+        const l = el.getBoundingClientRect();
+        if (!f) {
+            el.animate(
+                [{ opacity: 0, transform: 'scale(0.85)' }, { opacity: 1, transform: 'scale(1)' }],
+                { duration: 200, easing: 'ease-out' }
+            );
+        } else {
+            const dx = f.left - l.left;
+            const dy = f.top - l.top;
+            if (dx || dy) {
+                el.animate(
+                    [{ transform: 'translate(' + dx + 'px,' + dy + 'px)' }, { transform: 'translate(0,0)' }],
+                    { duration: 260, easing: 'cubic-bezier(.2,.7,.3,1)' }
+                );
+            }
+        }
+    });
+}
+
+function applyUnitFilter(animate) {
+    applyItemFilter('checkboxesTab1', 'unit-item', unitFilter, animate !== false);
+}
+
+function applySkinFilter(animate) {
+    applyItemFilter('checkboxesTab2', 'skin-item', skinFilter, animate !== false);
+}
+
+// ---------- Sorting (reorders DOM in place, checkbox states preserved) ----------
+
+function sortUnitItems() {
+    const desc = unitSort.endsWith('desc');
+    const byId = unitSort.startsWith('id');
+    const container = document.getElementById('checkboxesTab1');
+    if (!container) return;
+    Array.from(container.querySelectorAll('.group-items')).forEach(gr => {
+        const rows = Array.from(gr.querySelectorAll('.unit-item'));
+        rows.sort((a, b) => {
+            let r;
+            if (byId) r = Number(a.dataset.qr) - Number(b.dataset.qr);
+            else r = (a.dataset.dname || '').localeCompare(b.dataset.dname || '');
+            return desc ? -r : r;
+        });
+        rows.forEach(r => gr.appendChild(r));
+    });
+}
+
+function sortSkinCards() {
+    const desc = skinSort.endsWith('desc');
+    const byId = skinSort.startsWith('id');
+    const container = document.getElementById('checkboxesTab2');
+    if (!container) return;
+    Array.from(container.querySelectorAll('.rarity-group')).forEach(sec => {
+        const grids = sec.querySelectorAll('.skin-cards');
+        if (!grids.length) return;
+        const grid = grids[0];
+        const cards = Array.from(grid.querySelectorAll('.skin-unit-group'));
+        cards.sort((a, b) => {
+            let r;
+            if (byId) r = Number(a.dataset.uqr) - Number(b.dataset.uqr);
+            else r = (a.dataset.uname || '').localeCompare(b.dataset.uname || '');
+            return desc ? -r : r;
+        });
+        cards.forEach(c => {
+            const lists = c.querySelectorAll('.skin-unit-list');
+            if (lists.length) {
+                const rows = Array.from(lists[0].querySelectorAll('.skin-item'));
+                rows.sort((x, y) => {
+                    let r;
+                    if (byId) r = Number(x.querySelectorAll('input')[0].value) - Number(y.querySelectorAll('input')[0].value);
+                    else r = (x.dataset.dname || '').localeCompare(y.dataset.dname || '');
+                    return desc ? -r : r;
+                });
+                rows.forEach(r => lists[0].appendChild(r));
+            }
+            grid.appendChild(c);
+        });
+    });
+}
+
+function setSortBtn(id, label, active, desc) {
+    const btn = document.getElementById(id);
+    if (!btn) return;
+    btn.textContent = label + (active ? (desc ? ' ↓' : ' ↑') : '');
+    btn.classList.toggle('active', active);
+}
+
+function updateSortButtons() {
+    setSortBtn('unitSortId', 'ID', unitSort.startsWith('id'), unitSort.endsWith('desc'));
+    setSortBtn('unitSortAlpha', ft('az'), unitSort.startsWith('alpha'), unitSort.endsWith('desc'));
+    setSortBtn('skinSortId', 'ID', skinSort.startsWith('id'), skinSort.endsWith('desc'));
+    setSortBtn('skinSortAlpha', ft('az'), skinSort.startsWith('alpha'), skinSort.endsWith('desc'));
+}
+
+function cycleUnitSort(kind) {
+    if (kind === 'id') unitSort = unitSort === 'id-asc' ? 'id-desc' : 'id-asc';
+    else unitSort = unitSort === 'alpha-asc' ? 'alpha-desc' : 'alpha-asc';
+    sortUnitItems();
+    updateSortButtons();
+    applyUnitFilter(true);
+}
+
+function cycleSkinSort(kind) {
+    if (kind === 'id') skinSort = skinSort === 'id-asc' ? 'id-desc' : 'id-asc';
+    else skinSort = skinSort === 'alpha-asc' ? 'alpha-desc' : 'alpha-asc';
+    sortSkinCards();
+    updateSortButtons();
+    applySkinFilter(true);
+}
+
+function refreshFilterRow(row, activeSet) {
+    Array.from(row.querySelectorAll('.filter-btn')).forEach(btn => {
+        if (btn.classList.contains('filter-all')) {
+            btn.classList.toggle('active', activeSet.size === 0);
+        } else {
+            btn.classList.toggle('active', activeSet.has(btn.dataset.key));
+        }
+    });
+}
+
+function buildFilterRow(rowId, items, activeSet, onToggle) {
+    const row = document.getElementById(rowId);
+    if (!row) return;
+    row.innerHTML = '';
+
+    const allBtn = document.createElement('button');
+    allBtn.className = 'filter-btn filter-all' + (activeSet.size === 0 ? ' active' : '');
+    allBtn.textContent = ft('all');
+    allBtn.onclick = () => {
+        activeSet.clear();
+        refreshFilterRow(row, activeSet);
+        onToggle();
+    };
+    row.appendChild(allBtn);
+
+    items.forEach(item => {
+        const btn = document.createElement('button');
+        btn.className = 'filter-btn' + (activeSet.has(item.key) ? ' active' : '');
+        btn.dataset.key = item.key;
+        if (item.title) btn.title = item.title;
+        if (item.icon) {
+            const im = document.createElement('img');
+            im.className = 'sq sq-img';
+            im.src = item.icon;
+            im.alt = '';
+            im.loading = 'lazy';
+            im.onerror = () => { im.style.display = 'none'; };
+            btn.appendChild(im);
+        } else if (item.square) {
+            const sq = document.createElement('span');
+            sq.className = 'sq';
+            sq.textContent = item.square.text;
+            sq.style.background = item.square.bg;
+            if (item.square.fg) sq.style.color = item.square.fg;
+            btn.appendChild(sq);
+        }
+        const labelNode = document.createTextNode(item.label);
+        btn.appendChild(labelNode);
+        if (!item.label) btn.classList.add('filter-btn-icon-only');
+        btn.onclick = () => {
+            if (activeSet.has(item.key)) activeSet.delete(item.key);
+            else activeSet.add(item.key);
+            refreshFilterRow(row, activeSet);
+            onToggle();
+        };
+        row.appendChild(btn);
+    });
+}
+
+function buildFilterRows() {
+    // Rebuilt on every language swap (labels localized); active sets are preserved.
+    const stars = Array.from(new Set(
+        Object.values(characterData.characters || {}).map(ch => getUnitTag(ch.internal_id).star)
+    )).sort((a, b) => b - a).filter(s => s > 0);
+    const rarityItems = stars.map(s => ({
+        key: String(s),
+        label: '',
+        square: { text: s + '★', bg: '#5c6bc0' }
+    }));
+
+    const elementPrimaryItems = ELEMENT_ORDER.map(e => ({
+        key: String(e),
+        label: elemName(e),
+        title: elemName(e),
+        icon: ELEMENT_INFO[e].icon,
+        square: { text: ELEMENT_INFO[e].code, bg: ELEMENT_INFO[e].color }
+    }));
+
+    const elementSecondaryItems = ELEMENT_ORDER.map(e => ({
+        key: String(e),
+        label: elemName(e),
+        title: elemName(e),
+        icon: ELEMENT_INFO[e].icon,
+        square: { text: ELEMENT_INFO[e].code, bg: ELEMENT_INFO[e].color }
+    }));
+
+    const classItems = CLASS_ORDER.map(c => ({
+        key: String(c),
+        label: clsName(c),
+        title: clsName(c),
+        icon: CLASS_INFO[c].icon
+    }));
+
+    const factionItems = FACTION_ORDER.map(f => ({
+        key: String(f),
+        label: factionName(f),
+        title: factionName(f),
+        icon: FACTION_INFO[f].icon,
+        square: { text: factionName(f).slice(0, 2).toUpperCase(), bg: FACTION_INFO[f].color }
+    }));
+
+    buildFilterRow('unitRarityFilters', rarityItems, unitFilter.rarity, () => applyUnitFilter(true));
+    buildFilterRow('unitClassFilters', classItems, unitFilter.cls, () => applyUnitFilter(true));
+    buildFilterRow('unitPrimaryFilters', elementPrimaryItems, unitFilter.pe, () => applyUnitFilter(true));
+    buildFilterRow('unitSecondaryFilters', elementSecondaryItems, unitFilter.se, () => applyUnitFilter(true));
+    buildFilterRow('unitFactionFilters', factionItems, unitFilter.faction, () => applyUnitFilter(true));
+    buildFilterRow('skinRarityFilters', rarityItems, skinFilter.rarity, () => applySkinFilter(true));
+    buildFilterRow('skinClassFilters', classItems, skinFilter.cls, () => applySkinFilter(true));
+    buildFilterRow('skinPrimaryFilters', elementPrimaryItems, skinFilter.pe, () => applySkinFilter(true));
+    buildFilterRow('skinSecondaryFilters', elementSecondaryItems, skinFilter.se, () => applySkinFilter(true));
+    buildFilterRow('skinFactionFilters', factionItems, skinFilter.faction, () => applySkinFilter(true));
+}
+
+function wireFilterSearch() {
+    const unitSearch = document.getElementById('unitSearch');
+    if (unitSearch && !unitSearch.dataset.wired) {
+        unitSearch.dataset.wired = '1';
+        let t = null;
+        unitSearch.addEventListener('input', () => {
+            clearTimeout(t);
+            t = setTimeout(() => {
+                unitFilter.q = unitSearch.value.trim().toLowerCase();
+                applyUnitFilter(true);
+            }, 120);
+        });
+    }
+    const skinSearch = document.getElementById('skinSearch');
+    if (skinSearch && !skinSearch.dataset.wired) {
+        skinSearch.dataset.wired = '1';
+        let t = null;
+        skinSearch.addEventListener('input', () => {
+            clearTimeout(t);
+            t = setTimeout(() => {
+                skinFilter.q = skinSearch.value.trim().toLowerCase();
+                applySkinFilter(true);
+            }, 120);
+        });
+    }
 }
 
 
@@ -964,6 +1574,24 @@ function updateUI() {
     if (languageSelector) {
         languageSelector.value = currentLanguage;
     }
+
+    updateFilterChrome();
+}
+
+// Filter chrome (row labels, search placeholders) follows the current language
+function updateFilterChrome() {
+    const cats = ['rarity', 'class', 'primary', 'secondary', 'faction'];
+    ['Units', 'Skins'].forEach(tab => {
+        const labels = document.querySelectorAll('#' + tab + ' .filter-label');
+        labels.forEach((span, i) => {
+            if (cats[i]) span.textContent = ft(cats[i]);
+        });
+    });
+    const unitSearch = document.getElementById('unitSearch');
+    if (unitSearch) unitSearch.placeholder = ft('search');
+    const skinSearch = document.getElementById('skinSearch');
+    if (skinSearch) skinSearch.placeholder = ft('search');
+    updateSortButtons();
 }
 
 // URL updating is disabled as per user request
@@ -989,6 +1617,9 @@ async function changeLanguage(lang) {
 
         // Update the UI with the new language
         updateUI();
+
+        // Rebuild filter rows in the new language (active selections preserved)
+        buildFilterRows();
 
         // Reload the checkboxes with the new language
         loadCheckboxes();
@@ -1080,6 +1711,8 @@ window.addEventListener('DOMContentLoaded', async function() {
     detectAndSetLanguage();
     await loadTranslations();
     updateUI();
+    buildFilterRows();
+    wireFilterSearch();
     loadCheckboxes();
 
     // Set up listeners
